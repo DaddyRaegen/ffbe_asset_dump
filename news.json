@@ -1,0 +1,79 @@
+{
+  "gl_news": [
+    {
+      "type": "Important",
+      "title": "Maintenance",
+      "url": "https://lapis-prod-staticnews-gumi-sg.akamaized.net/prod//en/content/20220421PostMaintenance.html"
+    },
+    {
+      "type": "Important",
+      "title": "Issue Report [Updated!]",
+      "url": "https://lapis-prod-staticnews-gumi-sg.akamaized.net/prod//en/content/20220420VariousIssueReportUpdate.html"
+    },
+    {
+      "type": "Notice",
+      "title": "NV Fragment Step-Up Summon IX and Ticket Exchange (NV Fragment Select Step-Up IX)",
+      "url": "https://lapis-prod-staticnews-gumi-sg.akamaized.net/prod//en/content/20220421NVFragmentStepUpIXSummonExchange.html"
+    },
+    {
+      "type": "Notice",
+      "title": "Unit Select 10+1 NV Guaranteed Summon",
+      "url": "https://lapis-prod-staticnews-gumi-sg.akamaized.net/prod//en/content/20220421UnitSelect10plus1NVGuaranteedSummon.html"
+    },
+    {
+      "type": "Important",
+      "title": "Known Issues [Updated!]",
+      "url": "https://lapis-prod-staticnews-gumi-sg.akamaized.net/prod//en/content/20220420MinorIssueCompilation.html"
+    },
+    {
+      "type": "Important",
+      "title": "Maintenance",
+      "url": "https://lapis-prod-staticnews-gumi-sg.akamaized.net/prod//en/content/20220420Maintenance.html"
+    },
+    {
+      "type": "Notice",
+      "title": "A Side of Fryevia Login Bonus",
+      "url": "https://lapis-prod-staticnews-gumi-sg.akamaized.net/prod//en/content/20220419ASideofFryeviaLoginBonus.html"
+    },
+    {
+      "type": "Notice",
+      "title": "Exchange Shop (F.Fryevia) and NV Ticket Exchange Shop (F.Fryevia)",
+      "url": "https://lapis-prod-staticnews-gumi-sg.akamaized.net/prod//en/content/20220419NVFryeviaExchangeShop.html"
+    },
+    {
+      "type": "Notice",
+      "title": "Frostblade Fryevia Treasure & Fortune Summons",
+      "url": "https://lapis-prod-staticnews-gumi-sg.akamaized.net/prod//en/content/20220419NVFryeviaTreasureFortuneSummon.html"
+    },
+    {
+      "type": "Event",
+      "title": "Unit Intro Quest - Frostblade Fryevia",
+      "url": "https://lapis-prod-staticnews-gumi-sg.akamaized.net/prod//en/img/20220419FrostbladeFryeviaIntroQuest.png"
+    },
+    {
+      "type": "Notice",
+      "title": "Perma-VC Select Ticket Bundle & Ticket Exchange (Perma-VC Select) Update",
+      "url": "https://lapis-prod-staticnews-gumi-sg.akamaized.net/prod//en/content/20220419PermaVCBundleAndUpdate.html"
+    },
+    {
+      "type": "Notice",
+      "title": "Vision Cards: New Arrival!",
+      "url": "https://lapis-prod-staticnews-gumi-sg.akamaized.net/prod//en/img/20220419FrostbladeFryeviaVisionCard.jpg"
+    },
+    {
+      "type": "Notice",
+      "title": "April Equipment Enhancement Event",
+      "url": "https://lapis-prod-staticnews-gumi-sg.akamaized.net/prod//en/content/20220419AprilEquipmentEnhancementEvent.html"
+    },
+    {
+      "type": "Notice",
+      "title": "Clash of Wills: Nightmare of Unknown Origin",
+      "url": "https://lapis-prod-staticnews-gumi-sg.akamaized.net/prod//en/content/20220419ClashofWillsNightmareofUnknownOrigin.html"
+    },
+    {
+      "type": "Notice",
+      "title": "Featured Summon FINAL FANTASY BRAVE EXVIUS [Updated!]",
+      "url": "https://lapis-prod-staticnews-gumi-sg.akamaized.net/prod//en/content/20220419NVFryeviaFeaturedSummonEquipmentExchangeShop.html"
+    }
+  ]
+}
