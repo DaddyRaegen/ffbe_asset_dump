@@ -959,6 +959,10 @@
   "100038207" : {"type":"summon","name":"Nichol -The Return-"},
   "100014027" : {"type":"summon","name":"Mediena"},
   "401013007" : {"type":"summon","name":"Frostblade Fryevia"},
-  "401013017" : {"type":"summon","name":"Aurora Swordmaster Fryevia"}
+  "401013017" : {"type":"summon","name":"Aurora Swordmaster Fryevia"},
+  "100038607" : {"type":"summon","name":"Knights of Grandshelt"},
+  "100038617" : {"type":"summon","name":"Knights of Grandshelt BS"},
+  "208002107" : {"type":"summon","name":"Rinoa & Angelo"},
+  "208002117" : {"type":"summon","name":"Successor Sorceress Rinoa BS"}
 
 }
