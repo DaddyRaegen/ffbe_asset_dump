@@ -963,6 +963,9 @@
   "100038607" : {"type":"summon","name":"Knights of Grandshelt"},
   "100038617" : {"type":"summon","name":"Knights of Grandshelt BS"},
   "208002107" : {"type":"summon","name":"Rinoa & Angelo"},
-  "208002117" : {"type":"summon","name":"Successor Sorceress Rinoa BS"}
+  "208002117" : {"type":"summon","name":"Successor Sorceress Rinoa BS"},
+	"208002207" : {"type":"summon","name":"Laguna"},
+    "208002307" : {"type":"summon","name":"Kiros & Ward"},
+    "208000427" : {"type":"summon","name":"Zell"}
 
 }
