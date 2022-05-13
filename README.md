@@ -1,6 +1,7 @@
 # Final Fantasy Brave Exvius Data Dump
 ![GitHub repo size](https://img.shields.io/github/repo-size/KevinGbalay/ffbe_asset_dump)
-A repo of Final Fantasy Brave Exvius asset dump
+
+A repo of Final Fantasy Brave Exvius in game assets
 
 ## How to find units
 In the `data.json` file, search for the name of the unit you're looking for. Copy the associated **Unit ID** and search the repository for that ID.
