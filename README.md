@@ -1,4 +1,5 @@
 # Final Fantasy Brave Exvius Data Dump
+![GitHub repo size](https://img.shields.io/github/repo-size/KevinGbalay/ffbe_asset_dump)
 A repo of Final Fantasy Brave Exvius asset dump
 
 ## How to find units
@@ -11,3 +12,8 @@ In the `data.json` file, search for the name of the unit you're looking for. Cop
 Use the [FFBE Sprite Sheet Assembler](https://github.com/dsxragnarok/FFBE-sprite-sheet-assembler) tool by dsxragnarok.
 
 Download the sprite sheet from the `unit_animated` folder and the corresponding .csv file from `unit_animated_csv`. Follow the instructions from the Sprite Sheet Assembler.
+
+
+# Support FFBE Encyclopedia
+Looking for other ways to support FFBE Equip?
+- Help me port FFBE Encyclopedia to iOS! [GoFundMe](https://gofund.me/9a342f26)
