@@ -19,4 +19,4 @@ Download the sprite sheet from the `unit_animated` folder and the corresponding 
 Looking for other ways to support FFBE Encyclopedia?
 - Help me port FFBE Encyclopedia to iOS! [GoFundMe](https://gofund.me/9a342f26)
 
-  You can also see updates on the app on the GoFundMe page!
+  You can also see updates on the app on the GoFundMe page and on [Instagram](https://www.instagram.com/amethyst.nebula/)
