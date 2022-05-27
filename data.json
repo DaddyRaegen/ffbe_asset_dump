@@ -964,14 +964,14 @@
   "208001527" : {"type":"summon","name":"Lone Lion Squall","rarity":"5 - NV"},
 	"208002207" : {"type":"summon","name":"Laguna","rarity":"NV"},
   "208002307" : {"type":"summon","name":"Kiros & Ward","rarity":"NV"},
-  "208000427" : {"type":"summon","name":"Zell","rarity":"4 - NV"},
+  "208000427" : {"type":"summon","name":"Zell","rarity":"4 - NV (SLB)"},
 	"201000607" : {"type":"summon","name":"Fledgling Warrior","rarity":"NV"},
     "201000617" : {"type":"summon","name":"Fledgling Warrior BS","rarity":"NV"},
     "201000707" : {"type":"summon","name":"Marilith","rarity":"NV"},
-    "201000717" : {"type":"summon","name":"Marilith BS","rarity":"NV"},
-    "201000527" : {"type":"summon","name":"Immortal Knight Garland BS","rarity":"5 - NV"},
+    "201000717" : {"type":"summon","name":"Marilith BS","rarity":"NV (SLB)"},
+    "201000527" : {"type":"summon","name":"Immortal Knight Garland BS","rarity":"5 - NV (SLB)"},
     "339000607" : {"type":"summon","name":"King of Leonis Mont","rarity":"NV"},
-    "339000617" : {"type":"summon","name":"King of Leonis Mont BS","rarity":"NV"},
+    "339000617" : {"type":"summon","name":"King of Leonis Mont BS","rarity":"NV (SLB)"},
     "339000327" : {"type":"summon","name":"Knight of Ruin Sterne BS","rarity":"5 - NV"}
 
 }
