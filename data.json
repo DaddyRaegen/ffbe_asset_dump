@@ -992,6 +992,16 @@
 	"202002307" : {"type":"summon","name":"Emperor of Palamecia","rarity":"NV"},
     "202002317" : {"type":"summon","name":"Emperor of Palamecia","rarity":"NV (SLB)"},
     "202002407" : {"type":"summon","name":"Ricard & Wyvern","rarity":"NV"},
-    "202002417" : {"type":"summon","name":"Dragoon Ricard", "rarity":"NV"}
+    "202002417" : {"type":"summon","name":"Dragoon Ricard", "rarity":"NV"},
+	"100038807" : {"type":"summon","name":"Yshe", "rarity":"NV"},
+    "100038817" : {"type":"summon","name":"Yshe", "rarity":"NV (SLB)"},
+    "100038907" : {"type":"summon","name":"Kall", "rarity":"NV"},
+    "100038917" : {"type":"summon","name":"Kall", "rarity":"NV (SLB)"},
+    "100039007" : {"type":"summon","name":"Ilmatalle", "rarity":"NV"},
+    "100039017" : {"type":"summon","name":"Ilmatalle", "rarity":"NV (SLB)"},
+    "401013307" : {"type":"summon","name":"Paladin Sylvie", "rarity":"NV"},
+    "401013317" : {"type":"summon","name":"Paladin Sylvie", "rarity":"NV (BS)"},
+    "401013207" : {"type":"summon","name":"Wylk", "rarity":"NV"},
+    "401013217" : {"type":"summon","name":"Wylk", "rarity":"NV (BS)"}
 
 }
