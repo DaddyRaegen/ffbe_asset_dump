@@ -989,9 +989,9 @@
     "344000717" : {"type":"summon","name":"Superior Being Hadlar","rarity":"NV (SLB)"},
     "344000607" : {"type":"summon","name":"Immortal Hyunckel","rarity":"NV"},
     "344000617" : {"type":"summon","name":"Immortal Hyunckel","rarity":"NV (SLB)"},
-	"202002307" : {"type":"summon","name":"Emperor of Palamecia"},
+	"202002307" : {"type":"summon","name":"Emperor of Palamecia","rarity":"NV"},
     "202002317" : {"type":"summon","name":"Emperor of Palamecia","rarity":"NV (SLB)"},
-    "202002407" : {"type":"summon","name":"Ricard & Wyvern"},
+    "202002407" : {"type":"summon","name":"Ricard & Wyvern","rarity":"NV"},
     "202002417" : {"type":"summon","name":"Dragoon Ricard", "rarity":"NV"}
 
 }
