@@ -1012,6 +1012,13 @@
     "100039607" : {"type":"summon","name":"Lehftia -Warrior's Prayer-", "rarity":"NV"},
     "100039617" : {"type":"summon","name":"Lehftia -Warrior's Prayer-", "rarity":"NV (SLB)"},
     "100039507" : {"type":"summon","name":"Poppy -Warrior's Prayer-", "rarity":"NV"},
-    "100039517" : {"type":"summon","name":"Poppy -Warrior's Prayer-", "rarity":"NV (SLB)"}
+    "100039517" : {"type":"summon","name":"Poppy -Warrior's Prayer-", "rarity":"NV (SLB)"},
+	"401013407" : {"type":"summon","name":"Samurai Chizuru", "rarity":"NV"},
+    "401013417" : {"type":"summon","name":"Samurai Chizuru", "rarity":"NV (BS)"},
+    "100039807" : {"type":"summon","name":"Rhus", "rarity":"NV"},
+    "100039817" : {"type":"summon","name":"Rhus", "rarity":"NV (BS)"},
+    "100039907" : {"type":"summon","name":"Neilikka", "rarity":"NV"},
+    "100039917" : {"type":"summon","name":"Neilikka", "rarity":"NV (BS)"},
+    "100030227" : {"type":"summon","name":"Nerine", "rarity":"NV (BS)"}
 
 }
