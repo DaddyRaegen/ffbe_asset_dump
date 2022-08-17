@@ -1019,6 +1019,18 @@
     "100039817" : {"type":"summon","name":"Rhus", "rarity":"NV (BS)"},
     "100039907" : {"type":"summon","name":"Neilikka", "rarity":"NV"},
     "100039917" : {"type":"summon","name":"Neilikka", "rarity":"NV (BS)"},
-    "100030227" : {"type":"summon","name":"Nerine", "rarity":"NV (BS)"}
+    "100030227" : {"type":"summon","name":"Nerine", "rarity":"NV (BS)"},
+	
+	 "212002407" : {"type":"summon","name":"Fleetfooted Sky Pirate Balthier", "rarity":"NV"},
+    "212002417" : {"type":"summon","name":"Fleetfooted Sky Pirate Balthier", "rarity":"NV (BS)"},
+    "212002507" : {"type":"summon","name":"Dynast-King's Scion Ashe", "rarity":"NV"},
+    "212002517" : {"type":"summon","name":"Dynast-King's Scion Ashe", "rarity":"NV (BS)"},
+    "212001727" : {"type":"summon","name":"Blue Sky Belle Fran", "rarity":"NV (SLB)"},
+    "100038507" : {"type":"summon","name":"Rain -FFI Form-", "rarity":"NV"},
+    "100038517" : {"type":"summon","name":"Rain -FFI Form-", "rarity":"NV (BS)"},
+    "100018327" : {"type":"summon","name":"Folka", "rarity":"NV (BS)"},
+    "212002607" : {"type":"summon","name":"Youth from Rabanastre Vaan", "rarity":"NV"},
+    "212002617" : {"type":"summon","name":"Youth from Rabanastre Vaan", "rarity":"NV (SLB)"},
+    "212001227" : {"type":"summon","name":"Vayne", "rarity":"NV (SLB)"}
 
 }
