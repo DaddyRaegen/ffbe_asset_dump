@@ -1031,6 +1031,15 @@
     "100018327" : {"type":"summon","name":"Folka", "rarity":"NV (BS)"},
     "212002607" : {"type":"summon","name":"Youth from Rabanastre Vaan", "rarity":"NV"},
     "212002617" : {"type":"summon","name":"Youth from Rabanastre Vaan", "rarity":"NV (SLB)"},
-    "212001227" : {"type":"summon","name":"Vayne", "rarity":"NV (SLB)"}
+    "212001227" : {"type":"summon","name":"Vayne", "rarity":"NV (SLB)"},
+	"401013507" : {"type":"summon","name":"Beach Blaster Olive", "rarity":"NV"},
+    "401013517" : {"type":"summon","name":"Beach Blaster Olive BS", "rarity":"NV (SLB)"},
+    "401001427" : {"type":"summon","name":"Barbariccia", "rarity":"NV (BS)"},
+    "401001527" : {"type":"summon","name":"Rubicante", "rarity":"NV (BS)"},
+    "210002407" : {"type":"summon","name":"New Guardian Tidus", "rarity":"NV"},
+    "210002417" : {"type":"summon","name":"Ace Striker Tidus", "rarity":"NV (BS)"},
+    "210002507" : {"type":"summon","name":"Besaid Mage Lulu"},
+    "210002517" : {"type":"summon","name":"Besaid Mage Lulu", "rarity":"NV (SLB)"},
+    "210000327" : {"type":"summon","name":"Wakka", "rarity":"NV (SLB)"}
 
 }
