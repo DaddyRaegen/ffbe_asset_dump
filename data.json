@@ -1040,6 +1040,10 @@
     "210002417" : {"type":"summon","name":"Ace Striker Tidus", "rarity":"NV (BS)"},
     "210002507" : {"type":"summon","name":"Besaid Mage Lulu"},
     "210002517" : {"type":"summon","name":"Besaid Mage Lulu", "rarity":"NV (SLB)"},
-    "210000327" : {"type":"summon","name":"Wakka", "rarity":"NV (SLB)"}
+    "210000327" : {"type":"summon","name":"Wakka", "rarity":"NV (SLB)"},
+	"210002707" : {"type":"summon","name":"Ronso Warrior Kimahri", "rarity":"NV"},
+    "210002717" : {"type":"summon","name":"Ronso Warrior Kimahri", "rarity":"NV (SLB)"},
+    "210002607" : {"type":"summon","name":"Fabled Guardian Jecht", "rarity":"NV"},
+    "210002617" : {"type":"summon","name":"Fabled Guardian Jecht", "rarity":"NV (SLB)"}
 
 }
