@@ -1,0 +1,8881 @@
+{
+  "additional_visual_destinations_not_imported": 128905,
+  "animation_checks": {
+    "monsters": {
+      "atlas_bounds_warnings": [
+        {
+          "atlas": [
+            912,
+            512
+          ],
+          "id": "3045310",
+          "rectangle": [
+            608,
+            384,
+            104,
+            152
+          ],
+          "row": 1,
+          "used_by_idle": true
+        },
+        {
+          "atlas": [
+            912,
+            512
+          ],
+          "id": "3045310",
+          "rectangle": [
+            712,
+            384,
+            104,
+            152
+          ],
+          "row": 1,
+          "used_by_idle": true
+        },
+        {
+          "atlas": [
+            912,
+            512
+          ],
+          "id": "3045310",
+          "rectangle": [
+            712,
+            384,
+            104,
+            152
+          ],
+          "row": 2,
+          "used_by_idle": true
+        },
+        {
+          "atlas": [
+            912,
+            512
+          ],
+          "id": "3045310",
+          "rectangle": [
+            712,
+            536,
+            104,
+            152
+          ],
+          "row": 2,
+          "used_by_idle": true
+        },
+        {
+          "atlas": [
+            912,
+            512
+          ],
+          "id": "3045310",
+          "rectangle": [
+            712,
+            536,
+            104,
+            152
+          ],
+          "row": 3,
+          "used_by_idle": true
+        },
+        {
+          "atlas": [
+            912,
+            512
+          ],
+          "id": "3045310",
+          "rectangle": [
+            608,
+            536,
+            104,
+            152
+          ],
+          "row": 3,
+          "used_by_idle": true
+        },
+        {
+          "atlas": [
+            1056,
+            968
+          ],
+          "id": "4053810",
+          "rectangle": [
+            0,
+            720,
+            328,
+            328
+          ],
+          "row": 8,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1024,
+            768
+          ],
+          "id": "9990867",
+          "rectangle": [
+            1024,
+            0,
+            40,
+            40
+          ],
+          "row": 122,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1632,
+            1056
+          ],
+          "id": "9990977",
+          "rectangle": [
+            1536,
+            480,
+            208,
+            160
+          ],
+          "row": 68,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1632,
+            1056
+          ],
+          "id": "9990977",
+          "rectangle": [
+            1504,
+            864,
+            192,
+            176
+          ],
+          "row": 173,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1632,
+            1056
+          ],
+          "id": "9990977",
+          "rectangle": [
+            1696,
+            848,
+            192,
+            192
+          ],
+          "row": 174,
+          "used_by_idle": false
+        }
+      ],
+      "invalid_idle_frame_references": [],
+      "missing_companions": [],
+      "new_sprite_ids": 747
+    },
+    "units": {
+      "atlas_bounds_warnings": [
+        {
+          "atlas": [
+            1920,
+            1920
+          ],
+          "id": "100000406",
+          "rectangle": [
+            1936,
+            8,
+            120,
+            88
+          ],
+          "row": 136,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1920,
+            1920
+          ],
+          "id": "100000407",
+          "rectangle": [
+            1936,
+            8,
+            120,
+            88
+          ],
+          "row": 136,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1920,
+            1920
+          ],
+          "id": "100000417",
+          "rectangle": [
+            1936,
+            8,
+            120,
+            88
+          ],
+          "row": 136,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1920,
+            1920
+          ],
+          "id": "100000427",
+          "rectangle": [
+            1936,
+            8,
+            120,
+            88
+          ],
+          "row": 136,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1328,
+            1215
+          ],
+          "id": "100027005",
+          "rectangle": [
+            256,
+            1528,
+            128,
+            112
+          ],
+          "row": 97,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1328,
+            1215
+          ],
+          "id": "100027006",
+          "rectangle": [
+            256,
+            1528,
+            128,
+            112
+          ],
+          "row": 97,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1328,
+            1215
+          ],
+          "id": "100027007",
+          "rectangle": [
+            256,
+            1528,
+            128,
+            112
+          ],
+          "row": 97,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1312,
+            1800
+          ],
+          "id": "100027417",
+          "rectangle": [
+            1272,
+            440,
+            128,
+            112
+          ],
+          "row": 23,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1312,
+            1800
+          ],
+          "id": "100027427",
+          "rectangle": [
+            1272,
+            440,
+            128,
+            112
+          ],
+          "row": 23,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "100027617",
+          "rectangle": [
+            1904,
+            152,
+            112,
+            80
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1700,
+            1700
+          ],
+          "id": "100040817",
+          "rectangle": [
+            0,
+            1728,
+            96,
+            96
+          ],
+          "row": 149,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042107",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 241,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042107",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 242,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042107",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 243,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042107",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 244,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042107",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 245,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042107",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 246,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042107",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 247,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042117",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 241,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042117",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 242,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042117",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 243,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042117",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 244,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042117",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 245,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042117",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 246,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042117",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 247,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042127",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 241,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042127",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 242,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042127",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 243,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042127",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 244,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042127",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 245,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042127",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 246,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042127",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 247,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042137",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 241,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042137",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 242,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042137",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 243,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042137",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 244,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042137",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 245,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042137",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 246,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1904,
+            1904
+          ],
+          "id": "100042137",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 247,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1440,
+            1872
+          ],
+          "id": "100043107",
+          "rectangle": [
+            1344,
+            1696,
+            120,
+            168
+          ],
+          "row": 257,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1440,
+            1872
+          ],
+          "id": "100043107",
+          "rectangle": [
+            1344,
+            1696,
+            120,
+            168
+          ],
+          "row": 258,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1440,
+            1872
+          ],
+          "id": "100043117",
+          "rectangle": [
+            1344,
+            1696,
+            120,
+            168
+          ],
+          "row": 257,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1440,
+            1872
+          ],
+          "id": "100043117",
+          "rectangle": [
+            1344,
+            1696,
+            120,
+            168
+          ],
+          "row": 258,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1440,
+            1872
+          ],
+          "id": "100043127",
+          "rectangle": [
+            1344,
+            1696,
+            120,
+            168
+          ],
+          "row": 257,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1440,
+            1872
+          ],
+          "id": "100043127",
+          "rectangle": [
+            1344,
+            1696,
+            120,
+            168
+          ],
+          "row": 258,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1440,
+            1872
+          ],
+          "id": "100043137",
+          "rectangle": [
+            1344,
+            1696,
+            120,
+            168
+          ],
+          "row": 257,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1440,
+            1872
+          ],
+          "id": "100043137",
+          "rectangle": [
+            1344,
+            1696,
+            120,
+            168
+          ],
+          "row": 258,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045107",
+          "rectangle": [
+            1600,
+            448,
+            96,
+            224
+          ],
+          "row": 181,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045107",
+          "rectangle": [
+            1600,
+            672,
+            96,
+            224
+          ],
+          "row": 181,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045107",
+          "rectangle": [
+            1600,
+            0,
+            96,
+            224
+          ],
+          "row": 181,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045107",
+          "rectangle": [
+            1600,
+            224,
+            96,
+            224
+          ],
+          "row": 181,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045107",
+          "rectangle": [
+            1600,
+            0,
+            96,
+            224
+          ],
+          "row": 182,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045107",
+          "rectangle": [
+            1600,
+            448,
+            96,
+            224
+          ],
+          "row": 182,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045107",
+          "rectangle": [
+            1600,
+            448,
+            96,
+            224
+          ],
+          "row": 182,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045107",
+          "rectangle": [
+            1600,
+            672,
+            96,
+            224
+          ],
+          "row": 182,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045107",
+          "rectangle": [
+            1600,
+            224,
+            96,
+            224
+          ],
+          "row": 182,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045107",
+          "rectangle": [
+            1600,
+            0,
+            96,
+            224
+          ],
+          "row": 183,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045107",
+          "rectangle": [
+            1600,
+            448,
+            96,
+            224
+          ],
+          "row": 183,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045107",
+          "rectangle": [
+            1600,
+            448,
+            96,
+            224
+          ],
+          "row": 183,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045117",
+          "rectangle": [
+            1600,
+            448,
+            96,
+            224
+          ],
+          "row": 181,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045117",
+          "rectangle": [
+            1600,
+            672,
+            96,
+            224
+          ],
+          "row": 181,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045117",
+          "rectangle": [
+            1600,
+            0,
+            96,
+            224
+          ],
+          "row": 181,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045117",
+          "rectangle": [
+            1600,
+            224,
+            96,
+            224
+          ],
+          "row": 181,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045117",
+          "rectangle": [
+            1600,
+            0,
+            96,
+            224
+          ],
+          "row": 182,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045117",
+          "rectangle": [
+            1600,
+            448,
+            96,
+            224
+          ],
+          "row": 182,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045117",
+          "rectangle": [
+            1600,
+            448,
+            96,
+            224
+          ],
+          "row": 182,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045117",
+          "rectangle": [
+            1600,
+            672,
+            96,
+            224
+          ],
+          "row": 182,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045117",
+          "rectangle": [
+            1600,
+            224,
+            96,
+            224
+          ],
+          "row": 182,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045117",
+          "rectangle": [
+            1600,
+            0,
+            96,
+            224
+          ],
+          "row": 183,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045117",
+          "rectangle": [
+            1600,
+            448,
+            96,
+            224
+          ],
+          "row": 183,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045117",
+          "rectangle": [
+            1600,
+            448,
+            96,
+            224
+          ],
+          "row": 183,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045127",
+          "rectangle": [
+            1600,
+            448,
+            96,
+            224
+          ],
+          "row": 181,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045127",
+          "rectangle": [
+            1600,
+            672,
+            96,
+            224
+          ],
+          "row": 181,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045127",
+          "rectangle": [
+            1600,
+            0,
+            96,
+            224
+          ],
+          "row": 181,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045127",
+          "rectangle": [
+            1600,
+            224,
+            96,
+            224
+          ],
+          "row": 181,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045127",
+          "rectangle": [
+            1600,
+            0,
+            96,
+            224
+          ],
+          "row": 182,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045127",
+          "rectangle": [
+            1600,
+            448,
+            96,
+            224
+          ],
+          "row": 182,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045127",
+          "rectangle": [
+            1600,
+            448,
+            96,
+            224
+          ],
+          "row": 182,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045127",
+          "rectangle": [
+            1600,
+            672,
+            96,
+            224
+          ],
+          "row": 182,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045127",
+          "rectangle": [
+            1600,
+            224,
+            96,
+            224
+          ],
+          "row": 182,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045127",
+          "rectangle": [
+            1600,
+            0,
+            96,
+            224
+          ],
+          "row": 183,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045127",
+          "rectangle": [
+            1600,
+            448,
+            96,
+            224
+          ],
+          "row": 183,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045127",
+          "rectangle": [
+            1600,
+            448,
+            96,
+            224
+          ],
+          "row": 183,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045137",
+          "rectangle": [
+            1600,
+            448,
+            96,
+            224
+          ],
+          "row": 181,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045137",
+          "rectangle": [
+            1600,
+            672,
+            96,
+            224
+          ],
+          "row": 181,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045137",
+          "rectangle": [
+            1600,
+            0,
+            96,
+            224
+          ],
+          "row": 181,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045137",
+          "rectangle": [
+            1600,
+            224,
+            96,
+            224
+          ],
+          "row": 181,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045137",
+          "rectangle": [
+            1600,
+            0,
+            96,
+            224
+          ],
+          "row": 182,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045137",
+          "rectangle": [
+            1600,
+            448,
+            96,
+            224
+          ],
+          "row": 182,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045137",
+          "rectangle": [
+            1600,
+            448,
+            96,
+            224
+          ],
+          "row": 182,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045137",
+          "rectangle": [
+            1600,
+            672,
+            96,
+            224
+          ],
+          "row": 182,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045137",
+          "rectangle": [
+            1600,
+            224,
+            96,
+            224
+          ],
+          "row": 182,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045137",
+          "rectangle": [
+            1600,
+            0,
+            96,
+            224
+          ],
+          "row": 183,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045137",
+          "rectangle": [
+            1600,
+            448,
+            96,
+            224
+          ],
+          "row": 183,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1664,
+            1664
+          ],
+          "id": "100045137",
+          "rectangle": [
+            1600,
+            448,
+            96,
+            224
+          ],
+          "row": 183,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            2000,
+            1888
+          ],
+          "id": "201000637",
+          "rectangle": [
+            0,
+            1920,
+            176,
+            176
+          ],
+          "row": 134,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            2000,
+            1888
+          ],
+          "id": "201000637",
+          "rectangle": [
+            0,
+            1920,
+            176,
+            176
+          ],
+          "row": 226,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            2000,
+            1888
+          ],
+          "id": "201000637",
+          "rectangle": [
+            176,
+            1920,
+            176,
+            176
+          ],
+          "row": 227,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            2000,
+            1888
+          ],
+          "id": "201000637",
+          "rectangle": [
+            352,
+            1920,
+            176,
+            176
+          ],
+          "row": 228,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            2000,
+            1888
+          ],
+          "id": "201000637",
+          "rectangle": [
+            528,
+            1920,
+            176,
+            176
+          ],
+          "row": 229,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            2000,
+            1888
+          ],
+          "id": "201000637",
+          "rectangle": [
+            704,
+            1920,
+            176,
+            176
+          ],
+          "row": 230,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            2000,
+            1888
+          ],
+          "id": "201000637",
+          "rectangle": [
+            880,
+            1920,
+            176,
+            176
+          ],
+          "row": 231,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001717",
+          "rectangle": [
+            1898,
+            56,
+            72,
+            24
+          ],
+          "row": 166,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001717",
+          "rectangle": [
+            1898,
+            40,
+            32,
+            18
+          ],
+          "row": 166,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001717",
+          "rectangle": [
+            1898,
+            24,
+            32,
+            16
+          ],
+          "row": 166,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001717",
+          "rectangle": [
+            1898,
+            8,
+            32,
+            16
+          ],
+          "row": 166,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001717",
+          "rectangle": [
+            2000,
+            248,
+            152,
+            112
+          ],
+          "row": 166,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001717",
+          "rectangle": [
+            2000,
+            128,
+            152,
+            104
+          ],
+          "row": 166,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001717",
+          "rectangle": [
+            2000,
+            0,
+            168,
+            128
+          ],
+          "row": 166,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001717",
+          "rectangle": [
+            2016,
+            384,
+            96,
+            136
+          ],
+          "row": 166,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001717",
+          "rectangle": [
+            1968,
+            1176,
+            432,
+            464
+          ],
+          "row": 236,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001717",
+          "rectangle": [
+            1816,
+            1352,
+            464,
+            144
+          ],
+          "row": 251,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001717",
+          "rectangle": [
+            1816,
+            1352,
+            464,
+            144
+          ],
+          "row": 251,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001717",
+          "rectangle": [
+            1816,
+            1352,
+            464,
+            144
+          ],
+          "row": 251,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001717",
+          "rectangle": [
+            1816,
+            1352,
+            464,
+            144
+          ],
+          "row": 251,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001717",
+          "rectangle": [
+            1816,
+            1352,
+            464,
+            144
+          ],
+          "row": 251,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001717",
+          "rectangle": [
+            1816,
+            1352,
+            464,
+            144
+          ],
+          "row": 251,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001717",
+          "rectangle": [
+            1816,
+            1352,
+            464,
+            144
+          ],
+          "row": 251,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001717",
+          "rectangle": [
+            1816,
+            1352,
+            464,
+            144
+          ],
+          "row": 251,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001717",
+          "rectangle": [
+            1816,
+            1352,
+            464,
+            144
+          ],
+          "row": 251,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001717",
+          "rectangle": [
+            1816,
+            1352,
+            464,
+            144
+          ],
+          "row": 251,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001727",
+          "rectangle": [
+            1898,
+            56,
+            72,
+            24
+          ],
+          "row": 166,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001727",
+          "rectangle": [
+            1898,
+            40,
+            32,
+            18
+          ],
+          "row": 166,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001727",
+          "rectangle": [
+            1898,
+            24,
+            32,
+            16
+          ],
+          "row": 166,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001727",
+          "rectangle": [
+            1898,
+            8,
+            32,
+            16
+          ],
+          "row": 166,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001727",
+          "rectangle": [
+            2000,
+            248,
+            152,
+            112
+          ],
+          "row": 166,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001727",
+          "rectangle": [
+            2000,
+            128,
+            152,
+            104
+          ],
+          "row": 166,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001727",
+          "rectangle": [
+            2000,
+            0,
+            168,
+            128
+          ],
+          "row": 166,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001727",
+          "rectangle": [
+            2016,
+            384,
+            96,
+            136
+          ],
+          "row": 166,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001727",
+          "rectangle": [
+            1968,
+            1176,
+            432,
+            464
+          ],
+          "row": 236,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001727",
+          "rectangle": [
+            1816,
+            1352,
+            464,
+            144
+          ],
+          "row": 251,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001727",
+          "rectangle": [
+            1816,
+            1352,
+            464,
+            144
+          ],
+          "row": 251,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001727",
+          "rectangle": [
+            1816,
+            1352,
+            464,
+            144
+          ],
+          "row": 251,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001727",
+          "rectangle": [
+            1816,
+            1352,
+            464,
+            144
+          ],
+          "row": 251,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001727",
+          "rectangle": [
+            1816,
+            1352,
+            464,
+            144
+          ],
+          "row": 251,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001727",
+          "rectangle": [
+            1816,
+            1352,
+            464,
+            144
+          ],
+          "row": 251,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001727",
+          "rectangle": [
+            1816,
+            1352,
+            464,
+            144
+          ],
+          "row": 251,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001727",
+          "rectangle": [
+            1816,
+            1352,
+            464,
+            144
+          ],
+          "row": 251,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001727",
+          "rectangle": [
+            1816,
+            1352,
+            464,
+            144
+          ],
+          "row": 251,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "204001727",
+          "rectangle": [
+            1816,
+            1352,
+            464,
+            144
+          ],
+          "row": 251,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1528,
+            1528
+          ],
+          "id": "206003207",
+          "rectangle": [
+            1720,
+            1024,
+            192,
+            240
+          ],
+          "row": 174,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1528,
+            1528
+          ],
+          "id": "206003207",
+          "rectangle": [
+            1520,
+            1128,
+            224,
+            264
+          ],
+          "row": 174,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1528,
+            1528
+          ],
+          "id": "206003207",
+          "rectangle": [
+            1640,
+            1448,
+            208,
+            56
+          ],
+          "row": 174,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            992
+          ],
+          "id": "207003307",
+          "rectangle": [
+            1088,
+            544,
+            192,
+            64
+          ],
+          "row": 117,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            992
+          ],
+          "id": "207003307",
+          "rectangle": [
+            1088,
+            544,
+            192,
+            64
+          ],
+          "row": 235,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            992
+          ],
+          "id": "207003307",
+          "rectangle": [
+            1088,
+            544,
+            192,
+            64
+          ],
+          "row": 236,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            992
+          ],
+          "id": "207003307",
+          "rectangle": [
+            1088,
+            456,
+            160,
+            88
+          ],
+          "row": 242,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            992
+          ],
+          "id": "207003307",
+          "rectangle": [
+            1088,
+            456,
+            160,
+            88
+          ],
+          "row": 243,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            992
+          ],
+          "id": "207003307",
+          "rectangle": [
+            1088,
+            456,
+            152,
+            88
+          ],
+          "row": 246,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            992
+          ],
+          "id": "207003307",
+          "rectangle": [
+            1088,
+            456,
+            160,
+            88
+          ],
+          "row": 247,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            992
+          ],
+          "id": "207003317",
+          "rectangle": [
+            1088,
+            544,
+            192,
+            64
+          ],
+          "row": 117,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            992
+          ],
+          "id": "207003317",
+          "rectangle": [
+            1088,
+            544,
+            192,
+            64
+          ],
+          "row": 235,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            992
+          ],
+          "id": "207003317",
+          "rectangle": [
+            1088,
+            544,
+            192,
+            64
+          ],
+          "row": 236,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            992
+          ],
+          "id": "207003317",
+          "rectangle": [
+            1088,
+            456,
+            160,
+            88
+          ],
+          "row": 242,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            992
+          ],
+          "id": "207003317",
+          "rectangle": [
+            1088,
+            456,
+            160,
+            88
+          ],
+          "row": 243,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            992
+          ],
+          "id": "207003317",
+          "rectangle": [
+            1088,
+            456,
+            152,
+            88
+          ],
+          "row": 246,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            992
+          ],
+          "id": "207003317",
+          "rectangle": [
+            1088,
+            456,
+            160,
+            88
+          ],
+          "row": 247,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 238,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 239,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 240,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 241,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 242,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 243,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 244,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 245,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 247,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 248,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 249,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 250,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 251,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 252,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 253,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 254,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 255,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 256,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 257,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 258,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 259,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 260,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 261,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 262,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 263,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 264,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 265,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 266,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 267,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 268,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 269,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 270,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 271,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 272,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 273,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 274,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 275,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 278,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 279,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 280,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 281,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 282,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 283,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 284,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 285,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 286,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 287,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 289,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 290,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 291,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 292,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 293,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 294,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 295,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 296,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 297,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 298,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 299,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 300,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 301,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 302,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 303,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002607",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 304,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 238,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 239,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 240,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 241,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 242,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 243,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 244,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 245,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 247,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 248,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 249,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 250,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 251,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 252,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 253,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 254,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 255,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 256,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 257,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 258,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 259,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 260,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 261,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 262,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 263,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 264,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 265,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 266,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 267,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 268,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 269,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 270,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 271,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 272,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 273,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 274,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 275,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 278,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 279,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 280,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 281,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 282,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 283,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 284,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 285,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 286,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 287,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 289,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 290,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 291,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 292,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 293,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 294,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 295,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 296,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 297,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 298,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 299,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 300,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 301,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 302,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 303,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1896,
+            1896
+          ],
+          "id": "208002617",
+          "rectangle": [
+            1904,
+            1904,
+            416,
+            448
+          ],
+          "row": 304,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1360,
+            1664
+          ],
+          "id": "210001117",
+          "rectangle": [
+            1184,
+            1616,
+            736,
+            264
+          ],
+          "row": 146,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1360,
+            1664
+          ],
+          "id": "210001127",
+          "rectangle": [
+            1184,
+            1616,
+            736,
+            264
+          ],
+          "row": 146,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1936,
+            1160
+          ],
+          "id": "214000707",
+          "rectangle": [
+            864,
+            1664,
+            184,
+            176
+          ],
+          "row": 130,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1936,
+            1160
+          ],
+          "id": "214000707",
+          "rectangle": [
+            864,
+            1664,
+            184,
+            176
+          ],
+          "row": 193,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1936,
+            1160
+          ],
+          "id": "214000717",
+          "rectangle": [
+            864,
+            1664,
+            184,
+            176
+          ],
+          "row": 130,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1936,
+            1160
+          ],
+          "id": "214000717",
+          "rectangle": [
+            864,
+            1664,
+            184,
+            176
+          ],
+          "row": 193,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1700,
+            1400
+          ],
+          "id": "253001807",
+          "rectangle": [
+            1040,
+            1456,
+            96,
+            80
+          ],
+          "row": 8,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1700,
+            1400
+          ],
+          "id": "253001807",
+          "rectangle": [
+            1232,
+            1456,
+            96,
+            80
+          ],
+          "row": 8,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1700,
+            1400
+          ],
+          "id": "253001807",
+          "rectangle": [
+            944,
+            1456,
+            96,
+            80
+          ],
+          "row": 8,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1700,
+            1400
+          ],
+          "id": "253001807",
+          "rectangle": [
+            848,
+            1456,
+            96,
+            80
+          ],
+          "row": 8,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1700,
+            1400
+          ],
+          "id": "253001827",
+          "rectangle": [
+            1040,
+            1456,
+            96,
+            80
+          ],
+          "row": 8,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1700,
+            1400
+          ],
+          "id": "253001827",
+          "rectangle": [
+            1232,
+            1456,
+            96,
+            80
+          ],
+          "row": 8,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1700,
+            1400
+          ],
+          "id": "253001827",
+          "rectangle": [
+            944,
+            1456,
+            96,
+            80
+          ],
+          "row": 8,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1700,
+            1400
+          ],
+          "id": "253001827",
+          "rectangle": [
+            848,
+            1456,
+            96,
+            80
+          ],
+          "row": 8,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1600,
+            960
+          ],
+          "id": "331001607",
+          "rectangle": [
+            1168,
+            -32,
+            48,
+            16
+          ],
+          "row": 168,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1600,
+            960
+          ],
+          "id": "331001607",
+          "rectangle": [
+            1168,
+            -32,
+            48,
+            16
+          ],
+          "row": 169,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1600,
+            960
+          ],
+          "id": "331001607",
+          "rectangle": [
+            1168,
+            -32,
+            48,
+            16
+          ],
+          "row": 170,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1600,
+            960
+          ],
+          "id": "331001607",
+          "rectangle": [
+            1168,
+            -32,
+            48,
+            16
+          ],
+          "row": 171,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1600,
+            960
+          ],
+          "id": "331001607",
+          "rectangle": [
+            1168,
+            -32,
+            48,
+            16
+          ],
+          "row": 172,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1472,
+            1440
+          ],
+          "id": "331001807",
+          "rectangle": [
+            1432,
+            664,
+            112,
+            112
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1472,
+            1440
+          ],
+          "id": "331001827",
+          "rectangle": [
+            1432,
+            664,
+            112,
+            112
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1920,
+            1920
+          ],
+          "id": "339000127",
+          "rectangle": [
+            768,
+            5555,
+            40,
+            72
+          ],
+          "row": 121,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1592,
+            1456
+          ],
+          "id": "339000707",
+          "rectangle": [
+            176,
+            1568,
+            88,
+            88
+          ],
+          "row": 134,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1592,
+            1456
+          ],
+          "id": "339000717",
+          "rectangle": [
+            176,
+            1568,
+            88,
+            88
+          ],
+          "row": 134,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1632,
+            1056
+          ],
+          "id": "346000107",
+          "rectangle": [
+            1536,
+            480,
+            208,
+            160
+          ],
+          "row": 68,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1632,
+            1056
+          ],
+          "id": "346000107",
+          "rectangle": [
+            1504,
+            864,
+            192,
+            176
+          ],
+          "row": 173,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1632,
+            1056
+          ],
+          "id": "346000107",
+          "rectangle": [
+            1696,
+            848,
+            192,
+            192
+          ],
+          "row": 174,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1632,
+            1056
+          ],
+          "id": "346000117",
+          "rectangle": [
+            1536,
+            480,
+            208,
+            160
+          ],
+          "row": 68,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1632,
+            1056
+          ],
+          "id": "346000117",
+          "rectangle": [
+            1504,
+            864,
+            192,
+            176
+          ],
+          "row": 173,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1632,
+            1056
+          ],
+          "id": "346000117",
+          "rectangle": [
+            1696,
+            848,
+            192,
+            192
+          ],
+          "row": 174,
+          "used_by_idle": false
+        }
+      ],
+      "invalid_idle_frame_references": [],
+      "missing_companions": [],
+      "new_sprite_ids": 866
+    },
+    "vision_cards": {
+      "atlas_bounds_warnings": [
+        {
+          "atlas": [
+            1152,
+            1088
+          ],
+          "id": "100008001",
+          "rectangle": [
+            1184,
+            1072,
+            192,
+            218
+          ],
+          "row": 10,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            1088
+          ],
+          "id": "100008001",
+          "rectangle": [
+            1184,
+            1072,
+            192,
+            218
+          ],
+          "row": 11,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            1088
+          ],
+          "id": "100008001",
+          "rectangle": [
+            1184,
+            1072,
+            192,
+            218
+          ],
+          "row": 12,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            1088
+          ],
+          "id": "100008001",
+          "rectangle": [
+            1184,
+            1072,
+            192,
+            218
+          ],
+          "row": 13,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            1088
+          ],
+          "id": "100008001",
+          "rectangle": [
+            1184,
+            1072,
+            192,
+            218
+          ],
+          "row": 14,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            1088
+          ],
+          "id": "100008001",
+          "rectangle": [
+            1184,
+            1072,
+            192,
+            218
+          ],
+          "row": 15,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            1088
+          ],
+          "id": "100008001",
+          "rectangle": [
+            1184,
+            1072,
+            192,
+            204
+          ],
+          "row": 94,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            1088
+          ],
+          "id": "100008001",
+          "rectangle": [
+            1184,
+            1072,
+            192,
+            204
+          ],
+          "row": 95,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            1088
+          ],
+          "id": "100008001",
+          "rectangle": [
+            1184,
+            1072,
+            192,
+            204
+          ],
+          "row": 96,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            1088
+          ],
+          "id": "100008001",
+          "rectangle": [
+            1184,
+            1072,
+            192,
+            204
+          ],
+          "row": 97,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            1088
+          ],
+          "id": "100008001",
+          "rectangle": [
+            1184,
+            1072,
+            192,
+            204
+          ],
+          "row": 98,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            1088
+          ],
+          "id": "100008001",
+          "rectangle": [
+            1184,
+            1072,
+            192,
+            204
+          ],
+          "row": 99,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            1088
+          ],
+          "id": "100008001",
+          "rectangle": [
+            1184,
+            1072,
+            192,
+            204
+          ],
+          "row": 124,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            1088
+          ],
+          "id": "100008001",
+          "rectangle": [
+            1184,
+            1072,
+            192,
+            204
+          ],
+          "row": 125,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            1088
+          ],
+          "id": "100008001",
+          "rectangle": [
+            1184,
+            1072,
+            192,
+            204
+          ],
+          "row": 126,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            1088
+          ],
+          "id": "100008001",
+          "rectangle": [
+            1184,
+            1072,
+            192,
+            204
+          ],
+          "row": 127,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            1088
+          ],
+          "id": "100008001",
+          "rectangle": [
+            1184,
+            1072,
+            192,
+            204
+          ],
+          "row": 128,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1152,
+            1088
+          ],
+          "id": "100008001",
+          "rectangle": [
+            1184,
+            1072,
+            192,
+            204
+          ],
+          "row": 129,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            1156,
+            1536
+          ],
+          "id": "100010501",
+          "rectangle": [
+            1224,
+            0,
+            192,
+            256
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 1,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 1,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 4,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 4,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 200,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 200,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 215,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 215,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 216,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 216,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 217,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 217,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 218,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 218,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 219,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 219,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 220,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 220,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 221,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 221,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 222,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 222,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 223,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 223,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 224,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 224,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 225,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 225,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 226,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 226,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 227,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 227,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 228,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 228,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 229,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 229,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 230,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 230,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 231,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 231,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 232,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 232,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 233,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 233,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 234,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 234,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 235,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 235,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 236,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 236,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 237,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 237,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 238,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 238,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 239,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 239,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 240,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 240,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 241,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 241,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 242,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 242,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 243,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 243,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 244,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 244,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 245,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 245,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 246,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 246,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 247,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 247,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 248,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 248,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 249,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 249,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 250,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 250,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 251,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 251,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 252,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 252,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 253,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 253,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 254,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 254,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 255,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 255,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 256,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 256,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 257,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 257,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 258,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 258,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 259,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 259,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 260,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 260,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 261,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 261,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 262,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 262,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 263,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 263,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 264,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 264,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 265,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 265,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 266,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 266,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 267,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 267,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 268,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 268,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 269,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 269,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 270,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 270,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 271,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 271,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 272,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 272,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 273,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 273,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 274,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 274,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 275,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 275,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 276,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 276,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 277,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 277,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 278,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 278,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 279,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 279,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 280,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 280,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 281,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 281,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 282,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 282,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 283,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 283,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 284,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 284,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 285,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 285,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 286,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 286,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 287,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 287,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 288,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 288,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 289,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 289,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 290,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 290,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 291,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 291,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 292,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 292,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 293,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 293,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 294,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 294,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 295,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 295,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 296,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 296,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 297,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 297,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 298,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 298,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 299,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 299,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 300,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 300,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 301,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 301,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            192,
+            1344,
+            192,
+            256
+          ],
+          "row": 302,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            768,
+            1088
+          ],
+          "id": "100010601",
+          "rectangle": [
+            0,
+            1344,
+            192,
+            256
+          ],
+          "row": 302,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            736,
+            960
+          ],
+          "id": "254000301",
+          "rectangle": [
+            0,
+            1656,
+            64,
+            64
+          ],
+          "row": 9,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            736,
+            960
+          ],
+          "id": "254000301",
+          "rectangle": [
+            720,
+            328,
+            64,
+            64
+          ],
+          "row": 10,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            736,
+            960
+          ],
+          "id": "254000301",
+          "rectangle": [
+            784,
+            264,
+            64,
+            64
+          ],
+          "row": 12,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            736,
+            960
+          ],
+          "id": "254000301",
+          "rectangle": [
+            840,
+            264,
+            64,
+            64
+          ],
+          "row": 13,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            736,
+            960
+          ],
+          "id": "254000301",
+          "rectangle": [
+            784,
+            264,
+            64,
+            64
+          ],
+          "row": 13,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            736,
+            960
+          ],
+          "id": "254000301",
+          "rectangle": [
+            376,
+            1576,
+            64,
+            64
+          ],
+          "row": 14,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            736,
+            960
+          ],
+          "id": "254000301",
+          "rectangle": [
+            312,
+            1576,
+            64,
+            64
+          ],
+          "row": 15,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1556,
+            8,
+            44,
+            52
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1392,
+            4,
+            56,
+            52
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1472,
+            60,
+            128,
+            116
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1432,
+            120,
+            36,
+            36
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1432,
+            120,
+            36,
+            36
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1396,
+            124,
+            32,
+            28
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1432,
+            120,
+            36,
+            36
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1432,
+            120,
+            36,
+            36
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1396,
+            124,
+            32,
+            28
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1396,
+            68,
+            44,
+            44
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1456,
+            8,
+            56,
+            48
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1512,
+            4,
+            44,
+            52
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1432,
+            120,
+            36,
+            36
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1432,
+            120,
+            36,
+            36
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1396,
+            124,
+            32,
+            28
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1384,
+            156,
+            80,
+            52
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1384,
+            208,
+            68,
+            56
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1432,
+            120,
+            36,
+            36
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1432,
+            120,
+            36,
+            36
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1396,
+            124,
+            32,
+            28
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1192,
+            0,
+            192,
+            256
+          ],
+          "row": 0,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1556,
+            8,
+            44,
+            52
+          ],
+          "row": 1,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1392,
+            4,
+            56,
+            52
+          ],
+          "row": 1,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1472,
+            60,
+            128,
+            116
+          ],
+          "row": 1,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1432,
+            120,
+            36,
+            36
+          ],
+          "row": 1,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1432,
+            120,
+            36,
+            36
+          ],
+          "row": 1,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1396,
+            124,
+            32,
+            28
+          ],
+          "row": 1,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1432,
+            120,
+            36,
+            36
+          ],
+          "row": 1,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1432,
+            120,
+            36,
+            36
+          ],
+          "row": 1,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1396,
+            124,
+            32,
+            28
+          ],
+          "row": 1,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1396,
+            68,
+            44,
+            44
+          ],
+          "row": 1,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1456,
+            8,
+            56,
+            48
+          ],
+          "row": 1,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1512,
+            4,
+            44,
+            52
+          ],
+          "row": 1,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1432,
+            120,
+            36,
+            36
+          ],
+          "row": 1,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1432,
+            120,
+            36,
+            36
+          ],
+          "row": 1,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1396,
+            124,
+            32,
+            28
+          ],
+          "row": 1,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1384,
+            156,
+            80,
+            52
+          ],
+          "row": 1,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1384,
+            208,
+            68,
+            56
+          ],
+          "row": 1,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1432,
+            120,
+            36,
+            36
+          ],
+          "row": 1,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1432,
+            120,
+            36,
+            36
+          ],
+          "row": 1,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1396,
+            124,
+            32,
+            28
+          ],
+          "row": 1,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1192,
+            0,
+            192,
+            256
+          ],
+          "row": 1,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1192,
+            0,
+            192,
+            256
+          ],
+          "row": 46,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1192,
+            0,
+            192,
+            256
+          ],
+          "row": 47,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1192,
+            0,
+            192,
+            256
+          ],
+          "row": 48,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1192,
+            0,
+            192,
+            256
+          ],
+          "row": 49,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1192,
+            0,
+            192,
+            256
+          ],
+          "row": 50,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1192,
+            0,
+            192,
+            256
+          ],
+          "row": 51,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1192,
+            0,
+            192,
+            256
+          ],
+          "row": 52,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1192,
+            0,
+            192,
+            256
+          ],
+          "row": 53,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1192,
+            0,
+            192,
+            256
+          ],
+          "row": 54,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1192,
+            0,
+            192,
+            256
+          ],
+          "row": 55,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1192,
+            0,
+            192,
+            256
+          ],
+          "row": 56,
+          "used_by_idle": false
+        },
+        {
+          "atlas": [
+            796,
+            832
+          ],
+          "id": "350000101",
+          "rectangle": [
+            1192,
+            0,
+            192,
+            256
+          ],
+          "row": 57,
+          "used_by_idle": false
+        }
+      ],
+      "invalid_idle_frame_references": [],
+      "missing_companions": [],
+      "new_sprite_ids": 212
+    }
+  },
+  "baseline_commit": "5f7e66f462cbf70fbd7039099097cda0df335ac7",
+  "by_folder": {
+    "abilities": 199,
+    "battle_bg": 3034,
+    "chain_ability": 30,
+    "emblems": 270,
+    "ex_gambit_icons": 15,
+    "global_abilities": 137,
+    "global_emblems": 173,
+    "global_equipment": 614,
+    "global_items": 553,
+    "global_materia": 13,
+    "items": 5017,
+    "monster_animated": 767,
+    "monster_animated_csv": 2654,
+    "monster_assets": 113,
+    "monster_icon": 746,
+    "unit_animated": 948,
+    "unit_animated_csv": 12234,
+    "unit_assets": 415,
+    "unit_icons": 865,
+    "unit_illustrations": 864,
+    "vc_animated_csv": 720,
+    "vc_vignette_animated": 212,
+    "vc_vignette_icon": 211,
+    "vc_vignette_item": 245
+  },
+  "bytes_added": 1164107864,
+  "existing_asset_files_changed": [],
+  "extra_files_added": 7021,
+  "file_validation_errors": [],
+  "files_added": 31049,
+  "plaintext_members_recovered": 38,
+  "priority_files_added": 24028,
+  "remaining_selected_gaps": []
+}

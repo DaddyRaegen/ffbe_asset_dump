@@ -1,0 +1,12 @@
+# Preserve extracted assets byte for byte, including their CSV line endings.
+*.csv -text
+*.png binary
+*.jpg binary
+*.gif binary
+*.ssbp binary
+*.bmb binary
+*.m3r binary
+*.bin binary
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf

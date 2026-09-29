@@ -1,0 +1,2522 @@
+[
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100000101.csv",
+    "id": "100000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_100000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100000101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100000201.csv",
+    "id": "100000201",
+    "idle_animation": "vc_animated_csv/vc_cgs_100000201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100000201.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100000301.csv",
+    "id": "100000301",
+    "idle_animation": "vc_animated_csv/vc_cgs_100000301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100000301.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100000401.csv",
+    "id": "100000401",
+    "idle_animation": "vc_animated_csv/vc_cgs_100000401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100000401.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100000501.csv",
+    "id": "100000501",
+    "idle_animation": "vc_animated_csv/vc_cgs_100000501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100000501.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100000601.csv",
+    "id": "100000601",
+    "idle_animation": "vc_animated_csv/vc_cgs_100000601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100000601.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100000701.csv",
+    "id": "100000701",
+    "idle_animation": "vc_animated_csv/vc_cgs_100000701.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100000701.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100000801.csv",
+    "id": "100000801",
+    "idle_animation": "vc_animated_csv/vc_cgs_100000801.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100000801.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100000901.csv",
+    "id": "100000901",
+    "idle_animation": "vc_animated_csv/vc_cgs_100000901.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100000901.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100001001.csv",
+    "id": "100001001",
+    "idle_animation": "vc_animated_csv/vc_cgs_100001001.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100001001.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100001101.csv",
+    "id": "100001101",
+    "idle_animation": "vc_animated_csv/vc_cgs_100001101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100001101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100001301.csv",
+    "id": "100001301",
+    "idle_animation": "vc_animated_csv/vc_cgs_100001301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100001301.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100001401.csv",
+    "id": "100001401",
+    "idle_animation": "vc_animated_csv/vc_cgs_100001401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100001401.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100001501.csv",
+    "id": "100001501",
+    "idle_animation": "vc_animated_csv/vc_cgs_100001501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100001501.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100001601.csv",
+    "id": "100001601",
+    "idle_animation": "vc_animated_csv/vc_cgs_100001601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100001601.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100001701.csv",
+    "id": "100001701",
+    "idle_animation": "vc_animated_csv/vc_cgs_100001701.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100001701.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100001801.csv",
+    "id": "100001801",
+    "idle_animation": "vc_animated_csv/vc_cgs_100001801.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100001801.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100001901.csv",
+    "id": "100001901",
+    "idle_animation": "vc_animated_csv/vc_cgs_100001901.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100001901.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100002001.csv",
+    "id": "100002001",
+    "idle_animation": "vc_animated_csv/vc_cgs_100002001.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100002001.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100002101.csv",
+    "id": "100002101",
+    "idle_animation": "vc_animated_csv/vc_cgs_100002101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100002101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100002201.csv",
+    "id": "100002201",
+    "idle_animation": "vc_animated_csv/vc_cgs_100002201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100002201.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100002301.csv",
+    "id": "100002301",
+    "idle_animation": "vc_animated_csv/vc_cgs_100002301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100002301.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100002401.csv",
+    "id": "100002401",
+    "idle_animation": "vc_animated_csv/vc_cgs_100002401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100002401.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100002501.csv",
+    "id": "100002501",
+    "idle_animation": "vc_animated_csv/vc_cgs_100002501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100002501.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100002601.csv",
+    "id": "100002601",
+    "idle_animation": "vc_animated_csv/vc_cgs_100002601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100002601.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100002701.csv",
+    "id": "100002701",
+    "idle_animation": "vc_animated_csv/vc_cgs_100002701.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100002701.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100002801.csv",
+    "id": "100002801",
+    "idle_animation": "vc_animated_csv/vc_cgs_100002801.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100002801.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100002901.csv",
+    "id": "100002901",
+    "idle_animation": "vc_animated_csv/vc_cgs_100002901.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100002901.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100003001.csv",
+    "id": "100003001",
+    "idle_animation": "vc_animated_csv/vc_cgs_100003001.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100003001.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100003101.csv",
+    "id": "100003101",
+    "idle_animation": "vc_animated_csv/vc_cgs_100003101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100003101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100003301.csv",
+    "id": "100003301",
+    "idle_animation": "vc_animated_csv/vc_cgs_100003301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100003301.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100003401.csv",
+    "id": "100003401",
+    "idle_animation": "vc_animated_csv/vc_cgs_100003401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100003401.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100003501.csv",
+    "id": "100003501",
+    "idle_animation": "vc_animated_csv/vc_cgs_100003501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100003501.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100003601.csv",
+    "id": "100003601",
+    "idle_animation": "vc_animated_csv/vc_cgs_100003601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100003601.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100003701.csv",
+    "id": "100003701",
+    "idle_animation": "vc_animated_csv/vc_cgs_100003701.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100003701.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100003801.csv",
+    "id": "100003801",
+    "idle_animation": "vc_animated_csv/vc_cgs_100003801.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100003801.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100003901.csv",
+    "id": "100003901",
+    "idle_animation": "vc_animated_csv/vc_cgs_100003901.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100003901.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100004001.csv",
+    "id": "100004001",
+    "idle_animation": "vc_animated_csv/vc_cgs_100004001.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100004001.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100004101.csv",
+    "id": "100004101",
+    "idle_animation": "vc_animated_csv/vc_cgs_100004101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100004101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100004301.csv",
+    "id": "100004301",
+    "idle_animation": "vc_animated_csv/vc_cgs_100004301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100004301.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100004401.csv",
+    "id": "100004401",
+    "idle_animation": "vc_animated_csv/vc_cgs_100004401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100004401.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100004501.csv",
+    "id": "100004501",
+    "idle_animation": "vc_animated_csv/vc_cgs_100004501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100004501.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100004801.csv",
+    "id": "100004801",
+    "idle_animation": "vc_animated_csv/vc_cgs_100004801.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100004801.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100004901.csv",
+    "id": "100004901",
+    "idle_animation": "vc_animated_csv/vc_cgs_100004901.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100004901.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100005001.csv",
+    "id": "100005001",
+    "idle_animation": "vc_animated_csv/vc_cgs_100005001.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100005001.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100005101.csv",
+    "id": "100005101",
+    "idle_animation": "vc_animated_csv/vc_cgs_100005101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100005101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100005201.csv",
+    "id": "100005201",
+    "idle_animation": "vc_animated_csv/vc_cgs_100005201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100005201.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100005301.csv",
+    "id": "100005301",
+    "idle_animation": "vc_animated_csv/vc_cgs_100005301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100005301.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100005401.csv",
+    "id": "100005401",
+    "idle_animation": "vc_animated_csv/vc_cgs_100005401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100005401.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100005501.csv",
+    "id": "100005501",
+    "idle_animation": "vc_animated_csv/vc_cgs_100005501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100005501.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100005601.csv",
+    "id": "100005601",
+    "idle_animation": "vc_animated_csv/vc_cgs_100005601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100005601.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100005701.csv",
+    "id": "100005701",
+    "idle_animation": "vc_animated_csv/vc_cgs_100005701.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100005701.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100005801.csv",
+    "id": "100005801",
+    "idle_animation": "vc_animated_csv/vc_cgs_100005801.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100005801.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100005901.csv",
+    "id": "100005901",
+    "idle_animation": "vc_animated_csv/vc_cgs_100005901.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100005901.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100006001.csv",
+    "id": "100006001",
+    "idle_animation": "vc_animated_csv/vc_cgs_100006001.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100006001.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100006101.csv",
+    "id": "100006101",
+    "idle_animation": "vc_animated_csv/vc_cgs_100006101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100006101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100006201.csv",
+    "id": "100006201",
+    "idle_animation": "vc_animated_csv/vc_cgs_100006201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100006201.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_100006401.csv",
+    "id": "100006401",
+    "idle_animation": "vc_animated_csv/vc_cgs_100006401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100006401.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100006601.csv",
+    "id": "100006601",
+    "idle_animation": "vc_animated_csv/vc_cgs_100006601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100006601.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100006701.csv",
+    "id": "100006701",
+    "idle_animation": "vc_animated_csv/vc_cgs_100006701.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100006701.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100006801.csv",
+    "id": "100006801",
+    "idle_animation": "vc_animated_csv/vc_cgs_100006801.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100006801.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100006901.csv",
+    "id": "100006901",
+    "idle_animation": "vc_animated_csv/vc_cgs_100006901.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100006901.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100007001.csv",
+    "id": "100007001",
+    "idle_animation": "vc_animated_csv/vc_cgs_100007001.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100007001.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100007101.csv",
+    "id": "100007101",
+    "idle_animation": "vc_animated_csv/vc_cgs_100007101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100007101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100007201.csv",
+    "id": "100007201",
+    "idle_animation": "vc_animated_csv/vc_cgs_100007201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100007201.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100007301.csv",
+    "id": "100007301",
+    "idle_animation": "vc_animated_csv/vc_cgs_100007301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100007301.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100007401.csv",
+    "id": "100007401",
+    "idle_animation": "vc_animated_csv/vc_cgs_100007401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100007401.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100007501.csv",
+    "id": "100007501",
+    "idle_animation": "vc_animated_csv/vc_cgs_100007501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100007501.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100007601.csv",
+    "id": "100007601",
+    "idle_animation": "vc_animated_csv/vc_cgs_100007601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100007601.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100007801.csv",
+    "id": "100007801",
+    "idle_animation": "vc_animated_csv/vc_cgs_100007801.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100007801.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100007901.csv",
+    "id": "100007901",
+    "idle_animation": "vc_animated_csv/vc_cgs_100007901.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100007901.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100008001.csv",
+    "id": "100008001",
+    "idle_animation": "vc_animated_csv/vc_cgs_100008001.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100008001.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100008101.csv",
+    "id": "100008101",
+    "idle_animation": "vc_animated_csv/vc_cgs_100008101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100008101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100008201.csv",
+    "id": "100008201",
+    "idle_animation": "vc_animated_csv/vc_cgs_100008201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100008201.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100008401.csv",
+    "id": "100008401",
+    "idle_animation": "vc_animated_csv/vc_cgs_100008401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100008401.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100008501.csv",
+    "id": "100008501",
+    "idle_animation": "vc_animated_csv/vc_cgs_100008501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100008501.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100008601.csv",
+    "id": "100008601",
+    "idle_animation": "vc_animated_csv/vc_cgs_100008601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100008601.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100008701.csv",
+    "id": "100008701",
+    "idle_animation": "vc_animated_csv/vc_cgs_100008701.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100008701.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100008801.csv",
+    "id": "100008801",
+    "idle_animation": "vc_animated_csv/vc_cgs_100008801.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100008801.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100008901.csv",
+    "id": "100008901",
+    "idle_animation": "vc_animated_csv/vc_cgs_100008901.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100008901.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100009001.csv",
+    "id": "100009001",
+    "idle_animation": "vc_animated_csv/vc_cgs_100009001.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100009001.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100009101.csv",
+    "id": "100009101",
+    "idle_animation": "vc_animated_csv/vc_cgs_100009101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100009101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100009201.csv",
+    "id": "100009201",
+    "idle_animation": "vc_animated_csv/vc_cgs_100009201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100009201.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100009301.csv",
+    "id": "100009301",
+    "idle_animation": "vc_animated_csv/vc_cgs_100009301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100009301.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100009401.csv",
+    "id": "100009401",
+    "idle_animation": "vc_animated_csv/vc_cgs_100009401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100009401.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100009501.csv",
+    "id": "100009501",
+    "idle_animation": "vc_animated_csv/vc_cgs_100009501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100009501.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100009601.csv",
+    "id": "100009601",
+    "idle_animation": "vc_animated_csv/vc_cgs_100009601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100009601.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100009701.csv",
+    "id": "100009701",
+    "idle_animation": "vc_animated_csv/vc_cgs_100009701.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100009701.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100009801.csv",
+    "id": "100009801",
+    "idle_animation": "vc_animated_csv/vc_cgs_100009801.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100009801.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100009901.csv",
+    "id": "100009901",
+    "idle_animation": "vc_animated_csv/vc_cgs_100009901.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100009901.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100010001.csv",
+    "id": "100010001",
+    "idle_animation": "vc_animated_csv/vc_cgs_100010001.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100010001.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100010101.csv",
+    "id": "100010101",
+    "idle_animation": "vc_animated_csv/vc_cgs_100010101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100010101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100010201.csv",
+    "id": "100010201",
+    "idle_animation": "vc_animated_csv/vc_cgs_100010201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100010201.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100010301.csv",
+    "id": "100010301",
+    "idle_animation": "vc_animated_csv/vc_cgs_100010301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100010301.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100010401.csv",
+    "id": "100010401",
+    "idle_animation": "vc_animated_csv/vc_cgs_100010401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100010401.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100010501.csv",
+    "id": "100010501",
+    "idle_animation": "vc_animated_csv/vc_cgs_100010501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100010501.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100010601.csv",
+    "id": "100010601",
+    "idle_animation": "vc_animated_csv/vc_cgs_100010601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100010601.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100010701.csv",
+    "id": "100010701",
+    "idle_animation": "vc_animated_csv/vc_cgs_100010701.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100010701.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100010801.csv",
+    "id": "100010801",
+    "idle_animation": "vc_animated_csv/vc_cgs_100010801.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100010801.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100010901.csv",
+    "id": "100010901",
+    "idle_animation": "vc_animated_csv/vc_cgs_100010901.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100010901.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100011001.csv",
+    "id": "100011001",
+    "idle_animation": "vc_animated_csv/vc_cgs_100011001.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100011001.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100011101.csv",
+    "id": "100011101",
+    "idle_animation": "vc_animated_csv/vc_cgs_100011101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100011101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_100011201.csv",
+    "id": "100011201",
+    "idle_animation": "vc_animated_csv/vc_cgs_100011201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_100011201.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_201000101.csv",
+    "id": "201000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_201000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_201000101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_201000201.csv",
+    "id": "201000201",
+    "idle_animation": "vc_animated_csv/vc_cgs_201000201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_201000201.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_201000301.csv",
+    "id": "201000301",
+    "idle_animation": "vc_animated_csv/vc_cgs_201000301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_201000301.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_202000101.csv",
+    "id": "202000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_202000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_202000101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_202000201.csv",
+    "id": "202000201",
+    "idle_animation": "vc_animated_csv/vc_cgs_202000201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_202000201.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_202000301.csv",
+    "id": "202000301",
+    "idle_animation": "vc_animated_csv/vc_cgs_202000301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_202000301.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_202000401.csv",
+    "id": "202000401",
+    "idle_animation": "vc_animated_csv/vc_cgs_202000401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_202000401.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_203000101.csv",
+    "id": "203000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_203000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_203000101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_203000201.csv",
+    "id": "203000201",
+    "idle_animation": "vc_animated_csv/vc_cgs_203000201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_203000201.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_203000301.csv",
+    "id": "203000301",
+    "idle_animation": "vc_animated_csv/vc_cgs_203000301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_203000301.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_204000101.csv",
+    "id": "204000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_204000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_204000101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_204000201.csv",
+    "id": "204000201",
+    "idle_animation": "vc_animated_csv/vc_cgs_204000201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_204000201.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_204000301.csv",
+    "id": "204000301",
+    "idle_animation": "vc_animated_csv/vc_cgs_204000301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_204000301.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_204000401.csv",
+    "id": "204000401",
+    "idle_animation": "vc_animated_csv/vc_cgs_204000401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_204000401.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_204000601.csv",
+    "id": "204000601",
+    "idle_animation": "vc_animated_csv/vc_cgs_204000601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_204000601.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_205000101.csv",
+    "id": "205000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_205000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_205000101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_205000301.csv",
+    "id": "205000301",
+    "idle_animation": "vc_animated_csv/vc_cgs_205000301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_205000301.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_205000401.csv",
+    "id": "205000401",
+    "idle_animation": "vc_animated_csv/vc_cgs_205000401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_205000401.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_205000501.csv",
+    "id": "205000501",
+    "idle_animation": "vc_animated_csv/vc_cgs_205000501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_205000501.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_205000601.csv",
+    "id": "205000601",
+    "idle_animation": "vc_animated_csv/vc_cgs_205000601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_205000601.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_205000701.csv",
+    "id": "205000701",
+    "idle_animation": "vc_animated_csv/vc_cgs_205000701.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_205000701.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_206000101.csv",
+    "id": "206000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_206000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_206000101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_206000201.csv",
+    "id": "206000201",
+    "idle_animation": "vc_animated_csv/vc_cgs_206000201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_206000201.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_206000301.csv",
+    "id": "206000301",
+    "idle_animation": "vc_animated_csv/vc_cgs_206000301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_206000301.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_206000401.csv",
+    "id": "206000401",
+    "idle_animation": "vc_animated_csv/vc_cgs_206000401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_206000401.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_206000501.csv",
+    "id": "206000501",
+    "idle_animation": "vc_animated_csv/vc_cgs_206000501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_206000501.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_206000601.csv",
+    "id": "206000601",
+    "idle_animation": "vc_animated_csv/vc_cgs_206000601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_206000601.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_206000701.csv",
+    "id": "206000701",
+    "idle_animation": "vc_animated_csv/vc_cgs_206000701.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_206000701.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_207000101.csv",
+    "id": "207000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_207000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_207000101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_207000201.csv",
+    "id": "207000201",
+    "idle_animation": "vc_animated_csv/vc_cgs_207000201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_207000201.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_207000301.csv",
+    "id": "207000301",
+    "idle_animation": "vc_animated_csv/vc_cgs_207000301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_207000301.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_207000401.csv",
+    "id": "207000401",
+    "idle_animation": "vc_animated_csv/vc_cgs_207000401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_207000401.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_207000501.csv",
+    "id": "207000501",
+    "idle_animation": "vc_animated_csv/vc_cgs_207000501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_207000501.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_207000601.csv",
+    "id": "207000601",
+    "idle_animation": "vc_animated_csv/vc_cgs_207000601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_207000601.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_207000701.csv",
+    "id": "207000701",
+    "idle_animation": "vc_animated_csv/vc_cgs_207000701.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_207000701.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_207000801.csv",
+    "id": "207000801",
+    "idle_animation": "vc_animated_csv/vc_cgs_207000801.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_207000801.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_207000901.csv",
+    "id": "207000901",
+    "idle_animation": "vc_animated_csv/vc_cgs_207000901.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_207000901.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_207001001.csv",
+    "id": "207001001",
+    "idle_animation": "vc_animated_csv/vc_cgs_207001001.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_207001001.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_207001101.csv",
+    "id": "207001101",
+    "idle_animation": "vc_animated_csv/vc_cgs_207001101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_207001101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_207001201.csv",
+    "id": "207001201",
+    "idle_animation": "vc_animated_csv/vc_cgs_207001201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_207001201.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_207001301.csv",
+    "id": "207001301",
+    "idle_animation": "vc_animated_csv/vc_cgs_207001301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_207001301.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_207001401.csv",
+    "id": "207001401",
+    "idle_animation": "vc_animated_csv/vc_cgs_207001401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_207001401.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_208000101.csv",
+    "id": "208000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_208000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_208000101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_208000201.csv",
+    "id": "208000201",
+    "idle_animation": "vc_animated_csv/vc_cgs_208000201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_208000201.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_208000301.csv",
+    "id": "208000301",
+    "idle_animation": "vc_animated_csv/vc_cgs_208000301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_208000301.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_208000401.csv",
+    "id": "208000401",
+    "idle_animation": "vc_animated_csv/vc_cgs_208000401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_208000401.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_208000501.csv",
+    "id": "208000501",
+    "idle_animation": "vc_animated_csv/vc_cgs_208000501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_208000501.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_209000101.csv",
+    "id": "209000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_209000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_209000101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_209000201.csv",
+    "id": "209000201",
+    "idle_animation": "vc_animated_csv/vc_cgs_209000201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_209000201.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_209000301.csv",
+    "id": "209000301",
+    "idle_animation": "vc_animated_csv/vc_cgs_209000301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_209000301.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_209000401.csv",
+    "id": "209000401",
+    "idle_animation": "vc_animated_csv/vc_cgs_209000401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_209000401.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_209000501.csv",
+    "id": "209000501",
+    "idle_animation": "vc_animated_csv/vc_cgs_209000501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_209000501.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_210000101.csv",
+    "id": "210000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_210000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_210000101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_210000201.csv",
+    "id": "210000201",
+    "idle_animation": "vc_animated_csv/vc_cgs_210000201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_210000201.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_210000301.csv",
+    "id": "210000301",
+    "idle_animation": "vc_animated_csv/vc_cgs_210000301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_210000301.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_210000401.csv",
+    "id": "210000401",
+    "idle_animation": "vc_animated_csv/vc_cgs_210000401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_210000401.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_210000501.csv",
+    "id": "210000501",
+    "idle_animation": "vc_animated_csv/vc_cgs_210000501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_210000501.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_210000601.csv",
+    "id": "210000601",
+    "idle_animation": "vc_animated_csv/vc_cgs_210000601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_210000601.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_210000701.csv",
+    "id": "210000701",
+    "idle_animation": "vc_animated_csv/vc_cgs_210000701.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_210000701.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_210000801.csv",
+    "id": "210000801",
+    "idle_animation": "vc_animated_csv/vc_cgs_210000801.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_210000801.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_210000901.csv",
+    "id": "210000901",
+    "idle_animation": "vc_animated_csv/vc_cgs_210000901.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_210000901.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_210001001.csv",
+    "id": "210001001",
+    "idle_animation": "vc_animated_csv/vc_cgs_210001001.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_210001001.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_211000101.csv",
+    "id": "211000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_211000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_211000101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_211000201.csv",
+    "id": "211000201",
+    "idle_animation": "vc_animated_csv/vc_cgs_211000201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_211000201.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_212000101.csv",
+    "id": "212000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_212000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_212000101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_212000301.csv",
+    "id": "212000301",
+    "idle_animation": "vc_animated_csv/vc_cgs_212000301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_212000301.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_212000401.csv",
+    "id": "212000401",
+    "idle_animation": "vc_animated_csv/vc_cgs_212000401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_212000401.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_212000501.csv",
+    "id": "212000501",
+    "idle_animation": "vc_animated_csv/vc_cgs_212000501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_212000501.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_212000601.csv",
+    "id": "212000601",
+    "idle_animation": "vc_animated_csv/vc_cgs_212000601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_212000601.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_213000101.csv",
+    "id": "213000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_213000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_213000101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_213000201.csv",
+    "id": "213000201",
+    "idle_animation": "vc_animated_csv/vc_cgs_213000201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_213000201.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_213000301.csv",
+    "id": "213000301",
+    "idle_animation": "vc_animated_csv/vc_cgs_213000301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_213000301.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_213000401.csv",
+    "id": "213000401",
+    "idle_animation": "vc_animated_csv/vc_cgs_213000401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_213000401.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_213000501.csv",
+    "id": "213000501",
+    "idle_animation": "vc_animated_csv/vc_cgs_213000501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_213000501.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_213000601.csv",
+    "id": "213000601",
+    "idle_animation": "vc_animated_csv/vc_cgs_213000601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_213000601.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_215000101.csv",
+    "id": "215000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_215000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_215000101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_215000201.csv",
+    "id": "215000201",
+    "idle_animation": "vc_animated_csv/vc_cgs_215000201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_215000201.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_215000301.csv",
+    "id": "215000301",
+    "idle_animation": "vc_animated_csv/vc_cgs_215000301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_215000301.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_215000401.csv",
+    "id": "215000401",
+    "idle_animation": "vc_animated_csv/vc_cgs_215000401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_215000401.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_215000501.csv",
+    "id": "215000501",
+    "idle_animation": "vc_animated_csv/vc_cgs_215000501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_215000501.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_215000601.csv",
+    "id": "215000601",
+    "idle_animation": "vc_animated_csv/vc_cgs_215000601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_215000601.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_216000101.csv",
+    "id": "216000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_216000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_216000101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_216000201.csv",
+    "id": "216000201",
+    "idle_animation": "vc_animated_csv/vc_cgs_216000201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_216000201.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_216000301.csv",
+    "id": "216000301",
+    "idle_animation": "vc_animated_csv/vc_cgs_216000301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_216000301.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_249000101.csv",
+    "id": "249000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_249000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_249000101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_253000101.csv",
+    "id": "253000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_253000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_253000101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_253000201.csv",
+    "id": "253000201",
+    "idle_animation": "vc_animated_csv/vc_cgs_253000201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_253000201.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_253000301.csv",
+    "id": "253000301",
+    "idle_animation": "vc_animated_csv/vc_cgs_253000301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_253000301.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_254000101.csv",
+    "id": "254000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_254000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_254000101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_254000201.csv",
+    "id": "254000201",
+    "idle_animation": "vc_animated_csv/vc_cgs_254000201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_254000201.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_254000301.csv",
+    "id": "254000301",
+    "idle_animation": "vc_animated_csv/vc_cgs_254000301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_254000301.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_304000101.csv",
+    "id": "304000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_304000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_304000101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_306000101.csv",
+    "id": "306000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_306000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_306000101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_309000101.csv",
+    "id": "309000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_309000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_309000101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_312000101.csv",
+    "id": "312000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_312000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_312000101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_317000101.csv",
+    "id": "317000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_317000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_317000101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_331000101.csv",
+    "id": "331000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_331000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_331000101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_331000201.csv",
+    "id": "331000201",
+    "idle_animation": "vc_animated_csv/vc_cgs_331000201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_331000201.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_331000301.csv",
+    "id": "331000301",
+    "idle_animation": "vc_animated_csv/vc_cgs_331000301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_331000301.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_335000101.csv",
+    "id": "335000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_335000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_335000101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_335000201.csv",
+    "id": "335000201",
+    "idle_animation": "vc_animated_csv/vc_cgs_335000201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_335000201.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_335000301.csv",
+    "id": "335000301",
+    "idle_animation": "vc_animated_csv/vc_cgs_335000301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_335000301.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_336000101.csv",
+    "id": "336000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_336000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_336000101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_338000101.csv",
+    "id": "338000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_338000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_338000101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_338000301.csv",
+    "id": "338000301",
+    "idle_animation": "vc_animated_csv/vc_cgs_338000301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_338000301.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_338000401.csv",
+    "id": "338000401",
+    "idle_animation": "vc_animated_csv/vc_cgs_338000401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_338000401.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_339000101.csv",
+    "id": "339000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_339000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_339000101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_339000201.csv",
+    "id": "339000201",
+    "idle_animation": "vc_animated_csv/vc_cgs_339000201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_339000201.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_339000301.csv",
+    "id": "339000301",
+    "idle_animation": "vc_animated_csv/vc_cgs_339000301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_339000301.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_342000101.csv",
+    "id": "342000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_342000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_342000101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_342000201.csv",
+    "id": "342000201",
+    "idle_animation": "vc_animated_csv/vc_cgs_342000201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_342000201.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_343000101.csv",
+    "id": "343000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_343000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_343000101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_344000101.csv",
+    "id": "344000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_344000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_344000101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_344000201.csv",
+    "id": "344000201",
+    "idle_animation": "vc_animated_csv/vc_cgs_344000201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_344000201.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_344000301.csv",
+    "id": "344000301",
+    "idle_animation": "vc_animated_csv/vc_cgs_344000301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_344000301.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_344000401.csv",
+    "id": "344000401",
+    "idle_animation": "vc_animated_csv/vc_cgs_344000401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_344000401.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_344000501.csv",
+    "id": "344000501",
+    "idle_animation": "vc_animated_csv/vc_cgs_344000501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_344000501.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_344000601.csv",
+    "id": "344000601",
+    "idle_animation": "vc_animated_csv/vc_cgs_344000601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_344000601.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_344000701.csv",
+    "id": "344000701",
+    "idle_animation": "vc_animated_csv/vc_cgs_344000701.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_344000701.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_345000101.csv",
+    "id": "345000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_345000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_345000101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_345000201.csv",
+    "id": "345000201",
+    "idle_animation": "vc_animated_csv/vc_cgs_345000201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_345000201.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_345000301.csv",
+    "id": "345000301",
+    "idle_animation": "vc_animated_csv/vc_cgs_345000301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_345000301.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_346000101.csv",
+    "id": "346000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_346000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_346000101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_346000201.csv",
+    "id": "346000201",
+    "idle_animation": "vc_animated_csv/vc_cgs_346000201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_346000201.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_346000301.csv",
+    "id": "346000301",
+    "idle_animation": "vc_animated_csv/vc_cgs_346000301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_346000301.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_346000401.csv",
+    "id": "346000401",
+    "idle_animation": "vc_animated_csv/vc_cgs_346000401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_346000401.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_347000101.csv",
+    "id": "347000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_347000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_347000101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_348000101.csv",
+    "id": "348000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_348000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_348000101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_349000101.csv",
+    "id": "349000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_349000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_349000101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_350000101.csv",
+    "id": "350000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_350000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_350000101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_351000101.csv",
+    "id": "351000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_351000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_351000101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_352000101.csv",
+    "id": "352000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_352000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_352000101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_353000101.csv",
+    "id": "353000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_353000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_353000101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_354000101.csv",
+    "id": "354000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_354000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_354000101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_355000101.csv",
+    "id": "355000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_355000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_355000101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_356000101.csv",
+    "id": "356000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_356000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_356000101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_357000101.csv",
+    "id": "357000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_357000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_357000101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401000101.csv",
+    "id": "401000101",
+    "idle_animation": "vc_animated_csv/vc_cgs_401000101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401000101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401000201.csv",
+    "id": "401000201",
+    "idle_animation": "vc_animated_csv/vc_cgs_401000201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401000201.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401000301.csv",
+    "id": "401000301",
+    "idle_animation": "vc_animated_csv/vc_cgs_401000301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401000301.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401000401.csv",
+    "id": "401000401",
+    "idle_animation": "vc_animated_csv/vc_cgs_401000401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401000401.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401000501.csv",
+    "id": "401000501",
+    "idle_animation": "vc_animated_csv/vc_cgs_401000501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401000501.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401000601.csv",
+    "id": "401000601",
+    "idle_animation": "vc_animated_csv/vc_cgs_401000601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401000601.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401000701.csv",
+    "id": "401000701",
+    "idle_animation": "vc_animated_csv/vc_cgs_401000701.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401000701.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401000801.csv",
+    "id": "401000801",
+    "idle_animation": "vc_animated_csv/vc_cgs_401000801.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401000801.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401000901.csv",
+    "id": "401000901",
+    "idle_animation": "vc_animated_csv/vc_cgs_401000901.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401000901.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401001001.csv",
+    "id": "401001001",
+    "idle_animation": "vc_animated_csv/vc_cgs_401001001.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401001001.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401001101.csv",
+    "id": "401001101",
+    "idle_animation": "vc_animated_csv/vc_cgs_401001101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401001101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401001201.csv",
+    "id": "401001201",
+    "idle_animation": "vc_animated_csv/vc_cgs_401001201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401001201.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401001301.csv",
+    "id": "401001301",
+    "idle_animation": "vc_animated_csv/vc_cgs_401001301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401001301.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401001401.csv",
+    "id": "401001401",
+    "idle_animation": "vc_animated_csv/vc_cgs_401001401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401001401.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401001501.csv",
+    "id": "401001501",
+    "idle_animation": "vc_animated_csv/vc_cgs_401001501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401001501.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401001601.csv",
+    "id": "401001601",
+    "idle_animation": "vc_animated_csv/vc_cgs_401001601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401001601.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401001701.csv",
+    "id": "401001701",
+    "idle_animation": "vc_animated_csv/vc_cgs_401001701.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401001701.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401001801.csv",
+    "id": "401001801",
+    "idle_animation": "vc_animated_csv/vc_cgs_401001801.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401001801.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401001901.csv",
+    "id": "401001901",
+    "idle_animation": "vc_animated_csv/vc_cgs_401001901.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401001901.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401002001.csv",
+    "id": "401002001",
+    "idle_animation": "vc_animated_csv/vc_cgs_401002001.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401002001.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401002101.csv",
+    "id": "401002101",
+    "idle_animation": "vc_animated_csv/vc_cgs_401002101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401002101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401002201.csv",
+    "id": "401002201",
+    "idle_animation": "vc_animated_csv/vc_cgs_401002201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401002201.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401002301.csv",
+    "id": "401002301",
+    "idle_animation": "vc_animated_csv/vc_cgs_401002301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401002301.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401002401.csv",
+    "id": "401002401",
+    "idle_animation": "vc_animated_csv/vc_cgs_401002401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401002401.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401002501.csv",
+    "id": "401002501",
+    "idle_animation": "vc_animated_csv/vc_cgs_401002501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401002501.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401002601.csv",
+    "id": "401002601",
+    "idle_animation": "vc_animated_csv/vc_cgs_401002601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401002601.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401002701.csv",
+    "id": "401002701",
+    "idle_animation": "vc_animated_csv/vc_cgs_401002701.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401002701.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401002801.csv",
+    "id": "401002801",
+    "idle_animation": "vc_animated_csv/vc_cgs_401002801.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401002801.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401002901.csv",
+    "id": "401002901",
+    "idle_animation": "vc_animated_csv/vc_cgs_401002901.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401002901.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401003001.csv",
+    "id": "401003001",
+    "idle_animation": "vc_animated_csv/vc_cgs_401003001.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401003001.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401003101.csv",
+    "id": "401003101",
+    "idle_animation": "vc_animated_csv/vc_cgs_401003101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401003101.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401003201.csv",
+    "id": "401003201",
+    "idle_animation": "vc_animated_csv/vc_cgs_401003201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401003201.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401003301.csv",
+    "id": "401003301",
+    "idle_animation": "vc_animated_csv/vc_cgs_401003301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401003301.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401003401.csv",
+    "id": "401003401",
+    "idle_animation": "vc_animated_csv/vc_cgs_401003401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401003401.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401003501.csv",
+    "id": "401003501",
+    "idle_animation": "vc_animated_csv/vc_cgs_401003501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401003501.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_401003601.csv",
+    "id": "401003601",
+    "idle_animation": "vc_animated_csv/vc_cgs_401003601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401003601.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401003701.csv",
+    "id": "401003701",
+    "idle_animation": "vc_animated_csv/vc_cgs_401003701.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401003701.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401003801.csv",
+    "id": "401003801",
+    "idle_animation": "vc_animated_csv/vc_cgs_401003801.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401003801.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401003901.csv",
+    "id": "401003901",
+    "idle_animation": "vc_animated_csv/vc_cgs_401003901.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401003901.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401004001.csv",
+    "id": "401004001",
+    "idle_animation": "vc_animated_csv/vc_cgs_401004001.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401004001.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401004101.csv",
+    "id": "401004101",
+    "idle_animation": "vc_animated_csv/vc_cgs_401004101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401004101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401004201.csv",
+    "id": "401004201",
+    "idle_animation": "vc_animated_csv/vc_cgs_401004201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401004201.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401004301.csv",
+    "id": "401004301",
+    "idle_animation": "vc_animated_csv/vc_cgs_401004301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401004301.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401004401.csv",
+    "id": "401004401",
+    "idle_animation": "vc_animated_csv/vc_cgs_401004401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401004401.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401004501.csv",
+    "id": "401004501",
+    "idle_animation": "vc_animated_csv/vc_cgs_401004501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401004501.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401004601.csv",
+    "id": "401004601",
+    "idle_animation": "vc_animated_csv/vc_cgs_401004601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401004601.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401004701.csv",
+    "id": "401004701",
+    "idle_animation": "vc_animated_csv/vc_cgs_401004701.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401004701.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401004801.csv",
+    "id": "401004801",
+    "idle_animation": "vc_animated_csv/vc_cgs_401004801.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401004801.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401004901.csv",
+    "id": "401004901",
+    "idle_animation": "vc_animated_csv/vc_cgs_401004901.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401004901.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401005001.csv",
+    "id": "401005001",
+    "idle_animation": "vc_animated_csv/vc_cgs_401005001.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401005001.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401005101.csv",
+    "id": "401005101",
+    "idle_animation": "vc_animated_csv/vc_cgs_401005101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401005101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401005201.csv",
+    "id": "401005201",
+    "idle_animation": "vc_animated_csv/vc_cgs_401005201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401005201.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401005301.csv",
+    "id": "401005301",
+    "idle_animation": "vc_animated_csv/vc_cgs_401005301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401005301.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401005401.csv",
+    "id": "401005401",
+    "idle_animation": "vc_animated_csv/vc_cgs_401005401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401005401.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401005501.csv",
+    "id": "401005501",
+    "idle_animation": "vc_animated_csv/vc_cgs_401005501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401005501.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401005601.csv",
+    "id": "401005601",
+    "idle_animation": "vc_animated_csv/vc_cgs_401005601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401005601.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401005701.csv",
+    "id": "401005701",
+    "idle_animation": "vc_animated_csv/vc_cgs_401005701.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401005701.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401005801.csv",
+    "id": "401005801",
+    "idle_animation": "vc_animated_csv/vc_cgs_401005801.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401005801.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401005901.csv",
+    "id": "401005901",
+    "idle_animation": "vc_animated_csv/vc_cgs_401005901.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401005901.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401006001.csv",
+    "id": "401006001",
+    "idle_animation": "vc_animated_csv/vc_cgs_401006001.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401006001.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401006101.csv",
+    "id": "401006101",
+    "idle_animation": "vc_animated_csv/vc_cgs_401006101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401006101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401006201.csv",
+    "id": "401006201",
+    "idle_animation": "vc_animated_csv/vc_cgs_401006201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401006201.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401006301.csv",
+    "id": "401006301",
+    "idle_animation": "vc_animated_csv/vc_cgs_401006301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401006301.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401006401.csv",
+    "id": "401006401",
+    "idle_animation": "vc_animated_csv/vc_cgs_401006401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401006401.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401006501.csv",
+    "id": "401006501",
+    "idle_animation": "vc_animated_csv/vc_cgs_401006501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401006501.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401006601.csv",
+    "id": "401006601",
+    "idle_animation": "vc_animated_csv/vc_cgs_401006601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401006601.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401006701.csv",
+    "id": "401006701",
+    "idle_animation": "vc_animated_csv/vc_cgs_401006701.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401006701.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401006801.csv",
+    "id": "401006801",
+    "idle_animation": "vc_animated_csv/vc_cgs_401006801.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401006801.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401006901.csv",
+    "id": "401006901",
+    "idle_animation": "vc_animated_csv/vc_cgs_401006901.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401006901.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401007001.csv",
+    "id": "401007001",
+    "idle_animation": "vc_animated_csv/vc_cgs_401007001.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401007001.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401007101.csv",
+    "id": "401007101",
+    "idle_animation": "vc_animated_csv/vc_cgs_401007101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401007101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401007201.csv",
+    "id": "401007201",
+    "idle_animation": "vc_animated_csv/vc_cgs_401007201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401007201.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401007301.csv",
+    "id": "401007301",
+    "idle_animation": "vc_animated_csv/vc_cgs_401007301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401007301.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401007401.csv",
+    "id": "401007401",
+    "idle_animation": "vc_animated_csv/vc_cgs_401007401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401007401.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401007501.csv",
+    "id": "401007501",
+    "idle_animation": "vc_animated_csv/vc_cgs_401007501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401007501.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401007601.csv",
+    "id": "401007601",
+    "idle_animation": "vc_animated_csv/vc_cgs_401007601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401007601.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401007701.csv",
+    "id": "401007701",
+    "idle_animation": "vc_animated_csv/vc_cgs_401007701.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401007701.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401007801.csv",
+    "id": "401007801",
+    "idle_animation": "vc_animated_csv/vc_cgs_401007801.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401007801.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401007901.csv",
+    "id": "401007901",
+    "idle_animation": "vc_animated_csv/vc_cgs_401007901.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401007901.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401008001.csv",
+    "id": "401008001",
+    "idle_animation": "vc_animated_csv/vc_cgs_401008001.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401008001.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401008101.csv",
+    "id": "401008101",
+    "idle_animation": "vc_animated_csv/vc_cgs_401008101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401008101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401008201.csv",
+    "id": "401008201",
+    "idle_animation": "vc_animated_csv/vc_cgs_401008201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401008201.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401008301.csv",
+    "id": "401008301",
+    "idle_animation": "vc_animated_csv/vc_cgs_401008301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401008301.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401008401.csv",
+    "id": "401008401",
+    "idle_animation": "vc_animated_csv/vc_cgs_401008401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401008401.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401008501.csv",
+    "id": "401008501",
+    "idle_animation": "vc_animated_csv/vc_cgs_401008501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401008501.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401008601.csv",
+    "id": "401008601",
+    "idle_animation": "vc_animated_csv/vc_cgs_401008601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401008601.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401008701.csv",
+    "id": "401008701",
+    "idle_animation": "vc_animated_csv/vc_cgs_401008701.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401008701.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401008801.csv",
+    "id": "401008801",
+    "idle_animation": "vc_animated_csv/vc_cgs_401008801.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401008801.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401008901.csv",
+    "id": "401008901",
+    "idle_animation": "vc_animated_csv/vc_cgs_401008901.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401008901.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401009001.csv",
+    "id": "401009001",
+    "idle_animation": "vc_animated_csv/vc_cgs_401009001.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401009001.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401009101.csv",
+    "id": "401009101",
+    "idle_animation": "vc_animated_csv/vc_cgs_401009101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401009101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401009201.csv",
+    "id": "401009201",
+    "idle_animation": "vc_animated_csv/vc_cgs_401009201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401009201.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401009301.csv",
+    "id": "401009301",
+    "idle_animation": "vc_animated_csv/vc_cgs_401009301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401009301.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401009401.csv",
+    "id": "401009401",
+    "idle_animation": "vc_animated_csv/vc_cgs_401009401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401009401.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401009501.csv",
+    "id": "401009501",
+    "idle_animation": "vc_animated_csv/vc_cgs_401009501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401009501.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401009601.csv",
+    "id": "401009601",
+    "idle_animation": "vc_animated_csv/vc_cgs_401009601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401009601.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401009701.csv",
+    "id": "401009701",
+    "idle_animation": "vc_animated_csv/vc_cgs_401009701.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401009701.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401009801.csv",
+    "id": "401009801",
+    "idle_animation": "vc_animated_csv/vc_cgs_401009801.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401009801.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401009901.csv",
+    "id": "401009901",
+    "idle_animation": "vc_animated_csv/vc_cgs_401009901.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401009901.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401010001.csv",
+    "id": "401010001",
+    "idle_animation": "vc_animated_csv/vc_cgs_401010001.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401010001.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401010101.csv",
+    "id": "401010101",
+    "idle_animation": "vc_animated_csv/vc_cgs_401010101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401010101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401010201.csv",
+    "id": "401010201",
+    "idle_animation": "vc_animated_csv/vc_cgs_401010201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401010201.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401010301.csv",
+    "id": "401010301",
+    "idle_animation": "vc_animated_csv/vc_cgs_401010301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401010301.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401010401.csv",
+    "id": "401010401",
+    "idle_animation": "vc_animated_csv/vc_cgs_401010401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401010401.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401010501.csv",
+    "id": "401010501",
+    "idle_animation": "vc_animated_csv/vc_cgs_401010501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401010501.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401010601.csv",
+    "id": "401010601",
+    "idle_animation": "vc_animated_csv/vc_cgs_401010601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401010601.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401010701.csv",
+    "id": "401010701",
+    "idle_animation": "vc_animated_csv/vc_cgs_401010701.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401010701.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401010801.csv",
+    "id": "401010801",
+    "idle_animation": "vc_animated_csv/vc_cgs_401010801.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401010801.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401010901.csv",
+    "id": "401010901",
+    "idle_animation": "vc_animated_csv/vc_cgs_401010901.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401010901.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401011001.csv",
+    "id": "401011001",
+    "idle_animation": "vc_animated_csv/vc_cgs_401011001.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401011001.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401011101.csv",
+    "id": "401011101",
+    "idle_animation": "vc_animated_csv/vc_cgs_401011101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401011101.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401011201.csv",
+    "id": "401011201",
+    "idle_animation": "vc_animated_csv/vc_cgs_401011201.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401011201.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401011301.csv",
+    "id": "401011301",
+    "idle_animation": "vc_animated_csv/vc_cgs_401011301.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401011301.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401011401.csv",
+    "id": "401011401",
+    "idle_animation": "vc_animated_csv/vc_cgs_401011401.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401011401.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401011501.csv",
+    "id": "401011501",
+    "idle_animation": "vc_animated_csv/vc_cgs_401011501.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401011501.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401011601.csv",
+    "id": "401011601",
+    "idle_animation": "vc_animated_csv/vc_cgs_401011601.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401011601.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401011701.csv",
+    "id": "401011701",
+    "idle_animation": "vc_animated_csv/vc_cgs_401011701.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401011701.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401011801.csv",
+    "id": "401011801",
+    "idle_animation": "vc_animated_csv/vc_cgs_401011801.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401011801.png"
+  },
+  {
+    "added_in_recovery": true,
+    "frame_data": "vc_animated_csv/vc_cgg_401011901.csv",
+    "id": "401011901",
+    "idle_animation": "vc_animated_csv/vc_cgs_401011901.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_401011901.png"
+  },
+  {
+    "added_in_recovery": false,
+    "frame_data": "vc_animated_csv/vc_cgg_900020101.csv",
+    "id": "900020101",
+    "idle_animation": "vc_animated_csv/vc_cgs_900020101.csv",
+    "sprite_sheet": "vc_vignette_animated/vc_vignette_anime_900020101.png"
+  }
+]

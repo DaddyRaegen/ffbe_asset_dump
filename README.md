@@ -1,11 +1,17 @@
 # Final Fantasy Brave Exvius Data Dump
-![GitHub repo size](https://img.shields.io/github/repo-size/KevinGbalay/ffbe_asset_dump)
+![GitHub repo size](https://img.shields.io/github/repo-size/DaddyRaegen/ffbe_asset_dump)
 
 A repo of Final Fantasy Brave Exvius in game assets
 
 ## How to find units
 In the `data.json` file, search for the name of the unit you're looking for. Copy the associated **Unit ID** and search the repository for that ID.
-`data.json` will be updated weekly with the current released units on the Global (GL) server. Japan (JP) server units are present in the datamine.
+`data.json` is a legacy name lookup and does not name every recovered unit. The [unit catalog](catalog/units.json), [monster catalog](catalog/monsters.json), and [vision-card catalog](catalog/vision_cards.json) list available sprite IDs and their matching animation inputs.
+
+## GL / JP asset recovery
+
+The September 2026 recovery adds 31,049 files from a local GL/JP dump, including 866 unit forms, 747 monster sprite IDs, 212 vision-card sprite IDs, and 681 background image names absent from the previous repository. Existing assets are preserved.
+
+See the [recovery report](reports/2026-09-29-recovery/REPORT.md) for category counts, validation, source limitations, and the [source manifest](reports/2026-09-29-recovery/source-manifest.csv). Vision-card animation data is in `vc_animated_csv`. Repeatable import instructions are in [tools/README.md](tools/README.md).
 
 ## How to convert the PNGs into animated sprites
 * Note: Requires [nodejs](https://nodejs.org/en/)

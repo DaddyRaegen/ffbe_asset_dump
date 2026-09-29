@@ -1,0 +1,18 @@
+page id=0 file="unit_num12_green.png"
+chars count=15
+char id=48 x=0   y=0 width=12 height=14 xoffset=0 yoffset=0 xadvance=11 page=0 chnl=0 letter="0"
+char id=49 x=12  y=0 width=12 height=14 xoffset=0 yoffset=0 xadvance=11 page=0 chnl=0 letter="1"
+char id=50 x=24  y=0 width=12 height=14 xoffset=0 yoffset=0 xadvance=11 page=0 chnl=0 letter="2"
+char id=51 x=36  y=0 width=12 height=14 xoffset=0 yoffset=0 xadvance=11 page=0 chnl=0 letter="3"
+char id=52 x=48  y=0 width=12 height=14 xoffset=0 yoffset=0 xadvance=11 page=0 chnl=0 letter="4"
+char id=53 x=60  y=0 width=12 height=14 xoffset=0 yoffset=0 xadvance=11 page=0 chnl=0 letter="5"
+char id=54 x=72  y=0 width=12 height=14 xoffset=0 yoffset=0 xadvance=11 page=0 chnl=0 letter="6"
+char id=55 x=84  y=0 width=12 height=14 xoffset=0 yoffset=0 xadvance=11 page=0 chnl=0 letter="7"
+char id=56 x=96  y=0 width=12 height=14 xoffset=0 yoffset=0 xadvance=11 page=0 chnl=0 letter="8"
+char id=57 x=108 y=0 width=12 height=14 xoffset=0 yoffset=0 xadvance=11 page=0 chnl=0 letter="9"
+char id=43 x=120 y=0 width=11 height=14 xoffset=0 yoffset=0 xadvance=13 page=0 chnl=0 letter="+"
+char id=37 x=131 y=0 width=13 height=14 xoffset=0 yoffset=0 xadvance=13 page=0 chnl=0 letter="%"
+char id=43 x=144 y=0 width=12 height=14 xoffset=0 yoffset=0 xadvance=12 page=0 chnl=0 letter="x"
+char id=46 x=156 y=0 width=7  height=14 xoffset=0 yoffset=0 xadvance=7  page=0 chnl=0 letter="."
+char id=126 x=163 y=0 width=12 height=14 xoffset=0 yoffset=0 xadvance=12 page=0 chnl=0 letter="~"
+kernings count=0
