@@ -22,7 +22,9 @@ def validate(repo, dump=None):
     sources = json.loads((repo / 'catalog/unit_identity_sources.json').read_text(encoding='utf-8'))
     master = json.loads((repo / 'catalog/unit_master.json').read_text(encoding='utf-8'))
     legacy = json.loads((repo / 'catalog/units.json').read_text(encoding='utf-8'))
-    expected_master = build_master(sources, decisions, legacy, manifest)
+    series_path = repo / 'catalog/series_sources.json'
+    series_sources = json.loads(series_path.read_text(encoding='utf-8')) if series_path.exists() else None
+    expected_master = build_master(sources, decisions, legacy, manifest, series_sources=series_sources)
     assert master == expected_master, 'master registry differs from its reviewed inputs'
     collisions = {row['original_id']: row for row in decisions['collisions']}
     assert len(collisions) == len(decisions['collisions']), 'duplicate collision decisions'
@@ -124,6 +126,10 @@ def validate(repo, dump=None):
         for source in sources['sources'].values():
             assert digest(Path(source['path'])) == source['sha256'], source['path']
             verified_sources += 1
+        if series_sources:
+            for source in series_sources['sources'].values():
+                assert digest(Path(source['path'])) == source['sha256'], source['path']
+                verified_sources += 1
     return {'status': 'passed', 'master_ids': len(ids), 'regional_aliases': len(aliases),
             'collision_form_ids': len(collisions), 'restored_bundles': len(bundle_files),
             'restored_files': len(paths), 'bytes': sum(x['bytes'] for x in manifest['files']),

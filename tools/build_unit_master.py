@@ -106,7 +106,7 @@ def annotate_legacy(entries, decisions):
     return result
 
 
-def build_master(snapshot, decisions, legacy_rows, manifest=None, repo=None):
+def build_master(snapshot, decisions, legacy_rows, manifest=None, repo=None, series_sources=None):
     if decisions.get("schema_version") != 1:
         raise ValueError("Unsupported identity decision schema")
     expected_fingerprint = decisions.get("source_snapshot_fingerprint")
@@ -190,7 +190,11 @@ def build_master(snapshot, decisions, legacy_rows, manifest=None, repo=None):
                 "missing_english_name_ids": [row["master_id"] for row in units if not english(row["name"])],
                 "rejected_name_metadata": rejected,
                 "translated_rows_excluded_from_jp_membership": len(maps.get("translated", {}).keys() - jp.keys())}
-    return {"schema_version": 1, "sources": source_metadata, "coverage": coverage, "units": units}
+    result = {"schema_version": 1, "sources": source_metadata, "coverage": coverage, "units": units}
+    if series_sources is not None:
+        from unit_series import attach_series
+        attach_series(result, snapshot, series_sources)
+    return result
 
 
 def main():
@@ -201,13 +205,16 @@ def main():
     parser.add_argument("--legacy-catalog", type=Path)
     parser.add_argument("--asset-manifest", type=Path)
     parser.add_argument("--output", type=Path)
+    parser.add_argument("--series-sources", type=Path)
     parser.add_argument("--annotate-legacy", action="store_true", help="Add ambiguity metadata to collision rows in the selected legacy catalog")
     args = parser.parse_args()
     manifest_path = args.asset_manifest or args.repo / DEFAULT_REPORT
     if args.asset_manifest and not manifest_path.is_file():
         parser.error(f"Manifest not found: {manifest_path}")
+    series_path = args.series_sources or args.repo / "catalog/series_sources.json"
     result = build_master(read_json(args.sources or args.repo / "catalog/unit_identity_sources.json"), read_json(args.decisions or args.repo / "catalog/unit_identity_decisions.json"),
-                          read_json(args.legacy_catalog or args.repo / "catalog/units.json"), read_json(manifest_path) if manifest_path.is_file() else None, repo=args.repo)
+                          read_json(args.legacy_catalog or args.repo / "catalog/units.json"), read_json(manifest_path) if manifest_path.is_file() else None, repo=args.repo,
+                          series_sources=read_json(series_path) if series_path.is_file() else None)
     output = args.output or args.repo / "catalog/unit_master.json"
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

@@ -1,0 +1,3652 @@
+{
+  "schema_version": 1,
+  "assignment_rule": "Look up each regional SSID unit row game_id in that region F_GAME_TITLE_MST. Never infer a unit franchise from a unit name or numeric unit-ID prefix. Use per-region codes where GL/JP differ.",
+  "normalization_note": "Name and short_name identify the source game/title; franchise groups related titles. Expansion/translation of verified master labels is editorial normalization, not an assertion that every spelling is official localized text. Preserve raw_names and localized_gl_name.",
+  "sources": {
+    "GL_game_master": {
+      "path": "T:/Projects/ffbe/dump/FFBE_GL/d3syu63yncawjw.cloudfront.net/lapis-static-prod/dlc_assets_prod/mst/Ver69_91D3CfxA.dat",
+      "sha256": "f59290ec7c3a17e82751de91af6488a3ac823e731f715db9b71774c93ea5df71",
+      "bytes": 12240
+    },
+    "JP_game_master": {
+      "path": "T:/Projects/ffbe/dump/FFBE_JP/cdn.resource.exvius.com/lapis/resource/mst/Ver99_91D3CfxA.dat",
+      "sha256": "ce357891d732ec3bc2045cb7912544dc00e66037c1f0961c6f21ccf7320a4020",
+      "bytes": 11455
+    },
+    "GL_localized_titles": {
+      "path": "T:/Projects/ffbe/ffbe-wiki-tools/datamine/dat_raw/gl/F_TEXT_GAME_TITLE_NAME.txt",
+      "sha256": "95fd0f6ef3a3d0204d348af4d1d2a206d143e46fb78d2fbda4c103ecfdc6beb7",
+      "bytes": 3089
+    },
+    "GL_datamine_units": {
+      "path": "T:/Projects/ffbe/ffbe-wiki-tools/datamine/data/gl/units.json",
+      "sha256": "ce4d05d6ef79dfdb3b8eefb5817a7b5358691f295ba569bd25994f18fb17dc2e",
+      "bytes": 15323926
+    }
+  },
+  "mapping": {
+    "10001": {
+      "game_id": "10001",
+      "raw_names": {
+        "GL": "FF1",
+        "JP": "FFI"
+      },
+      "regional_icon_ids": {
+        "GL": "110001",
+        "JP": "110001"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Final Fantasy I",
+      "franchise": "Final Fantasy",
+      "short_name": "FFI",
+      "localized_gl_name": "FFI",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "10002": {
+      "game_id": "10002",
+      "raw_names": {
+        "GL": "FFII",
+        "JP": "FFII"
+      },
+      "regional_icon_ids": {
+        "GL": "110002",
+        "JP": "110002"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Final Fantasy II",
+      "franchise": "Final Fantasy",
+      "short_name": "FFII",
+      "localized_gl_name": "FFII",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "10003": {
+      "game_id": "10003",
+      "raw_names": {
+        "GL": "FF3",
+        "JP": "FFIII"
+      },
+      "regional_icon_ids": {
+        "GL": "110003",
+        "JP": "110003"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Final Fantasy III",
+      "franchise": "Final Fantasy",
+      "short_name": "FFIII",
+      "localized_gl_name": "FFIII",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "10004": {
+      "game_id": "10004",
+      "raw_names": {
+        "GL": "FF4",
+        "JP": "FFIV"
+      },
+      "regional_icon_ids": {
+        "GL": "110004",
+        "JP": "110004"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Final Fantasy IV",
+      "franchise": "Final Fantasy",
+      "short_name": "FFIV",
+      "localized_gl_name": "FFIV",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "10005": {
+      "game_id": "10005",
+      "raw_names": {
+        "GL": "FF5",
+        "JP": "FFV"
+      },
+      "regional_icon_ids": {
+        "GL": "110005",
+        "JP": "110005"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Final Fantasy V",
+      "franchise": "Final Fantasy",
+      "short_name": "FFV",
+      "localized_gl_name": "FFV",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "10006": {
+      "game_id": "10006",
+      "raw_names": {
+        "GL": "FF6",
+        "JP": "FF6"
+      },
+      "regional_icon_ids": {
+        "GL": "110006",
+        "JP": "110006"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Final Fantasy VI",
+      "franchise": "Final Fantasy",
+      "short_name": "FFVI",
+      "localized_gl_name": "FFVI",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "10007": {
+      "game_id": "10007",
+      "raw_names": {
+        "GL": "FF7",
+        "JP": "FFVII"
+      },
+      "regional_icon_ids": {
+        "GL": "110007",
+        "JP": "110007"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Final Fantasy VII",
+      "franchise": "Final Fantasy",
+      "short_name": "FFVII",
+      "localized_gl_name": "FFVII",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "10008": {
+      "game_id": "10008",
+      "raw_names": {
+        "GL": "FF8",
+        "JP": "FFVIII"
+      },
+      "regional_icon_ids": {
+        "GL": "110008",
+        "JP": "110008"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Final Fantasy VIII",
+      "franchise": "Final Fantasy",
+      "short_name": "FFVIII",
+      "localized_gl_name": "FFVIII",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "10009": {
+      "game_id": "10009",
+      "raw_names": {
+        "GL": "FF9",
+        "JP": "FFIX"
+      },
+      "regional_icon_ids": {
+        "GL": "110009",
+        "JP": "110009"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Final Fantasy IX",
+      "franchise": "Final Fantasy",
+      "short_name": "FFIX",
+      "localized_gl_name": "FFIX",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "10010": {
+      "game_id": "10010",
+      "raw_names": {
+        "GL": "FF10",
+        "JP": "FFX"
+      },
+      "regional_icon_ids": {
+        "GL": "110010",
+        "JP": "110010"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Final Fantasy X",
+      "franchise": "Final Fantasy",
+      "short_name": "FFX",
+      "localized_gl_name": "FFX",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "10011": {
+      "game_id": "10011",
+      "raw_names": {
+        "GL": "FF11",
+        "JP": "FF11"
+      },
+      "regional_icon_ids": {
+        "GL": "110011",
+        "JP": "110011"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Final Fantasy XI",
+      "franchise": "Final Fantasy",
+      "short_name": "FFXI",
+      "localized_gl_name": "FFXI",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "10012": {
+      "game_id": "10012",
+      "raw_names": {
+        "GL": "FF12",
+        "JP": "FFXII"
+      },
+      "regional_icon_ids": {
+        "GL": "110012",
+        "JP": "110012"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Final Fantasy XII",
+      "franchise": "Final Fantasy",
+      "short_name": "FFXII",
+      "localized_gl_name": "FFXII",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "10013": {
+      "game_id": "10013",
+      "raw_names": {
+        "GL": "FF13",
+        "JP": "FF13"
+      },
+      "regional_icon_ids": {
+        "GL": "110013",
+        "JP": "110013"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Final Fantasy XIII",
+      "franchise": "Final Fantasy",
+      "short_name": "FFXIII",
+      "localized_gl_name": "FFXIII",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "10014": {
+      "game_id": "10014",
+      "raw_names": {
+        "GL": "FF14",
+        "JP": "FF14"
+      },
+      "regional_icon_ids": {
+        "GL": "110014",
+        "JP": "110014"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Final Fantasy XIV",
+      "franchise": "Final Fantasy",
+      "short_name": "FFXIV",
+      "localized_gl_name": "FFXIV",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "10015": {
+      "game_id": "10015",
+      "raw_names": {
+        "GL": "FF15",
+        "JP": "FF15"
+      },
+      "regional_icon_ids": {
+        "GL": "110015",
+        "JP": "110015"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Final Fantasy XV",
+      "franchise": "Final Fantasy",
+      "short_name": "FFXV",
+      "localized_gl_name": "FFXV",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "10016": {
+      "game_id": "10016",
+      "raw_names": {
+        "GL": "FF16",
+        "JP": "FF16"
+      },
+      "regional_icon_ids": {
+        "GL": "110016",
+        "JP": "110016"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master"
+      ],
+      "name": "Final Fantasy XVI",
+      "franchise": "Final Fantasy",
+      "short_name": "FFXVI",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "11001": {
+      "game_id": "11001",
+      "raw_names": {
+        "GL": "FFBE",
+        "JP": "FFBE"
+      },
+      "regional_icon_ids": {
+        "GL": "111001",
+        "JP": "111001"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Final Fantasy Brave Exvius",
+      "franchise": "Final Fantasy",
+      "short_name": "FFBE",
+      "localized_gl_name": "FFBE",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "11002": {
+      "game_id": "11002",
+      "raw_names": {
+        "GL": "FFT",
+        "JP": "FFT"
+      },
+      "regional_icon_ids": {
+        "GL": "111002",
+        "JP": "111002"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Final Fantasy Tactics",
+      "franchise": "Final Fantasy",
+      "short_name": "FFT",
+      "localized_gl_name": "FFT",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "11003": {
+      "game_id": "11003",
+      "raw_names": {
+        "GL": "FF零式",
+        "JP": "FF零式"
+      },
+      "regional_icon_ids": {
+        "GL": "111003",
+        "JP": "111003"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Final Fantasy Type-0",
+      "franchise": "Final Fantasy",
+      "short_name": "FF Type-0",
+      "localized_gl_name": "FF Type-0",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "11004": {
+      "game_id": "11004",
+      "raw_names": {
+        "GL": "FF10-2",
+        "JP": "FFX-2"
+      },
+      "regional_icon_ids": {
+        "GL": "111004",
+        "JP": "111004"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Final Fantasy X-2",
+      "franchise": "Final Fantasy",
+      "short_name": "FFX-2",
+      "localized_gl_name": "FFX-2",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "11005": {
+      "game_id": "11005",
+      "raw_names": {
+        "GL": "FF12 RW",
+        "JP": "FF12 RW"
+      },
+      "regional_icon_ids": {
+        "GL": "111005",
+        "JP": "111005"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Final Fantasy XII: Revenant Wings",
+      "franchise": "Final Fantasy",
+      "short_name": "FFXII RW",
+      "localized_gl_name": "FFXII RW",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "11006": {
+      "game_id": "11006",
+      "raw_names": {
+        "GL": "FF13-2",
+        "JP": "FF13-2"
+      },
+      "regional_icon_ids": {
+        "GL": "111006",
+        "JP": "111006"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Final Fantasy XIII-2",
+      "franchise": "Final Fantasy",
+      "short_name": "FFXIII-2",
+      "localized_gl_name": "FFXIII-2",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "11007": {
+      "game_id": "11007",
+      "raw_names": {
+        "GL": "LR FF13",
+        "JP": "LR FF13"
+      },
+      "regional_icon_ids": {
+        "GL": "111007",
+        "JP": "111007"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Lightning Returns: Final Fantasy XIII",
+      "franchise": "Final Fantasy",
+      "short_name": "LRFFXIII",
+      "localized_gl_name": "LRFFXIII",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "11008": {
+      "game_id": "11008",
+      "raw_names": {
+        "GL": "FF4TA",
+        "JP": "FF4TA"
+      },
+      "regional_icon_ids": {
+        "GL": "111008",
+        "JP": "111008"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Final Fantasy IV: The After Years",
+      "franchise": "Final Fantasy",
+      "short_name": "FFIV TAY",
+      "localized_gl_name": "FFIV: TAY",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "11009": {
+      "game_id": "11009",
+      "raw_names": {
+        "GL": "FF7AC",
+        "JP": "FF7AC"
+      },
+      "regional_icon_ids": {
+        "GL": "111009",
+        "JP": "111009"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master"
+      ],
+      "name": "Final Fantasy VII: Advent Children",
+      "franchise": "Final Fantasy",
+      "short_name": "FFVII AC",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "11010": {
+      "game_id": "11010",
+      "raw_names": {
+        "GL": "FFBE幻影戦争",
+        "JP": "FFBE幻影戦争"
+      },
+      "regional_icon_ids": {
+        "GL": "111010",
+        "JP": "111010"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "War of the Visions: Final Fantasy Brave Exvius",
+      "franchise": "Final Fantasy",
+      "short_name": "WOTV FFBE",
+      "localized_gl_name": "WOTV FFBE",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "11011": {
+      "game_id": "11011",
+      "raw_names": {
+        "GL": "FINAL FANTASY Record Keeper",
+        "JP": "FINAL FANTASY Record Keeper"
+      },
+      "regional_icon_ids": {
+        "GL": "111011",
+        "JP": "111011"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master"
+      ],
+      "name": "Final Fantasy Record Keeper",
+      "franchise": "Final Fantasy",
+      "short_name": "FFRK",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "11012": {
+      "game_id": "11012",
+      "raw_names": {
+        "GL": "CCFF7",
+        "JP": "CCFF7"
+      },
+      "regional_icon_ids": {
+        "GL": "111012",
+        "JP": "111012"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Crisis Core: Final Fantasy VII",
+      "franchise": "Final Fantasy",
+      "short_name": "CCFFVII",
+      "localized_gl_name": "CCFFVIIR",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true,
+      "note": "Localized text may specify a localized title/remake edition while native master uses a broader title; preserve both labels without inventing edition distinctions."
+    },
+    "20001": {
+      "game_id": "20001",
+      "raw_names": {
+        "GL": "TERRA BATTLE",
+        "JP": "TERRA BATTLE"
+      },
+      "regional_icon_ids": {
+        "GL": "120001",
+        "JP": "120001"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Terra Battle",
+      "franchise": "Terra Battle",
+      "short_name": "Terra Battle",
+      "localized_gl_name": "Terra Battle",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20002": {
+      "game_id": "20002",
+      "raw_names": {
+        "GL": "ImperialSaGa",
+        "JP": "ImperialSaGa"
+      },
+      "regional_icon_ids": {
+        "GL": "120002",
+        "JP": "120002"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Imperial SaGa",
+      "franchise": "SaGa",
+      "short_name": "Imperial SaGa",
+      "localized_gl_name": "Imperial SaGa",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20003": {
+      "game_id": "20003",
+      "raw_names": {
+        "GL": "ブレイブ フロンティア",
+        "JP": "ブレイブ フロンティア"
+      },
+      "regional_icon_ids": {
+        "GL": "120003",
+        "JP": "120003"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Brave Frontier",
+      "franchise": "Brave Frontier",
+      "short_name": "Brave Frontier",
+      "localized_gl_name": "Brave Frontier",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20004": {
+      "game_id": "20004",
+      "raw_names": {
+        "GL": "CRYSTAL DEFENDERS",
+        "JP": "CRYSTAL DEFENDERS"
+      },
+      "regional_icon_ids": {
+        "GL": "120004",
+        "JP": "120004"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Crystal Defenders",
+      "franchise": "Final Fantasy",
+      "short_name": "Crystal Defenders",
+      "localized_gl_name": "Crystal Defenders",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20005": {
+      "game_id": "20005",
+      "raw_names": {
+        "GL": "聖剣伝説2",
+        "JP": "聖剣伝説2"
+      },
+      "regional_icon_ids": {
+        "GL": "120005",
+        "JP": "120005"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Secret of Mana",
+      "franchise": "Mana",
+      "short_name": "Secret of Mana",
+      "localized_gl_name": "Secret of Mana",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20006": {
+      "game_id": "20006",
+      "raw_names": {
+        "GL": "DQMSL",
+        "JP": "DQMSL"
+      },
+      "regional_icon_ids": {
+        "GL": "120006",
+        "JP": "120006"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Dragon Quest Monsters Super Light",
+      "franchise": "Dragon Quest",
+      "short_name": "DQMSL",
+      "localized_gl_name": "Dragon Quest",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20007": {
+      "game_id": "20007",
+      "raw_names": {
+        "GL": "モンスターハンターエクスプロア",
+        "JP": "モンスターハンターエクスプロア"
+      },
+      "regional_icon_ids": {
+        "GL": "120007",
+        "JP": "120007"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Monster Hunter Explore",
+      "franchise": "Monster Hunter",
+      "short_name": "Monster Hunter Explore",
+      "localized_gl_name": "NA",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true,
+      "note": "GL localized label is NA; use explicit JP/GL game-master title instead."
+    },
+    "20008": {
+      "game_id": "20008",
+      "raw_names": {
+        "GL": "RomancingSa・Ga3",
+        "JP": "RomancingSa・Ga3"
+      },
+      "regional_icon_ids": {
+        "GL": "120008",
+        "JP": "120008"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Romancing SaGa 3",
+      "franchise": "SaGa",
+      "short_name": "Romancing SaGa 3",
+      "localized_gl_name": "NA",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true,
+      "note": "GL localized label is NA; use explicit JP/GL game-master title instead."
+    },
+    "20009": {
+      "game_id": "20009",
+      "raw_names": {
+        "JP": "ARIANA GRANDE"
+      },
+      "regional_icon_ids": {
+        "JP": "120009"
+      },
+      "source_ids": [
+        "JP_game_master"
+      ],
+      "name": "Ariana Grande",
+      "franchise": "Ariana Grande",
+      "short_name": "Ariana Grande",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20010": {
+      "game_id": "20010",
+      "raw_names": {
+        "GL": "NieR Automata",
+        "JP": "NieR:Automata"
+      },
+      "regional_icon_ids": {
+        "GL": "120010",
+        "JP": "120010"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "NieR:Automata",
+      "franchise": "NieR",
+      "short_name": "NieR:Automata",
+      "localized_gl_name": "NieR:Automata",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20011": {
+      "game_id": "20011",
+      "raw_names": {
+        "GL": "聖剣伝説",
+        "JP": "聖剣伝説"
+      },
+      "regional_icon_ids": {
+        "GL": "120011",
+        "JP": "120011"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Final Fantasy Adventure",
+      "franchise": "Mana",
+      "short_name": "Final Fantasy Adventure",
+      "localized_gl_name": "FINAL FANTASY ADVENTURE",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20012": {
+      "game_id": "20012",
+      "raw_names": {
+        "GL": "聖剣伝説3",
+        "JP": "聖剣伝説3"
+      },
+      "regional_icon_ids": {
+        "GL": "120012",
+        "JP": "120012"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Trials of Mana / Seiken Densetsu 3",
+      "franchise": "Mana",
+      "short_name": "Trials of Mana / Seiken Densetsu 3",
+      "localized_gl_name": "Seiken Densetsu 3",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true,
+      "note": "Localized text may specify a localized title/remake edition while native master uses a broader title; preserve both labels without inventing edition distinctions."
+    },
+    "20013": {
+      "game_id": "20013",
+      "raw_names": {
+        "GL": "BRAVELYDEFAULT",
+        "JP": "BRAVELYDEFAULT"
+      },
+      "regional_icon_ids": {
+        "GL": "120013",
+        "JP": "120013"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Bravely Default",
+      "franchise": "Bravely",
+      "short_name": "Bravely Default",
+      "localized_gl_name": "Bravely Default",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20014": {
+      "game_id": "20014",
+      "raw_names": {
+        "GL": "BRAVELYDEFAULTFE",
+        "JP": "BRAVELYDEFAULTFE"
+      },
+      "regional_icon_ids": {
+        "GL": "120014",
+        "JP": "120014"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Bravely Default: Fairy's Effect",
+      "franchise": "Bravely",
+      "short_name": "Bravely Default: Fairy's Effect",
+      "localized_gl_name": "Bravely Default FE",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20015": {
+      "game_id": "20015",
+      "raw_names": {
+        "GL": "BRAVELYSECOND",
+        "JP": "BRAVELYSECOND"
+      },
+      "regional_icon_ids": {
+        "GL": "120015",
+        "JP": "120015"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Bravely Second",
+      "franchise": "Bravely",
+      "short_name": "Bravely Second",
+      "localized_gl_name": "Bravely Second",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20016": {
+      "game_id": "20016",
+      "raw_names": {
+        "GL": "SO1",
+        "JP": "SO1"
+      },
+      "regional_icon_ids": {
+        "GL": "120016",
+        "JP": "120016"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Star Ocean",
+      "franchise": "Star Ocean",
+      "short_name": "SO1",
+      "localized_gl_name": "SO1",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20017": {
+      "game_id": "20017",
+      "raw_names": {
+        "GL": "SO2",
+        "JP": "SO2"
+      },
+      "regional_icon_ids": {
+        "GL": "120017",
+        "JP": "120017"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Star Ocean: The Second Story",
+      "franchise": "Star Ocean",
+      "short_name": "SO2",
+      "localized_gl_name": "SO2",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20018": {
+      "game_id": "20018",
+      "raw_names": {
+        "GL": "SO3",
+        "JP": "SO3"
+      },
+      "regional_icon_ids": {
+        "GL": "120018",
+        "JP": "120018"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Star Ocean: Till the End of Time",
+      "franchise": "Star Ocean",
+      "short_name": "SO3",
+      "localized_gl_name": "SO3",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20019": {
+      "game_id": "20019",
+      "raw_names": {
+        "GL": "SO4",
+        "JP": "SO4"
+      },
+      "regional_icon_ids": {
+        "GL": "120019",
+        "JP": "120019"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Star Ocean: The Last Hope",
+      "franchise": "Star Ocean",
+      "short_name": "SO4",
+      "localized_gl_name": "SO4",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20020": {
+      "game_id": "20020",
+      "raw_names": {
+        "GL": "SO5",
+        "JP": "SO5"
+      },
+      "regional_icon_ids": {
+        "GL": "120020",
+        "JP": "120020"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Star Ocean: Integrity and Faithlessness",
+      "franchise": "Star Ocean",
+      "short_name": "SO5",
+      "localized_gl_name": "SO5",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20021": {
+      "game_id": "20021",
+      "raw_names": {
+        "GL": "キングスナイト WoDD",
+        "JP": "キングスナイト WoDD"
+      },
+      "regional_icon_ids": {
+        "GL": "120021",
+        "JP": "120021"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "King's Knight: Wrath of the Dark Dragon",
+      "franchise": "King's Knight",
+      "short_name": "King's Knight: Wrath of the Dark Dragon",
+      "localized_gl_name": "King's Knight WoDD",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20022": {
+      "game_id": "20022",
+      "raw_names": {
+        "GL": "ヴァルキリープロファイル",
+        "JP": "ヴァルキリープロファイル"
+      },
+      "regional_icon_ids": {
+        "GL": "120022",
+        "JP": "120022"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Valkyrie Profile",
+      "franchise": "Valkyrie Profile",
+      "short_name": "Valkyrie Profile",
+      "localized_gl_name": "VALKYRIE PROFILE -LENNETH-",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true,
+      "note": "Localized text may specify a localized title/remake edition while native master uses a broader title; preserve both labels without inventing edition distinctions."
+    },
+    "20023": {
+      "game_id": "20023",
+      "raw_names": {
+        "GL": "ララ・クロフト アンド テンプル オブ オシリス",
+        "JP": "ララ・クロフト アンド テンプル オブ オシリス"
+      },
+      "regional_icon_ids": {
+        "GL": "120023",
+        "JP": "120023"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Lara Croft and the Temple of Osiris",
+      "franchise": "Tomb Raider",
+      "short_name": "Lara Croft and the Temple of Osiris",
+      "localized_gl_name": "Lara Croft and the Temple of Osiris",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20024": {
+      "game_id": "20024",
+      "raw_names": {
+        "GL": "ゼノギアス",
+        "JP": "ゼノギアス"
+      },
+      "regional_icon_ids": {
+        "GL": "120024",
+        "JP": "120024"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Xenogears",
+      "franchise": "Xenogears",
+      "short_name": "Xenogears",
+      "localized_gl_name": "Xenogears",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20025": {
+      "game_id": "20025",
+      "raw_names": {
+        "GL": "オクトパストラベラー",
+        "JP": "オクトパストラベラー"
+      },
+      "regional_icon_ids": {
+        "GL": "120025",
+        "JP": "120025"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Octopath Traveler",
+      "franchise": "Octopath Traveler",
+      "short_name": "Octopath Traveler",
+      "localized_gl_name": "Octopath Traveler",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20026": {
+      "game_id": "20026",
+      "raw_names": {
+        "GL": "リコドキッ！",
+        "JP": "リコドキッ！"
+      },
+      "regional_icon_ids": {
+        "GL": "120026",
+        "JP": "120026"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master"
+      ],
+      "name": "リコドキッ！",
+      "franchise": "リコドキッ！",
+      "short_name": "リコドキッ！",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": false
+    },
+    "20027": {
+      "game_id": "20027",
+      "raw_names": {
+        "GL": "WOFF",
+        "JP": "WOFF"
+      },
+      "regional_icon_ids": {
+        "GL": "120027",
+        "JP": "120027"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master"
+      ],
+      "name": "World of Final Fantasy",
+      "franchise": "Final Fantasy",
+      "short_name": "WOFF",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20028": {
+      "game_id": "20028",
+      "raw_names": {
+        "GL": "KH",
+        "JP": "KH"
+      },
+      "regional_icon_ids": {
+        "GL": "120028",
+        "JP": "120028"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Kingdom Hearts",
+      "franchise": "Kingdom Hearts",
+      "short_name": "KH",
+      "localized_gl_name": "Kingdom Hearts",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20029": {
+      "game_id": "20029",
+      "raw_names": {
+        "GL": "DQXIS",
+        "JP": "DQXIS"
+      },
+      "regional_icon_ids": {
+        "GL": "120029",
+        "JP": "120029"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Dragon Quest XI S",
+      "franchise": "Dragon Quest",
+      "short_name": "DQXI S",
+      "localized_gl_name": "DRAGON QUEST XI S",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20030": {
+      "game_id": "20030",
+      "raw_names": {
+        "GL": "SINoALICE",
+        "JP": "SINoALICE"
+      },
+      "regional_icon_ids": {
+        "GL": "120030",
+        "JP": "120030"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master"
+      ],
+      "name": "SINoALICE",
+      "franchise": "SINoALICE",
+      "short_name": "SINoALICE",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20031": {
+      "game_id": "20031",
+      "raw_names": {
+        "GL": "KATY PERRY",
+        "JP": "KATY PERRY"
+      },
+      "regional_icon_ids": {
+        "GL": "120031",
+        "JP": "120031"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master"
+      ],
+      "name": "Katy Perry",
+      "franchise": "Katy Perry",
+      "short_name": "Katy Perry",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20032": {
+      "game_id": "20032",
+      "raw_names": {
+        "GL": "鋼の錬金術師",
+        "JP": "鋼の錬金術師"
+      },
+      "regional_icon_ids": {
+        "GL": "120032",
+        "JP": "120032"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master"
+      ],
+      "name": "Fullmetal Alchemist",
+      "franchise": "Fullmetal Alchemist",
+      "short_name": "FMA",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20033": {
+      "game_id": "20033",
+      "raw_names": {
+        "GL": "キングダム ハーツIII",
+        "JP": "キングダム ハーツIII"
+      },
+      "regional_icon_ids": {
+        "GL": "120033",
+        "JP": "120033"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master"
+      ],
+      "name": "Kingdom Hearts III",
+      "franchise": "Kingdom Hearts",
+      "short_name": "KHIII",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20034": {
+      "game_id": "20034",
+      "raw_names": {
+        "GL": "キングダム ハーツ ダーク ロード",
+        "JP": "キングダム ハーツ ダーク ロード"
+      },
+      "regional_icon_ids": {
+        "GL": "120034",
+        "JP": "120034"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master"
+      ],
+      "name": "Kingdom Hearts Dark Road",
+      "franchise": "Kingdom Hearts",
+      "short_name": "Kingdom Hearts Dark Road",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20035": {
+      "game_id": "20035",
+      "raw_names": {
+        "GL": "聖剣伝説LoM",
+        "JP": "聖剣伝説LoM"
+      },
+      "regional_icon_ids": {
+        "GL": "120035",
+        "JP": "120035"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Legend of Mana",
+      "franchise": "Mana",
+      "short_name": "Legend of Mana",
+      "localized_gl_name": "Legend of Mana",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20036": {
+      "game_id": "20036",
+      "raw_names": {
+        "GL": "アクトレイザー",
+        "JP": "アクトレイザー"
+      },
+      "regional_icon_ids": {
+        "GL": "120036",
+        "JP": "120036"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Actraiser",
+      "franchise": "Actraiser",
+      "short_name": "Actraiser",
+      "localized_gl_name": "Actraiser Renaissance",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true,
+      "note": "Localized text may specify a localized title/remake edition while native master uses a broader title; preserve both labels without inventing edition distinctions."
+    },
+    "20037": {
+      "game_id": "20037",
+      "raw_names": {
+        "GL": "ドラゴンクエスト ダイの大冒険",
+        "JP": "ドラゴンクエスト ダイの大冒険"
+      },
+      "regional_icon_ids": {
+        "GL": "120037",
+        "JP": "120037"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Dragon Quest: The Adventure of Dai",
+      "franchise": "Dragon Quest",
+      "short_name": "Dragon Quest: The Adventure of Dai",
+      "localized_gl_name": "DRAGON QUEST The Adventure of Dai",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20038": {
+      "game_id": "20038",
+      "raw_names": {
+        "GL": "クロノ・クロス",
+        "JP": "クロノ・クロス"
+      },
+      "regional_icon_ids": {
+        "GL": "120038",
+        "JP": "120038"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Chrono Cross",
+      "franchise": "Chrono",
+      "short_name": "Chrono Cross",
+      "localized_gl_name": "Chrono Cross",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20039": {
+      "game_id": "20039",
+      "raw_names": {
+        "GL": "ドラゴンクエスト列伝　ロトの紋章",
+        "JP": "ドラゴンクエスト列伝 ロトの紋章"
+      },
+      "regional_icon_ids": {
+        "GL": "120039",
+        "JP": "120039"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master"
+      ],
+      "name": "Dragon Quest: The Emblem of Roto",
+      "franchise": "Dragon Quest",
+      "short_name": "Dragon Quest: The Emblem of Roto",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20040": {
+      "game_id": "20040",
+      "raw_names": {
+        "GL": "Voice of Cards",
+        "JP": "Voice of Cards"
+      },
+      "regional_icon_ids": {
+        "GL": "120040",
+        "JP": "120040"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master"
+      ],
+      "name": "Voice of Cards",
+      "franchise": "Voice of Cards",
+      "short_name": "Voice of Cards",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20041": {
+      "game_id": "20041",
+      "raw_names": {
+        "GL": "Engage Kill",
+        "JP": "Engage Kill"
+      },
+      "regional_icon_ids": {
+        "GL": "120041",
+        "JP": "120041"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master"
+      ],
+      "name": "Engage Kill",
+      "franchise": "Engage Kill",
+      "short_name": "Engage Kill",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20042": {
+      "game_id": "20042",
+      "raw_names": {
+        "GL": "パラサイト・イヴ",
+        "JP": "パラサイト・イヴ"
+      },
+      "regional_icon_ids": {
+        "GL": "120042",
+        "JP": "120042"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master"
+      ],
+      "name": "Parasite Eve",
+      "franchise": "Parasite Eve",
+      "short_name": "Parasite Eve",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20043": {
+      "game_id": "20043",
+      "raw_names": {
+        "GL": "RomancingSa・Ga",
+        "JP": "RomancingSa・Ga"
+      },
+      "regional_icon_ids": {
+        "GL": "120043",
+        "JP": "120043"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master"
+      ],
+      "name": "Romancing SaGa",
+      "franchise": "SaGa",
+      "short_name": "Romancing SaGa",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20044": {
+      "game_id": "20044",
+      "raw_names": {
+        "GL": "RomancingSa・Ga2",
+        "JP": "RomancingSa・Ga2"
+      },
+      "regional_icon_ids": {
+        "GL": "120044",
+        "JP": "120044"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master"
+      ],
+      "name": "Romancing SaGa 2",
+      "franchise": "SaGa",
+      "short_name": "Romancing SaGa 2",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20045": {
+      "game_id": "20045",
+      "raw_names": {
+        "GL": "SaGa Frontier",
+        "JP": "SaGa Frontier"
+      },
+      "regional_icon_ids": {
+        "GL": "120045",
+        "JP": "120045"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master"
+      ],
+      "name": "SaGa Frontier",
+      "franchise": "SaGa",
+      "short_name": "SaGa Frontier",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20046": {
+      "game_id": "20046",
+      "raw_names": {
+        "GL": "SaGa Frontier2",
+        "JP": "SaGa Frontier2"
+      },
+      "regional_icon_ids": {
+        "GL": "120046",
+        "JP": "120046"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master"
+      ],
+      "name": "SaGa Frontier 2",
+      "franchise": "SaGa",
+      "short_name": "SaGa Frontier 2",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20047": {
+      "game_id": "20047",
+      "raw_names": {
+        "GL": "BLOODY ESCAPE -地獄の逃走劇-",
+        "JP": "BLOODY ESCAPE -地獄の逃走劇-"
+      },
+      "regional_icon_ids": {
+        "GL": "120047",
+        "JP": "120047"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "JP_game_master"
+      ],
+      "name": "BLOODY ESCAPE -地獄の逃走劇-",
+      "franchise": "BLOODY ESCAPE",
+      "short_name": "BLOODY ESCAPE -地獄の逃走劇-",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": false
+    },
+    "20048": {
+      "game_id": "20048",
+      "raw_names": {
+        "JP": "SO2R"
+      },
+      "regional_icon_ids": {
+        "JP": "120048"
+      },
+      "source_ids": [
+        "JP_game_master"
+      ],
+      "name": "Star Ocean: The Second Story R",
+      "franchise": "Star Ocean",
+      "short_name": "SO2R",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20049": {
+      "game_id": "20049",
+      "raw_names": {
+        "JP": "聖剣伝説 VoM"
+      },
+      "regional_icon_ids": {
+        "JP": "120049"
+      },
+      "source_ids": [
+        "JP_game_master"
+      ],
+      "name": "Visions of Mana",
+      "franchise": "Mana",
+      "short_name": "Visions of Mana",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "20050": {
+      "game_id": "20050",
+      "raw_names": {
+        "JP": "南国少年パプワくん"
+      },
+      "regional_icon_ids": {
+        "JP": "120050"
+      },
+      "source_ids": [
+        "JP_game_master"
+      ],
+      "name": "南国少年パプワくん",
+      "franchise": "南国少年パプワくん",
+      "short_name": "南国少年パプワくん",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": false
+    },
+    "20051": {
+      "game_id": "20051",
+      "raw_names": {
+        "JP": "魔法陣グルグル"
+      },
+      "regional_icon_ids": {
+        "JP": "120051"
+      },
+      "source_ids": [
+        "JP_game_master"
+      ],
+      "name": "魔法陣グルグル",
+      "franchise": "魔法陣グルグル",
+      "short_name": "魔法陣グルグル",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": false
+    },
+    "90001": {
+      "game_id": "90001",
+      "raw_names": {
+        "GL": "Ariana Grande"
+      },
+      "regional_icon_ids": {
+        "GL": "120009"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Ariana Grande",
+      "franchise": "Ariana Grande",
+      "short_name": "Ariana Grande",
+      "localized_gl_name": "Ariana Grande",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "90002": {
+      "game_id": "90002",
+      "raw_names": {
+        "GL": "Kings Knight"
+      },
+      "regional_icon_ids": {
+        "GL": "9000032"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "King's Knight",
+      "franchise": "King's Knight",
+      "short_name": "King's Knight",
+      "localized_gl_name": "King's Knight",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "90003": {
+      "game_id": "90003",
+      "raw_names": {
+        "GL": "Tomb Raider"
+      },
+      "regional_icon_ids": {
+        "GL": "9000033"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Lara Croft and the Temple of Osiris",
+      "franchise": "Tomb Raider",
+      "short_name": "Lara Croft and the Temple of Osiris",
+      "localized_gl_name": "LARA CROFT AND THE TEMPLE OF OSIRIS",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "90004": {
+      "game_id": "90004",
+      "raw_names": {
+        "GL": "Just Cause 3"
+      },
+      "regional_icon_ids": {
+        "GL": "9000040"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Just Cause 3",
+      "franchise": "Just Cause",
+      "short_name": "Just Cause 3",
+      "localized_gl_name": "Just Cause 3",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "90005": {
+      "game_id": "90005",
+      "raw_names": {
+        "GL": "Deus Ex"
+      },
+      "regional_icon_ids": {
+        "GL": "9000044"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Deus Ex: Mankind Divided",
+      "franchise": "Deus Ex",
+      "short_name": "Deus Ex: Mankind Divided",
+      "localized_gl_name": "Deus Ex: Mankind Divided",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "90006": {
+      "game_id": "90006",
+      "raw_names": {
+        "GL": "Katy Perry"
+      },
+      "regional_icon_ids": {
+        "GL": "9000055"
+      },
+      "source_ids": [
+        "GL_game_master",
+        "GL_localized_titles"
+      ],
+      "name": "Katy Perry",
+      "franchise": "Katy Perry",
+      "short_name": "Katy Perry",
+      "localized_gl_name": "Katy Perry",
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "90007": {
+      "game_id": "90007",
+      "raw_names": {
+        "GL": "Just Cause 4"
+      },
+      "regional_icon_ids": {
+        "GL": "9000139"
+      },
+      "source_ids": [
+        "GL_game_master"
+      ],
+      "name": "Just Cause 4",
+      "franchise": "Just Cause",
+      "short_name": "Just Cause 4",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "90008": {
+      "game_id": "90008",
+      "raw_names": {
+        "GL": "Tomb Raider (New title)"
+      },
+      "regional_icon_ids": {
+        "GL": "9000254"
+      },
+      "source_ids": [
+        "GL_game_master"
+      ],
+      "name": "Tomb Raider",
+      "franchise": "Tomb Raider",
+      "short_name": "Tomb Raider",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true,
+      "note": "Raw GL label is Tomb Raider (New title); exact edition is unspecified."
+    },
+    "90009": {
+      "game_id": "90009",
+      "raw_names": {
+        "GL": "Addison Rae"
+      },
+      "regional_icon_ids": {
+        "GL": "9000463"
+      },
+      "source_ids": [
+        "GL_game_master"
+      ],
+      "name": "Addison Rae",
+      "franchise": "Addison Rae",
+      "short_name": "Addison Rae",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    },
+    "90010": {
+      "game_id": "90010",
+      "raw_names": {
+        "GL": "Parasite Eve"
+      },
+      "regional_icon_ids": {
+        "GL": "9000485"
+      },
+      "source_ids": [
+        "GL_game_master"
+      ],
+      "name": "Parasite Eve",
+      "franchise": "Parasite Eve",
+      "short_name": "Parasite Eve",
+      "localized_gl_name": null,
+      "normalization_source": "editorial expansion or translation of verified F_GAME_TITLE_MST label",
+      "english_name_available": true
+    }
+  },
+  "coverage": {
+    "game_master_rows": {
+      "GL": 84,
+      "JP": 79
+    },
+    "game_codes": 89,
+    "regional_unit_counts": {
+      "GL": {
+        "10001": 23,
+        "10002": 47,
+        "10003": 67,
+        "10004": 91,
+        "10005": 65,
+        "10006": 101,
+        "10007": 77,
+        "10008": 51,
+        "10009": 103,
+        "10010": 78,
+        "10011": 41,
+        "10012": 81,
+        "10013": 44,
+        "10014": 19,
+        "10015": 85,
+        "10016": 16,
+        "11001": 1549,
+        "11002": 58,
+        "11003": 79,
+        "11004": 15,
+        "11006": 14,
+        "11007": 7,
+        "11009": 12,
+        "11010": 30,
+        "11011": 3,
+        "11012": 8,
+        "20001": 2,
+        "20002": 8,
+        "20003": 13,
+        "20004": 6,
+        "20005": 22,
+        "20006": 44,
+        "20007": 19,
+        "20008": 12,
+        "20010": 25,
+        "20011": 3,
+        "20012": 22,
+        "20013": 9,
+        "20014": 3,
+        "20015": 6,
+        "20016": 3,
+        "20017": 3,
+        "20018": 9,
+        "20019": 3,
+        "20020": 3,
+        "20021": 12,
+        "20022": 24,
+        "20023": 2,
+        "20024": 49,
+        "20025": 12,
+        "20026": 7,
+        "20027": 9,
+        "20028": 12,
+        "20029": 33,
+        "20030": 9,
+        "20032": 38,
+        "20033": 6,
+        "20034": 3,
+        "20035": 8,
+        "20036": 2,
+        "20037": 26,
+        "20038": 6,
+        "20039": 4,
+        "20042": 2,
+        "90001": 11,
+        "90002": 11,
+        "90003": 2,
+        "90004": 11,
+        "90005": 12,
+        "90006": 12,
+        "90007": 1,
+        "90008": 2,
+        "90009": 4,
+        "90010": 2
+      },
+      "JP": {
+        "10001": 27,
+        "10002": 57,
+        "10003": 79,
+        "10004": 99,
+        "10005": 73,
+        "10006": 119,
+        "10007": 99,
+        "10008": 65,
+        "10009": 115,
+        "10010": 98,
+        "10011": 43,
+        "10012": 88,
+        "10013": 58,
+        "10014": 21,
+        "10015": 97,
+        "10016": 16,
+        "11001": 1533,
+        "11002": 64,
+        "11003": 81,
+        "11004": 15,
+        "11006": 14,
+        "11007": 7,
+        "11008": 6,
+        "11009": 12,
+        "11010": 38,
+        "11011": 3,
+        "11012": 12,
+        "20001": 2,
+        "20002": 8,
+        "20003": 11,
+        "20004": 6,
+        "20005": 24,
+        "20006": 46,
+        "20007": 19,
+        "20008": 14,
+        "20009": 3,
+        "20010": 18,
+        "20011": 5,
+        "20012": 37,
+        "20013": 9,
+        "20014": 3,
+        "20015": 6,
+        "20016": 3,
+        "20017": 3,
+        "20018": 6,
+        "20019": 3,
+        "20020": 3,
+        "20021": 12,
+        "20022": 24,
+        "20023": 2,
+        "20024": 61,
+        "20025": 12,
+        "20026": 7,
+        "20027": 9,
+        "20028": 12,
+        "20029": 33,
+        "20030": 13,
+        "20031": 3,
+        "20032": 39,
+        "20033": 6,
+        "20034": 3,
+        "20035": 10,
+        "20036": 2,
+        "20037": 26,
+        "20038": 6,
+        "20039": 24,
+        "20042": 2,
+        "20043": 2,
+        "20044": 4,
+        "20045": 4,
+        "20046": 2,
+        "20048": 12,
+        "20049": 6,
+        "20050": 4,
+        "20051": 4
+      }
+    },
+    "unknown_game_id_rows": [],
+    "unknown_game_id_count": 0,
+    "cross_regional_code_differences": [
+      {
+        "original_id": "401000104",
+        "GL": "90001",
+        "JP": "20009",
+        "normalized_names": [
+          "Ariana Grande",
+          "Ariana Grande"
+        ],
+        "equivalent_title": true
+      },
+      {
+        "original_id": "401000105",
+        "GL": "90001",
+        "JP": "20009",
+        "normalized_names": [
+          "Ariana Grande",
+          "Ariana Grande"
+        ],
+        "equivalent_title": true
+      },
+      {
+        "original_id": "401000106",
+        "GL": "90001",
+        "JP": "20009",
+        "normalized_names": [
+          "Ariana Grande",
+          "Ariana Grande"
+        ],
+        "equivalent_title": true
+      },
+      {
+        "original_id": "401006305",
+        "GL": "90006",
+        "JP": "20031",
+        "normalized_names": [
+          "Katy Perry",
+          "Katy Perry"
+        ],
+        "equivalent_title": true
+      },
+      {
+        "original_id": "401006306",
+        "GL": "90006",
+        "JP": "20031",
+        "normalized_names": [
+          "Katy Perry",
+          "Katy Perry"
+        ],
+        "equivalent_title": true
+      },
+      {
+        "original_id": "401006307",
+        "GL": "90006",
+        "JP": "20031",
+        "normalized_names": [
+          "Katy Perry",
+          "Katy Perry"
+        ],
+        "equivalent_title": true
+      }
+    ],
+    "cross_regional_code_difference_count": 6,
+    "ambiguous_cross_regional_titles": [],
+    "ambiguous_cross_regional_title_count": 0,
+    "non_english_game_codes": [
+      "20026",
+      "20047",
+      "20050",
+      "20051"
+    ],
+    "regional_identities_covered": 6823,
+    "regional_identity_count": 6823,
+    "legacy_asset_rows_without_unit_metadata": 21,
+    "unknown_game_id_zero_rows": 0
+  },
+  "mappings": {
+    "GL": {
+      "0": {
+        "series": "Unknown",
+        "game_title": null,
+        "raw_name": null,
+        "name_source": null,
+        "status": "unknown",
+        "note": "Explicit unknown sentinel; game ID 0 is not present in the source game master."
+      },
+      "10001": {
+        "series": "FFI",
+        "game_title": "Final Fantasy I",
+        "raw_name": "FF1",
+        "localized_gl_name": "FFI",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110001"
+      },
+      "10002": {
+        "series": "FFII",
+        "game_title": "Final Fantasy II",
+        "raw_name": "FFII",
+        "localized_gl_name": "FFII",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110002"
+      },
+      "10003": {
+        "series": "FFIII",
+        "game_title": "Final Fantasy III",
+        "raw_name": "FF3",
+        "localized_gl_name": "FFIII",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110003"
+      },
+      "10004": {
+        "series": "FFIV",
+        "game_title": "Final Fantasy IV",
+        "raw_name": "FF4",
+        "localized_gl_name": "FFIV",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110004"
+      },
+      "10005": {
+        "series": "FFV",
+        "game_title": "Final Fantasy V",
+        "raw_name": "FF5",
+        "localized_gl_name": "FFV",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110005"
+      },
+      "10006": {
+        "series": "FFVI",
+        "game_title": "Final Fantasy VI",
+        "raw_name": "FF6",
+        "localized_gl_name": "FFVI",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110006"
+      },
+      "10007": {
+        "series": "FFVII",
+        "game_title": "Final Fantasy VII",
+        "raw_name": "FF7",
+        "localized_gl_name": "FFVII",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110007"
+      },
+      "10008": {
+        "series": "FFVIII",
+        "game_title": "Final Fantasy VIII",
+        "raw_name": "FF8",
+        "localized_gl_name": "FFVIII",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110008"
+      },
+      "10009": {
+        "series": "FFIX",
+        "game_title": "Final Fantasy IX",
+        "raw_name": "FF9",
+        "localized_gl_name": "FFIX",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110009"
+      },
+      "10010": {
+        "series": "FFX",
+        "game_title": "Final Fantasy X",
+        "raw_name": "FF10",
+        "localized_gl_name": "FFX",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110010"
+      },
+      "10011": {
+        "series": "FFXI",
+        "game_title": "Final Fantasy XI",
+        "raw_name": "FF11",
+        "localized_gl_name": "FFXI",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110011"
+      },
+      "10012": {
+        "series": "FFXII",
+        "game_title": "Final Fantasy XII",
+        "raw_name": "FF12",
+        "localized_gl_name": "FFXII",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110012"
+      },
+      "10013": {
+        "series": "FFXIII",
+        "game_title": "Final Fantasy XIII",
+        "raw_name": "FF13",
+        "localized_gl_name": "FFXIII",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110013"
+      },
+      "10014": {
+        "series": "FFXIV",
+        "game_title": "Final Fantasy XIV",
+        "raw_name": "FF14",
+        "localized_gl_name": "FFXIV",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110014"
+      },
+      "10015": {
+        "series": "FFXV",
+        "game_title": "Final Fantasy XV",
+        "raw_name": "FF15",
+        "localized_gl_name": "FFXV",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110015"
+      },
+      "10016": {
+        "series": "FFXVI",
+        "game_title": "Final Fantasy XVI",
+        "raw_name": "FF16",
+        "localized_gl_name": null,
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110016"
+      },
+      "11001": {
+        "series": "FFBE",
+        "game_title": "Final Fantasy Brave Exvius",
+        "raw_name": "FFBE",
+        "localized_gl_name": "FFBE",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "111001"
+      },
+      "11002": {
+        "series": "FFT",
+        "game_title": "Final Fantasy Tactics",
+        "raw_name": "FFT",
+        "localized_gl_name": "FFT",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "111002"
+      },
+      "11003": {
+        "series": "FF Type-0",
+        "game_title": "Final Fantasy Type-0",
+        "raw_name": "FF零式",
+        "localized_gl_name": "FF Type-0",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "111003"
+      },
+      "11004": {
+        "series": "FFX",
+        "game_title": "Final Fantasy X-2",
+        "raw_name": "FF10-2",
+        "localized_gl_name": "FFX-2",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "111004"
+      },
+      "11005": {
+        "series": "FFXII",
+        "game_title": "Final Fantasy XII: Revenant Wings",
+        "raw_name": "FF12 RW",
+        "localized_gl_name": "FFXII RW",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "111005"
+      },
+      "11006": {
+        "series": "FFXIII",
+        "game_title": "Final Fantasy XIII-2",
+        "raw_name": "FF13-2",
+        "localized_gl_name": "FFXIII-2",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "111006"
+      },
+      "11007": {
+        "series": "FFXIII",
+        "game_title": "Lightning Returns: Final Fantasy XIII",
+        "raw_name": "LR FF13",
+        "localized_gl_name": "LRFFXIII",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "111007"
+      },
+      "11008": {
+        "series": "FFIV",
+        "game_title": "Final Fantasy IV: The After Years",
+        "raw_name": "FF4TA",
+        "localized_gl_name": "FFIV: TAY",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "111008"
+      },
+      "11009": {
+        "series": "FFVII",
+        "game_title": "Final Fantasy VII: Advent Children",
+        "raw_name": "FF7AC",
+        "localized_gl_name": null,
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "111009"
+      },
+      "11010": {
+        "series": "WOTV FFBE",
+        "game_title": "War of the Visions: Final Fantasy Brave Exvius",
+        "raw_name": "FFBE幻影戦争",
+        "localized_gl_name": "WOTV FFBE",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "111010"
+      },
+      "11011": {
+        "series": "FFRK",
+        "game_title": "Final Fantasy Record Keeper",
+        "raw_name": "FINAL FANTASY Record Keeper",
+        "localized_gl_name": null,
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "111011"
+      },
+      "11012": {
+        "series": "FFVII",
+        "game_title": "Crisis Core: Final Fantasy VII",
+        "raw_name": "CCFF7",
+        "localized_gl_name": "CCFFVIIR",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "111012"
+      },
+      "20001": {
+        "series": "Terra Battle",
+        "game_title": "Terra Battle",
+        "raw_name": "TERRA BATTLE",
+        "localized_gl_name": "Terra Battle",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120001"
+      },
+      "20002": {
+        "series": "SaGa",
+        "game_title": "Imperial SaGa",
+        "raw_name": "ImperialSaGa",
+        "localized_gl_name": "Imperial SaGa",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120002"
+      },
+      "20003": {
+        "series": "Brave Frontier",
+        "game_title": "Brave Frontier",
+        "raw_name": "ブレイブ フロンティア",
+        "localized_gl_name": "Brave Frontier",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120003"
+      },
+      "20004": {
+        "series": "Crystal Defenders",
+        "game_title": "Crystal Defenders",
+        "raw_name": "CRYSTAL DEFENDERS",
+        "localized_gl_name": "Crystal Defenders",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120004"
+      },
+      "20005": {
+        "series": "Mana",
+        "game_title": "Secret of Mana",
+        "raw_name": "聖剣伝説2",
+        "localized_gl_name": "Secret of Mana",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120005"
+      },
+      "20006": {
+        "series": "Dragon Quest",
+        "game_title": "Dragon Quest Monsters Super Light",
+        "raw_name": "DQMSL",
+        "localized_gl_name": "Dragon Quest",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120006"
+      },
+      "20007": {
+        "series": "Monster Hunter",
+        "game_title": "Monster Hunter Explore",
+        "raw_name": "モンスターハンターエクスプロア",
+        "localized_gl_name": "NA",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120007"
+      },
+      "20008": {
+        "series": "SaGa",
+        "game_title": "Romancing SaGa 3",
+        "raw_name": "RomancingSa・Ga3",
+        "localized_gl_name": "NA",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120008"
+      },
+      "20010": {
+        "series": "NieR",
+        "game_title": "NieR:Automata",
+        "raw_name": "NieR Automata",
+        "localized_gl_name": "NieR:Automata",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120010"
+      },
+      "20011": {
+        "series": "Mana",
+        "game_title": "Final Fantasy Adventure",
+        "raw_name": "聖剣伝説",
+        "localized_gl_name": "FINAL FANTASY ADVENTURE",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120011"
+      },
+      "20012": {
+        "series": "Mana",
+        "game_title": "Trials of Mana / Seiken Densetsu 3",
+        "raw_name": "聖剣伝説3",
+        "localized_gl_name": "Seiken Densetsu 3",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120012"
+      },
+      "20013": {
+        "series": "Bravely",
+        "game_title": "Bravely Default",
+        "raw_name": "BRAVELYDEFAULT",
+        "localized_gl_name": "Bravely Default",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120013"
+      },
+      "20014": {
+        "series": "Bravely",
+        "game_title": "Bravely Default: Fairy's Effect",
+        "raw_name": "BRAVELYDEFAULTFE",
+        "localized_gl_name": "Bravely Default FE",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120014"
+      },
+      "20015": {
+        "series": "Bravely",
+        "game_title": "Bravely Second",
+        "raw_name": "BRAVELYSECOND",
+        "localized_gl_name": "Bravely Second",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120015"
+      },
+      "20016": {
+        "series": "Star Ocean",
+        "game_title": "Star Ocean",
+        "raw_name": "SO1",
+        "localized_gl_name": "SO1",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120016"
+      },
+      "20017": {
+        "series": "Star Ocean",
+        "game_title": "Star Ocean: The Second Story",
+        "raw_name": "SO2",
+        "localized_gl_name": "SO2",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120017"
+      },
+      "20018": {
+        "series": "Star Ocean",
+        "game_title": "Star Ocean: Till the End of Time",
+        "raw_name": "SO3",
+        "localized_gl_name": "SO3",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120018"
+      },
+      "20019": {
+        "series": "Star Ocean",
+        "game_title": "Star Ocean: The Last Hope",
+        "raw_name": "SO4",
+        "localized_gl_name": "SO4",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120019"
+      },
+      "20020": {
+        "series": "Star Ocean",
+        "game_title": "Star Ocean: Integrity and Faithlessness",
+        "raw_name": "SO5",
+        "localized_gl_name": "SO5",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120020"
+      },
+      "20021": {
+        "series": "King's Knight",
+        "game_title": "King's Knight: Wrath of the Dark Dragon",
+        "raw_name": "キングスナイト WoDD",
+        "localized_gl_name": "King's Knight WoDD",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120021"
+      },
+      "20022": {
+        "series": "Valkyrie Profile",
+        "game_title": "Valkyrie Profile",
+        "raw_name": "ヴァルキリープロファイル",
+        "localized_gl_name": "VALKYRIE PROFILE -LENNETH-",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120022"
+      },
+      "20023": {
+        "series": "Tomb Raider",
+        "game_title": "Lara Croft and the Temple of Osiris",
+        "raw_name": "ララ・クロフト アンド テンプル オブ オシリス",
+        "localized_gl_name": "Lara Croft and the Temple of Osiris",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120023"
+      },
+      "20024": {
+        "series": "Xenogears",
+        "game_title": "Xenogears",
+        "raw_name": "ゼノギアス",
+        "localized_gl_name": "Xenogears",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120024"
+      },
+      "20025": {
+        "series": "Octopath Traveler",
+        "game_title": "Octopath Traveler",
+        "raw_name": "オクトパストラベラー",
+        "localized_gl_name": "Octopath Traveler",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120025"
+      },
+      "20026": {
+        "series": "リコドキッ！",
+        "game_title": "リコドキッ！",
+        "raw_name": "リコドキッ！",
+        "localized_gl_name": null,
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120026"
+      },
+      "20027": {
+        "series": "World of Final Fantasy",
+        "game_title": "World of Final Fantasy",
+        "raw_name": "WOFF",
+        "localized_gl_name": null,
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120027"
+      },
+      "20028": {
+        "series": "Kingdom Hearts",
+        "game_title": "Kingdom Hearts",
+        "raw_name": "KH",
+        "localized_gl_name": "Kingdom Hearts",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120028"
+      },
+      "20029": {
+        "series": "Dragon Quest",
+        "game_title": "Dragon Quest XI S",
+        "raw_name": "DQXIS",
+        "localized_gl_name": "DRAGON QUEST XI S",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120029"
+      },
+      "20030": {
+        "series": "SINoALICE",
+        "game_title": "SINoALICE",
+        "raw_name": "SINoALICE",
+        "localized_gl_name": null,
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120030"
+      },
+      "20031": {
+        "series": "Katy Perry",
+        "game_title": "Katy Perry",
+        "raw_name": "KATY PERRY",
+        "localized_gl_name": null,
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120031"
+      },
+      "20032": {
+        "series": "Fullmetal Alchemist",
+        "game_title": "Fullmetal Alchemist",
+        "raw_name": "鋼の錬金術師",
+        "localized_gl_name": null,
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120032"
+      },
+      "20033": {
+        "series": "Kingdom Hearts",
+        "game_title": "Kingdom Hearts III",
+        "raw_name": "キングダム ハーツIII",
+        "localized_gl_name": null,
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120033"
+      },
+      "20034": {
+        "series": "Kingdom Hearts",
+        "game_title": "Kingdom Hearts Dark Road",
+        "raw_name": "キングダム ハーツ ダーク ロード",
+        "localized_gl_name": null,
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120034"
+      },
+      "20035": {
+        "series": "Mana",
+        "game_title": "Legend of Mana",
+        "raw_name": "聖剣伝説LoM",
+        "localized_gl_name": "Legend of Mana",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120035"
+      },
+      "20036": {
+        "series": "Actraiser",
+        "game_title": "Actraiser",
+        "raw_name": "アクトレイザー",
+        "localized_gl_name": "Actraiser Renaissance",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120036"
+      },
+      "20037": {
+        "series": "Dragon Quest",
+        "game_title": "Dragon Quest: The Adventure of Dai",
+        "raw_name": "ドラゴンクエスト ダイの大冒険",
+        "localized_gl_name": "DRAGON QUEST The Adventure of Dai",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120037"
+      },
+      "20038": {
+        "series": "Chrono",
+        "game_title": "Chrono Cross",
+        "raw_name": "クロノ・クロス",
+        "localized_gl_name": "Chrono Cross",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120038"
+      },
+      "20039": {
+        "series": "Dragon Quest",
+        "game_title": "Dragon Quest: The Emblem of Roto",
+        "raw_name": "ドラゴンクエスト列伝　ロトの紋章",
+        "localized_gl_name": null,
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120039"
+      },
+      "20040": {
+        "series": "Voice of Cards",
+        "game_title": "Voice of Cards",
+        "raw_name": "Voice of Cards",
+        "localized_gl_name": null,
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120040"
+      },
+      "20041": {
+        "series": "Engage Kill",
+        "game_title": "Engage Kill",
+        "raw_name": "Engage Kill",
+        "localized_gl_name": null,
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120041"
+      },
+      "20042": {
+        "series": "Parasite Eve",
+        "game_title": "Parasite Eve",
+        "raw_name": "パラサイト・イヴ",
+        "localized_gl_name": null,
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120042"
+      },
+      "20043": {
+        "series": "SaGa",
+        "game_title": "Romancing SaGa",
+        "raw_name": "RomancingSa・Ga",
+        "localized_gl_name": null,
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120043"
+      },
+      "20044": {
+        "series": "SaGa",
+        "game_title": "Romancing SaGa 2",
+        "raw_name": "RomancingSa・Ga2",
+        "localized_gl_name": null,
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120044"
+      },
+      "20045": {
+        "series": "SaGa",
+        "game_title": "SaGa Frontier",
+        "raw_name": "SaGa Frontier",
+        "localized_gl_name": null,
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120045"
+      },
+      "20046": {
+        "series": "SaGa",
+        "game_title": "SaGa Frontier 2",
+        "raw_name": "SaGa Frontier2",
+        "localized_gl_name": null,
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120046"
+      },
+      "20047": {
+        "series": "BLOODY ESCAPE",
+        "game_title": "BLOODY ESCAPE -地獄の逃走劇-",
+        "raw_name": "BLOODY ESCAPE -地獄の逃走劇-",
+        "localized_gl_name": null,
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120047"
+      },
+      "90001": {
+        "series": "Ariana Grande",
+        "game_title": "Ariana Grande",
+        "raw_name": "Ariana Grande",
+        "localized_gl_name": "Ariana Grande",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120009"
+      },
+      "90002": {
+        "series": "King's Knight",
+        "game_title": "King's Knight",
+        "raw_name": "Kings Knight",
+        "localized_gl_name": "King's Knight",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "9000032"
+      },
+      "90003": {
+        "series": "Tomb Raider",
+        "game_title": "Lara Croft and the Temple of Osiris",
+        "raw_name": "Tomb Raider",
+        "localized_gl_name": "LARA CROFT AND THE TEMPLE OF OSIRIS",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "9000033"
+      },
+      "90004": {
+        "series": "Just Cause",
+        "game_title": "Just Cause 3",
+        "raw_name": "Just Cause 3",
+        "localized_gl_name": "Just Cause 3",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "9000040"
+      },
+      "90005": {
+        "series": "Deus Ex",
+        "game_title": "Deus Ex: Mankind Divided",
+        "raw_name": "Deus Ex",
+        "localized_gl_name": "Deus Ex: Mankind Divided",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "9000044"
+      },
+      "90006": {
+        "series": "Katy Perry",
+        "game_title": "Katy Perry",
+        "raw_name": "Katy Perry",
+        "localized_gl_name": "Katy Perry",
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "9000055"
+      },
+      "90007": {
+        "series": "Just Cause",
+        "game_title": "Just Cause 4",
+        "raw_name": "Just Cause 4",
+        "localized_gl_name": null,
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "9000139"
+      },
+      "90008": {
+        "series": "Tomb Raider",
+        "game_title": "Tomb Raider",
+        "raw_name": "Tomb Raider (New title)",
+        "localized_gl_name": null,
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "9000254"
+      },
+      "90009": {
+        "series": "Addison Rae",
+        "game_title": "Addison Rae",
+        "raw_name": "Addison Rae",
+        "localized_gl_name": null,
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "9000463"
+      },
+      "90010": {
+        "series": "Parasite Eve",
+        "game_title": "Parasite Eve",
+        "raw_name": "Parasite Eve",
+        "localized_gl_name": null,
+        "name_source": "GL_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "9000485"
+      }
+    },
+    "JP": {
+      "0": {
+        "series": "Unknown",
+        "game_title": null,
+        "raw_name": null,
+        "name_source": null,
+        "status": "unknown",
+        "note": "Explicit unknown sentinel; game ID 0 is not present in the source game master."
+      },
+      "10001": {
+        "series": "FFI",
+        "game_title": "Final Fantasy I",
+        "raw_name": "FFI",
+        "localized_gl_name": "FFI",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110001"
+      },
+      "10002": {
+        "series": "FFII",
+        "game_title": "Final Fantasy II",
+        "raw_name": "FFII",
+        "localized_gl_name": "FFII",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110002"
+      },
+      "10003": {
+        "series": "FFIII",
+        "game_title": "Final Fantasy III",
+        "raw_name": "FFIII",
+        "localized_gl_name": "FFIII",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110003"
+      },
+      "10004": {
+        "series": "FFIV",
+        "game_title": "Final Fantasy IV",
+        "raw_name": "FFIV",
+        "localized_gl_name": "FFIV",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110004"
+      },
+      "10005": {
+        "series": "FFV",
+        "game_title": "Final Fantasy V",
+        "raw_name": "FFV",
+        "localized_gl_name": "FFV",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110005"
+      },
+      "10006": {
+        "series": "FFVI",
+        "game_title": "Final Fantasy VI",
+        "raw_name": "FF6",
+        "localized_gl_name": "FFVI",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110006"
+      },
+      "10007": {
+        "series": "FFVII",
+        "game_title": "Final Fantasy VII",
+        "raw_name": "FFVII",
+        "localized_gl_name": "FFVII",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110007"
+      },
+      "10008": {
+        "series": "FFVIII",
+        "game_title": "Final Fantasy VIII",
+        "raw_name": "FFVIII",
+        "localized_gl_name": "FFVIII",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110008"
+      },
+      "10009": {
+        "series": "FFIX",
+        "game_title": "Final Fantasy IX",
+        "raw_name": "FFIX",
+        "localized_gl_name": "FFIX",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110009"
+      },
+      "10010": {
+        "series": "FFX",
+        "game_title": "Final Fantasy X",
+        "raw_name": "FFX",
+        "localized_gl_name": "FFX",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110010"
+      },
+      "10011": {
+        "series": "FFXI",
+        "game_title": "Final Fantasy XI",
+        "raw_name": "FF11",
+        "localized_gl_name": "FFXI",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110011"
+      },
+      "10012": {
+        "series": "FFXII",
+        "game_title": "Final Fantasy XII",
+        "raw_name": "FFXII",
+        "localized_gl_name": "FFXII",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110012"
+      },
+      "10013": {
+        "series": "FFXIII",
+        "game_title": "Final Fantasy XIII",
+        "raw_name": "FF13",
+        "localized_gl_name": "FFXIII",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110013"
+      },
+      "10014": {
+        "series": "FFXIV",
+        "game_title": "Final Fantasy XIV",
+        "raw_name": "FF14",
+        "localized_gl_name": "FFXIV",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110014"
+      },
+      "10015": {
+        "series": "FFXV",
+        "game_title": "Final Fantasy XV",
+        "raw_name": "FF15",
+        "localized_gl_name": "FFXV",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110015"
+      },
+      "10016": {
+        "series": "FFXVI",
+        "game_title": "Final Fantasy XVI",
+        "raw_name": "FF16",
+        "localized_gl_name": null,
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "110016"
+      },
+      "11001": {
+        "series": "FFBE",
+        "game_title": "Final Fantasy Brave Exvius",
+        "raw_name": "FFBE",
+        "localized_gl_name": "FFBE",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "111001"
+      },
+      "11002": {
+        "series": "FFT",
+        "game_title": "Final Fantasy Tactics",
+        "raw_name": "FFT",
+        "localized_gl_name": "FFT",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "111002"
+      },
+      "11003": {
+        "series": "FF Type-0",
+        "game_title": "Final Fantasy Type-0",
+        "raw_name": "FF零式",
+        "localized_gl_name": "FF Type-0",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "111003"
+      },
+      "11004": {
+        "series": "FFX",
+        "game_title": "Final Fantasy X-2",
+        "raw_name": "FFX-2",
+        "localized_gl_name": "FFX-2",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "111004"
+      },
+      "11005": {
+        "series": "FFXII",
+        "game_title": "Final Fantasy XII: Revenant Wings",
+        "raw_name": "FF12 RW",
+        "localized_gl_name": "FFXII RW",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "111005"
+      },
+      "11006": {
+        "series": "FFXIII",
+        "game_title": "Final Fantasy XIII-2",
+        "raw_name": "FF13-2",
+        "localized_gl_name": "FFXIII-2",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "111006"
+      },
+      "11007": {
+        "series": "FFXIII",
+        "game_title": "Lightning Returns: Final Fantasy XIII",
+        "raw_name": "LR FF13",
+        "localized_gl_name": "LRFFXIII",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "111007"
+      },
+      "11008": {
+        "series": "FFIV",
+        "game_title": "Final Fantasy IV: The After Years",
+        "raw_name": "FF4TA",
+        "localized_gl_name": "FFIV: TAY",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "111008"
+      },
+      "11009": {
+        "series": "FFVII",
+        "game_title": "Final Fantasy VII: Advent Children",
+        "raw_name": "FF7AC",
+        "localized_gl_name": null,
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "111009"
+      },
+      "11010": {
+        "series": "WOTV FFBE",
+        "game_title": "War of the Visions: Final Fantasy Brave Exvius",
+        "raw_name": "FFBE幻影戦争",
+        "localized_gl_name": "WOTV FFBE",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "111010"
+      },
+      "11011": {
+        "series": "FFRK",
+        "game_title": "Final Fantasy Record Keeper",
+        "raw_name": "FINAL FANTASY Record Keeper",
+        "localized_gl_name": null,
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "111011"
+      },
+      "11012": {
+        "series": "FFVII",
+        "game_title": "Crisis Core: Final Fantasy VII",
+        "raw_name": "CCFF7",
+        "localized_gl_name": "CCFFVIIR",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "111012"
+      },
+      "20001": {
+        "series": "Terra Battle",
+        "game_title": "Terra Battle",
+        "raw_name": "TERRA BATTLE",
+        "localized_gl_name": "Terra Battle",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120001"
+      },
+      "20002": {
+        "series": "SaGa",
+        "game_title": "Imperial SaGa",
+        "raw_name": "ImperialSaGa",
+        "localized_gl_name": "Imperial SaGa",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120002"
+      },
+      "20003": {
+        "series": "Brave Frontier",
+        "game_title": "Brave Frontier",
+        "raw_name": "ブレイブ フロンティア",
+        "localized_gl_name": "Brave Frontier",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120003"
+      },
+      "20004": {
+        "series": "Crystal Defenders",
+        "game_title": "Crystal Defenders",
+        "raw_name": "CRYSTAL DEFENDERS",
+        "localized_gl_name": "Crystal Defenders",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120004"
+      },
+      "20005": {
+        "series": "Mana",
+        "game_title": "Secret of Mana",
+        "raw_name": "聖剣伝説2",
+        "localized_gl_name": "Secret of Mana",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120005"
+      },
+      "20006": {
+        "series": "Dragon Quest",
+        "game_title": "Dragon Quest Monsters Super Light",
+        "raw_name": "DQMSL",
+        "localized_gl_name": "Dragon Quest",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120006"
+      },
+      "20007": {
+        "series": "Monster Hunter",
+        "game_title": "Monster Hunter Explore",
+        "raw_name": "モンスターハンターエクスプロア",
+        "localized_gl_name": "NA",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120007"
+      },
+      "20008": {
+        "series": "SaGa",
+        "game_title": "Romancing SaGa 3",
+        "raw_name": "RomancingSa・Ga3",
+        "localized_gl_name": "NA",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120008"
+      },
+      "20009": {
+        "series": "Ariana Grande",
+        "game_title": "Ariana Grande",
+        "raw_name": "ARIANA GRANDE",
+        "localized_gl_name": null,
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120009"
+      },
+      "20010": {
+        "series": "NieR",
+        "game_title": "NieR:Automata",
+        "raw_name": "NieR:Automata",
+        "localized_gl_name": "NieR:Automata",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120010"
+      },
+      "20011": {
+        "series": "Mana",
+        "game_title": "Final Fantasy Adventure",
+        "raw_name": "聖剣伝説",
+        "localized_gl_name": "FINAL FANTASY ADVENTURE",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120011"
+      },
+      "20012": {
+        "series": "Mana",
+        "game_title": "Trials of Mana / Seiken Densetsu 3",
+        "raw_name": "聖剣伝説3",
+        "localized_gl_name": "Seiken Densetsu 3",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120012"
+      },
+      "20013": {
+        "series": "Bravely",
+        "game_title": "Bravely Default",
+        "raw_name": "BRAVELYDEFAULT",
+        "localized_gl_name": "Bravely Default",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120013"
+      },
+      "20014": {
+        "series": "Bravely",
+        "game_title": "Bravely Default: Fairy's Effect",
+        "raw_name": "BRAVELYDEFAULTFE",
+        "localized_gl_name": "Bravely Default FE",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120014"
+      },
+      "20015": {
+        "series": "Bravely",
+        "game_title": "Bravely Second",
+        "raw_name": "BRAVELYSECOND",
+        "localized_gl_name": "Bravely Second",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120015"
+      },
+      "20016": {
+        "series": "Star Ocean",
+        "game_title": "Star Ocean",
+        "raw_name": "SO1",
+        "localized_gl_name": "SO1",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120016"
+      },
+      "20017": {
+        "series": "Star Ocean",
+        "game_title": "Star Ocean: The Second Story",
+        "raw_name": "SO2",
+        "localized_gl_name": "SO2",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120017"
+      },
+      "20018": {
+        "series": "Star Ocean",
+        "game_title": "Star Ocean: Till the End of Time",
+        "raw_name": "SO3",
+        "localized_gl_name": "SO3",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120018"
+      },
+      "20019": {
+        "series": "Star Ocean",
+        "game_title": "Star Ocean: The Last Hope",
+        "raw_name": "SO4",
+        "localized_gl_name": "SO4",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120019"
+      },
+      "20020": {
+        "series": "Star Ocean",
+        "game_title": "Star Ocean: Integrity and Faithlessness",
+        "raw_name": "SO5",
+        "localized_gl_name": "SO5",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120020"
+      },
+      "20021": {
+        "series": "King's Knight",
+        "game_title": "King's Knight: Wrath of the Dark Dragon",
+        "raw_name": "キングスナイト WoDD",
+        "localized_gl_name": "King's Knight WoDD",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120021"
+      },
+      "20022": {
+        "series": "Valkyrie Profile",
+        "game_title": "Valkyrie Profile",
+        "raw_name": "ヴァルキリープロファイル",
+        "localized_gl_name": "VALKYRIE PROFILE -LENNETH-",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120022"
+      },
+      "20023": {
+        "series": "Tomb Raider",
+        "game_title": "Lara Croft and the Temple of Osiris",
+        "raw_name": "ララ・クロフト アンド テンプル オブ オシリス",
+        "localized_gl_name": "Lara Croft and the Temple of Osiris",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120023"
+      },
+      "20024": {
+        "series": "Xenogears",
+        "game_title": "Xenogears",
+        "raw_name": "ゼノギアス",
+        "localized_gl_name": "Xenogears",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120024"
+      },
+      "20025": {
+        "series": "Octopath Traveler",
+        "game_title": "Octopath Traveler",
+        "raw_name": "オクトパストラベラー",
+        "localized_gl_name": "Octopath Traveler",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120025"
+      },
+      "20026": {
+        "series": "リコドキッ！",
+        "game_title": "リコドキッ！",
+        "raw_name": "リコドキッ！",
+        "localized_gl_name": null,
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120026"
+      },
+      "20027": {
+        "series": "World of Final Fantasy",
+        "game_title": "World of Final Fantasy",
+        "raw_name": "WOFF",
+        "localized_gl_name": null,
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120027"
+      },
+      "20028": {
+        "series": "Kingdom Hearts",
+        "game_title": "Kingdom Hearts",
+        "raw_name": "KH",
+        "localized_gl_name": "Kingdom Hearts",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120028"
+      },
+      "20029": {
+        "series": "Dragon Quest",
+        "game_title": "Dragon Quest XI S",
+        "raw_name": "DQXIS",
+        "localized_gl_name": "DRAGON QUEST XI S",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120029"
+      },
+      "20030": {
+        "series": "SINoALICE",
+        "game_title": "SINoALICE",
+        "raw_name": "SINoALICE",
+        "localized_gl_name": null,
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120030"
+      },
+      "20031": {
+        "series": "Katy Perry",
+        "game_title": "Katy Perry",
+        "raw_name": "KATY PERRY",
+        "localized_gl_name": null,
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120031"
+      },
+      "20032": {
+        "series": "Fullmetal Alchemist",
+        "game_title": "Fullmetal Alchemist",
+        "raw_name": "鋼の錬金術師",
+        "localized_gl_name": null,
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120032"
+      },
+      "20033": {
+        "series": "Kingdom Hearts",
+        "game_title": "Kingdom Hearts III",
+        "raw_name": "キングダム ハーツIII",
+        "localized_gl_name": null,
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120033"
+      },
+      "20034": {
+        "series": "Kingdom Hearts",
+        "game_title": "Kingdom Hearts Dark Road",
+        "raw_name": "キングダム ハーツ ダーク ロード",
+        "localized_gl_name": null,
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120034"
+      },
+      "20035": {
+        "series": "Mana",
+        "game_title": "Legend of Mana",
+        "raw_name": "聖剣伝説LoM",
+        "localized_gl_name": "Legend of Mana",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120035"
+      },
+      "20036": {
+        "series": "Actraiser",
+        "game_title": "Actraiser",
+        "raw_name": "アクトレイザー",
+        "localized_gl_name": "Actraiser Renaissance",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120036"
+      },
+      "20037": {
+        "series": "Dragon Quest",
+        "game_title": "Dragon Quest: The Adventure of Dai",
+        "raw_name": "ドラゴンクエスト ダイの大冒険",
+        "localized_gl_name": "DRAGON QUEST The Adventure of Dai",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120037"
+      },
+      "20038": {
+        "series": "Chrono",
+        "game_title": "Chrono Cross",
+        "raw_name": "クロノ・クロス",
+        "localized_gl_name": "Chrono Cross",
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120038"
+      },
+      "20039": {
+        "series": "Dragon Quest",
+        "game_title": "Dragon Quest: The Emblem of Roto",
+        "raw_name": "ドラゴンクエスト列伝 ロトの紋章",
+        "localized_gl_name": null,
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120039"
+      },
+      "20040": {
+        "series": "Voice of Cards",
+        "game_title": "Voice of Cards",
+        "raw_name": "Voice of Cards",
+        "localized_gl_name": null,
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120040"
+      },
+      "20041": {
+        "series": "Engage Kill",
+        "game_title": "Engage Kill",
+        "raw_name": "Engage Kill",
+        "localized_gl_name": null,
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120041"
+      },
+      "20042": {
+        "series": "Parasite Eve",
+        "game_title": "Parasite Eve",
+        "raw_name": "パラサイト・イヴ",
+        "localized_gl_name": null,
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120042"
+      },
+      "20043": {
+        "series": "SaGa",
+        "game_title": "Romancing SaGa",
+        "raw_name": "RomancingSa・Ga",
+        "localized_gl_name": null,
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120043"
+      },
+      "20044": {
+        "series": "SaGa",
+        "game_title": "Romancing SaGa 2",
+        "raw_name": "RomancingSa・Ga2",
+        "localized_gl_name": null,
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120044"
+      },
+      "20045": {
+        "series": "SaGa",
+        "game_title": "SaGa Frontier",
+        "raw_name": "SaGa Frontier",
+        "localized_gl_name": null,
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120045"
+      },
+      "20046": {
+        "series": "SaGa",
+        "game_title": "SaGa Frontier 2",
+        "raw_name": "SaGa Frontier2",
+        "localized_gl_name": null,
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120046"
+      },
+      "20047": {
+        "series": "BLOODY ESCAPE",
+        "game_title": "BLOODY ESCAPE -地獄の逃走劇-",
+        "raw_name": "BLOODY ESCAPE -地獄の逃走劇-",
+        "localized_gl_name": null,
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120047"
+      },
+      "20048": {
+        "series": "Star Ocean",
+        "game_title": "Star Ocean: The Second Story R",
+        "raw_name": "SO2R",
+        "localized_gl_name": null,
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120048"
+      },
+      "20049": {
+        "series": "Mana",
+        "game_title": "Visions of Mana",
+        "raw_name": "聖剣伝説 VoM",
+        "localized_gl_name": null,
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120049"
+      },
+      "20050": {
+        "series": "南国少年パプワくん",
+        "game_title": "南国少年パプワくん",
+        "raw_name": "南国少年パプワくん",
+        "localized_gl_name": null,
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120050"
+      },
+      "20051": {
+        "series": "魔法陣グルグル",
+        "game_title": "魔法陣グルグル",
+        "raw_name": "魔法陣グルグル",
+        "localized_gl_name": null,
+        "name_source": "JP_game_master",
+        "normalization": "editorial_normalization_of_verified_game_title",
+        "icon_id": "120051"
+      }
+    }
+  },
+  "series_rule": "Numbered Final Fantasy titles retain distinct FFI through FFXVI series. Direct sequels/spinoffs such as FFX-2 and Advent Children group with their numbered subseries, with the exact source title preserved in game_title. FFBE, FFT, FF Type-0, WOTV FFBE, FFRK and World of Final Fantasy remain distinct. Kingdom Hearts III and Dark Road group under Kingdom Hearts; other collaborations use their source franchise.",
+  "unit_snapshot_source": "catalog/unit_identity_sources.json",
+  "unit_snapshot_fingerprint": "df6a871e7a2de90c51f6cde5fbfc92bc526789dd02cac92be8c81bd94dae3eb0"
+}

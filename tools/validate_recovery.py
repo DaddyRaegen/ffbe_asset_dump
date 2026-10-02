@@ -102,10 +102,19 @@ def main():
         # Missing evidence is an error; never collapse collisions back to raw IDs.
         master=build_master(read_json(repo/'catalog/unit_identity_sources.json'),
                             read_json(repo/'catalog/unit_identity_decisions.json'),
-                            catalog['units'],read_json(repo/DEFAULT_REPORT),repo=repo)
+                            catalog['units'],read_json(repo/DEFAULT_REPORT),repo=repo,
+                            series_sources=read_json(repo/'catalog/series_sources.json') if (repo/'catalog/series_sources.json').exists() else None)
         (repo/'catalog/unit_master.json').write_text(json.dumps(master,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         from validate_unit_identities import validate
         validate(repo)
+        if (repo/'catalog/legacy_unit_lookup.json').exists():
+            from build_unit_lookup import build_lookup, atomic_json
+            from validate_unit_lookup import validate_lookup
+            original=read_json(repo/'catalog/legacy_unit_lookup.json')
+            current=read_json(repo/'data.json') if (repo/'data.json').exists() else {}
+            lookup=build_lookup(original,master,current)
+            validate_lookup(repo,lookup,master,original)
+            atomic_json(repo/'data.json',lookup)
     with (reports/'source-manifest.csv').open('w',newline='',encoding='utf-8') as f:
         writer=csv.writer(f,lineterminator='\n');writer.writerow(['destination','source','member','bytes','sha256','extraction'])
         for dest,r in sorted(recovered.items()):writer.writerow([dest,r['source'],r.get('member',''),r['bytes'],r['sha256'],r.get('extraction','standard')])

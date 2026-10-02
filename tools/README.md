@@ -26,7 +26,7 @@ Keep the work directory between runs: it stores the baseline, inventory, per-arc
 - Some JP archives mix encrypted files with plaintext legacy members. If the external tool's output fails validation, the importer checks the original member bytes before rejecting the file.
 - Images are decoded, animation CSVs are checked, and every addition gets a SHA-256 hash and source path. Source animation references outside their texture boundaries are reported without altering the original files.
 
-The source manifest identifies each imported file and its archive. Catalogs list unit forms, monster IDs, and vision cards with links to sprite sheets and animation data. The old `data.json` remains a legacy name lookup, so it does not name every newly recovered ID.
+The source manifest identifies each imported file and its archive. Catalogs list unit forms, monster IDs, and vision cards with links to sprite sheets and animation data. `data.json` covers all sourced base-unit IDs, with regional forms, master IDs, series, and asset paths nested under each base entry. Asset-only IDs without source identity metadata remain in the master registry with unknown identity and series.
 
 ## Animation tools
 
@@ -53,7 +53,9 @@ Rebuild and validate the checked-in master registry:
 
 ```powershell
 python tools/build_unit_master.py --repo . --annotate-legacy
+python tools/build_unit_lookup.py --repo .
 python tools/validate_unit_identities.py --repo .
+python tools/validate_unit_lookup.py --repo .
 python -m unittest discover -s tools -p "test_*.py"
 ```
 
@@ -86,3 +88,34 @@ The 21 assets without raw identity metadata and 126 untranslated JP forms remain
 explicitly unresolved/native-named. See `coverage` in the master list. This
 repository change does not rebuild the separate FFR picker/cache or asset-viewer
 index; those consumers must adopt the mapping before showing both identities.
+
+## Base-unit lookup and series
+
+`build_unit_lookup.py` generates the numeric-keyed `data.json` from the master form
+registry and the preserved `catalog/legacy_unit_lookup.json` snapshot. It groups by
+the declared `(server, source_unit_id)`, not a numeric prefix or rarity digit.
+Original `name`, `type`, `rarity` and unrelated custom fields are retained. Later
+display-field edits and custom numeric rows are preserved on reruns. Generated
+identity/series fields are rebuilt, and the source name remains in `canonical_name`.
+Neither acquisition category nor rarity is guessed for new entries.
+
+Each `identities[].forms[]` contains its native `original_id`, stable `master_id`,
+series metadata/provenance, and `assets` paths copied from the authoritative master.
+Do not treat a base lookup key as a particular sprite form. Eight numeric base IDs
+are themselves ambiguous and have a null top-level `master_id`; their GL and JP
+identities remain separate. Kaito/Godrea/Emperor Foo use their original GL base
+keys, with collision form links nested below them.
+
+`catalog/series_sources.json` records regional `F_GAME_TITLE_MST` evidence and
+editorial label normalization. `unit_series.py` joins each raw SSID `game_id` to its
+own region's table. This handles different Ariana Grande and Katy Perry codes in
+GL and JP without guessing from unit names. Numbered Final Fantasy titles stay
+distinct; Kingdom Hearts III and Dark Road use `series: "Kingdom Hearts"` and keep
+their specific `game_title`. Code zero or missing metadata produces an explicit
+unknown, and source-snapshot changes require reviewed mappings.
+
+All sourced forms have a series mapping. Three labels currently retain Japanese
+source text, and 21 asset-only master rows have no source identity/series. The
+lookup validator checks preservation, unique regional aliases, all asset paths,
+and agreement with the series-enriched master. Ordinary recovery validation also
+regenerates and validates this lookup when its snapshot is present.

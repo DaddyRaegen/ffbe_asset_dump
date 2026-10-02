@@ -19,8 +19,24 @@ ambiguous for those rows. See the [identity repair report](reports/2026-10-02-un
 for all mappings, evidence, validation, and remaining metadata gaps.
 
 ### Legacy lookup
-In the `data.json` file, search for the name of the unit you're looking for. Copy the associated **Unit ID** and search the repository for that ID.
-`data.json` is a legacy name lookup and does not name every recovered unit. The [unit catalog](catalog/units.json), [monster catalog](catalog/monsters.json), and [vision-card catalog](catalog/vision_cards.json) list available sprite IDs and their matching animation inputs.
+[`data.json`](data.json) keeps numeric **base-unit** keys and the original names,
+acquisition types and rarity labels. It now covers 1,895 sourced base IDs. Each
+entry includes `series`, regional `identities`, and their `forms` with native IDs,
+master IDs and explicit asset paths. A colliding numeric base has `master_id: null`
+and two named regional identities; choose a server and form before loading assets.
+`canonical_name` contains the source-backed name while legacy display names remain
+unchanged. New acquisition types are `unknown` rather than guessed.
+
+Series come from each regional SSID row's `game_id` and the regional game-title
+master: for example **FFBE**, **FFXVI**, **Kingdom Hearts**, and **Fullmetal Alchemist**.
+Specific titles such as Kingdom Hearts III remain in `game_title`. Every form keeps
+the original game code and series provenance. See [all eleven conflicts](reports/2026-10-02-unit-series/CONFLICTS.md)
+and the [lookup/series report](reports/2026-10-02-unit-series/REPORT.md).
+
+The [unit catalog](catalog/units.json), [monster catalog](catalog/monsters.json),
+and [vision-card catalog](catalog/vision_cards.json) list available sprite IDs and
+animation inputs. The master list additionally preserves 21 asset-only IDs whose
+identity and series are unknown; they are not invented as base-unit records.
 
 ## GL / JP asset recovery
 
