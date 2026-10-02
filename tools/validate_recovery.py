@@ -71,6 +71,10 @@ def main():
                     x,y,w,h=part[6:10]
                     if page==0 and (x<0 or y<0 or x+w>width or y+h>height):
                         bounds.append({'id':uid,'row':row_no,'rectangle':[x,y,w,h],'atlas':[width,height],'used_by_idle':row_no in idle_indices})
+        if label == 'units' and (repo/'catalog/unit_identity_decisions.json').exists():
+            from build_unit_master import annotate_legacy
+            decisions=json.loads((repo/'catalog/unit_identity_decisions.json').read_text(encoding='utf-8'))
+            entries=annotate_legacy(entries,decisions)
         catalog[label]=entries
         animation_checks[label]={'new_sprite_ids':new_count,'missing_companions':missing,'invalid_idle_frame_references':bad_indices,'atlas_bounds_warnings':bounds}
     selected={d for d in inventory if d not in baseline and not d.startswith('additional/')}
@@ -92,6 +96,16 @@ def main():
     reports=repo/'reports'/f'{report_date}-recovery';reports.mkdir(parents=True,exist_ok=True)
     save(reports/'summary.json',summary)
     for label,entries in catalog.items():save(repo/'catalog'/f'{label}.json',entries)
+    if (repo/'catalog/unit_identity_decisions.json').exists():
+        from build_unit_master import build_master, read_json, DEFAULT_REPORT
+        # Preserve the regional registry when regenerating the legacy catalogs.
+        # Missing evidence is an error; never collapse collisions back to raw IDs.
+        master=build_master(read_json(repo/'catalog/unit_identity_sources.json'),
+                            read_json(repo/'catalog/unit_identity_decisions.json'),
+                            catalog['units'],read_json(repo/DEFAULT_REPORT),repo=repo)
+        (repo/'catalog/unit_master.json').write_text(json.dumps(master,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+        from validate_unit_identities import validate
+        validate(repo)
     with (reports/'source-manifest.csv').open('w',newline='',encoding='utf-8') as f:
         writer=csv.writer(f,lineterminator='\n');writer.writerow(['destination','source','member','bytes','sha256','extraction'])
         for dest,r in sorted(recovered.items()):writer.writerow([dest,r['source'],r.get('member',''),r['bytes'],r['sha256'],r.get('extraction','standard')])

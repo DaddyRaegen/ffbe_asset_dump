@@ -4,6 +4,21 @@
 A repo of Final Fantasy Brave Exvius in game assets
 
 ## How to find units
+Use [the master unit list](catalog/unit_master.json) for names, regional identity,
+and explicit asset paths. Eleven native form IDs belong to different GL and JP
+units. For example, `unit:GL:401014207` is **Master Machinist Abigail**, while
+`unit:JP:401014207` is **Dark Knight Duane**. These master IDs are opaque lookup
+keys; use `assets.sprite_sheet`, `assets.frame_data`, and `assets.idle_animation`
+instead of inserting them into filenames. Original numeric IDs and filenames
+remain available as provenance.
+
+The corresponding [regional bundles](regional_units) restore both identities.
+Existing flat files are retained for compatibility; collision rows in the old
+catalog are explicitly marked `ambiguous_legacy_id`. Numeric lookup alone is
+ambiguous for those rows. See the [identity repair report](reports/2026-10-02-unit-identities/REPORT.md)
+for all mappings, evidence, validation, and remaining metadata gaps.
+
+### Legacy lookup
 In the `data.json` file, search for the name of the unit you're looking for. Copy the associated **Unit ID** and search the repository for that ID.
 `data.json` is a legacy name lookup and does not name every recovered unit. The [unit catalog](catalog/units.json), [monster catalog](catalog/monsters.json), and [vision-card catalog](catalog/vision_cards.json) list available sprite IDs and their matching animation inputs.
 

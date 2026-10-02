@@ -1,0 +1,1667 @@
+{
+  "schema_version": 1,
+  "collisions": [
+    {
+      "original_id": "401008507",
+      "gl_raw_name": "Kaito",
+      "gl_localized_name": "Kaito",
+      "jp_raw_name": "ヨシキリ",
+      "jp_translated_name": "Yoshikiri",
+      "classification": "different_unit_same_id",
+      "evidence": [
+        "unit_id",
+        "order_index",
+        "growth_pattern",
+        "equip",
+        "is_summonable",
+        "hp",
+        "mp",
+        "atk",
+        "def",
+        "mag",
+        "spr",
+        "magic_affinity",
+        "lb_max_level",
+        "trustmaster",
+        "supertrust",
+        "nv_unit_evo_id",
+        "rZhG3M4b",
+        "not_dex_no",
+        "attack_frames",
+        "effect_frames",
+        "tags",
+        "job_id",
+        "roles",
+        "StandData",
+        "TouchRect",
+        "OverHeadPos",
+        "sell_price",
+        "Q1RJvK7r",
+        "nv_level",
+        "Ew8e6BAc"
+      ],
+      "translated_non_name_changes": [
+        "order_index"
+      ],
+      "asset_sources": {
+        "GL": "FFBE_GL/d3syu63yncawjw.cloudfront.net/lapis-static-prod/dlc_assets_prod/common_lang/sd/unit/Ver44_unit2_sg_common.cpk",
+        "JP": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit21.cpk"
+      },
+      "decision": "Keep GL and JP as separate identities; retain original numeric ID for source lookup."
+    },
+    {
+      "original_id": "401008607",
+      "gl_raw_name": "Godrea",
+      "gl_localized_name": "Godrea",
+      "jp_raw_name": "スターライトエレナ",
+      "jp_translated_name": "Starlight Elena",
+      "classification": "different_unit_same_id",
+      "evidence": [
+        "unit_id",
+        "order_index",
+        "growth_pattern",
+        "equip",
+        "hp",
+        "mp",
+        "atk",
+        "def",
+        "mag",
+        "spr",
+        "magic_affinity",
+        "lb_max_level",
+        "trustmaster",
+        "supertrust",
+        "nv_unit_evo_id",
+        "rZhG3M4b",
+        "not_dex_no",
+        "MoveOffset",
+        "attack_frames",
+        "effect_frames",
+        "lb_fillrate",
+        "p7esQ2y3",
+        "tags",
+        "job_id",
+        "roles",
+        "StandData",
+        "TouchRect",
+        "OverHeadPos",
+        "sell_price",
+        "Q1RJvK7r",
+        "nv_level",
+        "Ew8e6BAc",
+        "leader_skill_id"
+      ],
+      "translated_non_name_changes": [
+        "order_index",
+        "tags"
+      ],
+      "asset_sources": {
+        "GL": "FFBE_GL/d3syu63yncawjw.cloudfront.net/lapis-static-prod/dlc_assets_prod/common_lang/sd/unit/Ver44_unit2_sg_common.cpk",
+        "JP": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit21.cpk"
+      },
+      "decision": "Keep GL and JP as separate identities; retain original numeric ID for source lookup."
+    },
+    {
+      "original_id": "401008707",
+      "gl_raw_name": "Emperor Foo",
+      "gl_localized_name": "Emperor Foo",
+      "jp_raw_name": "イバラ",
+      "jp_translated_name": "Ibara",
+      "classification": "different_unit_same_id",
+      "evidence": [
+        "sex",
+        "unit_id",
+        "order_index",
+        "growth_pattern",
+        "equip",
+        "hp",
+        "mp",
+        "atk",
+        "def",
+        "mag",
+        "spr",
+        "element_resist",
+        "status_resist",
+        "magic_affinity",
+        "lb_max_level",
+        "trustmaster",
+        "supertrust",
+        "nv_unit_evo_id",
+        "rZhG3M4b",
+        "not_dex_no",
+        "MoveType",
+        "MoveOffset",
+        "attack_frames",
+        "effect_frames",
+        "lb_fillrate",
+        "p7esQ2y3",
+        "tags",
+        "job_id",
+        "roles",
+        "StandData",
+        "TouchRect",
+        "OverHeadPos",
+        "sell_price",
+        "Q1RJvK7r",
+        "nv_level",
+        "leader_skill_id"
+      ],
+      "translated_non_name_changes": [
+        "order_index"
+      ],
+      "asset_sources": {
+        "GL": "FFBE_GL/d3syu63yncawjw.cloudfront.net/lapis-static-prod/dlc_assets_prod/common_lang/sd/unit/Ver44_unit2_sg_common.cpk",
+        "JP": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit21.cpk"
+      },
+      "decision": "Keep GL and JP as separate identities; retain original numeric ID for source lookup."
+    },
+    {
+      "original_id": "401014207",
+      "gl_raw_name": "Machinist Abigail",
+      "gl_localized_name": "Master Machinist Abigail",
+      "jp_raw_name": "ダークナイト ディーン",
+      "jp_translated_name": "Dark Knight Duane",
+      "classification": "different_unit_same_id",
+      "evidence": [
+        "sex",
+        "order_index",
+        "equip",
+        "hp",
+        "atk",
+        "def",
+        "mag",
+        "spr",
+        "element_resist",
+        "status_resist",
+        "magic_affinity",
+        "trustmaster",
+        "supertrust",
+        "not_dex_no",
+        "MoveOffset",
+        "attack_frames",
+        "effect_frames",
+        "lb_fillrate",
+        "p7esQ2y3",
+        "tags",
+        "job_id",
+        "roles",
+        "StandData",
+        "TouchRect",
+        "OverHeadPos"
+      ],
+      "translated_non_name_changes": [
+        "order_index",
+        "DispDict",
+        "tags"
+      ],
+      "asset_sources": {
+        "GL": "FFBE_GL/d3syu63yncawjw.cloudfront.net/lapis-static-prod/dlc_assets_prod/common_lang/sd/unit/Ver51_unit3_sg_common.cpk",
+        "JP": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit27.cpk"
+      },
+      "decision": "Keep GL and JP as separate identities; retain original numeric ID for source lookup."
+    },
+    {
+      "original_id": "401014217",
+      "gl_raw_name": "Machinist Abigail",
+      "gl_localized_name": "Master Machinist Abigail",
+      "jp_raw_name": "ダークナイト ディーン",
+      "jp_translated_name": "Dark Knight Duane",
+      "classification": "different_unit_same_id",
+      "evidence": [
+        "sex",
+        "order_index",
+        "equip",
+        "hp",
+        "atk",
+        "def",
+        "mag",
+        "spr",
+        "element_resist",
+        "status_resist",
+        "magic_affinity",
+        "trustmaster",
+        "supertrust",
+        "not_dex_no",
+        "MoveOffset",
+        "attack_frames",
+        "effect_frames",
+        "lb_fillrate",
+        "p7esQ2y3",
+        "tags",
+        "job_id",
+        "roles",
+        "StandData",
+        "TouchRect",
+        "OverHeadPos"
+      ],
+      "translated_non_name_changes": [
+        "order_index",
+        "DispDict",
+        "tags"
+      ],
+      "asset_sources": {
+        "GL": "FFBE_GL/d3syu63yncawjw.cloudfront.net/lapis-static-prod/dlc_assets_prod/common_lang/sd/unit/Ver51_unit3_sg_common.cpk",
+        "JP": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit27.cpk"
+      },
+      "decision": "Keep GL and JP as separate identities; retain original numeric ID for source lookup."
+    },
+    {
+      "original_id": "401014307",
+      "gl_raw_name": "NVX Melissa",
+      "gl_localized_name": "Curse of Immunity Melissa",
+      "jp_raw_name": "不滅の輝きエレナ",
+      "jp_translated_name": "Eternal Radiance Elena",
+      "classification": "different_unit_same_id",
+      "evidence": [
+        "cnLF6Cz1",
+        "order_index",
+        "equip",
+        "hp",
+        "mp",
+        "atk",
+        "def",
+        "mag",
+        "spr",
+        "element_resist",
+        "status_resist",
+        "magic_affinity",
+        "trustmaster",
+        "supertrust",
+        "rZhG3M4b",
+        "not_dex_no",
+        "MoveOffset",
+        "attack_frames",
+        "effect_frames",
+        "lb_fillrate",
+        "p7esQ2y3",
+        "tags",
+        "job_id",
+        "roles",
+        "StandData",
+        "TouchRect",
+        "OverHeadPos",
+        "leader_skill_id"
+      ],
+      "translated_non_name_changes": [
+        "order_index",
+        "DispDict",
+        "tags"
+      ],
+      "asset_sources": {
+        "GL": "FFBE_GL/d3syu63yncawjw.cloudfront.net/lapis-static-prod/dlc_assets_prod/common_lang/sd/unit/Ver51_unit3_sg_common.cpk",
+        "JP": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit29.cpk"
+      },
+      "decision": "Keep GL and JP as separate identities; retain original numeric ID for source lookup."
+    },
+    {
+      "original_id": "401014317",
+      "gl_raw_name": "NVX Melissa",
+      "gl_localized_name": "Curse of Immunity Melissa",
+      "jp_raw_name": "不滅の輝きエレナ",
+      "jp_translated_name": "Eternal Radiance Elena",
+      "classification": "different_unit_same_id",
+      "evidence": [
+        "cnLF6Cz1",
+        "order_index",
+        "equip",
+        "hp",
+        "mp",
+        "atk",
+        "def",
+        "mag",
+        "spr",
+        "element_resist",
+        "status_resist",
+        "magic_affinity",
+        "trustmaster",
+        "supertrust",
+        "rZhG3M4b",
+        "not_dex_no",
+        "MoveOffset",
+        "attack_frames",
+        "effect_frames",
+        "lb_fillrate",
+        "p7esQ2y3",
+        "tags",
+        "job_id",
+        "roles",
+        "StandData",
+        "TouchRect",
+        "OverHeadPos",
+        "leader_skill_id"
+      ],
+      "translated_non_name_changes": [
+        "order_index",
+        "DispDict",
+        "tags"
+      ],
+      "asset_sources": {
+        "GL": "FFBE_GL/d3syu63yncawjw.cloudfront.net/lapis-static-prod/dlc_assets_prod/common_lang/sd/unit/Ver51_unit3_sg_common.cpk",
+        "JP": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit29.cpk"
+      },
+      "decision": "Keep GL and JP as separate identities; retain original numeric ID for source lookup."
+    },
+    {
+      "original_id": "401014507",
+      "gl_raw_name": "Dark Knight Duane",
+      "gl_localized_name": "Dark Knight Duane",
+      "jp_raw_name": "ヒョウ&ブラックレイダー",
+      "jp_translated_name": "Hyoh & Panthera Ultimus",
+      "classification": "different_unit_same_id",
+      "evidence": [
+        "cnLF6Cz1",
+        "order_index",
+        "equip",
+        "hp",
+        "mp",
+        "atk",
+        "def",
+        "mag",
+        "spr",
+        "element_resist",
+        "status_resist",
+        "magic_affinity",
+        "trustmaster",
+        "supertrust",
+        "rZhG3M4b",
+        "not_dex_no",
+        "MoveOffset",
+        "attack_frames",
+        "effect_frames",
+        "lb_fillrate",
+        "p7esQ2y3",
+        "tags",
+        "job_id",
+        "roles",
+        "StandData",
+        "TouchRect",
+        "OverHeadPos",
+        "leader_skill_id"
+      ],
+      "translated_non_name_changes": [
+        "order_index",
+        "DispDict",
+        "tags"
+      ],
+      "asset_sources": {
+        "GL": "FFBE_GL/d3syu63yncawjw.cloudfront.net/lapis-static-prod/dlc_assets_prod/common_lang/sd/unit/Ver51_unit3_sg_common.cpk",
+        "JP": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit30.cpk"
+      },
+      "decision": "Keep GL and JP as separate identities; retain original numeric ID for source lookup."
+    },
+    {
+      "original_id": "401014517",
+      "gl_raw_name": "Dark Knight Duane",
+      "gl_localized_name": "Dark Knight Duane",
+      "jp_raw_name": "ヒョウ&ブラックレイダー",
+      "jp_translated_name": "Hyoh & Panthera Ultimus",
+      "classification": "different_unit_same_id",
+      "evidence": [
+        "cnLF6Cz1",
+        "order_index",
+        "equip",
+        "hp",
+        "mp",
+        "atk",
+        "def",
+        "mag",
+        "spr",
+        "element_resist",
+        "status_resist",
+        "magic_affinity",
+        "lb_id",
+        "trustmaster",
+        "supertrust",
+        "rZhG3M4b",
+        "not_dex_no",
+        "MoveOffset",
+        "attack_frames",
+        "effect_frames",
+        "lb_fillrate",
+        "p7esQ2y3",
+        "tags",
+        "job_id",
+        "StandData",
+        "TouchRect",
+        "OverHeadPos",
+        "leader_skill_id"
+      ],
+      "translated_non_name_changes": [
+        "order_index",
+        "DispDict",
+        "tags"
+      ],
+      "asset_sources": {
+        "GL": "FFBE_GL/d3syu63yncawjw.cloudfront.net/lapis-static-prod/dlc_assets_prod/common_lang/sd/unit/Ver51_unit3_sg_common.cpk",
+        "JP": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit30.cpk"
+      },
+      "decision": "Keep GL and JP as separate identities; retain original numeric ID for source lookup."
+    },
+    {
+      "original_id": "401014607",
+      "gl_raw_name": "NVX Nora",
+      "gl_localized_name": "Ruin Explorer Nora",
+      "jp_raw_name": "リヒト",
+      "jp_translated_name": "Richt",
+      "classification": "different_unit_same_id",
+      "evidence": [
+        "sex",
+        "order_index",
+        "equip",
+        "hp",
+        "mp",
+        "atk",
+        "def",
+        "mag",
+        "spr",
+        "element_resist",
+        "status_resist",
+        "magic_affinity",
+        "trustmaster",
+        "supertrust",
+        "rZhG3M4b",
+        "not_dex_no",
+        "MoveOffset",
+        "attack_frames",
+        "effect_frames",
+        "lb_fillrate",
+        "p7esQ2y3",
+        "tags",
+        "job_id",
+        "roles",
+        "StandData",
+        "TouchRect",
+        "OverHeadPos",
+        "leader_skill_id"
+      ],
+      "translated_non_name_changes": [
+        "order_index",
+        "DispDict",
+        "tags"
+      ],
+      "asset_sources": {
+        "GL": "FFBE_GL/d3syu63yncawjw.cloudfront.net/lapis-static-prod/dlc_assets_prod/common_lang/sd/unit/Ver51_unit3_sg_common.cpk",
+        "JP": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit31.cpk"
+      },
+      "decision": "Keep GL and JP as separate identities; retain original numeric ID for source lookup."
+    },
+    {
+      "original_id": "401014617",
+      "gl_raw_name": "NVX Nora",
+      "gl_localized_name": "Ruin Explorer Nora",
+      "jp_raw_name": "リヒト",
+      "jp_translated_name": "Richt",
+      "classification": "different_unit_same_id",
+      "evidence": [
+        "sex",
+        "order_index",
+        "equip",
+        "hp",
+        "mp",
+        "atk",
+        "def",
+        "mag",
+        "spr",
+        "element_resist",
+        "status_resist",
+        "magic_affinity",
+        "lb_id",
+        "trustmaster",
+        "supertrust",
+        "rZhG3M4b",
+        "not_dex_no",
+        "MoveOffset",
+        "attack_frames",
+        "effect_frames",
+        "lb_fillrate",
+        "p7esQ2y3",
+        "tags",
+        "job_id",
+        "roles",
+        "StandData",
+        "TouchRect",
+        "OverHeadPos",
+        "leader_skill_id"
+      ],
+      "translated_non_name_changes": [
+        "order_index",
+        "DispDict",
+        "tags"
+      ],
+      "asset_sources": {
+        "GL": "FFBE_GL/d3syu63yncawjw.cloudfront.net/lapis-static-prod/dlc_assets_prod/common_lang/sd/unit/Ver51_unit3_sg_common.cpk",
+        "JP": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit31.cpk"
+      },
+      "decision": "Keep GL and JP as separate identities; retain original numeric ID for source lookup."
+    }
+  ],
+  "shared_name_variants": [
+    {
+      "original_id": "100000901",
+      "gl_raw_name": "ライザ―",
+      "jp_raw_name": "ライザー",
+      "gl_localized_name": "Rizer",
+      "jp_translated_name": "Rizer",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "tags"
+      ]
+    },
+    {
+      "original_id": "100000902",
+      "gl_raw_name": "ライザ―",
+      "jp_raw_name": "ライザー",
+      "gl_localized_name": "Rizer",
+      "jp_translated_name": "Rizer",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "tags"
+      ]
+    },
+    {
+      "original_id": "100006807",
+      "gl_raw_name": "Fohlen",
+      "jp_raw_name": "フォーレン",
+      "gl_localized_name": "Fohlen",
+      "jp_translated_name": "Fohlen",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "100007507",
+      "gl_raw_name": "Lunera",
+      "jp_raw_name": "ルネラ",
+      "gl_localized_name": "Lunera",
+      "jp_translated_name": "Lunera",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "100009107",
+      "gl_raw_name": "Loren",
+      "jp_raw_name": "ロレーヌ",
+      "gl_localized_name": "Loren",
+      "jp_translated_name": "Loren",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "100009807",
+      "gl_raw_name": "Elfreeda",
+      "jp_raw_name": "エルフリーデ",
+      "gl_localized_name": "Elfreeda",
+      "jp_translated_name": "Elfreeda",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "100010407",
+      "gl_raw_name": "Roy",
+      "jp_raw_name": "ロイ",
+      "gl_localized_name": "Roy",
+      "jp_translated_name": "Roy",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "100011707",
+      "gl_raw_name": "Pyro Glacial Lasswell",
+      "jp_raw_name": "氷炎の騎士ラスウェル",
+      "gl_localized_name": "Pyro Glacial Lasswell",
+      "jp_translated_name": "Pyro Glacial Lasswell",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "100012407",
+      "gl_raw_name": "Blossom Sage Sakura",
+      "jp_raw_name": "桜雲の賢者サクラ",
+      "gl_localized_name": "Blossom Sage Sakura",
+      "jp_translated_name": "Blossom Sage Sakura",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "100031007",
+      "gl_raw_name": "レイン-Neo Vision-",
+      "jp_raw_name": "黎明の騎士レイン",
+      "gl_localized_name": "Rain -Neo Vision-",
+      "jp_translated_name": "Rain -Neo Vision-",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "tags",
+        "Ew8e6BAc"
+      ]
+    },
+    {
+      "original_id": "100031017",
+      "gl_raw_name": "レイン-Neo Vision-",
+      "jp_raw_name": "黎明の騎士レイン",
+      "gl_localized_name": "Rain -Neo Vision-",
+      "jp_translated_name": "Rain -Neo Vision-",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "tags",
+        "Ew8e6BAc"
+      ]
+    },
+    {
+      "original_id": "100031607",
+      "gl_raw_name": "ソル-Neo Vision-",
+      "jp_raw_name": "真理の月ソル",
+      "gl_localized_name": "Sol -Neo Vision-",
+      "jp_translated_name": "Sol -Neo Vision-",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1"
+      ]
+    },
+    {
+      "original_id": "100031617",
+      "gl_raw_name": "ソル-Neo Vision-",
+      "jp_raw_name": "真理の月ソル",
+      "gl_localized_name": "Sol -Neo Vision-",
+      "jp_translated_name": "Sol -Neo Vision-",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1"
+      ]
+    },
+    {
+      "original_id": "100031907",
+      "gl_raw_name": "マダム・エーデル-Neo Vision-",
+      "jp_raw_name": "夜会の主マダム・エーデル",
+      "gl_localized_name": "Madam Edel -Neo Vision-",
+      "jp_translated_name": "Madam Edel -Neo Vision-",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "rZhG3M4b"
+      ]
+    },
+    {
+      "original_id": "100031917",
+      "gl_raw_name": "マダム・エーデル-Neo Vision-",
+      "jp_raw_name": "夜会の主マダム・エーデル",
+      "gl_localized_name": "Madam Edel -Neo Vision-",
+      "jp_translated_name": "Madam Edel -Neo Vision-",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "rZhG3M4b"
+      ]
+    },
+    {
+      "original_id": "100032207",
+      "gl_raw_name": "ファイサリス-Neo Vision-",
+      "jp_raw_name": "氷花の狙撃手ファイサリス",
+      "gl_localized_name": "Physalis -Neo Vision-",
+      "jp_translated_name": "Physalis -Neo Vision-",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "p7esQ2y3"
+      ]
+    },
+    {
+      "original_id": "100032217",
+      "gl_raw_name": "ファイサリス-Neo Vision-",
+      "jp_raw_name": "氷花の狙撃手ファイサリス",
+      "gl_localized_name": "Physalis -Neo Vision-",
+      "jp_translated_name": "Physalis -Neo Vision-",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "p7esQ2y3"
+      ]
+    },
+    {
+      "original_id": "100032607",
+      "gl_raw_name": "ラスウェル-Neo Vision-",
+      "jp_raw_name": "碧天の騎士ラスウェル",
+      "gl_localized_name": "Lasswell -Neo Vision-",
+      "jp_translated_name": "Lasswell -Neo Vision-",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "tags"
+      ]
+    },
+    {
+      "original_id": "100032617",
+      "gl_raw_name": "ラスウェル-Neo Vision-",
+      "jp_raw_name": "碧天の騎士ラスウェル",
+      "gl_localized_name": "Lasswell -Neo Vision-",
+      "jp_translated_name": "Lasswell -Neo Vision-",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "tags"
+      ]
+    },
+    {
+      "original_id": "100035507",
+      "gl_raw_name": "水着ファイサリスNVX",
+      "jp_raw_name": "ファイサリス2021夏",
+      "gl_localized_name": "Summer Sniper Physalis",
+      "jp_translated_name": "Summer Sniper Physalis",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "p7esQ2y3"
+      ]
+    },
+    {
+      "original_id": "100035517",
+      "gl_raw_name": "水着ファイサリスNVX",
+      "jp_raw_name": "ファイサリス2021夏",
+      "gl_localized_name": "Summer Sniper Physalis",
+      "jp_translated_name": "Summer Sniper Physalis",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "p7esQ2y3"
+      ]
+    },
+    {
+      "original_id": "100037107",
+      "gl_raw_name": "水着フリージアNVX",
+      "jp_raw_name": "フリージア2021夏",
+      "gl_localized_name": "Magic Mermaid Freesia",
+      "jp_translated_name": "Magic Mermaid Freesia",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "p7esQ2y3"
+      ]
+    },
+    {
+      "original_id": "100037117",
+      "gl_raw_name": "水着フリージアNVX",
+      "jp_raw_name": "フリージア2021夏",
+      "gl_localized_name": "Magic Mermaid Freesia",
+      "jp_translated_name": "Magic Mermaid Freesia",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "p7esQ2y3"
+      ]
+    },
+    {
+      "original_id": "199000101",
+      "gl_raw_name": "エマ（バトルNPC）",
+      "jp_raw_name": "エマ(バトルNPC)",
+      "gl_localized_name": "Emma (Battle NPC)",
+      "jp_translated_name": "Emma (Battle NPC)",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "hp",
+        "mp",
+        "atk",
+        "def",
+        "mag",
+        "spr"
+      ]
+    },
+    {
+      "original_id": "199000102",
+      "gl_raw_name": "リド（バトルNPC）",
+      "jp_raw_name": "リド(バトルNPC)",
+      "gl_localized_name": "Emma (Battle NPC)",
+      "jp_translated_name": "Lid",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "hp",
+        "mp",
+        "atk",
+        "def",
+        "mag",
+        "spr"
+      ]
+    },
+    {
+      "original_id": "202001907",
+      "gl_raw_name": "フリオニール-Neo Vision-",
+      "jp_raw_name": "義を重んじる戦士フリオニール",
+      "gl_localized_name": "Firion -Neo Vision-",
+      "jp_translated_name": "Firion -Neo Vision-",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "rZhG3M4b",
+        "p7esQ2y3",
+        "tags",
+        "Ew8e6BAc"
+      ]
+    },
+    {
+      "original_id": "202001917",
+      "gl_raw_name": "フリオニール-Neo Vision-",
+      "jp_raw_name": "義を重んじる戦士フリオニール",
+      "gl_localized_name": "Firion -Neo Vision-",
+      "jp_translated_name": "Firion -Neo Vision-",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "rZhG3M4b",
+        "p7esQ2y3",
+        "tags",
+        "Ew8e6BAc"
+      ]
+    },
+    {
+      "original_id": "203004207",
+      "gl_raw_name": "オニオンナイト-Neo Vision-",
+      "jp_raw_name": "クリスタルの導きオニオンナイト",
+      "gl_localized_name": "Onion Knight -Neo Vision-",
+      "jp_translated_name": "Onion Knight -Neo Vision-",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "p7esQ2y3",
+        "tags"
+      ]
+    },
+    {
+      "original_id": "203004217",
+      "gl_raw_name": "オニオンナイト-Neo Vision-",
+      "jp_raw_name": "クリスタルの導きオニオンナイト",
+      "gl_localized_name": "Onion Knight -Neo Vision-",
+      "jp_translated_name": "Onion Knight -Neo Vision-",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "p7esQ2y3",
+        "tags"
+      ]
+    },
+    {
+      "original_id": "204002605",
+      "gl_raw_name": "パロム＆ポロム",
+      "jp_raw_name": "パロム&ポロム",
+      "gl_localized_name": "Palom & Porom",
+      "jp_translated_name": "Palom & Porom",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "p7esQ2y3"
+      ]
+    },
+    {
+      "original_id": "204002606",
+      "gl_raw_name": "パロム＆ポロム",
+      "jp_raw_name": "パロム&ポロム",
+      "gl_localized_name": "Palom & Porom",
+      "jp_translated_name": "Palom & Porom",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "p7esQ2y3"
+      ]
+    },
+    {
+      "original_id": "204002607",
+      "gl_raw_name": "パロム＆ポロム",
+      "jp_raw_name": "パロム&ポロム",
+      "gl_localized_name": "Palom & Porom",
+      "jp_translated_name": "Palom & Porom",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "p7esQ2y3",
+        "leader_skill_id"
+      ]
+    },
+    {
+      "original_id": "205001407",
+      "gl_raw_name": "ファリス-Neo Vision-",
+      "jp_raw_name": "シルドラとの絆ファリス",
+      "gl_localized_name": "Faris -Neo Vision-",
+      "jp_translated_name": "Faris -Neo Vision-",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "rZhG3M4b",
+        "p7esQ2y3",
+        "tags"
+      ]
+    },
+    {
+      "original_id": "205001417",
+      "gl_raw_name": "ファリス-Neo Vision-",
+      "jp_raw_name": "シルドラとの絆ファリス",
+      "gl_localized_name": "Faris -Neo Vision-",
+      "jp_translated_name": "Faris -Neo Vision-",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "rZhG3M4b",
+        "p7esQ2y3",
+        "tags"
+      ]
+    },
+    {
+      "original_id": "206002507",
+      "gl_raw_name": "ティナ-Neo Vision-",
+      "jp_raw_name": "覚醒する力 ティナ",
+      "gl_localized_name": "Terra -Neo Vision-",
+      "jp_translated_name": "Terra -Neo Vision-",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "tags",
+        "Ew8e6BAc",
+        "leader_skill_id"
+      ]
+    },
+    {
+      "original_id": "206002517",
+      "gl_raw_name": "ティナ-Neo Vision-",
+      "jp_raw_name": "覚醒する力 ティナ",
+      "gl_localized_name": "Terra -Neo Vision-",
+      "jp_translated_name": "Terra -Neo Vision-",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "tags",
+        "Ew8e6BAc",
+        "leader_skill_id"
+      ]
+    },
+    {
+      "original_id": "206002607",
+      "gl_raw_name": "ロック-Neo Vision-",
+      "jp_raw_name": "奇跡の探求者ロック",
+      "gl_localized_name": "Locke -Neo Vision-",
+      "jp_translated_name": "Locke -Neo Vision-",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "StandData"
+      ]
+    },
+    {
+      "original_id": "206002617",
+      "gl_raw_name": "ロック-Neo Vision-",
+      "jp_raw_name": "奇跡の探求者ロック",
+      "gl_localized_name": "Locke -Neo Vision-",
+      "jp_translated_name": "Locke -Neo Vision-",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "StandData"
+      ]
+    },
+    {
+      "original_id": "212000507",
+      "gl_raw_name": "Balthier",
+      "jp_raw_name": "バルフレア",
+      "gl_localized_name": "Balthier",
+      "jp_translated_name": "Balthier",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "212002207",
+      "gl_raw_name": "ガブラス-Neo Vision-",
+      "jp_raw_name": "ジャッジ・ガブラス",
+      "gl_localized_name": "Gabranth -Neo Vision-",
+      "jp_translated_name": "Gabranth -Neo Vision-",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "p7esQ2y3",
+        "tags",
+        "leader_skill_id"
+      ]
+    },
+    {
+      "original_id": "212002217",
+      "gl_raw_name": "ガブラス-Neo Vision-",
+      "jp_raw_name": "ジャッジ・ガブラス",
+      "gl_localized_name": "Gabranth -Neo Vision-",
+      "jp_translated_name": "Gabranth -Neo Vision-",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "p7esQ2y3",
+        "tags",
+        "leader_skill_id"
+      ]
+    },
+    {
+      "original_id": "213001105",
+      "gl_raw_name": "未来へのホープ・",
+      "jp_raw_name": "未来へのホープ",
+      "gl_localized_name": "Neverending Hope",
+      "jp_translated_name": "Neverending Hope",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "p7esQ2y3",
+        "tags"
+      ]
+    },
+    {
+      "original_id": "215000107",
+      "gl_raw_name": "Noctis",
+      "jp_raw_name": "ノクティス",
+      "gl_localized_name": "Noctis",
+      "jp_translated_name": "Noctis",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "215000207",
+      "gl_raw_name": "Gladiolus",
+      "jp_raw_name": "グラディオラス",
+      "gl_localized_name": "Gladiolus",
+      "jp_translated_name": "Gladiolus",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "254001505",
+      "gl_raw_name": "0組の秀才エース",
+      "jp_raw_name": "０組の秀才エース",
+      "gl_localized_name": "Wild Card Ace",
+      "jp_translated_name": "Wild Card Ace",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "254001506",
+      "gl_raw_name": "0組の秀才エース",
+      "jp_raw_name": "０組の秀才エース",
+      "gl_localized_name": "Wild Card Ace",
+      "jp_translated_name": "Wild Card Ace",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "254001507",
+      "gl_raw_name": "0組の秀才エース",
+      "jp_raw_name": "０組の秀才エース",
+      "gl_localized_name": "Wild Card Ace",
+      "jp_translated_name": "Wild Card Ace",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "256000101",
+      "gl_raw_name": "リコ（リコドキッ！）",
+      "jp_raw_name": "リコ(リコドキッ！)",
+      "gl_localized_name": "リコ（リコドキッ！）",
+      "jp_translated_name": "Riko",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "DispDict"
+      ]
+    },
+    {
+      "original_id": "256000102",
+      "gl_raw_name": "リコ（リコドキッ！）",
+      "jp_raw_name": "リコ(リコドキッ！)",
+      "gl_localized_name": "リコ（リコドキッ！）",
+      "jp_translated_name": "Riko",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "DispDict"
+      ]
+    },
+    {
+      "original_id": "256000103",
+      "gl_raw_name": "リコ（リコドキッ！）",
+      "jp_raw_name": "リコ(リコドキッ！)",
+      "gl_localized_name": "リコ（リコドキッ！）",
+      "jp_translated_name": "Riko",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "DispDict"
+      ]
+    },
+    {
+      "original_id": "256000104",
+      "gl_raw_name": "リコ（リコドキッ！）",
+      "jp_raw_name": "リコ(リコドキッ！)",
+      "gl_localized_name": "リコ（リコドキッ！）",
+      "jp_translated_name": "Riko",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "DispDict"
+      ]
+    },
+    {
+      "original_id": "256000105",
+      "gl_raw_name": "リコ（リコドキッ！）",
+      "jp_raw_name": "リコ(リコドキッ！)",
+      "gl_localized_name": "リコ（リコドキッ！）",
+      "jp_translated_name": "Riko",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "DispDict"
+      ]
+    },
+    {
+      "original_id": "256000106",
+      "gl_raw_name": "リコ（リコドキッ！）",
+      "jp_raw_name": "リコ(リコドキッ！)",
+      "gl_localized_name": "リコ（リコドキッ！）",
+      "jp_translated_name": "Riko",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "DispDict"
+      ]
+    },
+    {
+      "original_id": "302000204",
+      "gl_raw_name": "カル",
+      "jp_raw_name": "カル(ブレフロ)",
+      "gl_localized_name": "Karl",
+      "jp_translated_name": "Karl",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "302000205",
+      "gl_raw_name": "カル",
+      "jp_raw_name": "カル(ブレフロ)",
+      "gl_localized_name": "Karl",
+      "jp_translated_name": "Karl",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "312000517",
+      "gl_raw_name": "Duran",
+      "jp_raw_name": "デュラン",
+      "gl_localized_name": "Duran",
+      "jp_translated_name": "Duran",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "312000527",
+      "gl_raw_name": "Duran",
+      "jp_raw_name": "デュエリスト デュラン",
+      "gl_localized_name": "Duelist Duran",
+      "jp_translated_name": "Duelist Duran",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "order_index",
+        "growth_pattern",
+        "lb_max_level",
+        "not_dex_no",
+        "tags",
+        "k9GFaWm1"
+      ]
+    },
+    {
+      "original_id": "334000105",
+      "gl_raw_name": "Primrose",
+      "jp_raw_name": "プリムロゼ",
+      "gl_localized_name": "Primrose",
+      "jp_translated_name": "Primrose",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "334000106",
+      "gl_raw_name": "Primrose",
+      "jp_raw_name": "プリムロゼ",
+      "gl_localized_name": "Primrose",
+      "jp_translated_name": "Primrose",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "334000107",
+      "gl_raw_name": "Primrose",
+      "jp_raw_name": "プリムロゼ",
+      "gl_localized_name": "Primrose",
+      "jp_translated_name": "Primrose",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "401000104",
+      "gl_raw_name": "Dangerous Ariana",
+      "jp_raw_name": "デンジャラス・アリアナ",
+      "gl_localized_name": "Dangerous Ariana",
+      "jp_translated_name": "Dangerous Ariana",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "401000105",
+      "gl_raw_name": "Dangerous Ariana",
+      "jp_raw_name": "デンジャラス・アリアナ",
+      "gl_localized_name": "Dangerous Ariana",
+      "jp_translated_name": "Dangerous Ariana",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "401000106",
+      "gl_raw_name": "Dangerous Ariana",
+      "jp_raw_name": "デンジャラス・アリアナ",
+      "gl_localized_name": "Dangerous Ariana",
+      "jp_translated_name": "Dangerous Ariana",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "401011607",
+      "gl_raw_name": "Louise NV",
+      "jp_raw_name": "ルイーズ",
+      "gl_localized_name": "Louise",
+      "jp_translated_name": "Louise",
+      "decision": "shared",
+      "evidence": "Same localized unit identity; archive audit confirms matching complete CSV rigs. Texture variants are regional versions.",
+      "differing_metadata_fields": [
+        "order_index",
+        "equip",
+        "hp",
+        "mp",
+        "atk",
+        "def",
+        "mag",
+        "spr",
+        "element_resist",
+        "status_resist",
+        "trustmaster",
+        "supertrust",
+        "not_dex_no",
+        "effect_frames",
+        "p7esQ2y3",
+        "tags",
+        "job_id",
+        "roles",
+        "StandData",
+        "leader_skill_id"
+      ]
+    },
+    {
+      "original_id": "401011617",
+      "gl_raw_name": "Louise NV",
+      "jp_raw_name": "ルイーズ",
+      "gl_localized_name": "Louise",
+      "jp_translated_name": "Louise",
+      "decision": "shared",
+      "evidence": "Same localized unit identity; archive audit confirms matching complete CSV rigs. Texture variants are regional versions.",
+      "differing_metadata_fields": [
+        "order_index",
+        "equip",
+        "hp",
+        "mp",
+        "atk",
+        "def",
+        "mag",
+        "spr",
+        "element_resist",
+        "status_resist",
+        "trustmaster",
+        "supertrust",
+        "not_dex_no",
+        "effect_frames",
+        "p7esQ2y3",
+        "tags",
+        "job_id",
+        "StandData",
+        "leader_skill_id"
+      ]
+    },
+    {
+      "original_id": "401011707",
+      "gl_raw_name": "White Dragon Ling",
+      "jp_raw_name": "白竜の舞姫リン",
+      "gl_localized_name": "White Dragon Ling",
+      "jp_translated_name": "White Dragon Ling",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "401011717",
+      "gl_raw_name": "White Dragon Ling",
+      "jp_raw_name": "白竜の舞姫リン",
+      "gl_localized_name": "White Dragon Ling",
+      "jp_translated_name": "White Dragon Ling",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "401012807",
+      "gl_raw_name": "NV Esther",
+      "jp_raw_name": "ストームシーカー エスター",
+      "gl_localized_name": "Storm Seeker Esther",
+      "jp_translated_name": "Storm Seeker Esther",
+      "decision": "shared",
+      "evidence": "Same localized unit identity; archive audit confirms matching complete CSV rigs. Texture variants are regional versions.",
+      "differing_metadata_fields": [
+        "order_index",
+        "hp",
+        "mp",
+        "atk",
+        "def",
+        "mag",
+        "spr",
+        "element_resist",
+        "status_resist",
+        "trustmaster",
+        "supertrust",
+        "not_dex_no",
+        "effect_frames",
+        "tags",
+        "job_id",
+        "StandData",
+        "TouchRect",
+        "OverHeadPos"
+      ]
+    },
+    {
+      "original_id": "401012817",
+      "gl_raw_name": "NV Esther",
+      "jp_raw_name": "ストームシーカー エスター",
+      "gl_localized_name": "Storm Seeker Esther",
+      "jp_translated_name": "Storm Seeker Esther",
+      "decision": "shared",
+      "evidence": "Same localized unit identity; archive audit confirms matching complete CSV rigs. Texture variants are regional versions.",
+      "differing_metadata_fields": [
+        "order_index",
+        "hp",
+        "mp",
+        "atk",
+        "def",
+        "mag",
+        "spr",
+        "element_resist",
+        "status_resist",
+        "magic_affinity",
+        "trustmaster",
+        "supertrust",
+        "not_dex_no",
+        "effect_frames",
+        "tags",
+        "job_id",
+        "roles",
+        "StandData",
+        "TouchRect",
+        "OverHeadPos"
+      ]
+    },
+    {
+      "original_id": "401013207",
+      "gl_raw_name": "Wylk",
+      "jp_raw_name": "ヴィルク",
+      "gl_localized_name": "Wylk",
+      "jp_translated_name": "Wylk",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "401013217",
+      "gl_raw_name": "Wylk",
+      "jp_raw_name": "ヴィルク",
+      "gl_localized_name": "Wylk",
+      "jp_translated_name": "Wylk",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "401013307",
+      "gl_raw_name": "Paladin Sylvie",
+      "jp_raw_name": "パラディン シルヴィ",
+      "gl_localized_name": "Paladin Sylvie",
+      "jp_translated_name": "Paladin Sylvie",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "401013317",
+      "gl_raw_name": "Paladin Sylvie",
+      "jp_raw_name": "パラディン シルヴィ",
+      "gl_localized_name": "Paladin Sylvie",
+      "jp_translated_name": "Paladin Sylvie",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "401013407",
+      "gl_raw_name": "Samurai Chizuru",
+      "jp_raw_name": "サムライ チヅル",
+      "gl_localized_name": "Samurai Chizuru",
+      "jp_translated_name": "Samurai Chizuru",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "401013417",
+      "gl_raw_name": "Samurai Chizuru",
+      "jp_raw_name": "サムライ チヅル",
+      "gl_localized_name": "Samurai Chizuru",
+      "jp_translated_name": "Samurai Chizuru",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    },
+    {
+      "original_id": "401014407",
+      "gl_raw_name": "Sword Master Ibara",
+      "jp_raw_name": "復讐の刃イバラ",
+      "gl_localized_name": "Blade of Vengeance Ibara",
+      "jp_translated_name": "Blade of Vengeance Ibara",
+      "decision": "shared",
+      "evidence": "Same localized unit identity; archive audit confirms matching complete CSV rigs. Texture variants are regional versions.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "tribe_id",
+        "order_index",
+        "equip",
+        "hp",
+        "mp",
+        "atk",
+        "def",
+        "mag",
+        "spr",
+        "element_resist",
+        "status_resist",
+        "magic_affinity",
+        "trustmaster",
+        "supertrust",
+        "rZhG3M4b",
+        "not_dex_no",
+        "MoveOffset",
+        "attack_frames",
+        "effect_frames",
+        "p7esQ2y3",
+        "tags",
+        "job_id",
+        "roles",
+        "StandData",
+        "TouchRect",
+        "OverHeadPos",
+        "leader_skill_id"
+      ]
+    },
+    {
+      "original_id": "401014417",
+      "gl_raw_name": "Sword Master Ibara BS",
+      "jp_raw_name": "復讐の刃イバラ",
+      "gl_localized_name": "Blade of Vengeance Ibara",
+      "jp_translated_name": "Blade of Vengeance Ibara",
+      "decision": "shared",
+      "evidence": "Same localized unit identity; archive audit confirms matching complete CSV rigs. Texture variants are regional versions.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1",
+        "tribe_id",
+        "order_index",
+        "equip",
+        "hp",
+        "mp",
+        "atk",
+        "def",
+        "mag",
+        "spr",
+        "element_resist",
+        "status_resist",
+        "magic_affinity",
+        "lb_id",
+        "trustmaster",
+        "supertrust",
+        "rZhG3M4b",
+        "not_dex_no",
+        "MoveOffset",
+        "attack_frames",
+        "effect_frames",
+        "lb_fillrate",
+        "p7esQ2y3",
+        "tags",
+        "job_id",
+        "StandData",
+        "TouchRect",
+        "OverHeadPos",
+        "leader_skill_id"
+      ]
+    },
+    {
+      "original_id": "900010101",
+      "gl_raw_name": "ミニギルガメ",
+      "jp_raw_name": "ミニギルガメ(売却用アイテム)",
+      "gl_localized_name": "Mini Gil Snapper",
+      "jp_translated_name": "Mini Gil Snapper",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1"
+      ]
+    },
+    {
+      "original_id": "900010201",
+      "gl_raw_name": "ギルガメ",
+      "jp_raw_name": "ギルガメ(売却用アイテム)",
+      "gl_localized_name": "Gil Snapper",
+      "jp_translated_name": "Gil Snapper",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1"
+      ]
+    },
+    {
+      "original_id": "900010301",
+      "gl_raw_name": "キングギルガメ",
+      "jp_raw_name": "キングギルガメ(売却用アイテム)",
+      "gl_localized_name": "King Gil Snapper",
+      "jp_translated_name": "King Gil Snapper",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1"
+      ]
+    },
+    {
+      "original_id": "900010401",
+      "gl_raw_name": "ギルガメファミリー",
+      "jp_raw_name": "ギルガメファミリー(売却用アイテム)",
+      "gl_localized_name": "Gil Snapper Family",
+      "jp_translated_name": "Gil Snapper Family",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1"
+      ]
+    },
+    {
+      "original_id": "900010501",
+      "gl_raw_name": "ギルガメタワー",
+      "jp_raw_name": "ギルガメタワー(売却用アイテム)",
+      "gl_localized_name": "Gil Snapper Tower",
+      "jp_translated_name": "Gil Snapper Tower",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": [
+        "cnLF6Cz1"
+      ]
+    },
+    {
+      "original_id": "904000115",
+      "gl_raw_name": "トラストモーグリ（すっぴん）",
+      "jp_raw_name": "トラストモーグリ(すっぴん)",
+      "gl_localized_name": "Prism Moogle",
+      "jp_translated_name": "Prism Moogle",
+      "decision": "shared",
+      "evidence": "Reviewed spelling, punctuation, localized title, internal development title, or updated title; retain the shared numeric identity.",
+      "differing_metadata_fields": []
+    }
+  ],
+  "source_snapshot_fingerprint": "df6a871e7a2de90c51f6cde5fbfc92bc526789dd02cac92be8c81bd94dae3eb0"
+}

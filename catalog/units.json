@@ -25175,7 +25175,13 @@
     "added_in_recovery": false,
     "frame_data": "unit_animated_csv/unit_cgg_401008507.csv",
     "id": "401008507",
+    "identity_status": "ambiguous_legacy_id",
     "idle_animation": "unit_animated_csv/unit_idle_cgs_401008507.csv",
+    "master_catalog": "catalog/unit_master.json",
+    "master_ids": [
+      "unit:GL:401008507",
+      "unit:JP:401008507"
+    ],
     "sprite_sheet": "unit_animated/unit_anime_401008507.png"
   },
   {
@@ -25203,7 +25209,13 @@
     "added_in_recovery": false,
     "frame_data": "unit_animated_csv/unit_cgg_401008607.csv",
     "id": "401008607",
+    "identity_status": "ambiguous_legacy_id",
     "idle_animation": "unit_animated_csv/unit_idle_cgs_401008607.csv",
+    "master_catalog": "catalog/unit_master.json",
+    "master_ids": [
+      "unit:GL:401008607",
+      "unit:JP:401008607"
+    ],
     "sprite_sheet": "unit_animated/unit_anime_401008607.png"
   },
   {
@@ -25231,7 +25243,13 @@
     "added_in_recovery": false,
     "frame_data": "unit_animated_csv/unit_cgg_401008707.csv",
     "id": "401008707",
+    "identity_status": "ambiguous_legacy_id",
     "idle_animation": "unit_animated_csv/unit_idle_cgs_401008707.csv",
+    "master_catalog": "catalog/unit_master.json",
+    "master_ids": [
+      "unit:GL:401008707",
+      "unit:JP:401008707"
+    ],
     "sprite_sheet": "unit_animated/unit_anime_401008707.png"
   },
   {
@@ -25896,14 +25914,26 @@
     "added_in_recovery": true,
     "frame_data": "unit_animated_csv/unit_cgg_401014207.csv",
     "id": "401014207",
+    "identity_status": "ambiguous_legacy_id",
     "idle_animation": "unit_animated_csv/unit_idle_cgs_401014207.csv",
+    "master_catalog": "catalog/unit_master.json",
+    "master_ids": [
+      "unit:GL:401014207",
+      "unit:JP:401014207"
+    ],
     "sprite_sheet": "unit_animated/unit_anime_401014207.png"
   },
   {
     "added_in_recovery": true,
     "frame_data": "unit_animated_csv/unit_cgg_401014217.csv",
     "id": "401014217",
+    "identity_status": "ambiguous_legacy_id",
     "idle_animation": "unit_animated_csv/unit_idle_cgs_401014217.csv",
+    "master_catalog": "catalog/unit_master.json",
+    "master_ids": [
+      "unit:GL:401014217",
+      "unit:JP:401014217"
+    ],
     "sprite_sheet": "unit_animated/unit_anime_401014217.png"
   },
   {
@@ -25924,14 +25954,26 @@
     "added_in_recovery": true,
     "frame_data": "unit_animated_csv/unit_cgg_401014307.csv",
     "id": "401014307",
+    "identity_status": "ambiguous_legacy_id",
     "idle_animation": "unit_animated_csv/unit_idle_cgs_401014307.csv",
+    "master_catalog": "catalog/unit_master.json",
+    "master_ids": [
+      "unit:GL:401014307",
+      "unit:JP:401014307"
+    ],
     "sprite_sheet": "unit_animated/unit_anime_401014307.png"
   },
   {
     "added_in_recovery": true,
     "frame_data": "unit_animated_csv/unit_cgg_401014317.csv",
     "id": "401014317",
+    "identity_status": "ambiguous_legacy_id",
     "idle_animation": "unit_animated_csv/unit_idle_cgs_401014317.csv",
+    "master_catalog": "catalog/unit_master.json",
+    "master_ids": [
+      "unit:GL:401014317",
+      "unit:JP:401014317"
+    ],
     "sprite_sheet": "unit_animated/unit_anime_401014317.png"
   },
   {
@@ -25980,14 +26022,26 @@
     "added_in_recovery": true,
     "frame_data": "unit_animated_csv/unit_cgg_401014507.csv",
     "id": "401014507",
+    "identity_status": "ambiguous_legacy_id",
     "idle_animation": "unit_animated_csv/unit_idle_cgs_401014507.csv",
+    "master_catalog": "catalog/unit_master.json",
+    "master_ids": [
+      "unit:GL:401014507",
+      "unit:JP:401014507"
+    ],
     "sprite_sheet": "unit_animated/unit_anime_401014507.png"
   },
   {
     "added_in_recovery": true,
     "frame_data": "unit_animated_csv/unit_cgg_401014517.csv",
     "id": "401014517",
+    "identity_status": "ambiguous_legacy_id",
     "idle_animation": "unit_animated_csv/unit_idle_cgs_401014517.csv",
+    "master_catalog": "catalog/unit_master.json",
+    "master_ids": [
+      "unit:GL:401014517",
+      "unit:JP:401014517"
+    ],
     "sprite_sheet": "unit_animated/unit_anime_401014517.png"
   },
   {
@@ -26008,14 +26062,26 @@
     "added_in_recovery": true,
     "frame_data": "unit_animated_csv/unit_cgg_401014607.csv",
     "id": "401014607",
+    "identity_status": "ambiguous_legacy_id",
     "idle_animation": "unit_animated_csv/unit_idle_cgs_401014607.csv",
+    "master_catalog": "catalog/unit_master.json",
+    "master_ids": [
+      "unit:GL:401014607",
+      "unit:JP:401014607"
+    ],
     "sprite_sheet": "unit_animated/unit_anime_401014607.png"
   },
   {
     "added_in_recovery": true,
     "frame_data": "unit_animated_csv/unit_cgg_401014617.csv",
     "id": "401014617",
+    "identity_status": "ambiguous_legacy_id",
     "idle_animation": "unit_animated_csv/unit_idle_cgs_401014617.csv",
+    "master_catalog": "catalog/unit_master.json",
+    "master_ids": [
+      "unit:GL:401014617",
+      "unit:JP:401014617"
+    ],
     "sprite_sheet": "unit_animated/unit_anime_401014617.png"
   },
   {

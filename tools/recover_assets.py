@@ -17,6 +17,7 @@ import shutil
 import subprocess
 import time
 from cpk import Cpk
+from unit_recovery_policy import UnitRecoveryPolicy, PolicyError, INVENTORY_POLICY_FILE
 
 PRIORITY = ('unit_', 'monster_', 'battle_bg_', 'vc_')
 VISUAL = {'.png', '.jpg', '.jpeg', '.gif', '.webp', '.bmp', '.csv', '.ssbp', '.plist', '.atlas', '.skel', '.eff', '.efk', '.efkefc', '.bmb', '.m3r', '.bin', '.maps', '.map', '.fnt'}
@@ -72,6 +73,7 @@ def rank(candidate):
             -int(ver[1]) if ver else 0, 0 if candidate['kind'] == 'cpk' else 1, s)
 
 def inventory(args):
+    policy = UnitRecoveryPolicy.load(args.repo)
     if not (args.work/'baseline.json').exists():
         tree = subprocess.check_output(['git', '-C', str(args.repo), 'ls-tree', '-r', '-l', 'HEAD'], text=True)
         baseline = {}
@@ -98,12 +100,16 @@ def inventory(args):
                     for e in entries:
                         name = safe_name(e['name']); ext = Path(name).suffix.lower(); extensions[ext] += 1
                         if ext not in VISUAL: continue
-                        dest = f'{category(name, rel, by_name)}/{name}'
+                        dest = policy.destination(name, rel, category(name, rel, by_name))
+                        if dest is None: continue
                         assets[dest].append({'source': rel, 'kind': 'cpk', 'entry': e})
                 finally: c.f.close()
+            except PolicyError:
+                raise
             except Exception as e: errors.append({'source': rel, 'error': str(e)})
         elif path.suffix.lower() in IMAGES:
-            dest = f'{category(path.name, rel, by_name)}/{path.name}'
+            dest = policy.destination(path.name, rel, category(path.name, rel, by_name))
+            if dest is None: continue
             assets[dest].append({'source': rel, 'kind': 'loose'})
         if (i + 1) % 2000 == 0: print(f'Indexed {i+1}/{len(files)} sources; {len(assets)} destinations; {len(errors)} errors', flush=True)
     for values in assets.values(): values.sort(key=rank)
@@ -111,6 +117,7 @@ def inventory(args):
                'destinations': len(assets), 'new_destinations': sum(x not in baseline for x in assets), 'errors': errors,
                'extensions': dict(extensions), 'new_by_folder': dict(collections.Counter(x.split('/')[0] for x in assets if x not in baseline)), 'seconds': round(time.time()-t,1)}
     save(args.work/'inventory.json', dict(assets)); save(args.work/'archives.json', archives); save(args.work/'inventory-summary.json', summary)
+    save(args.work/INVENTORY_POLICY_FILE, policy.inventory_metadata(args.work/'inventory.json'))
     print(json.dumps(summary, indent=2), flush=True)
 
 def verify_bytes(name, data):
@@ -162,10 +169,13 @@ def extract_archive(args, source, selected):
     return target
 
 def recover(args):
+    policy = UnitRecoveryPolicy.load(args.repo)
+    policy.verify_inventory(args.work)
     assets = json.loads((args.work/'inventory.json').read_text())
     baseline = json.loads((args.work/'baseline.json').read_text())
     manifest_path = args.work/'recovered.json'
     recovered = json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
+    policy.verify_existing_recovery(args.repo, assets, baseline, recovered)
     errors = []; grouped = collections.defaultdict(list)
     for dest, candidates in assets.items():
         if dest in baseline or dest in recovered: continue
