@@ -24,7 +24,7 @@ def validate(repo, dump=None):
     legacy = json.loads((repo / 'catalog/units.json').read_text(encoding='utf-8'))
     series_path = repo / 'catalog/series_sources.json'
     series_sources = json.loads(series_path.read_text(encoding='utf-8')) if series_path.exists() else None
-    expected_master = build_master(sources, decisions, legacy, manifest, series_sources=series_sources)
+    expected_master = build_master(sources, decisions, legacy, manifest, repo=repo, series_sources=series_sources)
     assert master == expected_master, 'master registry differs from its reviewed inputs'
     collisions = {row['original_id']: row for row in decisions['collisions']}
     assert len(collisions) == len(decisions['collisions']), 'duplicate collision decisions'

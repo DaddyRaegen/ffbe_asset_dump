@@ -29,7 +29,7 @@ class IdentityValidationTests(unittest.TestCase):
 
     def test_corrupt_secondary_catalog_hash_is_rejected(self):
         def mutate(document):
-            if isinstance(document, dict) and 'units' in document:
+            if isinstance(document, dict) and isinstance(document.get('units'), list):
                 unit = next(x for x in document['units'] if x['identity_status'] == 'regional_collision')
                 unit['assets']['files'][-1]['sha256'] = '0' * 64
         self.reject_mutation(mutate)
@@ -44,6 +44,14 @@ class IdentityValidationTests(unittest.TestCase):
         def mutate(document):
             if isinstance(document, dict) and 'archives' in document:
                 document['bundles'][0]['asset_files'].pop()
+        self.reject_mutation(mutate)
+
+    def test_missing_legacy_illustration_link_is_rejected(self):
+        def mutate(document):
+            if isinstance(document, dict) and isinstance(document.get('units'), list):
+                unit = next(x for x in document['units'] if x['assets'].get('scope') == 'legacy'
+                            and x['assets'].get('illustration'))
+                unit['assets']['asset_files'].remove(unit['assets']['illustration'])
         self.reject_mutation(mutate)
 
 

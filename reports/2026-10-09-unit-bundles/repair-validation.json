@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "repaired_forms": 17,
+  "changed_files": 67,
+  "before_contents_match_git_base": true,
+  "before_checkout_newline_only_differences": [
+    "unit_animated_csv/unit_cgg_256000301.csv",
+    "unit_animated_csv/unit_cgg_903001101.csv",
+    "unit_animated_csv/unit_cgg_903001102.csv",
+    "unit_animated_csv/unit_cgg_903001201.csv",
+    "unit_animated_csv/unit_cgg_903001202.csv",
+    "unit_animated_csv/unit_cgg_903001301.csv",
+    "unit_animated_csv/unit_cgg_903001302.csv",
+    "unit_animated_csv/unit_cgg_903001401.csv",
+    "unit_animated_csv/unit_cgg_903001402.csv",
+    "unit_animated_csv/unit_cgg_903001501.csv",
+    "unit_animated_csv/unit_cgg_903001502.csv",
+    "unit_animated_csv/unit_cgg_903001601.csv",
+    "unit_animated_csv/unit_cgg_903001602.csv",
+    "unit_animated_csv/unit_cgg_906000103.csv",
+    "unit_animated_csv/unit_cgg_906000104.csv",
+    "unit_animated_csv/unit_cgg_906000105.csv"
+  ],
+  "current_bundle_file_hashes_verified": 273,
+  "images_fully_decoded": 51,
+  "source_archive_hashes_verified": 3
+}

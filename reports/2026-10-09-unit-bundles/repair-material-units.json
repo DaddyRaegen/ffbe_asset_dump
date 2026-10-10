@@ -1,0 +1,924 @@
+{
+  "source": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit9.cpk",
+  "source_sha256": "6efd66609daf17bbf27e64dd80eea8835fa115775462a74cedbb994a110b7f3e",
+  "forms": 15,
+  "changed_files": 60,
+  "applied": true,
+  "rows": [
+    {
+      "id": "903001101",
+      "name": "Mini Tough Door",
+      "verified_bundle_files": 16,
+      "cgg_frames": 6,
+      "old_cgg_frames": 5,
+      "atlas_dimensions": [
+        384,
+        288
+      ],
+      "all_cgs_references_valid": true,
+      "all_cgg_crops_in_bounds": true,
+      "changes": [
+        {
+          "path": "unit_animated/unit_anime_903001101.png",
+          "before_sha256": "d7785964622e3f7265f11e083ee570f42f292f2e0423d8a6aeeb300c97b525c9",
+          "after_sha256": "872ca8c4f355be8fc23737d7d164a79ca2370604cf503c0b8b35c7a0386a2cfb",
+          "bytes_before": 5936,
+          "bytes_after": 7483
+        },
+        {
+          "path": "unit_animated_csv/unit_cgg_903001101.csv",
+          "before_sha256": "9b181cd6808c5905b7dceeb36018973a68dd8074965ad03da8daa963fac33ad7",
+          "after_sha256": "3b5ab51930861c860bb6870261593c92709916c14333296ebb4d92b0cc3c92cc",
+          "bytes_before": 380,
+          "bytes_after": 419
+        },
+        {
+          "path": "unit_icons/unit_icon_903001101.png",
+          "before_sha256": "77eeee018192303d108609bb3427e9ae348af0b7dfc0da62266eb9adbad93524",
+          "after_sha256": "15bcb18b7ff716c708daa2a8cd962617252145e4185608fbc08fede5d7e4ffab",
+          "bytes_before": 649,
+          "bytes_after": 1553
+        },
+        {
+          "path": "unit_illustrations/unit_ills_903001101.png",
+          "before_sha256": "2c6b00a5c27c74816fe421602f6297a5134e40dfb07061e10a510d77bc35b60e",
+          "after_sha256": "c27f995effa8de04e7997ae6b9ece053344213003b5e49f99cf9d71116e6235c",
+          "bytes_before": 1228,
+          "bytes_after": 1996
+        }
+      ],
+      "verified_file_sha256": {
+        "unit_animated/unit_anime_903001101.png": "872ca8c4f355be8fc23737d7d164a79ca2370604cf503c0b8b35c7a0386a2cfb",
+        "unit_animated_csv/unit_atk_cgs_903001101.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_cgg_903001101.csv": "3b5ab51930861c860bb6870261593c92709916c14333296ebb4d92b0cc3c92cc",
+        "unit_animated_csv/unit_dead_cgs_903001101.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_dying_cgs_903001101.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_idle_cgs_903001101.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_jump_cgs_903001101.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_limit_atk_cgs_903001101.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_atk_cgs_903001101.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_standby_cgs_903001101.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_move_cgs_903001101.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_standby_cgs_903001101.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_before_cgs_903001101.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_cgs_903001101.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_icons/unit_icon_903001101.png": "15bcb18b7ff716c708daa2a8cd962617252145e4185608fbc08fede5d7e4ffab",
+        "unit_illustrations/unit_ills_903001101.png": "c27f995effa8de04e7997ae6b9ece053344213003b5e49f99cf9d71116e6235c"
+      }
+    },
+    {
+      "id": "903001102",
+      "name": "Tough Door",
+      "verified_bundle_files": 16,
+      "cgg_frames": 6,
+      "old_cgg_frames": 5,
+      "atlas_dimensions": [
+        384,
+        288
+      ],
+      "all_cgs_references_valid": true,
+      "all_cgg_crops_in_bounds": true,
+      "changes": [
+        {
+          "path": "unit_animated/unit_anime_903001102.png",
+          "before_sha256": "2e0370c04f374803990ef33d71f2171f32d2c9db109d2d5578e375c4cec01ddb",
+          "after_sha256": "cf0190d45a81c094c745f178aa3929ad9a8a1744bd8ab5e16aa85819df43dd7d",
+          "bytes_before": 8371,
+          "bytes_after": 10272
+        },
+        {
+          "path": "unit_animated_csv/unit_cgg_903001102.csv",
+          "before_sha256": "9b181cd6808c5905b7dceeb36018973a68dd8074965ad03da8daa963fac33ad7",
+          "after_sha256": "3b5ab51930861c860bb6870261593c92709916c14333296ebb4d92b0cc3c92cc",
+          "bytes_before": 380,
+          "bytes_after": 419
+        },
+        {
+          "path": "unit_icons/unit_icon_903001102.png",
+          "before_sha256": "1d5f5c492dff4a62464cd3f9897b58183c21b8f6b8f6821bf7707f9738dd9c34",
+          "after_sha256": "90fe217699c10d5dd4f3e5dde055379413dfcc5c0fca81cd5725faa9c9c5959a",
+          "bytes_before": 606,
+          "bytes_after": 1523
+        },
+        {
+          "path": "unit_illustrations/unit_ills_903001102.png",
+          "before_sha256": "7cad180605341433b12681643e54acddf256a6c79fc6762012153ee3e6c173b1",
+          "after_sha256": "df5e330cf80079dbccd545be6405ae6c4438229d8de24728277a1451bbde890a",
+          "bytes_before": 1817,
+          "bytes_after": 2641
+        }
+      ],
+      "verified_file_sha256": {
+        "unit_animated/unit_anime_903001102.png": "cf0190d45a81c094c745f178aa3929ad9a8a1744bd8ab5e16aa85819df43dd7d",
+        "unit_animated_csv/unit_atk_cgs_903001102.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_cgg_903001102.csv": "3b5ab51930861c860bb6870261593c92709916c14333296ebb4d92b0cc3c92cc",
+        "unit_animated_csv/unit_dead_cgs_903001102.csv": "0cf0017ec4ec96e11565dc9e8a41a14d9c4b0e1cfd64ead15f9b70f77ec09ad4",
+        "unit_animated_csv/unit_dying_cgs_903001102.csv": "0cf0017ec4ec96e11565dc9e8a41a14d9c4b0e1cfd64ead15f9b70f77ec09ad4",
+        "unit_animated_csv/unit_idle_cgs_903001102.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_jump_cgs_903001102.csv": "0cf0017ec4ec96e11565dc9e8a41a14d9c4b0e1cfd64ead15f9b70f77ec09ad4",
+        "unit_animated_csv/unit_limit_atk_cgs_903001102.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_atk_cgs_903001102.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_standby_cgs_903001102.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_move_cgs_903001102.csv": "0cf0017ec4ec96e11565dc9e8a41a14d9c4b0e1cfd64ead15f9b70f77ec09ad4",
+        "unit_animated_csv/unit_standby_cgs_903001102.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_before_cgs_903001102.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_cgs_903001102.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_icons/unit_icon_903001102.png": "90fe217699c10d5dd4f3e5dde055379413dfcc5c0fca81cd5725faa9c9c5959a",
+        "unit_illustrations/unit_ills_903001102.png": "df5e330cf80079dbccd545be6405ae6c4438229d8de24728277a1451bbde890a"
+      }
+    },
+    {
+      "id": "903001201",
+      "name": "Mini Magi Door",
+      "verified_bundle_files": 16,
+      "cgg_frames": 6,
+      "old_cgg_frames": 5,
+      "atlas_dimensions": [
+        384,
+        288
+      ],
+      "all_cgs_references_valid": true,
+      "all_cgg_crops_in_bounds": true,
+      "changes": [
+        {
+          "path": "unit_animated/unit_anime_903001201.png",
+          "before_sha256": "3547cedde622e25e71f1ace7e41c3d493ca2de0655ae15d14f56ef777117f650",
+          "after_sha256": "ff6e54b6065426cce5cdfb5c83b26324ca565492e2d0f6338c58c1671496d8cf",
+          "bytes_before": 6174,
+          "bytes_after": 7714
+        },
+        {
+          "path": "unit_animated_csv/unit_cgg_903001201.csv",
+          "before_sha256": "9b181cd6808c5905b7dceeb36018973a68dd8074965ad03da8daa963fac33ad7",
+          "after_sha256": "3b5ab51930861c860bb6870261593c92709916c14333296ebb4d92b0cc3c92cc",
+          "bytes_before": 380,
+          "bytes_after": 419
+        },
+        {
+          "path": "unit_icons/unit_icon_903001201.png",
+          "before_sha256": "a19a1e33f6c7b7b3b2256f5093f7f12f629a4fd9c7141e4bed728c68aef1da56",
+          "after_sha256": "ff66bb8565436b3a9c0321e9fe4e2eeaf2991429aef0d378af7951837c62d4b4",
+          "bytes_before": 625,
+          "bytes_after": 1517
+        },
+        {
+          "path": "unit_illustrations/unit_ills_903001201.png",
+          "before_sha256": "c664beb5fd85368c333e6c47e3a1f684109a98ec18570fab7d0b0ffdca8326c8",
+          "after_sha256": "7658c93c47dad7082e3a254bbe76823834d54b924889f491ecd876f923620c99",
+          "bytes_before": 1309,
+          "bytes_after": 2088
+        }
+      ],
+      "verified_file_sha256": {
+        "unit_animated/unit_anime_903001201.png": "ff6e54b6065426cce5cdfb5c83b26324ca565492e2d0f6338c58c1671496d8cf",
+        "unit_animated_csv/unit_atk_cgs_903001201.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_cgg_903001201.csv": "3b5ab51930861c860bb6870261593c92709916c14333296ebb4d92b0cc3c92cc",
+        "unit_animated_csv/unit_dead_cgs_903001201.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_dying_cgs_903001201.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_idle_cgs_903001201.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_jump_cgs_903001201.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_limit_atk_cgs_903001201.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_atk_cgs_903001201.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_standby_cgs_903001201.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_move_cgs_903001201.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_standby_cgs_903001201.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_before_cgs_903001201.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_cgs_903001201.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_icons/unit_icon_903001201.png": "ff66bb8565436b3a9c0321e9fe4e2eeaf2991429aef0d378af7951837c62d4b4",
+        "unit_illustrations/unit_ills_903001201.png": "7658c93c47dad7082e3a254bbe76823834d54b924889f491ecd876f923620c99"
+      }
+    },
+    {
+      "id": "903001202",
+      "name": "Magi Door",
+      "verified_bundle_files": 16,
+      "cgg_frames": 6,
+      "old_cgg_frames": 5,
+      "atlas_dimensions": [
+        384,
+        288
+      ],
+      "all_cgs_references_valid": true,
+      "all_cgg_crops_in_bounds": true,
+      "changes": [
+        {
+          "path": "unit_animated/unit_anime_903001202.png",
+          "before_sha256": "f876077770b46de5c4154e34b5215d26b06a30c328bddcc60d8996ea9c5198e6",
+          "after_sha256": "6773489176acedf25d3691e852f3f8821d8850757f9cc0a2ee7719db74b729c3",
+          "bytes_before": 8614,
+          "bytes_after": 10498
+        },
+        {
+          "path": "unit_animated_csv/unit_cgg_903001202.csv",
+          "before_sha256": "9b181cd6808c5905b7dceeb36018973a68dd8074965ad03da8daa963fac33ad7",
+          "after_sha256": "3b5ab51930861c860bb6870261593c92709916c14333296ebb4d92b0cc3c92cc",
+          "bytes_before": 380,
+          "bytes_after": 419
+        },
+        {
+          "path": "unit_icons/unit_icon_903001202.png",
+          "before_sha256": "1c86ffc72a5ae4c56d92cf780f0bc9cea45f02a90867ae48b52cbbf5bc263741",
+          "after_sha256": "736ac38f6d40bb85a77da786b4415e6af22242259e6351244485d8feb0a49e22",
+          "bytes_before": 590,
+          "bytes_after": 1470
+        },
+        {
+          "path": "unit_illustrations/unit_ills_903001202.png",
+          "before_sha256": "0befb8c172716c75998ef4ebfbedd457d2cdf5e9fda16e2d0e15a95f84c413b1",
+          "after_sha256": "9fdc8cc476871a240f94edc9acd2c33a6cca662e32357654bc99f6319e4774d7",
+          "bytes_before": 1943,
+          "bytes_after": 2770
+        }
+      ],
+      "verified_file_sha256": {
+        "unit_animated/unit_anime_903001202.png": "6773489176acedf25d3691e852f3f8821d8850757f9cc0a2ee7719db74b729c3",
+        "unit_animated_csv/unit_atk_cgs_903001202.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_cgg_903001202.csv": "3b5ab51930861c860bb6870261593c92709916c14333296ebb4d92b0cc3c92cc",
+        "unit_animated_csv/unit_dead_cgs_903001202.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_dying_cgs_903001202.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_idle_cgs_903001202.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_jump_cgs_903001202.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_limit_atk_cgs_903001202.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_atk_cgs_903001202.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_standby_cgs_903001202.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_move_cgs_903001202.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_standby_cgs_903001202.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_before_cgs_903001202.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_cgs_903001202.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_icons/unit_icon_903001202.png": "736ac38f6d40bb85a77da786b4415e6af22242259e6351244485d8feb0a49e22",
+        "unit_illustrations/unit_ills_903001202.png": "9fdc8cc476871a240f94edc9acd2c33a6cca662e32357654bc99f6319e4774d7"
+      }
+    },
+    {
+      "id": "903001301",
+      "name": "Mini Power Door",
+      "verified_bundle_files": 16,
+      "cgg_frames": 6,
+      "old_cgg_frames": 5,
+      "atlas_dimensions": [
+        384,
+        288
+      ],
+      "all_cgs_references_valid": true,
+      "all_cgg_crops_in_bounds": true,
+      "changes": [
+        {
+          "path": "unit_animated/unit_anime_903001301.png",
+          "before_sha256": "1b1479896c23c55539dad8a3f0a0aacb81964ef8c2507428bf02f597bb137322",
+          "after_sha256": "273d61b0fa3a8f6a6305a4b45e40c0cb258cfdd00744fbf5a8ecbc96c3c13b36",
+          "bytes_before": 6080,
+          "bytes_after": 7625
+        },
+        {
+          "path": "unit_animated_csv/unit_cgg_903001301.csv",
+          "before_sha256": "9b181cd6808c5905b7dceeb36018973a68dd8074965ad03da8daa963fac33ad7",
+          "after_sha256": "3b5ab51930861c860bb6870261593c92709916c14333296ebb4d92b0cc3c92cc",
+          "bytes_before": 380,
+          "bytes_after": 419
+        },
+        {
+          "path": "unit_icons/unit_icon_903001301.png",
+          "before_sha256": "24f7115cf7f400ba980d3c733f88c25ca69c4dd46d5c9451e7bdb323727d002e",
+          "after_sha256": "e9c3eab541b6805f3e745d3bff0f3548016c9f20eabaaf862da6ff47436e1489",
+          "bytes_before": 639,
+          "bytes_after": 1518
+        },
+        {
+          "path": "unit_illustrations/unit_ills_903001301.png",
+          "before_sha256": "d770125e4e64d9e4418091007ae3ef2a0b8a01529870469a1af00091fce5d97c",
+          "after_sha256": "e4c332d8c5c591a94d8eee85656709ee0b29685efcad8f29846f62ac69e29485",
+          "bytes_before": 1336,
+          "bytes_after": 2068
+        }
+      ],
+      "verified_file_sha256": {
+        "unit_animated/unit_anime_903001301.png": "273d61b0fa3a8f6a6305a4b45e40c0cb258cfdd00744fbf5a8ecbc96c3c13b36",
+        "unit_animated_csv/unit_atk_cgs_903001301.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_cgg_903001301.csv": "3b5ab51930861c860bb6870261593c92709916c14333296ebb4d92b0cc3c92cc",
+        "unit_animated_csv/unit_dead_cgs_903001301.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_dying_cgs_903001301.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_idle_cgs_903001301.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_jump_cgs_903001301.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_limit_atk_cgs_903001301.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_atk_cgs_903001301.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_standby_cgs_903001301.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_move_cgs_903001301.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_standby_cgs_903001301.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_before_cgs_903001301.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_cgs_903001301.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_icons/unit_icon_903001301.png": "e9c3eab541b6805f3e745d3bff0f3548016c9f20eabaaf862da6ff47436e1489",
+        "unit_illustrations/unit_ills_903001301.png": "e4c332d8c5c591a94d8eee85656709ee0b29685efcad8f29846f62ac69e29485"
+      }
+    },
+    {
+      "id": "903001302",
+      "name": "Power Door",
+      "verified_bundle_files": 16,
+      "cgg_frames": 6,
+      "old_cgg_frames": 5,
+      "atlas_dimensions": [
+        384,
+        288
+      ],
+      "all_cgs_references_valid": true,
+      "all_cgg_crops_in_bounds": true,
+      "changes": [
+        {
+          "path": "unit_animated/unit_anime_903001302.png",
+          "before_sha256": "0e067012fb71ded6e6df7a108dc07dd8212097e3ad4ccc5cfc3a175ca1479646",
+          "after_sha256": "66c24552304029aea6854e2bb9562f7a831fa9a2065f5d88411c913f46e174b0",
+          "bytes_before": 8503,
+          "bytes_after": 10396
+        },
+        {
+          "path": "unit_animated_csv/unit_cgg_903001302.csv",
+          "before_sha256": "9b181cd6808c5905b7dceeb36018973a68dd8074965ad03da8daa963fac33ad7",
+          "after_sha256": "3b5ab51930861c860bb6870261593c92709916c14333296ebb4d92b0cc3c92cc",
+          "bytes_before": 380,
+          "bytes_after": 419
+        },
+        {
+          "path": "unit_icons/unit_icon_903001302.png",
+          "before_sha256": "cdb1c89227eaaf3f89dae6ba0943d0eb75b303a2f25088db178241e05cea6869",
+          "after_sha256": "337e84737fc2e54d5c7844cde3cc081877d4b803c6c28d3a012fc11ef3515961",
+          "bytes_before": 637,
+          "bytes_after": 1495
+        },
+        {
+          "path": "unit_illustrations/unit_ills_903001302.png",
+          "before_sha256": "5793d21e7b42a70d2eb86fd552f6a08543972c703059ef59c7c73bd76ec263b9",
+          "after_sha256": "343234fa38a19d653432d9e3e3f1b9569dd92a886f212d19fe4b357edc1505e4",
+          "bytes_before": 1910,
+          "bytes_after": 2726
+        }
+      ],
+      "verified_file_sha256": {
+        "unit_animated/unit_anime_903001302.png": "66c24552304029aea6854e2bb9562f7a831fa9a2065f5d88411c913f46e174b0",
+        "unit_animated_csv/unit_atk_cgs_903001302.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_cgg_903001302.csv": "3b5ab51930861c860bb6870261593c92709916c14333296ebb4d92b0cc3c92cc",
+        "unit_animated_csv/unit_dead_cgs_903001302.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_dying_cgs_903001302.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_idle_cgs_903001302.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_jump_cgs_903001302.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_limit_atk_cgs_903001302.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_atk_cgs_903001302.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_standby_cgs_903001302.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_move_cgs_903001302.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_standby_cgs_903001302.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_before_cgs_903001302.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_cgs_903001302.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_icons/unit_icon_903001302.png": "337e84737fc2e54d5c7844cde3cc081877d4b803c6c28d3a012fc11ef3515961",
+        "unit_illustrations/unit_ills_903001302.png": "343234fa38a19d653432d9e3e3f1b9569dd92a886f212d19fe4b357edc1505e4"
+      }
+    },
+    {
+      "id": "903001401",
+      "name": "Mini Shield Door",
+      "verified_bundle_files": 16,
+      "cgg_frames": 6,
+      "old_cgg_frames": 5,
+      "atlas_dimensions": [
+        384,
+        288
+      ],
+      "all_cgs_references_valid": true,
+      "all_cgg_crops_in_bounds": true,
+      "changes": [
+        {
+          "path": "unit_animated/unit_anime_903001401.png",
+          "before_sha256": "4a5b2181e92f80b75d65734eecc753cc2528e91747d9318963e67263742417c2",
+          "after_sha256": "0263fbcaeea8228d74aa3600071911ca80b5cea8c36c5c2b1144ee4ad494f3dc",
+          "bytes_before": 6177,
+          "bytes_after": 7669
+        },
+        {
+          "path": "unit_animated_csv/unit_cgg_903001401.csv",
+          "before_sha256": "9b181cd6808c5905b7dceeb36018973a68dd8074965ad03da8daa963fac33ad7",
+          "after_sha256": "3b5ab51930861c860bb6870261593c92709916c14333296ebb4d92b0cc3c92cc",
+          "bytes_before": 380,
+          "bytes_after": 419
+        },
+        {
+          "path": "unit_icons/unit_icon_903001401.png",
+          "before_sha256": "778e398b3b7eac769e165c09a0ea585eb95b8ce3cb98ad02023283cb7fc48c9c",
+          "after_sha256": "8ca58a767515570ff3151da7f3bea77b2639798b1f2c58ffdea252f982ff43c6",
+          "bytes_before": 662,
+          "bytes_after": 1526
+        },
+        {
+          "path": "unit_illustrations/unit_ills_903001401.png",
+          "before_sha256": "fae4c690e56a505a88c1c56f380b692c5597ef51fdd0df43fb8d92752f25e3a3",
+          "after_sha256": "56794a4dcde40b99d5b3fd9d15b42692cf3a4362aef1424bbcd27515a0f9ae8c",
+          "bytes_before": 1323,
+          "bytes_after": 2059
+        }
+      ],
+      "verified_file_sha256": {
+        "unit_animated/unit_anime_903001401.png": "0263fbcaeea8228d74aa3600071911ca80b5cea8c36c5c2b1144ee4ad494f3dc",
+        "unit_animated_csv/unit_atk_cgs_903001401.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_cgg_903001401.csv": "3b5ab51930861c860bb6870261593c92709916c14333296ebb4d92b0cc3c92cc",
+        "unit_animated_csv/unit_dead_cgs_903001401.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_dying_cgs_903001401.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_idle_cgs_903001401.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_jump_cgs_903001401.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_limit_atk_cgs_903001401.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_atk_cgs_903001401.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_standby_cgs_903001401.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_move_cgs_903001401.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_standby_cgs_903001401.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_before_cgs_903001401.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_cgs_903001401.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_icons/unit_icon_903001401.png": "8ca58a767515570ff3151da7f3bea77b2639798b1f2c58ffdea252f982ff43c6",
+        "unit_illustrations/unit_ills_903001401.png": "56794a4dcde40b99d5b3fd9d15b42692cf3a4362aef1424bbcd27515a0f9ae8c"
+      }
+    },
+    {
+      "id": "903001402",
+      "name": "Shield Door",
+      "verified_bundle_files": 16,
+      "cgg_frames": 6,
+      "old_cgg_frames": 5,
+      "atlas_dimensions": [
+        384,
+        288
+      ],
+      "all_cgs_references_valid": true,
+      "all_cgg_crops_in_bounds": true,
+      "changes": [
+        {
+          "path": "unit_animated/unit_anime_903001402.png",
+          "before_sha256": "0f42b9ac7f047408daad0a62fe7581d8d9a7bdaea2ffd6b9b32cac1d4150a771",
+          "after_sha256": "55afc5882040d9e0c6b86127f5909cc74f2bf7c97c776d92bb4d6f90088949ec",
+          "bytes_before": 8437,
+          "bytes_after": 10342
+        },
+        {
+          "path": "unit_animated_csv/unit_cgg_903001402.csv",
+          "before_sha256": "9b181cd6808c5905b7dceeb36018973a68dd8074965ad03da8daa963fac33ad7",
+          "after_sha256": "3b5ab51930861c860bb6870261593c92709916c14333296ebb4d92b0cc3c92cc",
+          "bytes_before": 380,
+          "bytes_after": 419
+        },
+        {
+          "path": "unit_icons/unit_icon_903001402.png",
+          "before_sha256": "5299c394898600156af9ba987744198b9a6b4f935e5c8835a270af7b08c8d626",
+          "after_sha256": "97f343d7748799233644451fac754f029cfe1384e901c4ac08815b74200925bf",
+          "bytes_before": 640,
+          "bytes_after": 1490
+        },
+        {
+          "path": "unit_illustrations/unit_ills_903001402.png",
+          "before_sha256": "5dd41c8495a2080824ca13abe04f63c022a10b67231845de62801a3b5a69efaa",
+          "after_sha256": "f8e3595caa331def862d76018d0592a2b0eb54b3cc1500b5f4ba65fdd8b9b115",
+          "bytes_before": 1877,
+          "bytes_after": 2691
+        }
+      ],
+      "verified_file_sha256": {
+        "unit_animated/unit_anime_903001402.png": "55afc5882040d9e0c6b86127f5909cc74f2bf7c97c776d92bb4d6f90088949ec",
+        "unit_animated_csv/unit_atk_cgs_903001402.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_cgg_903001402.csv": "3b5ab51930861c860bb6870261593c92709916c14333296ebb4d92b0cc3c92cc",
+        "unit_animated_csv/unit_dead_cgs_903001402.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_dying_cgs_903001402.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_idle_cgs_903001402.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_jump_cgs_903001402.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_limit_atk_cgs_903001402.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_atk_cgs_903001402.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_standby_cgs_903001402.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_move_cgs_903001402.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_standby_cgs_903001402.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_before_cgs_903001402.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_cgs_903001402.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_icons/unit_icon_903001402.png": "97f343d7748799233644451fac754f029cfe1384e901c4ac08815b74200925bf",
+        "unit_illustrations/unit_ills_903001402.png": "f8e3595caa331def862d76018d0592a2b0eb54b3cc1500b5f4ba65fdd8b9b115"
+      }
+    },
+    {
+      "id": "903001501",
+      "name": "Mini Smart Door",
+      "verified_bundle_files": 16,
+      "cgg_frames": 6,
+      "old_cgg_frames": 5,
+      "atlas_dimensions": [
+        384,
+        288
+      ],
+      "all_cgs_references_valid": true,
+      "all_cgg_crops_in_bounds": true,
+      "changes": [
+        {
+          "path": "unit_animated/unit_anime_903001501.png",
+          "before_sha256": "1a4b3f7ae650eadd1cd7b42788f851c0b3f69f8ae97d8dd2b9125bc89a9ebfc9",
+          "after_sha256": "aff73fa6dfef3fe5fc73ee8711d96d8db120bbaa7edc182af1f37445633614f3",
+          "bytes_before": 6067,
+          "bytes_after": 7615
+        },
+        {
+          "path": "unit_animated_csv/unit_cgg_903001501.csv",
+          "before_sha256": "9b181cd6808c5905b7dceeb36018973a68dd8074965ad03da8daa963fac33ad7",
+          "after_sha256": "3b5ab51930861c860bb6870261593c92709916c14333296ebb4d92b0cc3c92cc",
+          "bytes_before": 380,
+          "bytes_after": 419
+        },
+        {
+          "path": "unit_icons/unit_icon_903001501.png",
+          "before_sha256": "41e67f8285e2bb3c4869ce1995811a0948c120718ac48920e60be118718ed9e5",
+          "after_sha256": "5e0f698a679191c98930e7bf151e37450659e7d34721a65b78045a9db6d593e5",
+          "bytes_before": 618,
+          "bytes_after": 1499
+        },
+        {
+          "path": "unit_illustrations/unit_ills_903001501.png",
+          "before_sha256": "28de633e4e6ae05bffd91acec82c9645a5acb21738391da9dd1a08bdaef2ce22",
+          "after_sha256": "d987aaecfbc49f799196c3fd882a909600261a6f292394e76d206b94597e3727",
+          "bytes_before": 1301,
+          "bytes_after": 2056
+        }
+      ],
+      "verified_file_sha256": {
+        "unit_animated/unit_anime_903001501.png": "aff73fa6dfef3fe5fc73ee8711d96d8db120bbaa7edc182af1f37445633614f3",
+        "unit_animated_csv/unit_atk_cgs_903001501.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_cgg_903001501.csv": "3b5ab51930861c860bb6870261593c92709916c14333296ebb4d92b0cc3c92cc",
+        "unit_animated_csv/unit_dead_cgs_903001501.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_dying_cgs_903001501.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_idle_cgs_903001501.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_jump_cgs_903001501.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_limit_atk_cgs_903001501.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_atk_cgs_903001501.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_standby_cgs_903001501.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_move_cgs_903001501.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_standby_cgs_903001501.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_before_cgs_903001501.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_cgs_903001501.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_icons/unit_icon_903001501.png": "5e0f698a679191c98930e7bf151e37450659e7d34721a65b78045a9db6d593e5",
+        "unit_illustrations/unit_ills_903001501.png": "d987aaecfbc49f799196c3fd882a909600261a6f292394e76d206b94597e3727"
+      }
+    },
+    {
+      "id": "903001502",
+      "name": "Smart Door",
+      "verified_bundle_files": 16,
+      "cgg_frames": 6,
+      "old_cgg_frames": 5,
+      "atlas_dimensions": [
+        384,
+        288
+      ],
+      "all_cgs_references_valid": true,
+      "all_cgg_crops_in_bounds": true,
+      "changes": [
+        {
+          "path": "unit_animated/unit_anime_903001502.png",
+          "before_sha256": "d0998bf45aa71da37418ff6f02819de2a8bbbf3bd33f73dc55becfaf0f4b2c95",
+          "after_sha256": "6251289360baa844b1425186059e4e8145d8be3fbec99cfd1ff588420894868a",
+          "bytes_before": 8524,
+          "bytes_after": 10389
+        },
+        {
+          "path": "unit_animated_csv/unit_cgg_903001502.csv",
+          "before_sha256": "9b181cd6808c5905b7dceeb36018973a68dd8074965ad03da8daa963fac33ad7",
+          "after_sha256": "3b5ab51930861c860bb6870261593c92709916c14333296ebb4d92b0cc3c92cc",
+          "bytes_before": 380,
+          "bytes_after": 419
+        },
+        {
+          "path": "unit_icons/unit_icon_903001502.png",
+          "before_sha256": "089cf2e074ce7ce9150ba2ed4bfa5d5ce5f68010beb2c23ee79a4e473121556f",
+          "after_sha256": "6b2f74440e20c79a9c3bc16c2554e26734d863d41e0ec60677618b625e5acca5",
+          "bytes_before": 594,
+          "bytes_after": 1469
+        },
+        {
+          "path": "unit_illustrations/unit_ills_903001502.png",
+          "before_sha256": "e7670442e05cd0a55925352efb542a0b49628ea02b64c4ecb1bef00e00564e29",
+          "after_sha256": "eeb9a93feaae9c5a740d6a98e9cc836133d71ee5d7ee06473a46a75167fb4365",
+          "bytes_before": 1914,
+          "bytes_after": 2723
+        }
+      ],
+      "verified_file_sha256": {
+        "unit_animated/unit_anime_903001502.png": "6251289360baa844b1425186059e4e8145d8be3fbec99cfd1ff588420894868a",
+        "unit_animated_csv/unit_atk_cgs_903001502.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_cgg_903001502.csv": "3b5ab51930861c860bb6870261593c92709916c14333296ebb4d92b0cc3c92cc",
+        "unit_animated_csv/unit_dead_cgs_903001502.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_dying_cgs_903001502.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_idle_cgs_903001502.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_jump_cgs_903001502.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_limit_atk_cgs_903001502.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_atk_cgs_903001502.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_standby_cgs_903001502.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_move_cgs_903001502.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_standby_cgs_903001502.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_before_cgs_903001502.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_cgs_903001502.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_icons/unit_icon_903001502.png": "6b2f74440e20c79a9c3bc16c2554e26734d863d41e0ec60677618b625e5acca5",
+        "unit_illustrations/unit_ills_903001502.png": "eeb9a93feaae9c5a740d6a98e9cc836133d71ee5d7ee06473a46a75167fb4365"
+      }
+    },
+    {
+      "id": "903001601",
+      "name": "Mini Soul Door",
+      "verified_bundle_files": 16,
+      "cgg_frames": 6,
+      "old_cgg_frames": 5,
+      "atlas_dimensions": [
+        384,
+        288
+      ],
+      "all_cgs_references_valid": true,
+      "all_cgg_crops_in_bounds": true,
+      "changes": [
+        {
+          "path": "unit_animated/unit_anime_903001601.png",
+          "before_sha256": "c4e4a3538ea53fc0ebec31d5f18d8978eb468612bebca533b85988c2d4134846",
+          "after_sha256": "10ffaf731a9d3e9126e3d2e2a6d5b33f4a6d81bb075622ff5075496c5648285e",
+          "bytes_before": 5855,
+          "bytes_after": 7342
+        },
+        {
+          "path": "unit_animated_csv/unit_cgg_903001601.csv",
+          "before_sha256": "9b181cd6808c5905b7dceeb36018973a68dd8074965ad03da8daa963fac33ad7",
+          "after_sha256": "3b5ab51930861c860bb6870261593c92709916c14333296ebb4d92b0cc3c92cc",
+          "bytes_before": 380,
+          "bytes_after": 419
+        },
+        {
+          "path": "unit_icons/unit_icon_903001601.png",
+          "before_sha256": "eae0562873aa71c2f533a6ab992efa375ce64a600713212fe42f8377c10df365",
+          "after_sha256": "7888b639aee0b8991c32626041ff25579ff99b585c64f29a69ac4737812dda46",
+          "bytes_before": 616,
+          "bytes_after": 1501
+        },
+        {
+          "path": "unit_illustrations/unit_ills_903001601.png",
+          "before_sha256": "38c93dca8bfc2b61a40cd5af0292605b61657bcc62706d23e61d224c5bc8d083",
+          "after_sha256": "96ee1b903a4889a402d5efa0ef02dfe7b2ecf45d714cce42eb2c12255901e6bc",
+          "bytes_before": 1191,
+          "bytes_after": 1946
+        }
+      ],
+      "verified_file_sha256": {
+        "unit_animated/unit_anime_903001601.png": "10ffaf731a9d3e9126e3d2e2a6d5b33f4a6d81bb075622ff5075496c5648285e",
+        "unit_animated_csv/unit_atk_cgs_903001601.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_cgg_903001601.csv": "3b5ab51930861c860bb6870261593c92709916c14333296ebb4d92b0cc3c92cc",
+        "unit_animated_csv/unit_dead_cgs_903001601.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_dying_cgs_903001601.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_idle_cgs_903001601.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_jump_cgs_903001601.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_limit_atk_cgs_903001601.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_atk_cgs_903001601.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_standby_cgs_903001601.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_move_cgs_903001601.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_standby_cgs_903001601.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_before_cgs_903001601.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_cgs_903001601.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_icons/unit_icon_903001601.png": "7888b639aee0b8991c32626041ff25579ff99b585c64f29a69ac4737812dda46",
+        "unit_illustrations/unit_ills_903001601.png": "96ee1b903a4889a402d5efa0ef02dfe7b2ecf45d714cce42eb2c12255901e6bc"
+      }
+    },
+    {
+      "id": "903001602",
+      "name": "Soul Door",
+      "verified_bundle_files": 16,
+      "cgg_frames": 6,
+      "old_cgg_frames": 5,
+      "atlas_dimensions": [
+        384,
+        288
+      ],
+      "all_cgs_references_valid": true,
+      "all_cgg_crops_in_bounds": true,
+      "changes": [
+        {
+          "path": "unit_animated/unit_anime_903001602.png",
+          "before_sha256": "f0eae75c2e8607fe971ea40e0e8daa562e495c92bb0907dd74e0555992137a97",
+          "after_sha256": "3cb0a54e00c6aa47e851b2f5d8c816e4cc58823717ec0bc5e4f1e09e154f5d44",
+          "bytes_before": 8047,
+          "bytes_after": 9887
+        },
+        {
+          "path": "unit_animated_csv/unit_cgg_903001602.csv",
+          "before_sha256": "9b181cd6808c5905b7dceeb36018973a68dd8074965ad03da8daa963fac33ad7",
+          "after_sha256": "3b5ab51930861c860bb6870261593c92709916c14333296ebb4d92b0cc3c92cc",
+          "bytes_before": 380,
+          "bytes_after": 419
+        },
+        {
+          "path": "unit_icons/unit_icon_903001602.png",
+          "before_sha256": "f884487f582c3762655a1347fa46889e7bd7780da560faa5ae18321efb58ca48",
+          "after_sha256": "bc180948361b7462f6c073f4f5e6cf50e3e02248c50127455297a3fdbf1adc00",
+          "bytes_before": 585,
+          "bytes_after": 1464
+        },
+        {
+          "path": "unit_illustrations/unit_ills_903001602.png",
+          "before_sha256": "5a1859fc06fac98f7b91a242d7aceda221a466992bc874644438457653e1ad6a",
+          "after_sha256": "a609f7f0d57fe2b685384892cb1fc6550965fbafe469f8bdeab0fc451f0d7c9e",
+          "bytes_before": 1773,
+          "bytes_after": 2596
+        }
+      ],
+      "verified_file_sha256": {
+        "unit_animated/unit_anime_903001602.png": "3cb0a54e00c6aa47e851b2f5d8c816e4cc58823717ec0bc5e4f1e09e154f5d44",
+        "unit_animated_csv/unit_atk_cgs_903001602.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_cgg_903001602.csv": "3b5ab51930861c860bb6870261593c92709916c14333296ebb4d92b0cc3c92cc",
+        "unit_animated_csv/unit_dead_cgs_903001602.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_dying_cgs_903001602.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_idle_cgs_903001602.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_jump_cgs_903001602.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_limit_atk_cgs_903001602.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_atk_cgs_903001602.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_standby_cgs_903001602.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_move_cgs_903001602.csv": "e5f8f818c9fbc3bc0d9d900d2e61716f4bb752adc48c7177cc72632e519e2850",
+        "unit_animated_csv/unit_standby_cgs_903001602.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_before_cgs_903001602.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_cgs_903001602.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_icons/unit_icon_903001602.png": "bc180948361b7462f6c073f4f5e6cf50e3e02248c50127455297a3fdbf1adc00",
+        "unit_illustrations/unit_ills_903001602.png": "a609f7f0d57fe2b685384892cb1fc6550965fbafe469f8bdeab0fc451f0d7c9e"
+      }
+    },
+    {
+      "id": "906000103",
+      "name": "Super Trust Moogle",
+      "verified_bundle_files": 16,
+      "cgg_frames": 6,
+      "old_cgg_frames": 5,
+      "atlas_dimensions": [
+        288,
+        152
+      ],
+      "all_cgs_references_valid": true,
+      "all_cgg_crops_in_bounds": true,
+      "changes": [
+        {
+          "path": "unit_animated/unit_anime_906000103.png",
+          "before_sha256": "6e90a25c24d65afbaf70fdaff6ca1a2635eb1ab52c92052e23cff1dbc2311c60",
+          "after_sha256": "fcd432ea875dc4711cf8e4fb13f81d80028c59d22454da1ae4d83c064e8a684b",
+          "bytes_before": 2244,
+          "bytes_after": 3540
+        },
+        {
+          "path": "unit_animated_csv/unit_cgg_906000103.csv",
+          "before_sha256": "9fce337149b38cca285ad97df35015925f6a7cac1360044ffa43c72b41ed8dd6",
+          "after_sha256": "8b15b454837ab5bb477b32ef14ba890ca3118da1161781f74da23e121c7aa3e0",
+          "bytes_before": 955,
+          "bytes_after": 1118
+        },
+        {
+          "path": "unit_icons/unit_icon_906000103.png",
+          "before_sha256": "de3c41eafe870c347218d7b3e8e3d920437a0ec2c651c104d3345bb114982737",
+          "after_sha256": "057eaa803e69a1af7175cb62021156dc836ce450e5172de0e1d2b06be0650f91",
+          "bytes_before": 790,
+          "bytes_after": 1635
+        },
+        {
+          "path": "unit_illustrations/unit_ills_906000103.png",
+          "before_sha256": "f8d2414f3001ab149c8f1a2e63663e72bdf4ba5087c329a4ade8691242230357",
+          "after_sha256": "9d4e6f802bad96dcf12a3d8947a2de9301ad72de9375a4606c949811d0f6f613",
+          "bytes_before": 1088,
+          "bytes_after": 2075
+        }
+      ],
+      "verified_file_sha256": {
+        "unit_animated/unit_anime_906000103.png": "fcd432ea875dc4711cf8e4fb13f81d80028c59d22454da1ae4d83c064e8a684b",
+        "unit_animated_csv/unit_atk_cgs_906000103.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_cgg_906000103.csv": "8b15b454837ab5bb477b32ef14ba890ca3118da1161781f74da23e121c7aa3e0",
+        "unit_animated_csv/unit_dead_cgs_906000103.csv": "0cf0017ec4ec96e11565dc9e8a41a14d9c4b0e1cfd64ead15f9b70f77ec09ad4",
+        "unit_animated_csv/unit_dying_cgs_906000103.csv": "0cf0017ec4ec96e11565dc9e8a41a14d9c4b0e1cfd64ead15f9b70f77ec09ad4",
+        "unit_animated_csv/unit_idle_cgs_906000103.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_jump_cgs_906000103.csv": "0cf0017ec4ec96e11565dc9e8a41a14d9c4b0e1cfd64ead15f9b70f77ec09ad4",
+        "unit_animated_csv/unit_limit_atk_cgs_906000103.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_atk_cgs_906000103.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_standby_cgs_906000103.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_move_cgs_906000103.csv": "0cf0017ec4ec96e11565dc9e8a41a14d9c4b0e1cfd64ead15f9b70f77ec09ad4",
+        "unit_animated_csv/unit_standby_cgs_906000103.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_before_cgs_906000103.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_cgs_906000103.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_icons/unit_icon_906000103.png": "057eaa803e69a1af7175cb62021156dc836ce450e5172de0e1d2b06be0650f91",
+        "unit_illustrations/unit_ills_906000103.png": "9d4e6f802bad96dcf12a3d8947a2de9301ad72de9375a4606c949811d0f6f613"
+      }
+    },
+    {
+      "id": "906000104",
+      "name": "Super Trust Moogle",
+      "verified_bundle_files": 16,
+      "cgg_frames": 6,
+      "old_cgg_frames": 5,
+      "atlas_dimensions": [
+        288,
+        152
+      ],
+      "all_cgs_references_valid": true,
+      "all_cgg_crops_in_bounds": true,
+      "changes": [
+        {
+          "path": "unit_animated/unit_anime_906000104.png",
+          "before_sha256": "5dd39df9a25e5808cccde1478974ce25ae291e58149629b87be15481dfebc54e",
+          "after_sha256": "b61fc94b920f54b1b2c5039d8dcedea2c4fa6dee8e3fd879855989f13cdc618e",
+          "bytes_before": 2740,
+          "bytes_after": 4063
+        },
+        {
+          "path": "unit_animated_csv/unit_cgg_906000104.csv",
+          "before_sha256": "2ad8c59417068de5aba7810225bc35ddde40175051c945ee5ef344ef089a4e07",
+          "after_sha256": "77823b689857e56433535591a6bb634f698bc182ab839bb2ec1bbc81232f81f4",
+          "bytes_before": 955,
+          "bytes_after": 1086
+        },
+        {
+          "path": "unit_icons/unit_icon_906000104.png",
+          "before_sha256": "65f7538b310e4228fe82a50e003871dcd329347c1ec2f8ed2b645820a74c28ec",
+          "after_sha256": "92133a99bcea030a95fd89b0a5fb5c36887133b00effcb2808c0bcaa257d015d",
+          "bytes_before": 803,
+          "bytes_after": 1674
+        },
+        {
+          "path": "unit_illustrations/unit_ills_906000104.png",
+          "before_sha256": "4a2026a177a8237c7b020fee6fa8f141a4e798935611236ccf018b8fa23d6042",
+          "after_sha256": "70d9f5a19f0bd90378152cc1bbacc2352bc9ad9e4e511f3524c15d4bd290f376",
+          "bytes_before": 1425,
+          "bytes_after": 2594
+        }
+      ],
+      "verified_file_sha256": {
+        "unit_animated/unit_anime_906000104.png": "b61fc94b920f54b1b2c5039d8dcedea2c4fa6dee8e3fd879855989f13cdc618e",
+        "unit_animated_csv/unit_atk_cgs_906000104.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_cgg_906000104.csv": "77823b689857e56433535591a6bb634f698bc182ab839bb2ec1bbc81232f81f4",
+        "unit_animated_csv/unit_dead_cgs_906000104.csv": "0cf0017ec4ec96e11565dc9e8a41a14d9c4b0e1cfd64ead15f9b70f77ec09ad4",
+        "unit_animated_csv/unit_dying_cgs_906000104.csv": "0cf0017ec4ec96e11565dc9e8a41a14d9c4b0e1cfd64ead15f9b70f77ec09ad4",
+        "unit_animated_csv/unit_idle_cgs_906000104.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_jump_cgs_906000104.csv": "0cf0017ec4ec96e11565dc9e8a41a14d9c4b0e1cfd64ead15f9b70f77ec09ad4",
+        "unit_animated_csv/unit_limit_atk_cgs_906000104.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_atk_cgs_906000104.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_standby_cgs_906000104.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_move_cgs_906000104.csv": "0cf0017ec4ec96e11565dc9e8a41a14d9c4b0e1cfd64ead15f9b70f77ec09ad4",
+        "unit_animated_csv/unit_standby_cgs_906000104.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_before_cgs_906000104.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_cgs_906000104.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_icons/unit_icon_906000104.png": "92133a99bcea030a95fd89b0a5fb5c36887133b00effcb2808c0bcaa257d015d",
+        "unit_illustrations/unit_ills_906000104.png": "70d9f5a19f0bd90378152cc1bbacc2352bc9ad9e4e511f3524c15d4bd290f376"
+      }
+    },
+    {
+      "id": "906000105",
+      "name": "Super Trust Moogle",
+      "verified_bundle_files": 16,
+      "cgg_frames": 6,
+      "old_cgg_frames": 5,
+      "atlas_dimensions": [
+        288,
+        152
+      ],
+      "all_cgs_references_valid": true,
+      "all_cgg_crops_in_bounds": true,
+      "changes": [
+        {
+          "path": "unit_animated/unit_anime_906000105.png",
+          "before_sha256": "ac07af0cd9575ea9999c709bae56ec7c86607e7d3b3e1ba65168a6a3b2a90011",
+          "after_sha256": "44533ca34174ba861d592292d1d7b1fbc0ee3d3713c51bd7e59a4ea36b5f6610",
+          "bytes_before": 3437,
+          "bytes_after": 4847
+        },
+        {
+          "path": "unit_animated_csv/unit_cgg_906000105.csv",
+          "before_sha256": "e2a6f5e0bb0a4ee205cf06ef8a6158e7d556f7abd584bf0c5ca4903b8490a99e",
+          "after_sha256": "6aae5411af72a1b855f7f28567d344360e01ddc7f67991d2eaaf676e8f982abe",
+          "bytes_before": 955,
+          "bytes_after": 1086
+        },
+        {
+          "path": "unit_icons/unit_icon_906000105.png",
+          "before_sha256": "e16bdcd6b994b784be654e46b1c639e720fed9c5cf8f3cb11acc537933d3cade",
+          "after_sha256": "8a7b86ab63e66a7d73d1e6ade2f06d9bd57a44c9f07bf3ff3b3c5ea67d913d93",
+          "bytes_before": 735,
+          "bytes_after": 1596
+        },
+        {
+          "path": "unit_illustrations/unit_ills_906000105.png",
+          "before_sha256": "6185134e5d3e2b6b504d436f38a0c420a05ab74c35ff9039e91eeadebd429d7f",
+          "after_sha256": "8d58554e9a0f1920d53067a1c6e494504322f6f16536a6bd9f209c953ce11613",
+          "bytes_before": 1741,
+          "bytes_after": 2992
+        }
+      ],
+      "verified_file_sha256": {
+        "unit_animated/unit_anime_906000105.png": "44533ca34174ba861d592292d1d7b1fbc0ee3d3713c51bd7e59a4ea36b5f6610",
+        "unit_animated_csv/unit_atk_cgs_906000105.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_cgg_906000105.csv": "6aae5411af72a1b855f7f28567d344360e01ddc7f67991d2eaaf676e8f982abe",
+        "unit_animated_csv/unit_dead_cgs_906000105.csv": "0cf0017ec4ec96e11565dc9e8a41a14d9c4b0e1cfd64ead15f9b70f77ec09ad4",
+        "unit_animated_csv/unit_dying_cgs_906000105.csv": "0cf0017ec4ec96e11565dc9e8a41a14d9c4b0e1cfd64ead15f9b70f77ec09ad4",
+        "unit_animated_csv/unit_idle_cgs_906000105.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_jump_cgs_906000105.csv": "0cf0017ec4ec96e11565dc9e8a41a14d9c4b0e1cfd64ead15f9b70f77ec09ad4",
+        "unit_animated_csv/unit_limit_atk_cgs_906000105.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_atk_cgs_906000105.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_magic_standby_cgs_906000105.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_move_cgs_906000105.csv": "0cf0017ec4ec96e11565dc9e8a41a14d9c4b0e1cfd64ead15f9b70f77ec09ad4",
+        "unit_animated_csv/unit_standby_cgs_906000105.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_before_cgs_906000105.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_animated_csv/unit_win_cgs_906000105.csv": "9100418d073cfed6a044ab1540b57897a146fe9d2b6976af0a165bc69234e6b8",
+        "unit_icons/unit_icon_906000105.png": "8a7b86ab63e66a7d73d1e6ade2f06d9bd57a44c9f07bf3ff3b3c5ea67d913d93",
+        "unit_illustrations/unit_ills_906000105.png": "8d58554e9a0f1920d53067a1c6e494504322f6f16536a6bd9f209c953ce11613"
+      }
+    }
+  ]
+}

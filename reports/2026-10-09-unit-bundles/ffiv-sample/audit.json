@@ -1,0 +1,364 @@
+{
+  "source": "T:\\Downloads\\Suno\\ICONS_04_FFIV_Sample_Pack.zip",
+  "source_bytes": 1928676,
+  "source_sha256": "f23b622f7371b4ba6e4c2baff2e9f608d87d414e83831b03f5a36acca8f13033",
+  "crc_error": null,
+  "image_count": 215,
+  "image_decode_errors": [],
+  "document_names": [
+    "Iconlist_04_FFIV.md",
+    "README.md"
+  ],
+  "groups": {
+    "large": {
+      "images": 108,
+      "dimensions": {
+        "128x128": 108
+      },
+      "modes": {
+        "RGBA": 108
+      },
+      "byte_range": [
+        9328,
+        13640
+      ],
+      "unique_file_hashes": 43,
+      "unique_pixel_images": 43,
+      "duplicates": [
+        [
+          "ICON-Large_04-FFIV_Barbariccia_204001904.png",
+          "ICON-Large_04-FFIV_Barbariccia_204001905.png",
+          "ICON-Large_04-FFIV_Barbariccia_204001906.png",
+          "ICON-Large_04-FFIV_Barbariccia_204001907.png",
+          "ICON-Large_04-FFIV_Barbariccia_204001917.png",
+          "ICON-Large_04-FFIV_Barbariccia_204001927.png"
+        ],
+        [
+          "ICON-Large_04-FFIV_Cagnazzo_204002104.png",
+          "ICON-Large_04-FFIV_Cagnazzo_204002105.png",
+          "ICON-Large_04-FFIV_Cagnazzo_204002106.png"
+        ],
+        [
+          "ICON-Large_04-FFIV_Cecil-Moonlit Guided Paladin_204003507.png",
+          "ICON-Large_04-FFIV_Cecil-Moonlit Guided Paladin_204003527.png",
+          "ICON-Large_04-FFIV_Cecil-Red Wings_Light_204003217.png"
+        ],
+        [
+          "ICON-Large_04-FFIV_Cecil-Paladin_204002205.png",
+          "ICON-Large_04-FFIV_Cecil-Paladin_204002206.png",
+          "ICON-Large_04-FFIV_Cecil-Paladin_204002207.png"
+        ],
+        [
+          "ICON-Large_04-FFIV_Cecil_204000104.png",
+          "ICON-Large_04-FFIV_Cecil_204000105.png",
+          "ICON-Large_04-FFIV_Cecil_204000106.png"
+        ],
+        [
+          "ICON-Large_04-FFIV_Ceodore_204002705.png",
+          "ICON-Large_04-FFIV_Ceodore_204002706.png",
+          "ICON-Large_04-FFIV_Ceodore_204002707.png"
+        ],
+        [
+          "ICON-Large_04-FFIV_Cid_204001004.png",
+          "ICON-Large_04-FFIV_Cid_204001005.png",
+          "ICON-Large_04-FFIV_Cid_204001006.png"
+        ],
+        [
+          "ICON-Large_04-FFIV_Edge-Ninja_204003107.png",
+          "ICON-Large_04-FFIV_Edge-Ninja_204003117.png"
+        ],
+        [
+          "ICON-Large_04-FFIV_Edge_204001103.png",
+          "ICON-Large_04-FFIV_Edge_204001104.png",
+          "ICON-Large_04-FFIV_Edge_204001105.png"
+        ],
+        [
+          "ICON-Large_04-FFIV_Edward_204000602.png",
+          "ICON-Large_04-FFIV_Edward_204000603.png"
+        ],
+        [
+          "ICON-Large_04-FFIV_Golbez-Black Mage_204001705.png",
+          "ICON-Large_04-FFIV_Golbez-Black Mage_204001706.png",
+          "ICON-Large_04-FFIV_Golbez-Black Mage_204001707.png",
+          "ICON-Large_04-FFIV_Golbez-Black Mage_204001717.png",
+          "ICON-Large_04-FFIV_Golbez-Black Mage_204001727.png"
+        ],
+        [
+          "ICON-Large_04-FFIV_Golbez-Dark Sorcerer_204003707.png",
+          "ICON-Large_04-FFIV_Golbez-Dark Sorcerer_204003727.png"
+        ],
+        [
+          "ICON-Large_04-FFIV_Golbez_204001403.png",
+          "ICON-Large_04-FFIV_Golbez_204001404.png",
+          "ICON-Large_04-FFIV_Golbez_204001405.png"
+        ],
+        [
+          "ICON-Large_04-FFIV_Kain-Atoning Dragoon_204001605.png",
+          "ICON-Large_04-FFIV_Kain-Atoning Dragoon_204001606.png",
+          "ICON-Large_04-FFIV_Kain-Atoning Dragoon_204001607.png"
+        ],
+        [
+          "ICON-Large_04-FFIV_Kain-Dragoon_204002907.png",
+          "ICON-Large_04-FFIV_Kain-Noble Dragoon_204003607.png",
+          "ICON-Large_04-FFIV_Kain-Noble Dragoon_204003617.png",
+          "ICON-Large_04-FFIV_Kain-Noble Dragoon_204003627.png",
+          "ICON-Large_04-FFIV_Kain-Noble Dragoon_204003637.png",
+          "ICON-Large_04-FFIV_Kain_204000203.png",
+          "ICON-Large_04-FFIV_Kain_204000204.png",
+          "ICON-Large_04-FFIV_Kain_204000205.png"
+        ],
+        [
+          "ICON-Large_04-FFIV_Palom & Porom_204002605.png",
+          "ICON-Large_04-FFIV_Palom & Porom_204002606.png",
+          "ICON-Large_04-FFIV_Palom & Porom_204002607.png",
+          "ICON-Large_04-FFIV_Palom & Porom_204002617.png",
+          "ICON-Large_04-FFIV_Palom & Porom_204002627.png"
+        ],
+        [
+          "ICON-Large_04-FFIV_Rosa-White Mage of Benediction_204003307.png",
+          "ICON-Large_04-FFIV_Rosa-White Mage of Benediction_204003317.png",
+          "ICON-Large_04-FFIV_Rosa_204000304.png",
+          "ICON-Large_04-FFIV_Rosa_204000305.png"
+        ],
+        [
+          "ICON-Large_04-FFIV_Rosa-White Mage_204002405.png",
+          "ICON-Large_04-FFIV_Rosa-White Mage_204002406.png",
+          "ICON-Large_04-FFIV_Rosa-White Mage_204002407.png"
+        ],
+        [
+          "ICON-Large_04-FFIV_Rubicante_204001804.png",
+          "ICON-Large_04-FFIV_Rubicante_204001805.png",
+          "ICON-Large_04-FFIV_Rubicante_204001806.png",
+          "ICON-Large_04-FFIV_Rubicante_204001807.png",
+          "ICON-Large_04-FFIV_Rubicante_204001817.png",
+          "ICON-Large_04-FFIV_Rubicante_204001827.png"
+        ],
+        [
+          "ICON-Large_04-FFIV_Rydia-Eidolon Whisperer_2040034017.png",
+          "ICON-Large_04-FFIV_Rydia-Eidolon Whisperer_204003407.png",
+          "ICON-Large_04-FFIV_Rydia-Pure Summoner_204001505.png",
+          "ICON-Large_04-FFIV_Rydia-Pure Summoner_204001506.png",
+          "ICON-Large_04-FFIV_Rydia-Pure Summoner_204001507.png"
+        ],
+        [
+          "ICON-Large_04-FFIV_Rydia-Summoner_204003007.png",
+          "ICON-Large_04-FFIV_Rydia-Summoner_204003017.png"
+        ],
+        [
+          "ICON-Large_04-FFIV_Scarmiglione_204002003.png",
+          "ICON-Large_04-FFIV_Scarmiglione_204002004.png",
+          "ICON-Large_04-FFIV_Scarmiglione_204002005.png"
+        ],
+        [
+          "ICON-Large_04-FFIV_Ursula_204002805.png",
+          "ICON-Large_04-FFIV_Ursula_204002806.png",
+          "ICON-Large_04-FFIV_Ursula_204002807.png"
+        ],
+        [
+          "ICON-Large_04-FFIV_Yang_204000704.png",
+          "ICON-Large_04-FFIV_Yang_204000705.png",
+          "ICON-Large_04-FFIV_Yang_204000706.png"
+        ],
+        [
+          "ICON-Large_04-FFIV_Zeromus_204003807.png",
+          "ICON-Large_04-FFIV_Zeromus_204003817.png",
+          "ICON-Large_04-FFIV_Zeromus_204003827.png",
+          "ICON-Large_04-FFIV_Zeromus_204003837.png"
+        ]
+      ],
+      "transparent_pixel_range": [
+        4497,
+        6420
+      ],
+      "partial_alpha_pixel_range": [
+        3144,
+        5078
+      ]
+    },
+    "ability": {
+      "images": 107,
+      "dimensions": {
+        "64x64": 107
+      },
+      "modes": {
+        "RGBA": 107
+      },
+      "byte_range": [
+        5241,
+        6223
+      ],
+      "unique_file_hashes": 43,
+      "unique_pixel_images": 43,
+      "duplicates": [
+        [
+          "ICON_Ability_04-FFIV_Barbariccia_204001904.png",
+          "ICON_Ability_04-FFIV_Barbariccia_204001905.png",
+          "ICON_Ability_04-FFIV_Barbariccia_204001906.png",
+          "ICON_Ability_04-FFIV_Barbariccia_204001907.png",
+          "ICON_Ability_04-FFIV_Barbariccia_204001917.png",
+          "ICON_Ability_04-FFIV_Barbariccia_204001927.png"
+        ],
+        [
+          "ICON_Ability_04-FFIV_Cagnazzo_204002104.png",
+          "ICON_Ability_04-FFIV_Cagnazzo_204002105.png",
+          "ICON_Ability_04-FFIV_Cagnazzo_204002106.png"
+        ],
+        [
+          "ICON_Ability_04-FFIV_Cecil-Moonlit Guided Paladin_204003507.png",
+          "ICON_Ability_04-FFIV_Cecil-Moonlit Guided Paladin_204003527.png",
+          "ICON_Ability_04-FFIV_Cecil-Red Wings_Light_204003217.png"
+        ],
+        [
+          "ICON_Ability_04-FFIV_Cecil-Paladin_204002205.png",
+          "ICON_Ability_04-FFIV_Cecil-Paladin_204002206.png",
+          "ICON_Ability_04-FFIV_Cecil-Paladin_204002207.png"
+        ],
+        [
+          "ICON_Ability_04-FFIV_Cecil_204000104.png",
+          "ICON_Ability_04-FFIV_Cecil_204000105.png",
+          "ICON_Ability_04-FFIV_Cecil_204000106.png"
+        ],
+        [
+          "ICON_Ability_04-FFIV_Ceodore_204002705.png",
+          "ICON_Ability_04-FFIV_Ceodore_204002706.png",
+          "ICON_Ability_04-FFIV_Ceodore_204002707.png"
+        ],
+        [
+          "ICON_Ability_04-FFIV_Cid_204001004.png",
+          "ICON_Ability_04-FFIV_Cid_204001005.png",
+          "ICON_Ability_04-FFIV_Cid_204001006.png"
+        ],
+        [
+          "ICON_Ability_04-FFIV_Edge-Ninja_204003107.png",
+          "ICON_Ability_04-FFIV_Edge-Ninja_204003117.png"
+        ],
+        [
+          "ICON_Ability_04-FFIV_Edge_204001103.png",
+          "ICON_Ability_04-FFIV_Edge_204001104.png",
+          "ICON_Ability_04-FFIV_Edge_204001105.png"
+        ],
+        [
+          "ICON_Ability_04-FFIV_Golbez-Black Mage_204001705.png",
+          "ICON_Ability_04-FFIV_Golbez-Black Mage_204001706.png",
+          "ICON_Ability_04-FFIV_Golbez-Black Mage_204001707.png",
+          "ICON_Ability_04-FFIV_Golbez-Black Mage_204001717.png",
+          "ICON_Ability_04-FFIV_Golbez-Black Mage_204001727.png"
+        ],
+        [
+          "ICON_Ability_04-FFIV_Golbez-Dark Sorcerer_204003707.png",
+          "ICON_Ability_04-FFIV_Golbez-Dark Sorcerer_204003727.png"
+        ],
+        [
+          "ICON_Ability_04-FFIV_Golbez_204001403.png",
+          "ICON_Ability_04-FFIV_Golbez_204001404.png",
+          "ICON_Ability_04-FFIV_Golbez_204001405.png"
+        ],
+        [
+          "ICON_Ability_04-FFIV_Kain-Atoning Dragoon_204001605.png",
+          "ICON_Ability_04-FFIV_Kain-Atoning Dragoon_204001606.png",
+          "ICON_Ability_04-FFIV_Kain-Atoning Dragoon_204001607.png"
+        ],
+        [
+          "ICON_Ability_04-FFIV_Kain-Dragoon_204002907.png",
+          "ICON_Ability_04-FFIV_Kain-Noble Dragoon_204003607.png",
+          "ICON_Ability_04-FFIV_Kain-Noble Dragoon_204003617.png",
+          "ICON_Ability_04-FFIV_Kain-Noble Dragoon_204003627.png",
+          "ICON_Ability_04-FFIV_Kain-Noble Dragoon_204003637.png",
+          "ICON_Ability_04-FFIV_Kain_204000203.png",
+          "ICON_Ability_04-FFIV_Kain_204000204.png",
+          "ICON_Ability_04-FFIV_Kain_204000205.png"
+        ],
+        [
+          "ICON_Ability_04-FFIV_Palom & Porom_204002605.png",
+          "ICON_Ability_04-FFIV_Palom & Porom_204002606.png",
+          "ICON_Ability_04-FFIV_Palom & Porom_204002607.png",
+          "ICON_Ability_04-FFIV_Palom & Porom_204002617.png",
+          "ICON_Ability_04-FFIV_Palom & Porom_204002627.png"
+        ],
+        [
+          "ICON_Ability_04-FFIV_Rosa-White Mage of Benediction_204003307.png",
+          "ICON_Ability_04-FFIV_Rosa-White Mage of Benediction_204003317.png",
+          "ICON_Ability_04-FFIV_Rosa_204000304.png",
+          "ICON_Ability_04-FFIV_Rosa_204000305.png"
+        ],
+        [
+          "ICON_Ability_04-FFIV_Rosa-White Mage_204002405.png",
+          "ICON_Ability_04-FFIV_Rosa-White Mage_204002406.png",
+          "ICON_Ability_04-FFIV_Rosa-White Mage_204002407.png"
+        ],
+        [
+          "ICON_Ability_04-FFIV_Rubicante_204001804.png",
+          "ICON_Ability_04-FFIV_Rubicante_204001805.png",
+          "ICON_Ability_04-FFIV_Rubicante_204001806.png",
+          "ICON_Ability_04-FFIV_Rubicante_204001807.png",
+          "ICON_Ability_04-FFIV_Rubicante_204001817.png",
+          "ICON_Ability_04-FFIV_Rubicante_204001827.png"
+        ],
+        [
+          "ICON_Ability_04-FFIV_Rydia-Eidolon Whisperer_204003407.png",
+          "ICON_Ability_04-FFIV_Rydia-Eidolon Whisperer_204003417.png",
+          "ICON_Ability_04-FFIV_Rydia-Pure Summoner_204001505.png",
+          "ICON_Ability_04-FFIV_Rydia-Pure Summoner_204001506.png",
+          "ICON_Ability_04-FFIV_Rydia-Pure Summoner_204001507.png"
+        ],
+        [
+          "ICON_Ability_04-FFIV_Rydia-Summoner_204003007.png",
+          "ICON_Ability_04-FFIV_Rydia-Summoner_204003017.png"
+        ],
+        [
+          "ICON_Ability_04-FFIV_Scarmiglione_204002003.png",
+          "ICON_Ability_04-FFIV_Scarmiglione_204002004.png",
+          "ICON_Ability_04-FFIV_Scarmiglione_204002005.png"
+        ],
+        [
+          "ICON_Ability_04-FFIV_Ursula_204002805.png",
+          "ICON_Ability_04-FFIV_Ursula_204002806.png",
+          "ICON_Ability_04-FFIV_Ursula_204002807.png"
+        ],
+        [
+          "ICON_Ability_04-FFIV_Yang_204000704.png",
+          "ICON_Ability_04-FFIV_Yang_204000705.png",
+          "ICON_Ability_04-FFIV_Yang_204000706.png"
+        ],
+        [
+          "ICON_Ability_04-FFIV_Zeromus_204003807.png",
+          "ICON_Ability_04-FFIV_Zeromus_204003817.png",
+          "ICON_Ability_04-FFIV_Zeromus_204003827.png",
+          "ICON_Ability_04-FFIV_Zeromus_204003837.png"
+        ]
+      ],
+      "transparent_pixel_range": [
+        1524,
+        1524
+      ],
+      "partial_alpha_pixel_range": [
+        322,
+        325
+      ]
+    }
+  },
+  "large_only_ids": [
+    "204000602",
+    "2040034017"
+  ],
+  "ability_only_ids": [
+    "204003417"
+  ],
+  "id_length_outliers": [
+    {
+      "path": "04_FF_IV_ICON-Large/ICON-Large_04-FFIV_Rydia-Eidolon Whisperer_2040034017.png",
+      "id": "2040034017"
+    }
+  ],
+  "listed_but_absent": [
+    "ICON-Large_04-FFIV_Rydia-Eidolon Whisperer_204003417.png"
+  ],
+  "present_but_unlisted": [
+    "ICON-Large_04-FFIV_Edward_204000602.png",
+    "ICON-Large_04-FFIV_Rydia-Eidolon Whisperer_2040034017.png"
+  ],
+  "ids_absent_from_master": [
+    "204001804",
+    "2040034017"
+  ]
+}

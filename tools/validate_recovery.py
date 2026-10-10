@@ -74,7 +74,7 @@ def main():
         if label == 'units' and (repo/'catalog/unit_identity_decisions.json').exists():
             from build_unit_master import annotate_legacy
             decisions=json.loads((repo/'catalog/unit_identity_decisions.json').read_text(encoding='utf-8'))
-            entries=annotate_legacy(entries,decisions)
+            entries=annotate_legacy(entries,decisions,repo=repo)
         catalog[label]=entries
         animation_checks[label]={'new_sprite_ids':new_count,'missing_companions':missing,'invalid_idle_frame_references':bad_indices,'atlas_bounds_warnings':bounds}
     selected={d for d in inventory if d not in baseline and not d.startswith('additional/')}

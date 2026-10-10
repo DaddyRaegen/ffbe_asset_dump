@@ -1,0 +1,18 @@
+{
+  "atlas_parts_checked": 30839,
+  "bytes": 5335884,
+  "collision_form_ids": 11,
+  "errors": [],
+  "frame_references_checked": 2595,
+  "legacy_matches": {
+    "False": 167,
+    "True": 185
+  },
+  "master_ids": 3964,
+  "regional_aliases": 6823,
+  "restored_bundles": 22,
+  "restored_files": 352,
+  "sequences_checked": 264,
+  "source_files_sha256_verified": 0,
+  "status": "passed"
+}

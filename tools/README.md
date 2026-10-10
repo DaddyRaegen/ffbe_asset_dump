@@ -26,7 +26,29 @@ Keep the work directory between runs: it stores the baseline, inventory, per-arc
 - Some JP archives mix encrypted files with plaintext legacy members. If the external tool's output fails validation, the importer checks the original member bytes before rejecting the file.
 - Images are decoded, animation CSVs are checked, and every addition gets a SHA-256 hash and source path. Source animation references outside their texture boundaries are reported without altering the original files.
 
-The source manifest identifies each imported file and its archive. Catalogs list unit forms, monster IDs, and vision cards with links to sprite sheets and animation data. `data.json` covers all sourced base-unit IDs, with regional forms, master IDs, series, and asset paths nested under each base entry. Asset-only IDs without source identity metadata remain in the master registry with unknown identity and series.
+The source manifest identifies each imported file and its archive. Catalogs list unit forms, monster IDs, and vision cards with links to sprite sheets and animation data. `data.json` covers all sourced base-unit IDs, with regional forms, master IDs, series, and asset paths nested under each base entry. Asset-only IDs without source identity metadata appear in both the master registry and lookup, with unknown identity and series.
+
+Unit `assets` now includes every available source file, not just the primary sheet,
+CGG and idle sequence. Read `sprite_sheets`, `frame_data_files`, `animation_csvs`,
+`illustrations`, `icons`, `companion_files`, or the combined `asset_files`. Singular
+primary paths remain compatible. Regional bundles continue to use only their
+pinned source manifest; ordinary legacy bundles expose existing files without
+asserting an unverified regional revision.
+
+Use `animation_sets` for playback: each entry links one frame table to its matching
+main, `_OD`, or effect texture pages and sequences. `asset_files` is the archival
+inventory, including known unusable originals. `catalog/unit_animation_notes.json`
+pins source-confirmed problems to input SHA-256 hashes; unusable sequences are
+excluded from active `animation_csvs`, and source clipping limits remain visible
+as warnings. Changed inputs require the notes to be reviewed instead of silently
+reusing an old exception.
+
+The October 9 repair replaces 67 mixed-revision files in 17 complete source
+bundles. Its source and before/after hashes are recorded in
+`reports/2026-10-09-unit-bundles`. The September recovery manifest is historical;
+its old hashes intentionally do not qualify these replaced bytes. Start a fresh
+inventory baseline for subsequent imports, and use the new repair receipts when
+auditing the current assets. Do not overwrite the historical manifest.
 
 ## Animation tools
 
@@ -84,8 +106,13 @@ resume checks verify published or work-directory regional provenance and file
 hashes. `validate_recovery.py` preserves ambiguity annotations and rebuilds the
 master list using the published identity evidence.
 
-The 21 assets without raw identity metadata and 126 untranslated JP forms remain
-explicitly unresolved/native-named. See `coverage` in the master list. This
+The 21 forms without raw identity metadata and 126 untranslated JP forms remain
+explicitly unresolved/native-named. The former are now included in `data.json`
+as `lookup_kind: "asset_form"`: `source_unit_id`, `canonical_name`, and `series`
+are null, `identities` and `regions` are empty, and top-level `assets` exposes
+their complete available inputs. Their keys are form IDs, not inferred base IDs.
+User-supplied display labels can carry separate provenance while source identity
+stays unknown. See `coverage` in the master list. This
 repository change does not rebuild the separate FFR picker/cache or asset-viewer
 index; those consumers must adopt the mapping before showing both identities.
 

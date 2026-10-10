@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "findings": [],
+  "counts": {
+    "master_bundles": 3964,
+    "excluded_source_sequences": 11,
+    "animation_sets": 4048,
+    "animation_csvs": 49523,
+    "animation_steps": 489817,
+    "atlas_parts": 5696741
+  },
+  "source_geometry_warning_forms": 21,
+  "source_geometry_warning_parts": 259,
+  "invalid_active_frame_references": 0,
+  "editorial_edward_label": "Preserved with ZIP member and SHA256 provenance, canonical identity unknown.",
+  "unknown_211000203_jump": "Source file retained; inactive with hash-pinned reason."
+}

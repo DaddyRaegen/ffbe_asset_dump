@@ -1,0 +1,182 @@
+{
+  "original_id": "331001117",
+  "name": "Alpha Weltall",
+  "identity": "Shared GL/JP identity; original numeric ID retained.",
+  "source": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit22.cpk",
+  "archive_sha256": "fabf96b452e884e39d74613cb58da66f199e3ba23422dec12f5db9601e775de8",
+  "file_count": 17,
+  "changed_files": 3,
+  "reason": "Replace mixed regional image revisions with the complete JP bundle that supplies matching frame and sequence data.",
+  "files": [
+    {
+      "destination": "unit_animated/unit_anime_331001117.png",
+      "member": "unit_anime_331001117.png",
+      "source": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit22.cpk",
+      "archive_sha256": "fabf96b452e884e39d74613cb58da66f199e3ba23422dec12f5db9601e775de8",
+      "before_sha256": "09b8d00471f92351c1037418bf9024838075240677579ddf5f8d7abca6084d77",
+      "sha256": "a00f4faf895974ddb3f18ae62ab8a587d425f7b3fd101d067efa506f4c776889",
+      "bytes": 239766,
+      "changed": true
+    },
+    {
+      "destination": "unit_animated_csv/unit_atk1_cgs_331001117.csv",
+      "member": "unit_atk1_cgs_331001117.csv",
+      "source": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit22.cpk",
+      "archive_sha256": "fabf96b452e884e39d74613cb58da66f199e3ba23422dec12f5db9601e775de8",
+      "before_sha256": "44b68efbdbd09fe656fa05a2b2a4608c561fad589cd512f21ca1bccc114199dc",
+      "sha256": "44b68efbdbd09fe656fa05a2b2a4608c561fad589cd512f21ca1bccc114199dc",
+      "bytes": 144,
+      "changed": false
+    },
+    {
+      "destination": "unit_animated_csv/unit_atk_cgs_331001117.csv",
+      "member": "unit_atk_cgs_331001117.csv",
+      "source": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit22.cpk",
+      "archive_sha256": "fabf96b452e884e39d74613cb58da66f199e3ba23422dec12f5db9601e775de8",
+      "before_sha256": "1c80bc071a10a357ed614228641270d8958f01b004d376c5888043bd81bdc958",
+      "sha256": "1c80bc071a10a357ed614228641270d8958f01b004d376c5888043bd81bdc958",
+      "bytes": 144,
+      "changed": false
+    },
+    {
+      "destination": "unit_animated_csv/unit_brave_shift_cgs_331001117.csv",
+      "member": "unit_brave_shift_cgs_331001117.csv",
+      "source": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit22.cpk",
+      "archive_sha256": "fabf96b452e884e39d74613cb58da66f199e3ba23422dec12f5db9601e775de8",
+      "before_sha256": "feb6b747db296117e1c81ab139eaeb35833a469481f20b855f59e2eefba5597f",
+      "sha256": "feb6b747db296117e1c81ab139eaeb35833a469481f20b855f59e2eefba5597f",
+      "bytes": 264,
+      "changed": false
+    },
+    {
+      "destination": "unit_animated_csv/unit_cgg_331001117.csv",
+      "member": "unit_cgg_331001117.csv",
+      "source": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit22.cpk",
+      "archive_sha256": "fabf96b452e884e39d74613cb58da66f199e3ba23422dec12f5db9601e775de8",
+      "before_sha256": "1b962ade316bccea66f805d058717b6b6eb6f3dbc755a29b7c2bb420f8c36b2f",
+      "sha256": "1b962ade316bccea66f805d058717b6b6eb6f3dbc755a29b7c2bb420f8c36b2f",
+      "bytes": 55384,
+      "changed": false
+    },
+    {
+      "destination": "unit_animated_csv/unit_dying_cgs_331001117.csv",
+      "member": "unit_dying_cgs_331001117.csv",
+      "source": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit22.cpk",
+      "archive_sha256": "fabf96b452e884e39d74613cb58da66f199e3ba23422dec12f5db9601e775de8",
+      "before_sha256": "82dbcd8a7e0673dd518166811f87e83aeb7c4538f6c59502d863b9a0667c11d6",
+      "sha256": "82dbcd8a7e0673dd518166811f87e83aeb7c4538f6c59502d863b9a0667c11d6",
+      "bytes": 12,
+      "changed": false
+    },
+    {
+      "destination": "unit_icons/unit_icon_331001117.png",
+      "member": "unit_icon_331001117.png",
+      "source": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit22.cpk",
+      "archive_sha256": "fabf96b452e884e39d74613cb58da66f199e3ba23422dec12f5db9601e775de8",
+      "before_sha256": "b08603d30ccbb3031f4c743fd4250321ad9f2bd45ff34e731acb362e96de074b",
+      "sha256": "db9af2585e32add6cf5600ecb2d1e5a2546957bdb8e8ffd21b7d2b5f2b4825f0",
+      "bytes": 1531,
+      "changed": true
+    },
+    {
+      "destination": "unit_animated_csv/unit_idle_cgs_331001117.csv",
+      "member": "unit_idle_cgs_331001117.csv",
+      "source": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit22.cpk",
+      "archive_sha256": "fabf96b452e884e39d74613cb58da66f199e3ba23422dec12f5db9601e775de8",
+      "before_sha256": "26b719b681dbb7a3b9285e60147aee2bf3414f44811b171c50512c8990b41ce9",
+      "sha256": "26b719b681dbb7a3b9285e60147aee2bf3414f44811b171c50512c8990b41ce9",
+      "bytes": 44,
+      "changed": false
+    },
+    {
+      "destination": "unit_illustrations/unit_ills_331001117.png",
+      "member": "unit_ills_331001117.png",
+      "source": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit22.cpk",
+      "archive_sha256": "fabf96b452e884e39d74613cb58da66f199e3ba23422dec12f5db9601e775de8",
+      "before_sha256": "40ff3c028d3c2e3e800837ef90370d2cc27e289bbbb1bf412e56fc7d6716d8f1",
+      "sha256": "8a80313b876932310dd5486ee8a3a5035f679ac7393ba6b2e6ee1ed50baaa419",
+      "bytes": 2663,
+      "changed": true
+    },
+    {
+      "destination": "unit_animated_csv/unit_jump_cgs_331001117.csv",
+      "member": "unit_jump_cgs_331001117.csv",
+      "source": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit22.cpk",
+      "archive_sha256": "fabf96b452e884e39d74613cb58da66f199e3ba23422dec12f5db9601e775de8",
+      "before_sha256": "15aef0a2be02bdf20e6a68fd318a45c15051f6d4c0becc92f1908db01a580ee3",
+      "sha256": "15aef0a2be02bdf20e6a68fd318a45c15051f6d4c0becc92f1908db01a580ee3",
+      "bytes": 11,
+      "changed": false
+    },
+    {
+      "destination": "unit_animated_csv/unit_limit_atk_cgs_331001117.csv",
+      "member": "unit_limit_atk_cgs_331001117.csv",
+      "source": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit22.cpk",
+      "archive_sha256": "fabf96b452e884e39d74613cb58da66f199e3ba23422dec12f5db9601e775de8",
+      "before_sha256": "713b47ce00d48e0795a3468397c03c040348cf8e094466a74fce4108f99165b6",
+      "sha256": "713b47ce00d48e0795a3468397c03c040348cf8e094466a74fce4108f99165b6",
+      "bytes": 971,
+      "changed": false
+    },
+    {
+      "destination": "unit_animated_csv/unit_limit_atkeff_cgs_331001117.csv",
+      "member": "unit_limit_atkeff_cgs_331001117.csv",
+      "source": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit22.cpk",
+      "archive_sha256": "fabf96b452e884e39d74613cb58da66f199e3ba23422dec12f5db9601e775de8",
+      "before_sha256": "e8ef10f4591fc4350ec52d074bf9e07cce81a90dc4682fdb4c9228c3913dbfa8",
+      "sha256": "e8ef10f4591fc4350ec52d074bf9e07cce81a90dc4682fdb4c9228c3913dbfa8",
+      "bytes": 384,
+      "changed": false
+    },
+    {
+      "destination": "unit_animated_csv/unit_limit_move_cgs_331001117.csv",
+      "member": "unit_limit_move_cgs_331001117.csv",
+      "source": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit22.cpk",
+      "archive_sha256": "fabf96b452e884e39d74613cb58da66f199e3ba23422dec12f5db9601e775de8",
+      "before_sha256": "38b9657e287bf95356df2c87bcb99b9123fc262a8b2c22c953878e594e34c129",
+      "sha256": "38b9657e287bf95356df2c87bcb99b9123fc262a8b2c22c953878e594e34c129",
+      "bytes": 11,
+      "changed": false
+    },
+    {
+      "destination": "unit_animated_csv/unit_magic_atk_cgs_331001117.csv",
+      "member": "unit_magic_atk_cgs_331001117.csv",
+      "source": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit22.cpk",
+      "archive_sha256": "fabf96b452e884e39d74613cb58da66f199e3ba23422dec12f5db9601e775de8",
+      "before_sha256": "d41c1447449f5b3933704ca0135484e9d1327be0f78553065c52d3b8ec3d5cc8",
+      "sha256": "d41c1447449f5b3933704ca0135484e9d1327be0f78553065c52d3b8ec3d5cc8",
+      "bytes": 44,
+      "changed": false
+    },
+    {
+      "destination": "unit_animated_csv/unit_magic_standby_cgs_331001117.csv",
+      "member": "unit_magic_standby_cgs_331001117.csv",
+      "source": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit22.cpk",
+      "archive_sha256": "fabf96b452e884e39d74613cb58da66f199e3ba23422dec12f5db9601e775de8",
+      "before_sha256": "cbafee8effefe8ba079054161a3d93bf941d68490b46ef91d3575417fad5ca74",
+      "sha256": "cbafee8effefe8ba079054161a3d93bf941d68490b46ef91d3575417fad5ca74",
+      "bytes": 42,
+      "changed": false
+    },
+    {
+      "destination": "unit_animated_csv/unit_move_cgs_331001117.csv",
+      "member": "unit_move_cgs_331001117.csv",
+      "source": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit22.cpk",
+      "archive_sha256": "fabf96b452e884e39d74613cb58da66f199e3ba23422dec12f5db9601e775de8",
+      "before_sha256": "38b9657e287bf95356df2c87bcb99b9123fc262a8b2c22c953878e594e34c129",
+      "sha256": "38b9657e287bf95356df2c87bcb99b9123fc262a8b2c22c953878e594e34c129",
+      "bytes": 11,
+      "changed": false
+    },
+    {
+      "destination": "unit_animated_csv/unit_standby_cgs_331001117.csv",
+      "member": "unit_standby_cgs_331001117.csv",
+      "source": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit22.cpk",
+      "archive_sha256": "fabf96b452e884e39d74613cb58da66f199e3ba23422dec12f5db9601e775de8",
+      "before_sha256": "531e63e78e94df0ec55a273295c994e6dbdf2caa88d99614085e0d6b63f962d5",
+      "sha256": "531e63e78e94df0ec55a273295c994e6dbdf2caa88d99614085e0d6b63f962d5",
+      "bytes": 44,
+      "changed": false
+    }
+  ]
+}

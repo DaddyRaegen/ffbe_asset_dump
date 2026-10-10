@@ -1,0 +1,58 @@
+{
+  "unit_id": "256000301",
+  "name": "Nikujaga Vision",
+  "source": "FFBE_JP/cdn.resource.exvius.com/lapis/resource/unit/unit8.cpk",
+  "source_sha256": "ae8c002b03a2c9ee8a8c236d842e26c2bc1e6d2fb55448577cf4ae6003f2da16",
+  "changes": [
+    {
+      "path": "unit_animated/unit_anime_256000301.png",
+      "before_sha256": "6e37b9e6f0565a685b6dec472e49f1d0be047ebe23dddc88c8fb0e09d4d39669",
+      "after_sha256": "f0a83b76fb66e97546e6799a883b3048d273da7653d0c298ead43f2913083554",
+      "bytes_before": 1252,
+      "bytes_after": 2274
+    },
+    {
+      "path": "unit_animated_csv/unit_cgg_256000301.csv",
+      "before_sha256": "a633946387fbca611ac6429fac11f2b0ac1bf68485a4e0d19be89c2819755256",
+      "after_sha256": "8367ae9e9d66b1fba735b3e1013ee3f998be0a9a6fc817f3c506a2d83bcea2cd",
+      "bytes_before": 1073,
+      "bytes_after": 1360
+    },
+    {
+      "path": "unit_icons/unit_icon_256000301.png",
+      "before_sha256": "a7f333ce74474ffc8c92bc637f2c6aa49c8c2e37fefc9482e01b6842c07de6e9",
+      "after_sha256": "efb78e1bc0714b7155f06d3339933229f6ea932daae9650f3806347bbbea65e6",
+      "bytes_before": 1004,
+      "bytes_after": 1825
+    },
+    {
+      "path": "unit_illustrations/unit_ills_256000301.png",
+      "before_sha256": "ff0702956f7605cfed27fde26aa5498262e019e6a4daea47236f4cecc1abb69d",
+      "after_sha256": "73420b078edf27f5ee10ec9a4b2a2f62fcab8a500b9cdfc44707831e578e0c0b",
+      "bytes_before": 1001,
+      "bytes_after": 1913
+    }
+  ],
+  "verified_bundle_files": 16,
+  "verified_cgg_frames": 5,
+  "remaining_invalid_frame_references": [],
+  "reason": "JP source provides the complete sixteen-file bundle including a fifth CGG row required by the existing dead/dying/jump/move sequences. GL core previously contained only four rows. All existing animation CSVs already match the JP source.",
+  "verified_file_sha256": {
+    "unit_animated/unit_anime_256000301.png": "f0a83b76fb66e97546e6799a883b3048d273da7653d0c298ead43f2913083554",
+    "unit_animated_csv/unit_atk_cgs_256000301.csv": "8be3a5f7311bfea6f11c660533d5cf787490d652adbd8ad6ccc51618a9135215",
+    "unit_animated_csv/unit_cgg_256000301.csv": "8367ae9e9d66b1fba735b3e1013ee3f998be0a9a6fc817f3c506a2d83bcea2cd",
+    "unit_animated_csv/unit_dead_cgs_256000301.csv": "ecdf41b817f89a41a2778d2afd5f95ca64b25b7fb72e6bc24baeef70fe5e0cdf",
+    "unit_animated_csv/unit_dying_cgs_256000301.csv": "ecdf41b817f89a41a2778d2afd5f95ca64b25b7fb72e6bc24baeef70fe5e0cdf",
+    "unit_animated_csv/unit_idle_cgs_256000301.csv": "8be3a5f7311bfea6f11c660533d5cf787490d652adbd8ad6ccc51618a9135215",
+    "unit_animated_csv/unit_jump_cgs_256000301.csv": "ecdf41b817f89a41a2778d2afd5f95ca64b25b7fb72e6bc24baeef70fe5e0cdf",
+    "unit_animated_csv/unit_limit_atk_cgs_256000301.csv": "8be3a5f7311bfea6f11c660533d5cf787490d652adbd8ad6ccc51618a9135215",
+    "unit_animated_csv/unit_magic_atk_cgs_256000301.csv": "8be3a5f7311bfea6f11c660533d5cf787490d652adbd8ad6ccc51618a9135215",
+    "unit_animated_csv/unit_magic_standby_cgs_256000301.csv": "8be3a5f7311bfea6f11c660533d5cf787490d652adbd8ad6ccc51618a9135215",
+    "unit_animated_csv/unit_move_cgs_256000301.csv": "ecdf41b817f89a41a2778d2afd5f95ca64b25b7fb72e6bc24baeef70fe5e0cdf",
+    "unit_animated_csv/unit_standby_cgs_256000301.csv": "8be3a5f7311bfea6f11c660533d5cf787490d652adbd8ad6ccc51618a9135215",
+    "unit_animated_csv/unit_win_before_cgs_256000301.csv": "8be3a5f7311bfea6f11c660533d5cf787490d652adbd8ad6ccc51618a9135215",
+    "unit_animated_csv/unit_win_cgs_256000301.csv": "8be3a5f7311bfea6f11c660533d5cf787490d652adbd8ad6ccc51618a9135215",
+    "unit_icons/unit_icon_256000301.png": "efb78e1bc0714b7155f06d3339933229f6ea932daae9650f3806347bbbea65e6",
+    "unit_illustrations/unit_ills_256000301.png": "73420b078edf27f5ee10ec9a4b2a2f62fcab8a500b9cdfc44707831e578e0c0b"
+  }
+}
