@@ -1,0 +1,300 @@
+{
+  "status": "passed",
+  "lookup_rows": 1916,
+  "sourced_base_ids": 1895,
+  "preserved_legacy_rows": 1043,
+  "legacy_display_field_changes": [],
+  "asset_only_form_count": 21,
+  "asset_only_form_ids": [
+    "100000292",
+    "202001002",
+    "202001003",
+    "202001004",
+    "203000602",
+    "203000603",
+    "203000702",
+    "203000703",
+    "204000602",
+    "205000206",
+    "205000602",
+    "205000603",
+    "209000602",
+    "209000603",
+    "209000604",
+    "211000202",
+    "211000203",
+    "212000802",
+    "212000803",
+    "9990196",
+    "999999999"
+  ],
+  "custom_rows_without_source": [],
+  "regional_form_aliases": 6823,
+  "unique_resolved_asset_paths": 65855,
+  "collision_base_ids": [
+    "401014207",
+    "401014217",
+    "401014307",
+    "401014317",
+    "401014507",
+    "401014517",
+    "401014607",
+    "401014617"
+  ],
+  "known_series_base_rows": 1895,
+  "unknown_series_base_ids": [],
+  "base_rows_by_series": {
+    "Actraiser": 2,
+    "Addison Rae": 4,
+    "Ariana Grande": 4,
+    "Brave Frontier": 6,
+    "Bravely": 7,
+    "Chrono": 6,
+    "Crystal Defenders": 3,
+    "Deus Ex": 4,
+    "Dragon Quest": 72,
+    "FF Type-0": 35,
+    "FFBE": 916,
+    "FFI": 13,
+    "FFII": 28,
+    "FFIII": 32,
+    "FFIV": 52,
+    "FFIX": 50,
+    "FFRK": 1,
+    "FFT": 25,
+    "FFV": 37,
+    "FFVI": 55,
+    "FFVII": 61,
+    "FFVIII": 33,
+    "FFX": 59,
+    "FFXI": 18,
+    "FFXII": 41,
+    "FFXIII": 39,
+    "FFXIV": 9,
+    "FFXV": 45,
+    "FFXVI": 8,
+    "Fullmetal Alchemist": 24,
+    "Just Cause": 4,
+    "Katy Perry": 4,
+    "King's Knight": 8,
+    "Kingdom Hearts": 11,
+    "Mana": 43,
+    "Monster Hunter": 7,
+    "NieR": 12,
+    "Octopath Traveler": 4,
+    "Parasite Eve": 4,
+    "SINoALICE": 5,
+    "SaGa": 17,
+    "Star Ocean": 13,
+    "Terra Battle": 1,
+    "Tomb Raider": 4,
+    "Valkyrie Profile": 8,
+    "WOTV FFBE": 24,
+    "World of Final Fantasy": 3,
+    "Xenogears": 28,
+    "リコドキッ！": 2,
+    "南国少年パプワくん": 2,
+    "魔法陣グルグル": 2
+  },
+  "master_series_coverage": {
+    "regional_identity_count": 6823,
+    "known_regional_identities": 6823,
+    "unknown_game_id_count": 0,
+    "unknown_game_id_rows": [],
+    "master_rows_without_series": 21,
+    "master_rows_without_unit_metadata": 21,
+    "untranslated_series_identity_count": 22,
+    "untranslated_series_values": [
+      "リコドキッ！",
+      "南国少年パプワくん",
+      "魔法陣グルグル"
+    ],
+    "untranslated_series_rows": [
+      {
+        "server": "GL",
+        "original_id": "256000101",
+        "game_id": "20026",
+        "series": "リコドキッ！"
+      },
+      {
+        "server": "JP",
+        "original_id": "256000101",
+        "game_id": "20026",
+        "series": "リコドキッ！"
+      },
+      {
+        "server": "GL",
+        "original_id": "256000102",
+        "game_id": "20026",
+        "series": "リコドキッ！"
+      },
+      {
+        "server": "JP",
+        "original_id": "256000102",
+        "game_id": "20026",
+        "series": "リコドキッ！"
+      },
+      {
+        "server": "GL",
+        "original_id": "256000103",
+        "game_id": "20026",
+        "series": "リコドキッ！"
+      },
+      {
+        "server": "JP",
+        "original_id": "256000103",
+        "game_id": "20026",
+        "series": "リコドキッ！"
+      },
+      {
+        "server": "GL",
+        "original_id": "256000104",
+        "game_id": "20026",
+        "series": "リコドキッ！"
+      },
+      {
+        "server": "JP",
+        "original_id": "256000104",
+        "game_id": "20026",
+        "series": "リコドキッ！"
+      },
+      {
+        "server": "GL",
+        "original_id": "256000105",
+        "game_id": "20026",
+        "series": "リコドキッ！"
+      },
+      {
+        "server": "JP",
+        "original_id": "256000105",
+        "game_id": "20026",
+        "series": "リコドキッ！"
+      },
+      {
+        "server": "GL",
+        "original_id": "256000106",
+        "game_id": "20026",
+        "series": "リコドキッ！"
+      },
+      {
+        "server": "JP",
+        "original_id": "256000106",
+        "game_id": "20026",
+        "series": "リコドキッ！"
+      },
+      {
+        "server": "GL",
+        "original_id": "256000301",
+        "game_id": "20026",
+        "series": "リコドキッ！"
+      },
+      {
+        "server": "JP",
+        "original_id": "256000301",
+        "game_id": "20026",
+        "series": "リコドキッ！"
+      },
+      {
+        "server": "JP",
+        "original_id": "353000107",
+        "game_id": "20050",
+        "series": "南国少年パプワくん"
+      },
+      {
+        "server": "JP",
+        "original_id": "353000127",
+        "game_id": "20050",
+        "series": "南国少年パプワくん"
+      },
+      {
+        "server": "JP",
+        "original_id": "353000207",
+        "game_id": "20050",
+        "series": "南国少年パプワくん"
+      },
+      {
+        "server": "JP",
+        "original_id": "353000227",
+        "game_id": "20050",
+        "series": "南国少年パプワくん"
+      },
+      {
+        "server": "JP",
+        "original_id": "354000107",
+        "game_id": "20051",
+        "series": "魔法陣グルグル"
+      },
+      {
+        "server": "JP",
+        "original_id": "354000127",
+        "game_id": "20051",
+        "series": "魔法陣グルグル"
+      },
+      {
+        "server": "JP",
+        "original_id": "354000207",
+        "game_id": "20051",
+        "series": "魔法陣グルグル"
+      },
+      {
+        "server": "JP",
+        "original_id": "354000227",
+        "game_id": "20051",
+        "series": "魔法陣グルグル"
+      }
+    ],
+    "identities_by_series": {
+      "Actraiser": 4,
+      "Addison Rae": 4,
+      "Ariana Grande": 14,
+      "Brave Frontier": 24,
+      "Bravely": 36,
+      "Chrono": 12,
+      "Crystal Defenders": 12,
+      "Deus Ex": 12,
+      "Dragon Quest": 236,
+      "FF Type-0": 160,
+      "FFBE": 3082,
+      "FFI": 50,
+      "FFII": 104,
+      "FFIII": 146,
+      "FFIV": 196,
+      "FFIX": 218,
+      "FFRK": 6,
+      "FFT": 122,
+      "FFV": 138,
+      "FFVI": 220,
+      "FFVII": 220,
+      "FFVIII": 116,
+      "FFX": 206,
+      "FFXI": 84,
+      "FFXII": 169,
+      "FFXIII": 144,
+      "FFXIV": 40,
+      "FFXV": 182,
+      "FFXVI": 32,
+      "Fullmetal Alchemist": 77,
+      "Just Cause": 12,
+      "Katy Perry": 15,
+      "King's Knight": 35,
+      "Kingdom Hearts": 42,
+      "Mana": 137,
+      "Monster Hunter": 38,
+      "NieR": 43,
+      "Octopath Traveler": 24,
+      "Parasite Eve": 6,
+      "SINoALICE": 22,
+      "SaGa": 54,
+      "Star Ocean": 51,
+      "Terra Battle": 4,
+      "Tomb Raider": 8,
+      "Valkyrie Profile": 48,
+      "WOTV FFBE": 68,
+      "World of Final Fantasy": 18,
+      "Xenogears": 110,
+      "リコドキッ！": 14,
+      "南国少年パプワくん": 4,
+      "魔法陣グルグル": 4
+    }
+  }
+}

@@ -20,6 +20,7 @@ import tempfile
 GENERATED_FIELDS = frozenset({
     "original_id", "identity_status", "canonical_name", "master_id",
     "form_master_ids", "identities", "series", "series_values", "series_status", "assets",
+    "lookup_kind", "source_unit_id", "regions",
 })
 SERIES_FIELDS = ("game_id", "series", "game_title", "series_status", "series_provenance")
 SERVERS = ("GL", "JP")
@@ -70,6 +71,23 @@ def series_metadata(identity):
     return fields
 
 
+def asset_only_row(unit, row):
+    """Expose a known asset form without inventing a regional/base identity."""
+    form = unit["original_id"]
+    row.setdefault("name", f"Unknown unit {form}")
+    row.setdefault("type", "unknown")
+    row.setdefault("rarity", "")
+    row.update({
+        "original_id": form, "lookup_kind": "asset_form",
+        "identity_status": "unresolved_asset_only", "canonical_name": None,
+        "source_unit_id": None, "master_id": unit["master_id"],
+        "form_master_ids": [unit["master_id"]], "identities": [], "regions": [],
+        "series": None, "series_status": "no_unit_metadata",
+        "assets": deepcopy(unit["assets"]),
+    })
+    return row
+
+
 def build_lookup(legacy_snapshot, master, current=None):
     """Return a new lookup; inputs and original snapshot fields are never mutated.
 
@@ -83,6 +101,7 @@ def build_lookup(legacy_snapshot, master, current=None):
     if master.get("schema_version") != 1 or not isinstance(master.get("units"), list):
         raise ValueError("Unsupported unit master schema")
     groups = defaultdict(lambda: defaultdict(list))
+    asset_only = {}
     seen_master_ids, seen_aliases = set(), set()
     for unit in master["units"]:
         master_id = unit.get("master_id")
@@ -90,6 +109,12 @@ def build_lookup(legacy_snapshot, master, current=None):
             raise ValueError(f"Missing or duplicate master ID: {master_id!r}")
         seen_master_ids.add(master_id)
         form = native_id(unit.get("original_id"), "master original_id")
+        if not unit.get("identities"):
+            if unit.get("identity_status") != "unresolved_asset_only" or unit.get("regions"):
+                raise ValueError(f"Master without identities needs an explicit unresolved status: {form}")
+            if form in asset_only:
+                raise ValueError(f"Duplicate unresolved asset form: {form}")
+            asset_only[form] = unit
         for identity in unit.get("identities", []):
             server = identity.get("server")
             if server not in SERVERS:
@@ -103,10 +128,16 @@ def build_lookup(legacy_snapshot, master, current=None):
             base = native_id(identity.get("source_unit_id"), "source_unit_id")
             groups[base][server].append((unit, identity))
 
+    if asset_only.keys() & groups.keys():
+        raise ValueError(f"Asset-only form conflicts with a sourced base ID; review required: {sorted(asset_only.keys() & groups.keys())}")
+
     result = {}
-    for base in sorted(groups.keys() | legacy_snapshot.keys() | current.keys(), key=id_order):
+    for base in sorted(groups.keys() | asset_only.keys() | legacy_snapshot.keys() | current.keys(), key=id_order):
         row = deepcopy(legacy_snapshot.get(base, {}))
         row.update({key: deepcopy(value) for key, value in current.get(base, {}).items() if key not in GENERATED_FIELDS})
+        if base in asset_only:
+            result[base] = asset_only_row(asset_only[base], row)
+            continue
         regional = groups.get(base)
         if not regional:
             # Custom/legacy entries with no source metadata stay untouched. They
@@ -168,6 +199,10 @@ def build_lookup(legacy_snapshot, master, current=None):
         else:
             canonical = identities[0]["name"]
         if base not in legacy_snapshot:
+            # Replace our own placeholder if this form later gains metadata;
+            # an edited display name continues to belong to the user.
+            if current.get(base, {}).get("identity_status") == "unresolved_asset_only" and row.get("name") == f"Unknown unit {base}":
+                row.pop("name")
             row.setdefault("name", canonical)
             row.setdefault("type", "unknown")
             row.setdefault("rarity", "")
@@ -214,6 +249,7 @@ def main():
     print(json.dumps({
         "lookup_rows": len(lookup),
         "sourced_base_ids": sum(bool(row.get("identities")) for row in lookup.values()),
+        "asset_only_form_ids": sum(row.get("lookup_kind") == "asset_form" for row in lookup.values()),
         "regional_forms": sum(len(identity["forms"]) for row in lookup.values() for identity in row.get("identities", [])),
         "collision_base_ids": sum(row.get("identity_status") == "regional_collision" for row in lookup.values()),
         "preserved_legacy_rows": len(read_json(snapshot)),

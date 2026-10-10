@@ -2,9 +2,11 @@
 import copy
 import json
 from pathlib import Path
+import tempfile
 import unittest
 
 from build_unit_lookup import build_lookup
+from validate_unit_lookup import validate_lookup
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -24,6 +26,12 @@ def mini_master(form="100000102", base="100000102", servers=("GL", "JP")):
     }]}
 
 
+def asset_only_master(form="204000602"):
+    master = mini_master(form=form, base=form)
+    master["units"][0].update(name=None, identity_status="unresolved_asset_only", regions=[], identities=[])
+    return master
+
+
 class UnitLookupTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -41,8 +49,9 @@ class UnitLookupTests(unittest.TestCase):
 
     def test_base_unit_coverage_uses_numeric_keys(self):
         bases = {identity["source_unit_id"] for unit in self.master["units"] for identity in unit["identities"]}
-        self.assertEqual(len(self.lookup), 1895)
-        self.assertEqual(set(self.lookup), bases)
+        asset_forms = {unit["original_id"] for unit in self.master["units"] if not unit["identities"]}
+        self.assertEqual(len(self.lookup), 1916)
+        self.assertEqual(set(self.lookup), bases | asset_forms)
         self.assertTrue(all(key.isascii() and key.isdigit() for key in self.lookup))
         self.assertNotIn("401008506", self.lookup)  # Kaito's intermediate form is not another base unit.
 
@@ -103,6 +112,10 @@ class UnitLookupTests(unittest.TestCase):
         expected = {(identity["server"], identity["original_id"]): identity
                     for unit in self.master["units"] for identity in unit["identities"]}
         for row in self.lookup.values():
+            if row.get("lookup_kind") == "asset_form":
+                self.assertIsNone(row["series"])
+                self.assertEqual(row["series_status"], "no_unit_metadata")
+                continue
             self.assertEqual(row["series_status"], "known")
             self.assertIsInstance(row["series"], str)
             for identity in row["identities"]:
@@ -172,6 +185,80 @@ class UnitLookupTests(unittest.TestCase):
         before = copy.deepcopy((self.legacy, self.master, self.lookup))
         self.assertEqual(build_lookup(self.legacy, self.master, self.lookup), self.lookup)
         self.assertEqual((self.legacy, self.master, self.lookup), before)
+
+    def test_every_asset_only_form_is_usable_without_invented_metadata(self):
+        asset_units = [unit for unit in self.master["units"] if not unit["identities"]]
+        self.assertEqual(len(asset_units), 21)
+        for unit in asset_units:
+            row = self.lookup[unit["original_id"]]
+            self.assertEqual(row["lookup_kind"], "asset_form")
+            self.assertEqual(row["identity_status"], "unresolved_asset_only")
+            self.assertEqual(row["name"], "Unknown unit " + unit["original_id"])
+            self.assertIsNone(row["canonical_name"])
+            self.assertIsNone(row["source_unit_id"])
+            self.assertEqual(row["identities"], [])
+            self.assertEqual(row["regions"], [])
+            self.assertEqual(row["master_id"], unit["master_id"])
+            self.assertEqual(row["form_master_ids"], [unit["master_id"]])
+            self.assertEqual(row["assets"], unit["assets"])
+
+    def test_asset_only_user_edits_survive_but_generated_fields_refresh(self):
+        master = asset_only_master()
+        original = build_lookup({}, master)
+        current = copy.deepcopy(original)
+        current["204000602"].update(name="My unidentified sprite", notes="Keep this", series="Guessed", regions=["GL"])
+        current["204000602"]["name_provenance"] = {"kind": "user_supplied_filename", "member": "Edward_204000602.png"}
+        current["204000602"]["assets"] = {"sprite_sheet": "stale/wrong.png"}
+        row = build_lookup({}, master, current)["204000602"]
+        self.assertEqual(row["name"], "My unidentified sprite")
+        self.assertEqual(row["notes"], "Keep this")
+        self.assertEqual(row["name_provenance"], current["204000602"]["name_provenance"])
+        self.assertIsNone(row["canonical_name"])
+        self.assertIsNone(row["source_unit_id"])
+        self.assertIsNone(row["series"])
+        self.assertEqual(row["regions"], [])
+        self.assertEqual(row["assets"], master["units"][0]["assets"])
+        self.assertNotEqual(current["204000602"]["assets"], row["assets"])
+
+    def test_metadata_can_replace_generated_unknown_label(self):
+        current = build_lookup({}, asset_only_master())
+        sourced = mini_master(form="204000602", base="204000602")
+        row = build_lookup({}, sourced, current)["204000602"]
+        self.assertEqual(row["name"], "Rain")
+        self.assertNotIn("lookup_kind", row)
+        self.assertNotIn("assets", row)
+        current["204000602"]["name"] = "Custom label"
+        self.assertEqual(build_lookup({}, sourced, current)["204000602"]["name"], "Custom label")
+
+    def test_asset_form_cannot_be_silently_merged_into_same_numeric_base(self):
+        master = mini_master(form="204000603", base="204000602")
+        master["units"].extend(asset_only_master()["units"])
+        with self.assertRaisesRegex(ValueError, "conflicts with a sourced base ID"):
+            build_lookup({}, master)
+
+    def test_asset_only_paths_are_validated_even_without_regional_identities(self):
+        master = asset_only_master()
+        master["coverage"] = {"series": {}}
+        master["units"][0]["assets"] = {"asset_files": ["sprite.png"], "sprite_sheet": "sprite.png"}
+        lookup = build_lookup({}, master)
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "sprite.png").write_bytes(b"fixture")
+            report = validate_lookup(root, lookup, master, {})
+            self.assertEqual(report["asset_only_form_count"], 1)
+            self.assertEqual(report["unique_resolved_asset_paths"], 1)
+            self.assertEqual(report["custom_rows_without_source"], [])
+            (root / "sprite.png").unlink()
+            with self.assertRaisesRegex(AssertionError, "Missing asset paths"):
+                validate_lookup(root, lookup, master, {})
+
+    def test_asset_only_paths_cannot_escape_the_repository(self):
+        master = asset_only_master()
+        master["coverage"] = {"series": {}}
+        master["units"][0]["assets"] = {"asset_files": ["../outside.png"]}
+        with tempfile.TemporaryDirectory() as directory:
+            with self.assertRaisesRegex(AssertionError, "Asset escapes repository"):
+                validate_lookup(Path(directory), build_lookup({}, master), master, {})
 
 
 if __name__ == "__main__":

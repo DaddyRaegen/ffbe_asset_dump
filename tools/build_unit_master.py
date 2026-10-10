@@ -9,6 +9,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import re
 from collections import defaultdict
 from pathlib import Path
@@ -17,6 +18,138 @@ JP_TEXT = re.compile(r"[\u3040-\u30ff\u3400-\u9fff]")
 IDENTITY_FIELDS = ("unit_id", "game_id", "sex", "character_reference", "trustmaster", "supertrust", "is_shift_form")
 PRIMARY = {"sprite_sheet": "unit_anime_{id}.png", "frame_data": "unit_cgg_{id}.csv", "idle_animation": "unit_idle_cgs_{id}.csv"}
 DEFAULT_REPORT = "reports/2026-10-02-unit-identities/asset-manifest.json"
+UNIT_FOLDERS = ("unit_animated", "unit_animated_csv", "unit_icons", "unit_illustrations", "unit_assets")
+
+
+def discover_unit_files(repo, original_ids):
+    """Index native form tokens once, including OD/effect/page companions.
+
+    Only the established legacy folders are scanned. Regional collision files
+    must continue to come exclusively from the reviewed archive manifest.
+    """
+    known = set(original_ids)
+    result = defaultdict(list)
+    for folder in UNIT_FOLDERS:
+        directory = Path(repo) / folder
+        if not directory.is_dir():
+            continue
+        for entry in os.scandir(directory):
+            if not entry.is_file() or not entry.name.startswith("unit_"):
+                continue
+            matches = set(re.findall(r"(?<![0-9])[0-9]+(?![0-9])", entry.name)) & known
+            if len(matches) > 1:
+                raise ValueError(f"Ambiguous unit form tokens: {entry.name}")
+            if matches:
+                result[matches.pop()].append(f"{folder}/{entry.name}")
+    return {uid: sorted(paths) for uid, paths in result.items()}
+
+
+def bundle_links(paths, original_id):
+    """Expose every source companion while retaining the primary API paths."""
+    paths = sorted(set(paths))
+    grouped = {"sprite_sheets": [], "frame_data_files": [], "animation_csvs": [],
+               "illustrations": [], "icons": [], "companion_files": []}
+    for path in paths:
+        name = Path(path).name
+        if name.startswith("unit_anime_") and name.endswith(".png"):
+            kind = "sprite_sheets"
+        elif name.startswith("unit_cgg_") and name.endswith(".csv"):
+            kind = "frame_data_files"
+        elif name.endswith(".csv"):
+            kind = "animation_csvs"
+        elif name.startswith("unit_ills_"):
+            kind = "illustrations"
+        elif name.startswith("unit_icon_"):
+            kind = "icons"
+        else:
+            kind = "companion_files"
+        grouped[kind].append(path)
+    result = {"asset_files": paths, **grouped}
+    for key, filename in (("illustration", f"unit_ills_{original_id}.png"),
+                          ("icon", f"unit_icon_{original_id}.png")):
+        matches = [path for path in paths if Path(path).name == filename]
+        if len(matches) > 1:
+            raise ValueError(f"Duplicate {key} for {original_id}")
+        result[key] = matches[0] if matches else None
+    result["animation_sets"] = animation_sets(paths, original_id)
+    return result
+
+
+def animation_sets(paths, original_id):
+    """Keep main, overdrive, and source-verified effect frame tables separate."""
+    by_name = {Path(path).name: path for path in paths}
+    uid = re.escape(original_id)
+    definitions = [("main", f"unit_cgg_{original_id}.csv", rf"unit_anime_{uid}(?:_[0-9]+)?\.png")]
+    if f"unit_cgg_{original_id}_OD.csv" in by_name:
+        definitions.append(("OD", f"unit_cgg_{original_id}_OD.csv", rf"unit_anime_{uid}_OD(?:_[0-9]+)?\.png"))
+    # These effect tables use the ordinary atlas. Their frame indices differ
+    # from the main table; the accompanying CGS must not be sent to main CGG.
+    if f"unit_cgg_{original_id}ef.csv" in by_name:
+        definitions.append(("effect", f"unit_cgg_{original_id}ef.csv", rf"unit_anime_{uid}(?:_[0-9]+)?\.png"))
+    if f"unit_cgg_limit_atkeff_{original_id}.csv" in by_name:
+        definitions.append(("limit_atkeff", f"unit_cgg_limit_atkeff_{original_id}.csv", rf"unit_anime_{uid}(?:_[0-9]+)?\.png"))
+    available = {key for key, _, _ in definitions}
+    sequences = defaultdict(list)
+    for name, path in by_name.items():
+        if not name.endswith(".csv") or name.startswith("unit_cgg_"):
+            continue
+        if name.endswith(f"_{original_id}_OD.csv"):
+            key = "OD"
+        elif name.endswith(f"_{original_id}ef.csv"):
+            key = "effect"
+        elif name == f"unit_limit_atkeff_cgs_{original_id}.csv" and "limit_atkeff" in available:
+            key = "limit_atkeff"
+        else:
+            key = "main"
+        sequences[key].append(path)
+    result = []
+    for key, cgg_name, atlas_pattern in definitions:
+        if cgg_name not in by_name and not sequences[key]:
+            continue
+        atlases = sorted(path for name, path in by_name.items() if re.fullmatch(atlas_pattern, name))
+        result.append({"variant": key, "sprite_sheets": atlases, "frame_data": by_name.get(cgg_name),
+                       "animation_csvs": sorted(sequences[key]),
+                       "status": "complete" if atlases and cgg_name in by_name else "missing_companions"})
+    for key in sorted(sequences.keys() - available):
+        result.append({"variant": key, "sprite_sheets": [], "frame_data": None,
+                       "animation_csvs": sorted(sequences[key]), "status": "missing_companions"})
+    return result
+
+
+def load_animation_notes(repo):
+    if repo is None:
+        return {}
+    path = Path(repo) / "catalog/unit_animation_notes.json"
+    if not path.is_file():
+        return {}
+    notes = read_json(path)
+    if notes.get("schema_version") != 1:
+        raise ValueError("Unsupported animation notes schema")
+    return notes["units"]
+
+
+def apply_animation_notes(assets, original_id, notes, repo=None):
+    note = notes.get(original_id)
+    if not note:
+        return
+    by_name = {Path(path).name: path for path in assets["asset_files"]}
+    for name, expected in note["input_sha256"].items():
+        if name not in by_name:
+            raise ValueError(f"Reviewed animation input is missing: {name}")
+        if repo is not None and hashlib.sha256((Path(repo) / by_name[name]).read_bytes()).hexdigest() != expected:
+            raise ValueError(f"Animation input changed; review source notes: {name}")
+    unusable = [{**row, "path": by_name[row["filename"]]} for row in note.get("unusable_sequences", [])]
+    excluded = {row["path"] for row in unusable}
+    if unusable:
+        assets["unusable_source_sequences"] = unusable
+        assets["animation_csvs"] = [path for path in assets["animation_csvs"] if path not in excluded]
+    if note.get("source_warnings"):
+        assets["source_warnings"] = note["source_warnings"]
+    for family in assets["animation_sets"]:
+        family["animation_csvs"] = [path for path in family["animation_csvs"] if path not in excluded]
+        warnings = [row for row in note.get("source_warnings", []) if row.get("variant") == family["variant"]]
+        if warnings:
+            family["source_warnings"] = warnings
 
 
 def read_json(path):
@@ -83,7 +216,7 @@ def regional_assets(files, server, original_id):
         if destination in paths:
             raise ValueError(f"Duplicate manifest destination: {destination}")
         paths[destination] = row
-    assets = {"scope": "regional", "server": server, "asset_files": sorted(paths)}
+    assets = {"scope": "regional", "server": server, **bundle_links(paths, original_id)}
     for kind, template in PRIMARY.items():
         matches = [p for p in paths if Path(p).name == template.format(id=original_id)]
         if len(matches) != 1:
@@ -93,13 +226,18 @@ def regional_assets(files, server, original_id):
     return assets
 
 
-def annotate_legacy(entries, decisions):
+def annotate_legacy(entries, decisions, repo=None):
     """Copy legacy rows, adding explicit ambiguity metadata only to collisions."""
     collision_ids = {str(row["original_id"]) for row in decisions["collisions"]}
+    discovered = discover_unit_files(repo, (str(row["id"]) for row in entries)) if repo is not None else None
+    notes = load_animation_notes(repo)
     result = []
     for entry in entries:
         row = dict(entry)
         original_id = str(row["id"])
+        if discovered is not None:
+            row.update(bundle_links(discovered.get(original_id, []), original_id))
+            apply_animation_notes(row, original_id, notes, repo)
         if original_id in collision_ids:
             row.update(identity_status="ambiguous_legacy_id", master_ids=[f"unit:GL:{original_id}", f"unit:JP:{original_id}"], master_catalog="catalog/unit_master.json")
         result.append(row)
@@ -139,6 +277,8 @@ def build_master(snapshot, decisions, legacy_rows, manifest=None, repo=None, ser
         raise ValueError("Duplicate IDs in legacy catalog")
     rejected, missing_catalog, missing_primary, units = [], [], [], []
     raw_union = gl.keys() | jp.keys()
+    discovered = discover_unit_files(repo, raw_union | legacy.keys()) if repo is not None else None
+    animation_notes = load_animation_notes(repo)
     for original_id in sorted(raw_union | legacy.keys(), key=lambda value: (not value.isdigit(), int(value) if value.isdigit() else value)):
         present = [region for region in ("GL", "JP") if original_id in maps[region]]
         groups = [[region] for region in present] if original_id in collisions else [present]
@@ -160,15 +300,18 @@ def build_master(snapshot, decisions, legacy_rows, manifest=None, repo=None, ser
                 prior = legacy.get(original_id)
                 assets = {"scope": "legacy", "revision_status": "not_validated_by_region", "asset_files": []}
                 if prior:
+                    paths = discovered.get(original_id, []) if discovered is not None else prior.get("asset_files", [])
+                    paths = sorted(set(paths) | {prior[kind] for kind in PRIMARY if prior.get(kind)})
+                    assets.update(bundle_links(paths, original_id))
                     for kind in PRIMARY:
                         if prior.get(kind):
                             assets[kind] = prior[kind]
-                            assets["asset_files"].append(prior[kind])
                 else:
                     missing_catalog.append(original_id)
                 missing = [kind for kind in PRIMARY if not assets.get(kind) or (repo is not None and not (Path(repo) / assets[kind]).is_file())]
                 if missing:
                     missing_primary.append({"original_id": original_id, "missing": missing})
+            apply_animation_notes(assets, original_id, animation_notes, repo)
             unit = {"master_id": f"unit:{regions[0]}:{original_id}" if split else original_id, "original_id": original_id, "name": display,
                     "identity_status": "regional_collision" if split else "shared" if len(regions) == 2 else "regional_only" if regions else "unresolved_asset_only",
                     "regions": regions, "identities": identities, "assets": assets}
@@ -221,7 +364,7 @@ def main():
     if args.annotate_legacy:
         legacy_path = args.legacy_catalog or args.repo / "catalog/units.json"
         decisions = read_json(args.decisions or args.repo / "catalog/unit_identity_decisions.json")
-        legacy_path.write_text(json.dumps(annotate_legacy(read_json(legacy_path), decisions), ensure_ascii=True, sort_keys=True, indent=2) + "\n", encoding="utf-8")
+        legacy_path.write_text(json.dumps(annotate_legacy(read_json(legacy_path), decisions, repo=args.repo), ensure_ascii=True, sort_keys=True, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({key: value for key, value in result["coverage"].items() if isinstance(value, int)}, indent=2))
 
 

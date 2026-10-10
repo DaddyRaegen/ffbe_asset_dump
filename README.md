@@ -25,7 +25,10 @@ entry includes `series`, regional `identities`, and their `forms` with native ID
 master IDs and explicit asset paths. A colliding numeric base has `master_id: null`
 and two named regional identities; choose a server and form before loading assets.
 `canonical_name` contains the source-backed name while legacy display names remain
-unchanged. New acquisition types are `unknown` rather than guessed.
+unchanged. New acquisition types are `unknown` rather than guessed. The lookup
+also includes 21 `lookup_kind: "asset_form"` entries for assets without source
+metadata, for 1,916 total rows. These are individual sprite forms with explicit
+asset links, not inferred base-unit or regional records.
 
 Series come from each regional SSID row's `game_id` and the regional game-title
 master: for example **FFBE**, **FFXVI**, **Kingdom Hearts**, and **Fullmetal Alchemist**.
@@ -36,7 +39,32 @@ and the [lookup/series report](reports/2026-10-02-unit-series/REPORT.md).
 The [unit catalog](catalog/units.json), [monster catalog](catalog/monsters.json),
 and [vision-card catalog](catalog/vision_cards.json) list available sprite IDs and
 animation inputs. The master list additionally preserves 21 asset-only IDs whose
-identity and series are unknown; they are not invented as base-unit records.
+identity and series are unknown. They are also available in `data.json` as
+explicit asset forms. Edward `204000602` has the display label supplied in the
+FFIV sample ZIP, with filename provenance; its canonical identity stays unknown.
+
+### Complete unit files
+
+Every master form now exposes all available `sprite_sheets`, `frame_data_files`,
+`animation_csvs`, `illustrations`, `icons`, and `companion_files`, plus the complete
+`asset_files` list. The singular `sprite_sheet`, `frame_data`, `idle_animation`,
+`illustration`, and `icon` paths identify the primary files. Use the regional
+master entry for colliding IDs so sheets and CSVs belong to the same identity.
+Use `animation_sets` to pair main, overdrive, and effect sequences with their
+specific frame table and texture pages. Known unusable source sequences remain
+archived in `asset_files` but are excluded from active animation lists; clipping
+limitations are recorded in `source_warnings`.
+
+The [60-form unit pack](unit_bundles/identity-and-metadata-gaps.zip) contains all
+960 available files for the 22 regional conflict forms, 21 asset-only forms,
+and 17 repaired bundles,
+with native filenames and a SHA-256 manifest. See the
+[bundle audit](reports/2026-10-09-unit-bundles/REPORT.md) for coverage and source
+limits, and the [FFIV ZIP audit](reports/2026-10-09-unit-bundles/ffiv-sample/REPORT.md)
+for image sizes, naming issues, and reused variant artwork.
+
+`lastUpdated.json` records the latest asset maintenance date. Its `last_unit`
+string is a retained historical label, not a claim about the newest game release.
 
 ## GL / JP asset recovery
 

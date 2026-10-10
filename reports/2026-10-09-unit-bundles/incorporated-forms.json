@@ -1,0 +1,191 @@
+{
+  "lookup_rows": 1916,
+  "sourced_base_ids": 1895,
+  "asset_only_form_count": 21,
+  "asset_only_asset_paths": 335,
+  "unknown_canonical_names": 21,
+  "editorial_display_labels": [
+    {
+      "original_id": "204000602",
+      "name": "Edward",
+      "provenance": {
+        "kind": "user_supplied_filename",
+        "status": "supplemental_display_label_not_source_identity",
+        "archive_name": "ICONS_04_FFIV_Sample_Pack.zip",
+        "archive_sha256": "f23b622f7371b4ba6e4c2baff2e9f608d87d414e83831b03f5a36acca8f13033",
+        "member": "04_FF_IV_ICON-Large/ICON-Large_04-FFIV_Edward_204000602.png",
+        "note": "Edward is a display label from the supplied filename. The game metadata does not identify this form; canonical name, base identity, server and series remain unresolved."
+      }
+    }
+  ],
+  "asset_only_forms": [
+    {
+      "original_id": "9990196",
+      "name": "Unknown unit 9990196",
+      "asset_file_count": 14,
+      "sprite_sheet": "unit_animated/unit_anime_9990196.png",
+      "illustration": null,
+      "icon": null
+    },
+    {
+      "original_id": "100000292",
+      "name": "Unknown unit 100000292",
+      "asset_file_count": 17,
+      "sprite_sheet": "unit_animated/unit_anime_100000292.png",
+      "illustration": "unit_illustrations/unit_ills_100000292.png",
+      "icon": "unit_icons/unit_icon_100000292.png"
+    },
+    {
+      "original_id": "202001002",
+      "name": "Unknown unit 202001002",
+      "asset_file_count": 16,
+      "sprite_sheet": "unit_animated/unit_anime_202001002.png",
+      "illustration": "unit_illustrations/unit_ills_202001002.png",
+      "icon": "unit_icons/unit_icon_202001002.png"
+    },
+    {
+      "original_id": "202001003",
+      "name": "Unknown unit 202001003",
+      "asset_file_count": 16,
+      "sprite_sheet": "unit_animated/unit_anime_202001003.png",
+      "illustration": "unit_illustrations/unit_ills_202001003.png",
+      "icon": "unit_icons/unit_icon_202001003.png"
+    },
+    {
+      "original_id": "202001004",
+      "name": "Unknown unit 202001004",
+      "asset_file_count": 16,
+      "sprite_sheet": "unit_animated/unit_anime_202001004.png",
+      "illustration": "unit_illustrations/unit_ills_202001004.png",
+      "icon": "unit_icons/unit_icon_202001004.png"
+    },
+    {
+      "original_id": "203000602",
+      "name": "Unknown unit 203000602",
+      "asset_file_count": 16,
+      "sprite_sheet": "unit_animated/unit_anime_203000602.png",
+      "illustration": "unit_illustrations/unit_ills_203000602.png",
+      "icon": "unit_icons/unit_icon_203000602.png"
+    },
+    {
+      "original_id": "203000603",
+      "name": "Unknown unit 203000603",
+      "asset_file_count": 16,
+      "sprite_sheet": "unit_animated/unit_anime_203000603.png",
+      "illustration": "unit_illustrations/unit_ills_203000603.png",
+      "icon": "unit_icons/unit_icon_203000603.png"
+    },
+    {
+      "original_id": "203000702",
+      "name": "Unknown unit 203000702",
+      "asset_file_count": 16,
+      "sprite_sheet": "unit_animated/unit_anime_203000702.png",
+      "illustration": "unit_illustrations/unit_ills_203000702.png",
+      "icon": "unit_icons/unit_icon_203000702.png"
+    },
+    {
+      "original_id": "203000703",
+      "name": "Unknown unit 203000703",
+      "asset_file_count": 16,
+      "sprite_sheet": "unit_animated/unit_anime_203000703.png",
+      "illustration": "unit_illustrations/unit_ills_203000703.png",
+      "icon": "unit_icons/unit_icon_203000703.png"
+    },
+    {
+      "original_id": "204000602",
+      "name": "Edward",
+      "asset_file_count": 16,
+      "sprite_sheet": "unit_animated/unit_anime_204000602.png",
+      "illustration": "unit_illustrations/unit_ills_204000602.png",
+      "icon": "unit_icons/unit_icon_204000602.png"
+    },
+    {
+      "original_id": "205000206",
+      "name": "Unknown unit 205000206",
+      "asset_file_count": 16,
+      "sprite_sheet": "unit_animated/unit_anime_205000206.png",
+      "illustration": "unit_illustrations/unit_ills_205000206.png",
+      "icon": "unit_icons/unit_icon_205000206.png"
+    },
+    {
+      "original_id": "205000602",
+      "name": "Unknown unit 205000602",
+      "asset_file_count": 16,
+      "sprite_sheet": "unit_animated/unit_anime_205000602.png",
+      "illustration": "unit_illustrations/unit_ills_205000602.png",
+      "icon": "unit_icons/unit_icon_205000602.png"
+    },
+    {
+      "original_id": "205000603",
+      "name": "Unknown unit 205000603",
+      "asset_file_count": 16,
+      "sprite_sheet": "unit_animated/unit_anime_205000603.png",
+      "illustration": "unit_illustrations/unit_ills_205000603.png",
+      "icon": "unit_icons/unit_icon_205000603.png"
+    },
+    {
+      "original_id": "209000602",
+      "name": "Unknown unit 209000602",
+      "asset_file_count": 16,
+      "sprite_sheet": "unit_animated/unit_anime_209000602.png",
+      "illustration": "unit_illustrations/unit_ills_209000602.png",
+      "icon": "unit_icons/unit_icon_209000602.png"
+    },
+    {
+      "original_id": "209000603",
+      "name": "Unknown unit 209000603",
+      "asset_file_count": 16,
+      "sprite_sheet": "unit_animated/unit_anime_209000603.png",
+      "illustration": "unit_illustrations/unit_ills_209000603.png",
+      "icon": "unit_icons/unit_icon_209000603.png"
+    },
+    {
+      "original_id": "209000604",
+      "name": "Unknown unit 209000604",
+      "asset_file_count": 16,
+      "sprite_sheet": "unit_animated/unit_anime_209000604.png",
+      "illustration": "unit_illustrations/unit_ills_209000604.png",
+      "icon": "unit_icons/unit_icon_209000604.png"
+    },
+    {
+      "original_id": "211000202",
+      "name": "Unknown unit 211000202",
+      "asset_file_count": 16,
+      "sprite_sheet": "unit_animated/unit_anime_211000202.png",
+      "illustration": "unit_illustrations/unit_ills_211000202.png",
+      "icon": "unit_icons/unit_icon_211000202.png"
+    },
+    {
+      "original_id": "211000203",
+      "name": "Unknown unit 211000203",
+      "asset_file_count": 16,
+      "sprite_sheet": "unit_animated/unit_anime_211000203.png",
+      "illustration": "unit_illustrations/unit_ills_211000203.png",
+      "icon": "unit_icons/unit_icon_211000203.png"
+    },
+    {
+      "original_id": "212000802",
+      "name": "Unknown unit 212000802",
+      "asset_file_count": 16,
+      "sprite_sheet": "unit_animated/unit_anime_212000802.png",
+      "illustration": "unit_illustrations/unit_ills_212000802.png",
+      "icon": "unit_icons/unit_icon_212000802.png"
+    },
+    {
+      "original_id": "212000803",
+      "name": "Unknown unit 212000803",
+      "asset_file_count": 16,
+      "sprite_sheet": "unit_animated/unit_anime_212000803.png",
+      "illustration": "unit_illustrations/unit_ills_212000803.png",
+      "icon": "unit_icons/unit_icon_212000803.png"
+    },
+    {
+      "original_id": "999999999",
+      "name": "Unknown unit 999999999",
+      "asset_file_count": 16,
+      "sprite_sheet": "unit_animated/unit_anime_999999999.png",
+      "illustration": "unit_illustrations/unit_ills_999999999.png",
+      "icon": "unit_icons/unit_icon_999999999.png"
+    }
+  ]
+}

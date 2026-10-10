@@ -12,10 +12,28 @@ def validate_lookup(repo, lookup, master, legacy):
     expected = {(i['server'], i['original_id']): (u, i)
                 for u in master['units'] for i in u['identities']}
     expected_bases = {i['source_unit_id'] for u in master['units'] for i in u['identities']}
+    expected_asset_only = {u['original_id']: u for u in master['units'] if not u['identities']}
     assert expected_bases <= set(lookup), 'Missing sourced base IDs'
+    assert set(expected_asset_only) <= set(lookup), 'Missing asset-only form IDs'
     seen, paths = set(), set()
+    def add_asset_paths(assets):
+        for relative in assets['asset_files']:
+            path = (repo / relative).resolve()
+            assert path.is_relative_to(repo.resolve()), 'Asset escapes repository'
+            paths.add(path)
     for base, row in lookup.items():
         assert base.isdigit(), 'Non-numeric legacy lookup key'
+        if base in expected_asset_only:
+            unit = expected_asset_only[base]
+            assert row['lookup_kind'] == 'asset_form'
+            assert row['identity_status'] == 'unresolved_asset_only'
+            assert row['identities'] == [] and row['regions'] == []
+            assert row['source_unit_id'] is None and row['canonical_name'] is None
+            assert row['series'] is None and row['series_status'] == 'no_unit_metadata'
+            assert row['master_id'] == unit['master_id']
+            assert row['form_master_ids'] == [unit['master_id']]
+            assert row['assets'] == unit['assets'], 'Asset-only bundle differs from master'
+            add_asset_paths(row['assets'])
         for identity in row.get('identities', []):
             assert identity['original_id'] == base and identity['source_unit_id'] == base
             server = identity['server']
@@ -29,10 +47,7 @@ def validate_lookup(repo, lookup, master, legacy):
                 assert form['assets'] == unit['assets']
                 for key in ('game_id', 'series', 'game_title', 'series_status', 'series_provenance'):
                     assert form[key] == source_identity[key], f'Series provenance mismatch: {alias}'
-                for relative in form['assets']['asset_files']:
-                    path = (repo / relative).resolve()
-                    assert path.is_relative_to(repo.resolve()), 'Asset escapes repository'
-                    paths.add(path)
+                add_asset_paths(form['assets'])
         if row.get('identity_status') == 'regional_collision':
             assert row['master_id'] is None and len(row['identities']) == 2
     assert seen == set(expected), 'Regional form coverage mismatch'
@@ -45,7 +60,9 @@ def validate_lookup(repo, lookup, master, legacy):
     return {
         'status': 'passed', 'lookup_rows': len(lookup), 'sourced_base_ids': len(expected_bases),
         'preserved_legacy_rows': len(legacy), 'legacy_display_field_changes': legacy_changes,
-        'custom_rows_without_source': sorted(set(lookup) - expected_bases),
+        'asset_only_form_count': len(expected_asset_only),
+        'asset_only_form_ids': sorted(expected_asset_only),
+        'custom_rows_without_source': sorted(set(lookup) - expected_bases - set(expected_asset_only)),
         'regional_form_aliases': len(seen), 'unique_resolved_asset_paths': len(paths),
         'collision_base_ids': [i for i, r in lookup.items() if r.get('identity_status') == 'regional_collision'],
         'known_series_base_rows': sum(r.get('series_status') == 'known' for r in sourced),

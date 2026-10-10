@@ -1,0 +1,35 @@
+{
+  "archive_members": 517535,
+  "archives": 14332,
+  "destinations": 234297,
+  "errors": [],
+  "extensions": {
+    ".bin": 15074,
+    ".bmb": 28805,
+    ".csv": 195383,
+    ".db": 49,
+    ".evts": 12,
+    ".fnt": 153,
+    ".jpg": 7454,
+    ".m3r": 2956,
+    ".map": 6,
+    ".maps": 14,
+    ".plist": 1195,
+    ".png": 220128,
+    ".r0": 1,
+    ".r16389": 1,
+    ".r16410": 1,
+    ".r18186": 1,
+    ".r18532": 1,
+    ".r18534": 1,
+    ".ssbp": 5546,
+    ".txt": 40249,
+    ".usm": 505
+  },
+  "new_by_folder": {
+    "additional": 128905
+  },
+  "new_destinations": 128905,
+  "seconds": 100.3,
+  "source_files": 34736
+}
