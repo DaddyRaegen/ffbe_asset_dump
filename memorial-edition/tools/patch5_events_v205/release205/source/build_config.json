@@ -1,0 +1,9 @@
+{
+  "source_apk": "T:/Projects/FFBE Patch/localization-rounds/2026-09-29-units-cards-ios/dist/FFBE-Memorial-EN-Patch-5-Units-Cards.apk",
+  "project": "T:/Projects/FFBE Patch",
+  "payload": "S:/FFBE JP Data Export/build/v205-patch5-events/payload",
+  "event_plan": "S:/FFBE JP Data Export/build/v205-patch5-events/audit/EVENT_PLAN.json",
+  "output": "S:/FFBE JP Data Export/build/v205-patch5-events/staged_build",
+  "version_code": 205,
+  "node": "C:/Program Files/nodejs/node.exe"
+}

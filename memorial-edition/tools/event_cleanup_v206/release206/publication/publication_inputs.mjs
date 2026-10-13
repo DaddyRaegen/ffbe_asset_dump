@@ -1,0 +1,42 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+export const ROOT='S:/FFBE JP Data Export/build/v206-event-cleanup';
+export const DIR=ROOT+'/publication';
+export const PREVIOUS='S:/FFBE JP Data Export/build/v205-patch5-events';
+export const STABLE203_SHA='b9dd01852a5210476fd0096e60ba491638a4e5527320b62051532c7d4d5e08f8';
+export const BASELINE205_SHA='e5cd92390929216666cebdbb9055d1f216cf2001c20dc4f8fe63225101dbf039';
+export const SIGNER='21aef3a4ddee69c63062fa15d3d6872918addb2a65d07f4e104dcfcf5ba9d6ee';
+export const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
+export const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
+export const save=(p,v)=>fs.writeFileSync(p,JSON.stringify(v,null,2)+'\n');
+export const assert=(v,m)=>{if(!v)throw Error(m);};
+export const pin=p=>{const b=fs.readFileSync(p);return {bytes:b.length,sha256:hash(b)};};
+export function qualifiedInputs(){
+ const build=read(ROOT+'/staged_build/EVENT_CLEANUP_APK_BUILD.json');
+ const signed=read(ROOT+'/staged_build/SIGNED_EVENT_QUALIFICATION.json');
+ const download=read(ROOT+'/asset_publication/DOWNLOAD_PLAN.json');
+ const host=read(ROOT+'/audit/ACTUAL206_CATALOG_HOST_ADMISSION.json');
+ const transport=read(ROOT+'/audit/INDEPENDENT_TRANSPORT_QUALIFICATION.json');
+ const cleanup=read(ROOT+'/audit/CLEANUP_PLAN.json');
+ const banners=read(ROOT+'/audit/BANNER_PLAN.json');
+ assert(build.versionCode===206&&build.package==='com.square_enix.ffbejpn'&&build.signer_sha256===SIGNER&&build.baseline_apk_sha256===BASELINE205_SHA,'Exact signed206/205 foundation required');
+ assert(build.runtime_verified===false&&build.classes_dex_byte_identical_to205&&build.native_libraries_unchanged&&build.startup_assets_unchanged&&build.downloader_unchanged&&build.movies_unchanged&&build.asset_file_count===170&&build.new_apk_members===0,'206 exceeds menu-only APK scope');
+ assert(signed.passed&&signed.apk_sha256===build.sha256&&signed.apk_bytes===build.bytes,'Exact206 signed qualification required');
+ assert(download.passed&&download.schema==='ffbe-event-cleanup-download-plan-v1'&&/^beta-content-v206-[0-9a-f]{16}$/.test(download.release_tag),'Unexpected206 data release');
+ assert(download.original_content_rows===1898&&download.final_content_rows===1898&&download.unchanged_original_rows===1893&&download.new_paths.length===0&&download.files.length===3,'Catalog membership changed');
+ assert(JSON.stringify(download.files.map(f=>f.role).sort())===JSON.stringify(['catalog','manifest','pack']),'Unexpected data publication roles');
+ const packFile=download.files.find(f=>f.role==='pack'),catalogFile=download.files.find(f=>f.role==='catalog'),manifestFile=download.files.find(f=>f.role==='manifest');
+ assert(packFile.name===download.new_pack.name&&packFile.bytes===download.new_pack.bytes&&packFile.sha256===download.new_pack.sha256&&catalogFile.bytes===download.content_catalog_bytes&&catalogFile.sha256===download.content_catalog_sha256&&manifestFile.name===`event-assets-${download.catalog_identity_sha256.slice(0,16)}.json`,'Publication files do not match qualified download metadata');
+ const allowed=['D2zaT7Ru.dat','Nm36woZx.dat','9Zdr5ap0.dat','IL78hX09.dat','spdungeon9.cpk'].map(n=>'side_stories/'+n).sort();
+ assert(JSON.stringify([...download.modified_original_paths].sort())===JSON.stringify(allowed)&&download.new_pack_files.length===5,'Unexpected event asset changes');
+ assert(signed.content_catalog_sha256===download.content_catalog_sha256&&signed.side_manifest_sha256===download.side_manifest_sha256&&build.content_catalog_sha256===download.content_catalog_sha256&&build.side_manifest_sha256===download.side_manifest_sha256,'Qualified206 metadata pins differ');
+ assert(cleanup.ready_for_catalog&&banners.passed&&download.cleanup_plan_sha256===pin(ROOT+'/audit/CLEANUP_PLAN.json').sha256&&download.banner_plan_sha256===pin(ROOT+'/audit/BANNER_PLAN.json').sha256&&signed.cleanup_plan_sha256===download.cleanup_plan_sha256&&signed.banner_plan_sha256===download.banner_plan_sha256,'Exact cleanup/banner plan qualification required');
+ assert(host.passed&&host.catalog_sha256===download.content_catalog_sha256&&host.side_manifest_sha256===download.side_manifest_sha256&&host.apk_sha256===build.sha256&&host.apk_bytes===build.bytes,'Exact206 APK/native catalog fixtures required');
+ assert(transport.passed&&transport.content_catalog_sha256===download.content_catalog_sha256&&transport.download_plan_sha256===pin(ROOT+'/asset_publication/DOWNLOAD_PLAN.json').sha256&&transport.new_pack_sha256===download.new_pack.sha256,'Exact independent206 transport qualification required');
+ const apk=fs.readFileSync(build.apk);assert(apk.length===build.bytes&&hash(apk)===build.sha256,'Qualified signed206 APK changed');
+ for(const file of download.files){const b=fs.readFileSync(file.local_path);assert(b.length===file.bytes&&hash(b)===file.sha256,'Frozen206 publication file differs');}
+ const assetManifest=read(manifestFile.local_path);
+ assert(assetManifest.channel==='beta'&&assetManifest.asset_version===206&&assetManifest.APK_min_version===206&&assetManifest.content_catalog.sha256===download.content_catalog_sha256&&assetManifest.bundled_side_manifest_sha256===download.side_manifest_sha256,'206 public asset manifest pins differ');
+ const protection=read('S:/FFBE JP Data Export/build/v203-publication/assets/frozen-plan.json').production_guard;
+ return {build,signed,download,host,transport,cleanup,banners,protection};
+}

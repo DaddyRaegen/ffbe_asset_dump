@@ -1,0 +1,5 @@
+# Event cleanup206 release archive
+
+This new archive records the exact205-based menu cleanup and requested original-artwork repair. Published beta APK 206: [FFBE-Memorial-EN-Event-Cleanup-v206.apk](https://ffbe.luminest.io/downloads/beta/releases/event-cleanup-v206-345967a814abb6ab/FFBE-Memorial-EN-Event-Cleanup-v206.apk), 145,206,221 bytes, SHA-256 `345967a814abb6ab645f280dd3c2b0195c5f395dd3e18e1227ef78515e5bb00d`. Signed qualification, publication and independent public verification passed. Phone, runtime, gameplay and save results remain pending. Historical203–205 releases remain untouched.
+
+Read `documents/EVENT_CLEANUP_RELEASE_WORKFLOW.md`, `documents/KNOWN_LIMITS.md` and `documents/PHONE_TEST_CHECKLIST.md`. Final evidence belongs in `release206` in the canonical S archive, and `dist`, `delivery_metadata`, `artwork`, `evidence` and checkpoint in the T handoff. The final handoff receipt hashes every retained file. Phone results and requested Image 2.5 model verification remain pending/unverified.

@@ -1,0 +1,9 @@
+{
+  "schema": "ffbe-production208-publication-config-v1",
+  "banner_plan": "audit/BANNER_PLAN.json",
+  "ordering_plan": "audit/ORDER_PLAN.json",
+  "download_plan": "asset_publication/DOWNLOAD_PLAN.json",
+  "qualifier": "staged_build/SIGNED_PRODUCTION_QUALIFICATION.json",
+  "transport": "audit/INDEPENDENT_TRANSPORT_QUALIFICATION.json",
+  "emulator": "device/BLUESTACKS_V208_REVIEW.json"
+}

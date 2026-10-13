@@ -1,0 +1,21 @@
+{
+  "schema": "ffbe-download-spacing-plan-v1",
+  "scope": "native-download-screen-comma-spacing-only",
+  "baseline_apk_sha256": "345967a814abb6ab645f280dd3c2b0195c5f395dd3e18e1227ef78515e5bb00d",
+  "baseline_script_sha256": "54072bcb90afcde6a7a3b16b60ebd55a51162b1ed267d126ae94460b6a8bfac5",
+  "candidate_script_sha256": "d766347efe033dbeb2bc358e99c6cf74385da95d19a0528d20f8841bacd0d696",
+  "operations": [
+    {
+      "before": "  function punctuation(text) {\r\n",
+      "after": "  function punctuation(text) {\r\n    // The native downloader supplies compact grouped MB/MB counters.\r\n    if (/^(?:[0-9]+|[0-9]{1,3}(?:[,，][ \\t\\u00a0\\u3000]*[0-9]{3})+)(?:\\.[0-9]{3})?MB\\/(?:[0-9]+|[0-9]{1,3}(?:[,，][ \\t\\u00a0\\u3000]*[0-9]{3})+)(?:\\.[0-9]{3})?MB$(?![\\s\\S])/.test(text))\r\n      return text.replace(/[,，][ \\t\\u00a0\\u3000]*/g, ',');\r\n",
+      "count": 1
+    }
+  ],
+  "display_reason": "Native adjustFileSizeString emits ASCII comma with no space. Existing English display normalization converts it to a full-cell U+FF0C comma. Preserve compact native commas only for the exact MB/MB download progress grammar.",
+  "native_format": "Grouped decimal MB/MB size pair; uppercase MB, slash without spaces, three fractional digits or zero without fraction.",
+  "underlying_download_code_unchanged": true,
+  "all_other_display_rules_unchanged": true,
+  "candidate_version": 207,
+  "baseline_version": 206,
+  "physical_phone_test": "pending"
+}

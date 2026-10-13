@@ -1,0 +1,22 @@
+FFBE Memorial build 206 — Event menu cleanup
+
+Version: Android versionCode 206 / versionName 11.1.1
+Package: com.square_enix.ffbejpn
+APK: https://ffbe.luminest.io/downloads/beta/releases/event-cleanup-v206-345967a814abb6ab/FFBE-Memorial-EN-Event-Cleanup-v206.apk
+Size: 145,206,221 bytes
+SHA-256: 345967a814abb6ab645f280dd3c2b0195c5f395dd3e18e1227ef78515e5bb00d
+
+Phone target: Z Fold 8, Android 17. Testing is pending for this exact signed APK. Startup, native libraries, downloader, units, movies and lifecycle remain as in build 205.
+
+1. Install over your existing app and keep app data. Check saves and settings.
+2. Launch normally. Let the original download screen fetch the updated event assets from GitHub. Reopen and confirm completed files are reused. Interrupt/resume one download if convenient.
+3. Open Story Events: Revival Parts 1/2 should be last; archived story-event battles should appear here. Check their chapters and try a representative battle.
+4. Open Event Battles: Party Test, A New Year's Greeting and Unit Intro Quest should be absent. Archived Event Battles and Greetings/Introductions sections should be absent. Deferred permanent Vortex/challenge content has no new section yet. JP Memories and main story should remain as before.
+5. Inspect the requested event banners and report blank, incorrect, distorted or Japanese text where a translated banner was expected. Check a known available movie and original content if convenient.
+6. Reopen and recheck saves/settings. Report pass/fail, affected event, phone/Android version and any error text.
+
+Known limits:
+- Phone navigation, banner rendering, gameplay and Android 17 runtime are pending for this exact APK.
+- Existing saves and settings must be checked on the phone; save migration has not been verified.
+- Archived source gaps and some Japanese dialogue remain; this does not claim every archived server mechanic has been reconstructed.
+- Native ELF compatibility with 16 KB memory pages remains unverified; the original native libraries are unchanged.

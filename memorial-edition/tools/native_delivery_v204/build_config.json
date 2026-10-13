@@ -1,0 +1,10 @@
+{
+  "node": "C:/Program Files/nodejs/node.exe",
+  "version_code": 204,
+  "payload": "S:/FFBE JP Data Export/build/v204-startup-fix/payload",
+  "asset_manifest": "S:/FFBE JP Data Export/build/v204-startup-fix/payload/game_asset_manifest.json",
+  "output": "S:/FFBE JP Data Export/build/native-delivery-v204-canonical",
+  "native_source": "S:/FFBE JP Data Export/ffbe_asset_dump/tools/native_delivery_v204",
+  "source_apk": "T:/Projects/FFBE Patch/localization-rounds/2026-09-29-units-cards-ios/dist/FFBE-Memorial-EN-Patch-5-Units-Cards.apk",
+  "project": "T:/Projects/FFBE Patch"
+}

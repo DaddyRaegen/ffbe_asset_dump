@@ -1,0 +1,13 @@
+These tools publish only the qualified build206 beta release and its five reviewed event assets. Production Patch5, every earlier beta APK, the original Vortex updater and the stable203 asset manifest are protected by exact readback pins.
+
+`prepare_site.mjs` is local preparation. It requires the final signed APK report, signed qualification, actual native catalog fixtures and independent transport report. It starts with the exact published205 page and retains every existing APK download link. Release metadata carries no local source paths. Phone runtime and save verification remain pending.
+
+Required inputs are `staged_build/EVENT_CLEANUP_APK_BUILD.json`, `staged_build/SIGNED_EVENT_QUALIFICATION.json`, `audit/ACTUAL206_CATALOG_HOST_ADMISSION.json`, `audit/INDEPENDENT_TRANSPORT_QUALIFICATION.json`, `audit/CLEANUP_PLAN.json`, `audit/BANNER_PLAN.json` and `asset_publication/DOWNLOAD_PLAN.json`. Their exact APK, catalog, side manifest, five-asset pack and source-plan pins must agree.
+
+After final metadata exists, prepare the site with `node publication/prepare_site.mjs`, then run `node --experimental-vm-modules publication/review_publication_local.mjs`. The review executes the actual publisher and existing GitHub helper source in an isolated VM with simulated network services and credentials. It writes only `audit/LOCAL_PUBLICATION_SCOPE_REVIEW.json`; it does not read credentials or contact the remote services. Its production bodies are fixtures, so this review does not replace public readback checks.
+
+The root publisher then runs `node publication/publish_assets.mjs`, `node publication/publish_site.mjs --stage` and `node publication/publish_site.mjs --activate`. The asset step creates a206 beta prerelease containing three immutable data files. Staging uploads the immutable APK. Activation writes three immutable release metadata files, the canonical beta `patch_version.json`, then the beta page after updater readback. Both updater URL fields point to206; `changelog` is empty. No source code is pushed.
+
+The tools have no configurable remote destinations. APK and release metadata paths are fixed to `downloads/beta/releases/event-cleanup-v206-<16-character-APK-SHA>/`. The only hosting overwrite is `downloads/beta/index.html`, guarded by the previous205 page hash. The only GitHub metadata mutation is `channels/beta/patch_version.json` on the `beta` branch. The existing206 GitHub helper is reused without edits.
+
+These retained scripts refer to this workspace and its frozen205/203 evidence. Rebuilds must use a fresh workspace and new outputs with explicit configuration; do not rerun data/build preparation over an already qualified immutable release.

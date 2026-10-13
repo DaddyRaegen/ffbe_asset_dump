@@ -3,6 +3,15 @@
 
 A repo of Final Fantasy Brave Exvius in game assets
 
+## Repository layout
+
+The existing asset folders and `catalog/` contain the preserved game artwork and
+animation inputs. `tools/` contains the asset recovery and catalog tooling.
+[Memorial Edition](memorial-edition/README.md) contains the separate Android
+patch tooling, tests, and release documentation. APKs and generated release
+payloads are excluded from its source commit; the production app downloads its
+data from the separate Memorial download repository and CDN.
+
 ## How to find units
 Use [the master unit list](catalog/unit_master.json) for names, regional identity,
 and explicit asset paths. Eleven native form IDs belong to different GL and JP

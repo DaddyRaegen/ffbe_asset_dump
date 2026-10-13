@@ -1,0 +1,7 @@
+{
+  "correction_stage": "C:/Users/Raegen/Documents/Codex/2026-10-02/task-2/integration_work/native_delivery_correction",
+  "native_source": "S:\\FFBE JP Data Export\\ffbe_asset_dump\\tools\\native_delivery_v203",
+  "guard_source": "S:\\FFBE JP Data Export\\ffbe_asset_dump\\tools\\release_guard",
+  "build_output": "C:/Users/Raegen/Documents/Codex/2026-10-02/task-2/integration_work/native_delivery_correction/staged_build",
+  "baseline_base": "C:/Users/Raegen/Documents/Codex/2026-10-02/task-2/integration_work/thin_delivery/payload/base_delivery.tsv"
+}

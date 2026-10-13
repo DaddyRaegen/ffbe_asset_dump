@@ -1,0 +1,20 @@
+FFBE Memorial build207 — Download screen spacing
+
+Version: Android versionCode207 / versionName 11.1.1
+Package: com.square_enix.ffbejpn
+APK: https://ffbe.luminest.io/downloads/beta/releases/download-spacing-v207-d9181ffc05fa11e1/FFBE-Memorial-EN-Download-Spacing-v207.apk
+Size: 145,206,221 bytes
+SHA-256: d9181ffc05fa11e15f18102646734f33832b5d70793357ffa24a643ec8209f2e
+
+Phone target: Z Fold 8, Android17. Runtime and saves remain unverified for this exact APK.
+
+1. Install over the existing app and keep app data. Check saves and settings.
+2. Observe the native download screen while a download is pending: the extra space immediately after the wide comma should be gone. Other text, progress and download behavior should remain unchanged. Report the exact affected line if the spacing persists.
+3. Reopen and confirm saves, settings and event menus remain as in build206. Existing event assets should be reused. This release adds no asset packs.
+4. Report pass/fail, device/Android version and any error text.
+
+Inherited limits:
+- Phone navigation, banner rendering, gameplay and Android 17 runtime are pending for this exact APK.
+- Existing saves and settings must be checked on the phone; save migration has not been verified.
+- Archived source gaps and some Japanese dialogue remain; this does not claim every archived server mechanic has been reconstructed.
+- Native ELF compatibility with 16 KB memory pages remains unverified; the original native libraries are unchanged.

@@ -1,0 +1,5 @@
+# Build 207 download spacing archive
+
+This release changes the download counter's punctuation spacing over exact published build 206. Published beta APK 207: [FFBE-Memorial-EN-Download-Spacing-v207.apk](https://ffbe.luminest.io/downloads/beta/releases/download-spacing-v207-d9181ffc05fa11e1/FFBE-Memorial-EN-Download-Spacing-v207.apk), 145,206,221 bytes, SHA-256 `d9181ffc05fa11e15f18102646734f33832b5d70793357ffa24a643ec8209f2e`. Signed spacing qualification, beta publication and independent public readback passed. Asset version remains 206. Phone, runtime and save results remain pending.
+
+Read `documents/DOWNLOAD_SPACING_RELEASE_WORKFLOW.md`, `documents/KNOWN_LIMITS.md` and `documents/PHONE_TEST_CHECKLIST.md`. Frozen source, signed APK, exact qualification and publication evidence belong in `release207` in the canonical S archive; the T handoff uses `dist` and `evidence`. The copy receipt hashes all retained bytes. Unchanged 206 artwork, assets and event registries are referenced with source pins instead of copied again.

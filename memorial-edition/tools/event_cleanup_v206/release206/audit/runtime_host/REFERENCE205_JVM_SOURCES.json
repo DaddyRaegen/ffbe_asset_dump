@@ -1,0 +1,20 @@
+{
+  "schema": "ffbe-retained205-jvm-reference-pins-v1",
+  "source_root": "S:\\FFBE JP Data Export\\build\\v205-patch5-events\\audit\\original-downloader\\actual-catalog\\source",
+  "baseline205_apk_sha256": "e5cd92390929216666cebdbb9055d1f216cf2001c20dc4f8fe63225101dbf039",
+  "qualified205_host_report": "S:\\FFBE JP Data Export\\build\\v205-patch5-events\\audit\\ACTUAL205_CATALOG_HOST_ADMISSION.json",
+  "qualified205_host_report_sha256": "1c3422084fd2b9ff5ed5d2164792edf56c129f11b236c579ed440eefa4cbce12",
+  "java_source_pins": {
+    "android/app/ActivityThread.java": "9ac3d9b43f6d9a785ad92abb3ab6bba7310150515dc30a2b7f4398310cad8e9e",
+    "android/app/Application.java": "c8e00f611ca1bf704e36c17426f6849d2501c297c40ccf18cf7ca3352829cc01",
+    "android/content/Context.java": "56a84d5ab9000fff9f9c30948af7de7580f11f8a1d8d6cb599178c9b877cbe61",
+    "android/content/res/AssetManager.java": "621aedc19234fd2f827bcb13ec77b0b614256ed5e81b716b509dfad84fd23eac",
+    "android/util/Log.java": "70181f7df76ae3caeb90fb0695c43b0e31da0d6a9f5cc3fdb3cd7f4080fc1488",
+    "O1/CdnDownloader.java": "afcd3ca1ce3a5eaa9fcec4d1b63673d05a34140fef67669598ca5dbbc0796205",
+    "O1/ContentDownloader.java": "3098322319ee7444eed49ab13984e00557b270cfc123f3ad2a7f5d478a352800",
+    "O1/ExtraContent.java": "1c12b2703770603840d2ed0d712746e70ce70ffcf56e3eaa7c7bfab0c683794a",
+    "O1/ResumableTransfer.java": "961ff3995e8bb5e0a77d5a772651d76e5bd4da1402cd8da1621a2eddd5c95a5e",
+    "O1/SideStoryTables.java": "09a1cd1ebfc8f831fb558d2f49ce7aec165cc6c569a6161491d95f7adeebd407",
+    "O1/StoryPortTables.java": "2accaf890893178af8ca2cce2e432179896e5941546968a9bea97ded88fb694d"
+  }
+}

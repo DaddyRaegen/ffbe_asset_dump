@@ -1,0 +1,9 @@
+{
+  "source_apk": "C:/Users/Raegen/Documents/Codex/2026-10-02/task-2/integration_work/full_inventory/recovery_round2/build_release/FFBE-Memorial-EN-Patch-6-Full-Inventory-Round2.apk",
+  "project": "T:/Projects/FFBE Patch",
+  "node": "C:/Program Files/nodejs/node.exe",
+  "native_source": "S:\\FFBE JP Data Export\\ffbe_asset_dump\\tools\\native_delivery_v203",
+  "payload": "C:\\Users\\Raegen\\Documents\\Codex\\2026-10-02\\task-2\\integration_work\\native_delivery_correction\\payload",
+  "asset_manifest": "C:\\Users\\Raegen\\Documents\\Codex\\2026-10-02\\task-2\\integration_work\\native_delivery_correction\\asset_publication\\manifest.json",
+  "output": "C:\\Users\\Raegen\\Documents\\Codex\\2026-10-02\\task-2\\integration_work\\native_delivery_correction\\future_repo_build"
+}

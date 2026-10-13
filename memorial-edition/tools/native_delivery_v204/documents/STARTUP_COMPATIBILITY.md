@@ -1,0 +1,15 @@
+# Startup bundle contract
+
+APK 204 uses actual production Patch 5 as its executable foundation and retains the complete corrected 203 per-file graph. The exact 162 root/boot assets are additionally bundled at their original APK paths. This is the only game-data bundling authorized by the October 4 startup correction.
+
+The reason to restore those raw APK paths is visible in the retained native source: CRI, Cocos experimental AudioEngineImpl and PUMaterialCache contain direct Android AssetManager reads or directory enumeration. Java adapters and Cocos filesystem search paths do not establish every such access. The203 decoded Lapis activity also loads `libgame` before Frida bootstrap, so native constructors/JNI initialization cannot rely on hooks installed later. These are static findings; they do not identify the exact phone crash without a stack/log.
+
+`BundledAssets` must admit the signed inventory only after verifying the signed baseline manifest/catalogs. Its row set must equal the whole root/boot set, not a subset or a caller-provided count. Each row must have root namespace, a safe declared logical path, exact `assets/<path>` APK member, baseline byte size and SHA-256. App identity, APK version, asset version and complete manifest hash must agree. For this release the result is162 assets and106,756,081 raw bytes; small host fixtures may use fewer rows.
+
+Before any boot missing-file check, verify every declared raw APK source stream and atomically seed its existing per-file object cache. The source is authoritative only for its exact hash/size. Preserve valid cached bytes, remote `.part` files and saves. `GameAssets.prepareBoot` must finish the verified filesystem tree and marker before native startup; Java helpers use those verified files while native Android AssetManager can use the original APK paths. The existing boot activity should have no startup HTTP or download-consent step when the bundle is complete.
+
+Malformed, incomplete, wrongly pinned or missing required inventory/source bytes must fail closed before native startup. Only a precise FileNotFoundException absence in legacy APK 203 fixtures retains the old external-only mode. Do not catch other reflection, I/O, parse or checksum failures as optional absence. APK 204 requires its inventory.
+
+Current and future cache availability must never accept a stale APK source for a changed hash. A compatible data revision cannot remove/change bundled startup bytes; a core change requires a newer APK that supplies matching raw startup files. Nonbootstrap assets continue through the same missing/changed-only GitHub transfer engine, per-file revision checks, hash validation, resume files and next-launch graph activation.
+
+The focused tests must cover both AtomicFile backup/base and `.new` commit styles, first launch without HTTPS, zero duplicate startup queue, Java and raw APK source agreement, same-size cache repair, owned bundled tree-alias repair, save/partial preservation, core revision rejection and malformed/missing/tampered inventory/source failure. Physical Android AssetManager/CRI/Cocos loading remains a separate phone checkpoint.

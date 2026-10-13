@@ -10,3 +10,7 @@
 *.py text eol=lf
 *.md text eol=lf
 *.json text eol=lf
+
+# Keep historical Memorial source snapshots identical to their sealed inputs.
+memorial-edition/tools/** -text
+memorial-edition/docs/history/** -text

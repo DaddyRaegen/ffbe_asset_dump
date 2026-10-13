@@ -1,0 +1,334 @@
+{
+  "schema": "ffbe-v204-canonical-source-snapshot-v1",
+  "source_workspace": "S:\\FFBE JP Data Export\\build\\v204-startup-fix\\source",
+  "canonical_source": "S:\\FFBE JP Data Export\\ffbe_asset_dump\\tools\\native_delivery_v204",
+  "all_executable_and_fixture_bytes_match_frozen_source": false,
+  "copied_files": [
+    {
+      "path": "java/O1/BattleTables.java",
+      "sha256": "fee1fbd1bba708f9fade2baa360c89464f5d382b67729171d22dc0f1cd16c281",
+      "source_matches": true
+    },
+    {
+      "path": "java/O1/BundledAssets.java",
+      "sha256": "1e30977e30ebc59a0ca35bcbb96c6ea07395fd58c5960165dfe5671f9e4a65f1",
+      "source_matches": true
+    },
+    {
+      "path": "java/O1/CdnDownloader.java",
+      "sha256": "24f0ac21b2aaa96f499b9a977535c198c00c3f3aea1920e3dd631826c7964e52",
+      "source_matches": true
+    },
+    {
+      "path": "java/O1/ContentDownloader.java",
+      "sha256": "afc8db5aba27d4d161c8f0302457c94e8cd3a3a04d472d7cd0414bc7a05fe3ac",
+      "source_matches": true
+    },
+    {
+      "path": "java/O1/DeliveryPolicy.java",
+      "sha256": "34329cd9f4220633638b4e64fc0064cec52587b806b2ae3f89cb0af2578e8a2d",
+      "source_matches": true
+    },
+    {
+      "path": "java/O1/EncyclopediaTables.java",
+      "sha256": "d9c8a4beab6ee59df06e7e7a17feccf64fbd23c2717685ebff76d90c3f7e15e4",
+      "source_matches": true
+    },
+    {
+      "path": "java/O1/ExtraContent.java",
+      "sha256": "a0bd8801f282b37080ca57e82b197594142b53ccc48d93904a7642a9eb03b2d5",
+      "source_matches": true
+    },
+    {
+      "path": "java/O1/GameAssets.java",
+      "sha256": "2869b1fa9b1e6eb03aedc51eeefebc21beafe66b476111f1160bfed49b6759bf",
+      "source_matches": true
+    },
+    {
+      "path": "java/O1/GameAssetsBoot.java",
+      "sha256": "20b368b7d89a728d972b04f297c7603f11b5cbc7e3647b190c1d756c8889994d",
+      "source_matches": true
+    },
+    {
+      "path": "java/O1/LanTestTransport.java",
+      "sha256": "bab81e65c31f9f5ccd6b301badfd901fdba512a3f104e60058845550a62549c3",
+      "source_matches": true
+    },
+    {
+      "path": "java/O1/MovieAssets.java",
+      "sha256": "c090725b7326ca22fc95990deb0a6bc8814e3986ab38346050f48eeccf5a067e",
+      "source_matches": true
+    },
+    {
+      "path": "java/O1/PatchUpdater.java",
+      "sha256": "c52d612b4ecc5df6214d2e374326791df085e2985a8f28a44dd0e0c097036a5a",
+      "source_matches": true
+    },
+    {
+      "path": "java/O1/ResumableTransfer.java",
+      "sha256": "b18538e0ef1ecd50796c82fde40e25771e289b0c8c889dfeee979936eb39fa75",
+      "source_matches": true
+    },
+    {
+      "path": "java/O1/SideStoryTables.java",
+      "sha256": "515e3f8fa484e979fca5251d7160ff64048d420904a085ab2f64546a227d0340",
+      "source_matches": true
+    },
+    {
+      "path": "java/O1/StoryPortTables.java",
+      "sha256": "8e0f20e069c201953c6ebf12e82c669d8cac8a3937457218151f556fa9f8030f",
+      "source_matches": true
+    },
+    {
+      "path": "tests/android/app/ActivityThread.java",
+      "sha256": "9ac3d9b43f6d9a785ad92abb3ab6bba7310150515dc30a2b7f4398310cad8e9e",
+      "source_matches": true
+    },
+    {
+      "path": "tests/android/app/Application.java",
+      "sha256": "c8e00f611ca1bf704e36c17426f6849d2501c297c40ccf18cf7ca3352829cc01",
+      "source_matches": true
+    },
+    {
+      "path": "tests/android/content/Context.java",
+      "sha256": "56a84d5ab9000fff9f9c30948af7de7580f11f8a1d8d6cb599178c9b877cbe61",
+      "source_matches": true
+    },
+    {
+      "path": "tests/android/content/res/AssetManager.java",
+      "sha256": "18ae6f66e78b876f7bb37136f3e5c228e32d9555a3bf277e06dbfcb6948a3f9a",
+      "source_matches": true
+    },
+    {
+      "path": "tests/android/util/AtomicFile.java",
+      "sha256": "131c3c73da6c28135640abbe3d6e9100a1ab4695c2240101c1a5447539944f35",
+      "source_matches": true
+    },
+    {
+      "path": "tests/android/util/Log.java",
+      "sha256": "70181f7df76ae3caeb90fb0695c43b0e31da0d6a9f5cc3fdb3cd7f4080fc1488",
+      "source_matches": true
+    },
+    {
+      "path": "tests/BaseCacheIntegrityTest.java",
+      "sha256": "61e56d457fc8f8d9a1deba6c9509eb1000451fde92545257e69f3f9bcc373748",
+      "source_matches": true
+    },
+    {
+      "path": "tests/BaseTest.java",
+      "sha256": "2512614eebf221164075adc774ea45ae14b3d14c1c4bdc97421f05e795340af3",
+      "source_matches": true
+    },
+    {
+      "path": "tests/BundledStartupTest.java",
+      "sha256": "b40a00b7444a9dc84de3f9587a28814952980635b9f4240f01993d71879cc2c5",
+      "source_matches": true
+    },
+    {
+      "path": "tests/GithubTransferTest.java",
+      "sha256": "32aee17a217c5dd71b4791cf630a2598559f84486ae5e621929470b8f7f2d54a",
+      "source_matches": true
+    },
+    {
+      "path": "tests/MetadataTest.java",
+      "sha256": "f49f5c73867948b9e25f524c40b803ad97c6322bf575365faba597ba828e092c",
+      "source_matches": true
+    },
+    {
+      "path": "tests/MovieCacheTest.java",
+      "sha256": "3aed7e708b7aad39bdff10816290133cfde57239429da3c5b4857b1c3692153f",
+      "source_matches": true
+    },
+    {
+      "path": "tests/NativeDeliveryTest.java",
+      "sha256": "08f0587ade42f006aa5be2c1ecd1e2b8e1698b913437da4a9e0503665a479ed8",
+      "source_matches": true
+    },
+    {
+      "path": "tests/PatchUpdaterTest.java",
+      "sha256": "43213063528881142e106b9e8aa98b0532fed936bd493e79cb17810ae85c4090",
+      "source_matches": true
+    },
+    {
+      "path": "tests/TransferTest.java",
+      "sha256": "8493c42dd18ddd289af7fa92f0019a0cff080ded2a4dba059cffe79b0b7f52a3",
+      "source_matches": true
+    },
+    {
+      "path": "run_tests.release204.py",
+      "sha256": "20acd2c6d7d95b85bf59cc814526ca79536bb1ff069359dc024de027b19e24c6",
+      "source_matches": true
+    },
+    {
+      "path": "patch_smali.py",
+      "sha256": "f6ffcf0d04a90c34711a72e39efd93270ad68d9e6c07ba46b74c20dc62f60925",
+      "source_matches": true
+    },
+    {
+      "path": "native_game_assets.js",
+      "sha256": "ed0b7e51545779d7aaf88afa16fa8b4dc82c9d53cae4f53694f9fdda2fd510fa",
+      "source_matches": true
+    },
+    {
+      "path": "patch5_event_script.py",
+      "sha256": "b5867c84beeb072e7e22c00158409db0ae131084fe170cace610ca0e420df72a",
+      "source_matches": true
+    },
+    {
+      "path": "manifest_patch.py",
+      "sha256": "e7888c78a5403905a2fea3610302b107f3edfd9b0fb74beddd6c055f7f08a921",
+      "source_matches": true
+    },
+    {
+      "path": "build_native_apk.py",
+      "sha256": "9f31bd831ba1c821cb9986d1ff2013f6febd2ad30cdc85ac5fffef5a1b1ae8f6",
+      "source_matches": true
+    },
+    {
+      "path": "build_config.release204.json",
+      "sha256": "908770a9fc5141f73de3496de7d0b45239ebf3ac3738ca03db46ad0008fb1295",
+      "source_matches": true
+    },
+    {
+      "path": "host_test_config.release204.json",
+      "sha256": "da6285fed8f58ccbf85c26257fe6877ec89233cfea43242fad867f5371077583",
+      "source_matches": true
+    }
+  ],
+  "default_configuration_adaptations": {
+    "build_config.json": [
+      "native_source canonical directory",
+      "output fresh canonical build directory"
+    ],
+    "host_test_config.json": [
+      "output fresh canonical host directory",
+      "actual_stage explicitly points to signed 204 payload workspace"
+    ]
+  },
+  "original_configuration_snapshots": [
+    "build_config.release204.json",
+    "host_test_config.release204.json"
+  ],
+  "signed_build_result_included": true,
+  "runtime_verified": false,
+  "all_release_source_snapshots_and_java_fixtures_match_frozen_source": true,
+  "canonical_runner_adaptation": {
+    "path": "run_tests.py",
+    "only_change": "MetadataTest-actual204 uses config actual_stage with ROOT.parent fallback",
+    "sha256": "c55804147559efe723b36515f4d056c78406ba068f6455ecaecf885981673f36",
+    "release_runner": "run_tests.release204.py",
+    "java_runtime_and_test_sources_unchanged": true,
+    "syntax_checked": true,
+    "full_suite_rerun_after_path_only_adaptation": false
+  },
+  "signed_build": {
+    "apk_bytes": 145575080,
+    "apk_sha256": "cfb96d5dd90625b56f2f8fe8c512be08b45186a2d4624f80f22658dc3b209385",
+    "build_report": "release204/reports/NATIVE_APK_BUILD.json",
+    "qualification_report": "release204/reports/SIGNED_RELEASE_QUALIFICATION.json",
+    "signed_source_pins_verified": [
+      {
+        "path": "java/O1/BattleTables.java",
+        "sha256": "fee1fbd1bba708f9fade2baa360c89464f5d382b67729171d22dc0f1cd16c281",
+        "matches_signed_build": true
+      },
+      {
+        "path": "java/O1/BundledAssets.java",
+        "sha256": "1e30977e30ebc59a0ca35bcbb96c6ea07395fd58c5960165dfe5671f9e4a65f1",
+        "matches_signed_build": true
+      },
+      {
+        "path": "java/O1/CdnDownloader.java",
+        "sha256": "24f0ac21b2aaa96f499b9a977535c198c00c3f3aea1920e3dd631826c7964e52",
+        "matches_signed_build": true
+      },
+      {
+        "path": "java/O1/ContentDownloader.java",
+        "sha256": "afc8db5aba27d4d161c8f0302457c94e8cd3a3a04d472d7cd0414bc7a05fe3ac",
+        "matches_signed_build": true
+      },
+      {
+        "path": "java/O1/DeliveryPolicy.java",
+        "sha256": "34329cd9f4220633638b4e64fc0064cec52587b806b2ae3f89cb0af2578e8a2d",
+        "matches_signed_build": true
+      },
+      {
+        "path": "java/O1/EncyclopediaTables.java",
+        "sha256": "d9c8a4beab6ee59df06e7e7a17feccf64fbd23c2717685ebff76d90c3f7e15e4",
+        "matches_signed_build": true
+      },
+      {
+        "path": "java/O1/ExtraContent.java",
+        "sha256": "a0bd8801f282b37080ca57e82b197594142b53ccc48d93904a7642a9eb03b2d5",
+        "matches_signed_build": true
+      },
+      {
+        "path": "java/O1/GameAssets.java",
+        "sha256": "2869b1fa9b1e6eb03aedc51eeefebc21beafe66b476111f1160bfed49b6759bf",
+        "matches_signed_build": true
+      },
+      {
+        "path": "java/O1/GameAssetsBoot.java",
+        "sha256": "20b368b7d89a728d972b04f297c7603f11b5cbc7e3647b190c1d756c8889994d",
+        "matches_signed_build": true
+      },
+      {
+        "path": "java/O1/LanTestTransport.java",
+        "sha256": "bab81e65c31f9f5ccd6b301badfd901fdba512a3f104e60058845550a62549c3",
+        "matches_signed_build": true
+      },
+      {
+        "path": "java/O1/MovieAssets.java",
+        "sha256": "c090725b7326ca22fc95990deb0a6bc8814e3986ab38346050f48eeccf5a067e",
+        "matches_signed_build": true
+      },
+      {
+        "path": "java/O1/PatchUpdater.java",
+        "sha256": "c52d612b4ecc5df6214d2e374326791df085e2985a8f28a44dd0e0c097036a5a",
+        "matches_signed_build": true
+      },
+      {
+        "path": "java/O1/ResumableTransfer.java",
+        "sha256": "b18538e0ef1ecd50796c82fde40e25771e289b0c8c889dfeee979936eb39fa75",
+        "matches_signed_build": true
+      },
+      {
+        "path": "java/O1/SideStoryTables.java",
+        "sha256": "515e3f8fa484e979fca5251d7160ff64048d420904a085ab2f64546a227d0340",
+        "matches_signed_build": true
+      },
+      {
+        "path": "java/O1/StoryPortTables.java",
+        "sha256": "8e0f20e069c201953c6ebf12e82c669d8cac8a3937457218151f556fa9f8030f",
+        "matches_signed_build": true
+      },
+      {
+        "path": "patch_smali.py",
+        "sha256": "f6ffcf0d04a90c34711a72e39efd93270ad68d9e6c07ba46b74c20dc62f60925",
+        "matches_signed_build": true
+      },
+      {
+        "path": "native_game_assets.js",
+        "sha256": "ed0b7e51545779d7aaf88afa16fa8b4dc82c9d53cae4f53694f9fdda2fd510fa",
+        "matches_signed_build": true
+      },
+      {
+        "path": "patch5_event_script.py",
+        "sha256": "b5867c84beeb072e7e22c00158409db0ae131084fe170cace610ca0e420df72a",
+        "matches_signed_build": true
+      },
+      {
+        "path": "manifest_patch.py",
+        "sha256": "e7888c78a5403905a2fea3610302b107f3edfd9b0fb74beddd6c055f7f08a921",
+        "matches_signed_build": true
+      },
+      {
+        "path": "build_native_apk.py",
+        "sha256": "9f31bd831ba1c821cb9986d1ff2013f6febd2ad30cdc85ac5fffef5a1b1ae8f6",
+        "matches_signed_build": true
+      }
+    ],
+    "runtime_verified": false,
+    "phone_tested": false
+  }
+}

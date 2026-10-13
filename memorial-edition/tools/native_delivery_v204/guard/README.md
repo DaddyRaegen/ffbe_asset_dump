@@ -1,0 +1,48 @@
+# Build 204 startup correction release guard
+
+This release-local copy implements the user's October 4, 2026 instruction to include essential Patch 5 startup assets and keep remaining files on GitHub. The canonical guard and its original fixture file are unchanged. The historical external-only policy remains the default; bundling requires the explicit `--bootstrap-inventory` option.
+
+The inventory uses schema `ffbe-bootstrap-inventory-v1`, pins the exact signed per-file manifest SHA-256, package, signer, APK version and asset-set version, and lists exact `namespace`, `path`, `apk_path`, `bytes` and `sha256` for every startup file. Each selected asset must be a root `phase=boot` row with identical manifest bytes/hash, and the inventory must enumerate the complete boot subset. No root `phase=game`, content, base, arbitrary APK path, delivery metadata, duplicate, bulk ZIP, or unlisted game file is admitted.
+
+Embed the inventory unchanged as `assets/bootstrap_inventory.json`, and every selected payload unchanged as `assets/<path>`. The guard compares signed inventory bytes with the supplied file, checks every APK payload's actual decompressed size and SHA-256, and still rejects historical custom bulk ZIP classes. Every graph row retains its immutable GitHub transport; bundling startup bytes does not remove external catalog records. APK version 204 and asset-set version 203 are intentionally distinct.
+
+Use `--expected-apk-version 204 --expected-asset-version 203 --bootstrap-inventory <exact inventory path>` in addition to the qualification arguments below. Metadata-only inventory checks report `bootstrap_inventory_signed=false` and `bundled_game_assets_verified=false`. Only exact signed APK qualification can set those flags true. The report includes bundled physical file count/bytes, the inventory hash, and the remaining external-only manifest row count.
+
+Run both regression files with `python -B -m unittest -v test_release_guard.py test_bootstrap_inventory.py`, configuring the frozen v201/v202 APK paths as described below. All original fixtures remain unchanged. The added fixtures check startup acceptance, independent APK/asset versions, changed/missing/extra/hash-mismatched files, a missing required boot row, signed-inventory byte equality, default strict behavior and historical bulk-bootstrap rejection. Synthetic fixtures do not establish device runtime behavior.
+
+Run `release_guard.py` against the exact final signed APK, JSON manifest and four APK metadata files for every patch. It reads the actual ZIP, actual embedded routes/classes and native descriptors, invokes `aapt2`, `apksigner` and `zipalign`, and rejects policy regressions. Build-report booleans cannot substitute for this check. No network, installation or cache/save action occurs.
+
+The actual schema is `ffbe-asset-manifest-v1`; fields are `channel`, `asset_version`, `APK_min_version`, `engine_compat`, `package`, `signing_certificate_sha256`, three catalog pins and per-file versioned assets. Root/content TSVs retain the existing eight-field `ffbe-content-v1` interface. Base retains the original five-field `ffbe-base-v1` interface. The seven-field `ffbe-delivery-release-v1` row pins channel, asset/APK versions, root/content hashes and both beta metadata routes. JSON and every native TSV row must match exactly. Range fragments select a bounded source segment; the member range must fit inside it.
+
+Example Windows invocation (wrap arguments for your release's real paths):
+
+```powershell
+python -B release_guard.py --manifest asset-manifest.json --root-catalog root_delivery.tsv --content-catalog content_delivery.tsv --base-catalog base_delivery.tsv --release-metadata delivery_release.tsv --baseline-base frozen-original-base_delivery.tsv --apk signed-v203.apk --output release-guard-result.json
+python -B -m unittest -v test_release_guard.py
+```
+
+For later compatible patches, pass `--expected-apk-version` and `--expected-asset-version`; APK versions must exceed 202. Supply `--previous-manifest` whenever a previous native-delivery manifest exists so a changed file cannot keep its old revision or disappear silently. Tool paths default to the existing project's Android build tools and Java installation, and can be supplied explicitly with `--aapt`, `--apksigner`, `--zipalign`, `--java`. Tests use a clearly synthetic ZIP/tool-output interface fixture and reject actual frozen v201/v202 APKs; the synthetic pass is not qualification of a signed build.
+
+For the separately reviewable pre-upload metadata pass, use `--metadata-only` and omit `--apk`; its result explicitly says `signed_apk_qualified:false`. The original base TSV's CRLF bytes must remain intact; native BufferedReader accepts them. The seven-field delivery-release config requires strict LF records, matching the actual parser. Regression tests locate historical APKs through `FFBE_FROZEN_V201_APK` / `FFBE_FROZEN_V202_APK` (or `FFBE_RELEASE_WORKSPACE`, with this task's workspace as the initial default); retained frozen binaries are required rather than silently skipped.
+
+This guard covers packaging, graph identities, revisions, hashes, transport bounds, manifest separation, signing and Android package/version. The build pipeline must also execute actual native downloader/resume/cache/lifecycle host fixtures, the event/banner identity-ledger checks, and the public full-hash/range verification. Runtime, save migration and native ELF 16 KB compatibility remain separate evidence requirements; ZIP alignment alone does not prove them.
+
+With no `--bootstrap-inventory`, all game assets stay external. That mode permits only ten `assets/` files: five executable/profile files plus base/content/root/delivery-release metadata and `game_asset_manifest.json`. Explicit startup mode adds only the signed inventory and its exact boot subset, under the checks above. The manifest JSON must be byte-identical to the qualified complete manifest so the runtime has trusted baseline per-file revisions. No custom bulk ZIP/AssetBundle/BundleAssets bootstrap is allowed. Use existing native downloader callbacks/path lookup and per-file validated caches. Keep `com.square_enix.ffbejpn` and certificate SHA `21aef3a4ddee69c63062fa15d3d6872918addb2a65d07f4e104dcfcf5ba9d6ee` unless explicitly changed by the user.
+
+The actual Frida runtime must invoke exactly one `jniCallStaticVoid("O1/PatchUpdater", "check", "()V", [])` call. The guard parses DEX class definitions/direct methods to require a real public static `O1.PatchUpdater.check()V` implementation; a class-name string alone cannot pass. The old three-argument `checkForUpdate` JNI route is rejected as canonical. Keep compatibility constants on beta and the counter equal to Android versionCode. The native updater's own behavioral fixtures must prove disabled staging notifications, channel/package/version admission and notification-only behavior.
+
+Optional CG coverage is partial: the selected native table references 123 distinct names; only 12 exact names occur in the currently qualified GitHub graph. Ninety-one local candidates require source/provenance qualification before later admission, and 20 names remain absent. Preserve existing native movie/sprite resolution for graph-backed files. Do not resurrect the old Frida CG prefetch/safety-net network path: executable `cdn.luminest.io/ffbe/movies`, `fireCurl` functions/calls and `requestDownload` invocations are rejected. This guard and static graph coverage do not prove native CG playback or completeness. Source conflicts and missing movies remain explicit audit gaps; no CG assets are added by this correction.
+
+Beta metadata lives under the asset repository's `beta` branch and `channels/beta/`; production remains its verified `main` channel. New beta asset releases are prereleases with latest promotion disabled. No code push, production promotion, hosted APK publication, installation, battle or save clearing follows merely from a passing local guard.
+
+## Kev's physical-phone release checkpoint
+
+Standing user instruction, October 3, 2026 (`Sentinel_c86dc0dd2974819180496cd2e691b3b6`): every published APK must be offered to Kev for a physical-phone test. Publishing or passing static/host checks does not establish runtime validation.
+
+- After every APK publication, give Kev the verified beta/download link, exact version, byte size, SHA-256, known limits and a short phone-test checklist. Keep the offer tied to that exact APK hash. A later APK requires a new test offer.
+- Record the checkpoint as `pending` until Kev supplies results for that build. Never mark physical-phone/runtime/save behavior as passed from publication, a download check, emulator/host fixtures or another APK's results. Record device/Android version and reported failures when available.
+- Ask Kev to install over the existing package, verify retained saves, exercise startup/resume, JP Memories, normal/archived event battles, banners and Unit Library, then report crashes, missing assets and long loading. Do not ask for uninstall or clear-data workarounds.
+- Production promotion remains a separate decision and authorization after review of Kev's results. Publication alone never promotes production.
+- This checkpoint does not authorize the agent to install, start battles, read device data, clear caches/saves or perform device tests. Kev performs the physical-phone test; existing agent runtime permissions remain unchanged.
+
+Record publication/offer/test state in the release handoff and `PHONE_TEST_CHECKPOINT.json`. While publication is blocked, keep `APK_published=false` and `physical_phone_test=pending_publication`; do not present a planned APK URL as live.

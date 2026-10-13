@@ -1,0 +1,9 @@
+{
+  "source_apk": "S:/FFBE JP Data Export/build/v205-patch5-events/staged_build/dist/FFBE-Memorial-EN-Patch-5-Events-v205.apk",
+  "source_qualification": "S:/FFBE JP Data Export/build/v205-patch5-events/staged_build/SIGNED_EVENT_QUALIFICATION.json",
+  "project": "T:/Projects/FFBE Patch",
+  "payload": "S:/FFBE JP Data Export/build/v206-event-cleanup/payload",
+  "output": "S:/FFBE JP Data Export/build/v206-event-cleanup/staged_build",
+  "version_code": 206,
+  "node": "C:/Program Files/nodejs/node.exe"
+}

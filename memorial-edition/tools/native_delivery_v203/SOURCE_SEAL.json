@@ -1,0 +1,166 @@
+{
+  "schema": "ffbe-native-delivery-source-seal-v1",
+  "runtime_device_tested": false,
+  "source_native_sha256": "6c7e501c98939581528df3d712ff1f58afcfd392160f1e71ef1f903d49926b77",
+  "source_APK_sha256": "9ebc21f74cd9e54bbada836506f75965658b3c96abd205803698f8049a0e5fbe",
+  "required_native_exports": {
+    "_ZN11AppDelegate29applicationDidFinishLaunchingEv": [
+      {
+        "library": "lib/arm64-v8a/libgame.so",
+        "defined": true,
+        "address": "0x1577714",
+        "size": 1344
+      }
+    ],
+    "_ZN7cocos2d16FileUtilsAndroid4initEv": [
+      {
+        "library": "lib/arm64-v8a/libgame.so",
+        "defined": true,
+        "address": "0x1eba558",
+        "size": 452
+      }
+    ],
+    "_ZN7cocos2d9FileUtils11getInstanceEv": [
+      {
+        "library": "lib/arm64-v8a/libgame.so",
+        "defined": true,
+        "address": "0x1eba404",
+        "size": 124
+      }
+    ],
+    "_ZN7cocos2d9FileUtils13addSearchPathERKNSt6__ndk112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEb": [
+      {
+        "library": "lib/arm64-v8a/libgame.so",
+        "defined": true,
+        "address": "0x211710c",
+        "size": 912
+      }
+    ],
+    "_ZN7cocos2d9FileUtils18purgeCachedEntriesEv": [
+      {
+        "library": "lib/arm64-v8a/libgame.so",
+        "defined": true,
+        "address": "0x2113d7c",
+        "size": 152
+      }
+    ],
+    "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2IDnEEPKc": [
+      {
+        "library": "lib/arm64-v8a/libc++_shared.so",
+        "defined": true,
+        "address": "0x53eb4",
+        "size": 152
+      },
+      {
+        "library": "lib/arm64-v8a/libgame.so",
+        "defined": true,
+        "address": "0x1300e74",
+        "size": 152
+      }
+    ],
+    "criAtomEx_RegisterAcfFile": [
+      {
+        "library": "lib/arm64-v8a/libgame.so",
+        "defined": true,
+        "address": "0x1f4098c",
+        "size": 4
+      }
+    ]
+  },
+  "checks": [
+    {
+      "label": "java-8-production-overlays",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "warning: [options] source value 8 is obsolete and will be removed in a future release\nwarning: [options] target value 8 is obsolete and will be removed in a future release\nwarning: [options] To suppress warnings about obsolete options, use -Xlint:-options.\nNote: C:\\Users\\Raegen\\Documents\\Codex\\2026-10-02\\task-2\\integration_work\\native_delivery_correction\\native_audit\\java\\O1\\GameAssetsBoot.java uses or overrides a deprecated API.\nNote: Recompile with -Xlint:deprecation for details.\nNote: C:\\Users\\Raegen\\Documents\\Codex\\2026-10-02\\task-2\\integration_work\\native_delivery_correction\\native_audit\\java\\O1\\DeliveryPolicy.java uses unchecked or unsafe operations.\nNote: Recompile with -Xlint:unchecked for details.\n3 warnings\n"
+    },
+    {
+      "label": "native-adapter-js-syntax",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "files": [
+    {
+      "path": "java/O1/BattleTables.java",
+      "bytes": 6623,
+      "sha256": "fee1fbd1bba708f9fade2baa360c89464f5d382b67729171d22dc0f1cd16c281"
+    },
+    {
+      "path": "java/O1/CdnDownloader.java",
+      "bytes": 7167,
+      "sha256": "24f0ac21b2aaa96f499b9a977535c198c00c3f3aea1920e3dd631826c7964e52"
+    },
+    {
+      "path": "java/O1/ContentDownloader.java",
+      "bytes": 5963,
+      "sha256": "afc8db5aba27d4d161c8f0302457c94e8cd3a3a04d472d7cd0414bc7a05fe3ac"
+    },
+    {
+      "path": "java/O1/DeliveryPolicy.java",
+      "bytes": 11088,
+      "sha256": "34329cd9f4220633638b4e64fc0064cec52587b806b2ae3f89cb0af2578e8a2d"
+    },
+    {
+      "path": "java/O1/EncyclopediaTables.java",
+      "bytes": 5477,
+      "sha256": "d9c8a4beab6ee59df06e7e7a17feccf64fbd23c2717685ebff76d90c3f7e15e4"
+    },
+    {
+      "path": "java/O1/ExtraContent.java",
+      "bytes": 14778,
+      "sha256": "e2ee7f1d08accc5296af584ec7d7d3e4d3db05d1b5824e94dac34f71447aab8d"
+    },
+    {
+      "path": "java/O1/GameAssets.java",
+      "bytes": 16513,
+      "sha256": "dc041eebe5a73fa67b3565928a344f982834f19ab371324b3b7f22aa97c31265"
+    },
+    {
+      "path": "java/O1/GameAssetsBoot.java",
+      "bytes": 3445,
+      "sha256": "326f4a37d26aed4f5ee8d01e2fd27f6ef1a30891b6ac12f62433f75027cc0824"
+    },
+    {
+      "path": "java/O1/LanTestTransport.java",
+      "bytes": 1634,
+      "sha256": "bab81e65c31f9f5ccd6b301badfd901fdba512a3f104e60058845550a62549c3"
+    },
+    {
+      "path": "java/O1/MovieAssets.java",
+      "bytes": 2937,
+      "sha256": "c090725b7326ca22fc95990deb0a6bc8814e3986ab38346050f48eeccf5a067e"
+    },
+    {
+      "path": "java/O1/PatchUpdater.java",
+      "bytes": 3465,
+      "sha256": "c52d612b4ecc5df6214d2e374326791df085e2985a8f28a44dd0e0c097036a5a"
+    },
+    {
+      "path": "java/O1/ResumableTransfer.java",
+      "bytes": 10303,
+      "sha256": "b18538e0ef1ecd50796c82fde40e25771e289b0c8c889dfeee979936eb39fa75"
+    },
+    {
+      "path": "java/O1/SideStoryTables.java",
+      "bytes": 5134,
+      "sha256": "515e3f8fa484e979fca5251d7160ff64048d420904a085ab2f64546a227d0340"
+    },
+    {
+      "path": "java/O1/StoryPortTables.java",
+      "bytes": 9171,
+      "sha256": "8e0f20e069c201953c6ebf12e82c669d8cac8a3937457218151f556fa9f8030f"
+    },
+    {
+      "path": "native_game_assets.js",
+      "bytes": 3632,
+      "sha256": "ed0b7e51545779d7aaf88afa16fa8b4dc82c9d53cae4f53694f9fdda2fd510fa"
+    },
+    {
+      "path": "patch_smali.py",
+      "bytes": 6894,
+      "sha256": "f6ffcf0d04a90c34711a72e39efd93270ad68d9e6c07ba46b74c20dc62f60925"
+    }
+  ]
+}

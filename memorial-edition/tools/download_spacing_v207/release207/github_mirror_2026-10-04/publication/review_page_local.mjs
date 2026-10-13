@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+import {ROOT,DIR,APK_SHA,APK_BYTES,GITHUB_URL,LUMINEST_URL,preparedPage,hash,pin,save,assert} from './page_inputs.mjs';
+assert(process.argv.length===2,'Local review only');
+const delta=preparedPage();
+const metadataLinks=['checksums.txt','release.json','phone-test-checklist.txt'].map(n=>'https://ffbe.luminest.io/downloads/beta/releases/download-spacing-v207-d9181ffc05fa11e1/'+n);
+assert(metadataLinks.every(u=>delta.before.includes(u)&&delta.after.includes(u)),'Existing207 metadata link changed');
+assert(delta.after.includes('<strong>Phone testing is pending.</strong>'),'Pending phone label missing');
+const publisher=fs.readFileSync(DIR+'/publish_page.mjs','utf8');
+assert(!/putBetaMetadata|uploadAsset|publish_assets|method:\s*['"](?:PUT|POST|PATCH|DELETE)['"]/.test(publisher),'Page publisher contains an unapproved mutation route');
+assert(publisher.includes("put('ffbe.luminest.io','downloads/beta/index.html'")&&publisher.includes('expectedPrevious:hash(delta.before)'),'Page write target/previous-byte guard missing');
+const report={schema:'ffbe-207-github-primary-local-page-review-v1',passed:true,network_requests_made:0,remote_mutations_made:0,apk_sha256:APK_SHA,apk_bytes:APK_BYTES,github_primary_url:GITHUB_URL,luminest_mirror_url:LUMINEST_URL,previous_page:{bytes:delta.before.length,sha256:hash(delta.before)},prepared_page:pin(DIR+'/site/index.html'),scope:'Exactly replace the current207 download button with a GitHub primary button plus Luminest mirror link. All bytes outside that block are identical.',all_other_page_bytes_preserved:true,previous_APK_links_preserved:delta.existingLinks,earlier_build_links_preserved:8,existing_metadata_links_preserved:metadataLinks,phone_test_pending_preserved:true,required_verified_upload_receipt:'publication/github-apk-receipt.json',publisher_only_mutation:'downloads/beta/index.html',source_pins:Object.fromEntries(['page_inputs.mjs','prepare_page.mjs','publish_page.mjs','review_page_local.mjs'].map(n=>[n,pin(DIR+'/'+n)]))};
+save(ROOT+'/audit/LOCAL_PAGE_REVIEW.json',report);console.log(JSON.stringify({passed:true,report:ROOT+'/audit/LOCAL_PAGE_REVIEW.json',new_page_sha256:report.prepared_page.sha256,network_requests_made:0,remote_mutations_made:0}));
